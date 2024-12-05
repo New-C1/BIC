@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+@font-face {
+  font-family: 'Jost';
+  src: url('/fonts/Jost/Jost-VariableFont_wght.ttf') format('truetype');
+  /* Add more src lines for other font formats if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+/* #heropho{
+
+  display: block;
+  
+  margin: auto;
+}
+
+
+@media screen and (max-width: 600px) {
+ 
+  #heropho{
+
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+}
+   */
