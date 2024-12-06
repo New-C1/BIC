@@ -5,7 +5,7 @@ export default function Header () {
         <header id="header" className="fixed-top">
     <div className="container d-flex align-items-center">
 
-      <h1 className="logo me-auto"><a href="index.html">Medilab</a></h1>
+      <h1 className="logo me-auto"><a href="index.html">BIC</a></h1>
 
       
       

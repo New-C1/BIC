@@ -7,10 +7,11 @@ const Whyus = () => {
         <div className="row">
           <div className="col-lg-4 d-flex align-items-stretch">
             <div className="content">
-              <h3>Why Choose Medilab?</h3>
+              <h3>Pourquoi Choisir BIC ?</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-                Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
+              Experts en imagerie diagnostique et interventionnelle du sein
+
+Chez BIC, nous repensons l’imagerie médicale pour offrir une approche centrée sur le patient. Grâce à une expertise de 7 ans dans le secteur privé, nous mettons en avant une combinaison unique d’innovation, de rigueur scientifique et d’engagement social.
               </p>
               <div className="text-center">
                 <a href="#" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
@@ -23,22 +24,22 @@ const Whyus = () => {
                 <div className="col-xl-4 d-flex align-items-stretch">
                   <div className="icon-box mt-4 mt-xl-0">
                     <i className="bx bx-receipt"></i>
-                    <h4>Corporis voluptates sit</h4>
-                    <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
+                    <h4>Une approche centrée sur le patient</h4>
+                    <p>Ces soins adaptés, une communication claire et un suivi optimisé pour un diagnostic en toute sérénité.</p>
                   </div>
                 </div>
                 <div className="col-xl-4 d-flex align-items-stretch">
                   <div className="icon-box mt-4 mt-xl-0">
                     <i className="bx bx-cube-alt"></i>
-                    <h4>Ullamco laboris ladore pan</h4>
-                    <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
+                    <h4>Un diagnostic sur-mesure</h4>
+                    <p>Des services d’expertise et de relecture personnalisés, en coordination avec les médecins prescripteurs, pour une prise en charge optimale.</p>
                   </div>
                 </div>
                 <div className="col-xl-4 d-flex align-items-stretch">
                   <div className="icon-box mt-4 mt-xl-0">
                     <i className="bx bx-images"></i>
-                    <h4>Labore consequatur</h4>
-                    <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
+                    <h4>Une implication sociale forte</h4>
+                    <p>Des actions bénévoles régulières avec des partenaires reconnus, combinant impact social et engagement médical.</p>
                   </div>
                 </div>
               </div>

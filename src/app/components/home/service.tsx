@@ -8,55 +8,56 @@ const Service = () => {
 
         <div className="section-title">
           <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <p>un centre d’imagerie médicale qui allie innovation, humanité et excellence diagnostique. Nous croyons que chaque patient mérite un suivi clair et précis, et chaque médecin un partenaire de confiance.
+</p>
         </div>
 
         <div className="row">
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
             <div className="icon-box">
               <div className="icon"><FontAwesomeIcon icon={faHeartbeat}  className="icon-service"></FontAwesomeIcon></div>
-              <h4><a href="">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+              <h4><a href="">Mammographie & Angio-Mammographie</a></h4>
+              <p>Dépistage et diagnostic précis des maladies du sein grâce à des technologies de pointe adaptées à chaque besoin.</p>
             </div>
           </div>
 
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0">
             <div className="icon-box">
               <div className="icon"><FontAwesomeIcon icon={faPills}  className="icon-service"></FontAwesomeIcon></div>
-              <h4><a href="">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              <h4><a href="">Échographie</a></h4>
+              <p>Une solution non invasive pour examiner en temps réel les organes internes, les tissus mous, et surveiller votre santé.</p>
             </div>
           </div>
 
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0">
             <div className="icon-box">
               <div className="icon"><FontAwesomeIcon icon={faHospitalUser}  className="icon-service"></FontAwesomeIcon></div>
-              <h4><a href="">Magni Dolores</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+              <h4><a href="">Combiner Dentaire</a></h4>
+              <p>Des images radiographiques précises pour des soins dentaires optimaux et un diagnostic approfondi.</p>
             </div>
           </div>
 
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div className="icon-box">
               <div className="icon"><FontAwesomeIcon icon={faDna}  className="icon-service"></FontAwesomeIcon></div>
-              <h4><a href="">Nemo Enim</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis</p>
+              <h4><a href="">Radiologie Standard</a></h4>
+              <p>Inclut les examens classiques comme la radiographie des genoux ou du thorax pour une prise en charge efficace.</p>
             </div>
           </div>
 
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div className="icon-box">
               <div className="icon"><FontAwesomeIcon icon={faWheelchair}  className="icon-service"></FontAwesomeIcon></div>
-              <h4><a href="">Dele cardo</a></h4>
-              <p>Quis consequatur saepe eligendi voluptatem consequatur dolor consequuntur</p>
+              <h4><a href="">Élastographie ShearWave</a></h4>
+              <p>Une technique avancée pour évaluer la rigidité des tissus et faciliter un diagnostic précis des anomalies.</p>
             </div>
           </div>
 
           <div className="col-lg-4 col-md-6 d-flex align-items-stretch mt-4">
             <div className="icon-box">
               <div className="icon"><FontAwesomeIcon icon={faNotesMedical}  className="icon-service"></FontAwesomeIcon></div>
-              <h4><a href="">Divera don</a></h4>
-              <p>Modi nostrum vel laborum. Porro fugit error sit minus sapiente sit aspernatur</p>
+              <h4><a href="">IRM & Scanner</a></h4>
+              <p>Imagerie de haute précision pour détecter, analyser et suivre l’évolution de pathologies complexes.</p>
             </div>
           </div>
 

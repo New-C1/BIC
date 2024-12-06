@@ -11,25 +11,25 @@ const AboutUs = () => {
           </div>
 
           <div className="col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5">
-            <h3>Enim quis est voluptatibus aliquid consequatur fugiat</h3>
-            <p>Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus. Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed facere corporis dolores excepturi. Libero laboriosam sint et id nulla tenetur. Suscipit aut voluptate.</p>
+            <h3>Une Équipe Dédiée à Votre Santé</h3>
+            <p>Nous sommes une équipe de spécialistes engagés, unissant expertise médicale et innovation technologique pour offrir des soins de qualité et un suivi personnalisé.</p>
 
             <div className="icon-box">
               <div className="icon"><i className="bx bx-fingerprint"></i></div>
-              <h4 className="title"><a href="">Lorem Ipsum</a></h4>
-              <p className="description">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
+              <h4 className="title"><a href="">Une Approche Humaine</a></h4>
+              <p className="description">Chaque patient est unique. Nous adaptons nos services pour répondre à vos besoins spécifiques et vous accompagner tout au long de votre parcours de santé.</p>
             </div>
 
             <div className="icon-box">
               <div className="icon"><i className="bx bx-gift"></i></div>
-              <h4 className="title"><a href="">Nemo Enim</a></h4>
-              <p className="description">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
+              <h4 className="title"><a href="">Expertise Diagnostique</a></h4>
+              <p className="description">Grâce à une radiologie spécialisée, nous proposons des diagnostics fiables, précis et personnalisés, adaptés aux attentes des médecins prescripteurs.</p>
             </div>
 
             <div className="icon-box">
               <div className="icon"><i className="bx bx-atom"></i></div>
-              <h4 className="title"><a href="">Dine Pad</a></h4>
-              <p className="description">Explicabo est voluptatum asperiores consequatur magnam. Et veritatis odit. Sunt aut deserunt minus aut eligendi omnis</p>
+              <h4 className="title"><a href="">Partenariats Scientifiques</a></h4>
+              <p className="description">En collaboration avec des acteurs publics et privés, nous participons activement à la recherche appliquée pour faire progresser l’imagerie médicale.              </p>
             </div>
 
           </div>
