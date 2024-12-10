@@ -5,22 +5,22 @@ type Departement = {title:string,italicPara:string,paragraph:string,image:string
 const departement :string[] = ["Cardiology","Neurology","Hepatology","Pediatrics","Eye Care"]
 const DepartementDetail : {title:string,paragraph:string,image:string}[] = [
   { 
-    title:"Mammographie & Angio-Mammographie",
+    title:"Mammographie 3D & Angio-Mammographie",
     
     paragraph:"La mammographie, combinée à l'angio-mammographie, offre une exploration avancée de la santé mammaire. Grâce à des équipements modernes, ce service permet de détecter avec précision des anomalies précoces et de guider les décisions cliniques.",
     image:"/img/departments-1.jpg"
   },
   { 
-    title:"Échographie",
+    title:"Échographie & Élastographie ShearWave",
     
     paragraph:"L'échographie est une méthode d'imagerie douce et rapide, permettant d'observer en temps réel les organes internes, les tissus mous, et de surveiller efficacement l'état de santé global",
     image:"/img/departments-2.jpg"
   },
   { 
-    title:"Combiner Dentaire",
-   
-    paragraph:"Le service combine dentaire propose des radiographies spécialisées et ultra-précises, indispensables pour un diagnostic fiable et une prise en charge adaptée aux besoins bucco-dentaires.",
-    image:"/img/departments-3.jpg"
+    title:"Actes Interventionnels",
+    
+    paragraph:"L’élastographie ShearWave est une technologie révolutionnaire qui mesure la rigidité des tissus afin de détecter les anomalies et d’affiner les diagnostics avec une précision inégalée.",
+    image:"/img/departments-5.jpg"
   },
   { 
     title:"Radiologie Standard",
@@ -29,10 +29,10 @@ const DepartementDetail : {title:string,paragraph:string,image:string}[] = [
     image:"/img/departments-4.jpg"
   },
   { 
-    title:"Élastographie ShearWave",
-    
-    paragraph:"L’élastographie ShearWave est une technologie révolutionnaire qui mesure la rigidité des tissus afin de détecter les anomalies et d’affiner les diagnostics avec une précision inégalée.",
-    image:"/img/departments-5.jpg"
+    title:"Cone Beam",
+   
+    paragraph:"Le Cone Beam est une technologie d'imagerie médicale utilisée principalement pour examiner la dentition, les sinus et l'ossature maxillo-faciale. Il permet de réaliser une étude détaillée des structures en une seule acquisition, avec une irradiation généralement inférieure à celle des scanners traditionnels, ce qui le rend particulièrement utile pour diagnostiquer des pathologies dans ces zones.",
+    image:"/img/departments-3.jpg"
   },
   { 
     title:"IRM & Scanner",

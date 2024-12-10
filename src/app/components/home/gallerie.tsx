@@ -6,8 +6,8 @@ const gallerie = () => {
       <div className="container">
 
         <div className="section-title">
-          <h2>Gallery</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+          <h2>Gallerie</h2>
+          <p>Situé à Cité El Khadra - Voie X2, Tunis 1003, notre Centre d'imagerie mammaire vous accueille du lundi au vendredi, de 8h à 19h, et 2 samedis par mois de 9h à 13h.</p>
         </div>
       </div>
 

@@ -44,7 +44,7 @@ const Appointment = () => {
             </div>
             <div className="col-md-4 form-group mt-3">
               <select name="doctor" id="doctor" className="form-select">
-                <option value="">Select Doctor</option>
+                <option value="">Sélectionnez le Médecin</option>
                 <option value="Doctor 1">Doctor 1</option>
                 <option value="Doctor 2">Doctor 2</option>
                 <option value="Doctor 3">Doctor 3</option>
@@ -54,15 +54,15 @@ const Appointment = () => {
           </div>
 
           <div className="form-group mt-3">
-            <textarea className="form-control" name="message" placeholder="Message (Optional)"></textarea>
+            <textarea className="form-control" name="message" placeholder="Message (Optionnel)"></textarea>
             <div className="validate"></div>
           </div>
           <div className="mb-3">
             <div className="loading">Loading</div>
             <div className="error-message"></div>
-            <div className="sent-message">Your appointment request has been sent successfully. Thank you!</div>
+            <div className="sent-message">Votre demande de rendez-vous a été envoyée avec succès. Merci !</div>
           </div>
-          <div className="text-center"><button type="submit">Make an Appointment</button></div>
+          <div className="text-center"><button type="submit"> Prendre un Rendez-vous</button></div>
         </form>
       </div>
     </section>

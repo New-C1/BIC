@@ -11,7 +11,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444444;
+  color: #F4E9F2;
 }
 
 a {
@@ -523,8 +523,8 @@ h6 {
   }
 
   #hero h1 {
-    font-size: 28px;
-    line-height: 36px;
+    font-size: 20px;
+    line-height: 30px;
   }
 
   #hero h2 {
@@ -572,7 +572,7 @@ section {
   display: block;
   width: 120px;
   height: 1px;
-  background: #ddd;
+  background: #080707;
   bottom: 1px;
   left: calc(50% - 60px);
 }
@@ -678,7 +678,7 @@ section {
   display: inline-block;
   background: rgba(255, 255, 255, 0.2);
   padding: 6px 30px 8px 30px;
-  color: #fff;
+  color: #0000;
   border-radius: 50px;
   transition: all ease-in-out 0.4s;
 }

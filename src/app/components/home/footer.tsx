@@ -6,7 +6,7 @@ const footer = () => {
         <div className="row">
 
           <div className="col-lg-3 col-md-6 footer-contact">
-            <h3>Medilab</h3>
+            <h3>BIC</h3>
             <p>
             Centre Médical El Hakim <br/>
             Voie X2 - Cité El Khadra<br/>
@@ -39,8 +39,8 @@ const footer = () => {
           </div> 
 
           <div className="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+            <h4>Join Our Blogs</h4>
+            <p>Restez informé des dernières avancées en radiologie, imagerie médicale et sénologie. Découvrez nos articles et conseils dédiés à la santé de la femme.</p>
             <form action="" method="post">
                 <input type="email" name="email"/>
                 <input type="submit" value="Subscribe"/>
@@ -55,7 +55,7 @@ const footer = () => {
 
       <div className="me-md-auto text-center text-md-start">
         <div className="copyright">
-          &copy; Copyright <strong><span>Medilab</span></strong>. All Rights Reserved
+          &copy; Copyright <strong><span>BIC</span></strong>. All Rights Reserved
         </div>
         
       </div>

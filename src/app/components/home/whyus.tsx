@@ -9,9 +9,9 @@ const Whyus = () => {
             <div className="content">
               <h3>Pourquoi Choisir BIC ?</h3>
               <p>
-              Experts en imagerie diagnostique et interventionnelle du sein
+             
 
-Chez BIC, nous repensons l’imagerie médicale pour offrir une approche centrée sur le patient. Grâce à une expertise de 7 ans dans le secteur privé, nous mettons en avant une combinaison unique d’innovation, de rigueur scientifique et d’engagement social.
+Chez BIC, nous repensons l’imagerie médicale pour offrir une approche, diagnostique et interventionnelle, centrée sur le patient. Forgé par notre expérience, encrés dans notre pratique nous mettons en avant une combinaison  unique d’innovation technologique, de rigueur scientifique et d’engagement social.
               </p>
               <div className="text-center">
                 <a href="#" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
@@ -25,21 +25,21 @@ Chez BIC, nous repensons l’imagerie médicale pour offrir une approche centré
                   <div className="icon-box mt-4 mt-xl-0">
                     <i className="bx bx-receipt"></i>
                     <h4>Une approche centrée sur le patient</h4>
-                    <p>Ces soins adaptés, une communication claire et un suivi optimisé pour un diagnostic en toute sérénité.</p>
+                    <p>Une optimisation des examens adaptés, une communication claire et un suivi personnalisé pour un diagnostic en toute sérénité.</p>
                   </div>
                 </div>
                 <div className="col-xl-4 d-flex align-items-stretch">
                   <div className="icon-box mt-4 mt-xl-0">
                     <i className="bx bx-cube-alt"></i>
-                    <h4>Un diagnostic sur-mesure</h4>
-                    <p>Des services d’expertise et de relecture personnalisés, en coordination avec les médecins prescripteurs, pour une prise en charge optimale.</p>
+                    <h4>Un diagnostic synthétique</h4>
+                    <p>Des services d’expertise et de relecture, en coordination avec les médecins soignants, pour une prise en charge optimale.</p>
                   </div>
                 </div>
                 <div className="col-xl-4 d-flex align-items-stretch">
                   <div className="icon-box mt-4 mt-xl-0">
                     <i className="bx bx-images"></i>
-                    <h4>Une implication sociale forte</h4>
-                    <p>Des actions bénévoles régulières avec des partenaires reconnus, combinant impact social et engagement médical.</p>
+                    <h4>Un engagement sociale et scientifique</h4>
+                    <p>Des participations bénévoles avec des partenaires reconnus, combinant impact social et engagement médical.</p>
                   </div>
                 </div>
               </div>

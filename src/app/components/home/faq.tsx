@@ -17,12 +17,9 @@ const Faq = () => {
     <section id="faq" className="faq section-bg">
       <div className="container">
         <div className="section-title">
-          <h2>Frequently Asked Questions</h2>
+          <h2>Questions Fréquemment Posées</h2>
           <p>
-            Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-            aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-            quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia
-            fugiat sit in iste officiis commodi quidem hic quas.
+          Nous répondons à vos interrogations les plus courantes concernant les examens de radiologie, d'imagerie de la femme et de sénologie. N’hésitez pas à nous contacter pour toute question supplémentaire ou pour prendre rendez-vous.
           </p>
         </div>
 
@@ -35,7 +32,7 @@ const Faq = () => {
                     icon={faQuestionCircle}
                     aria-hidden="true"
                   ></FontAwesomeIcon>
-                  <span style={{marginLeft:"5px",color:"black",fontWeight:"600",fontSize:"16px"}}>Non consectetur a erat nam at lectus urna duis?</span>
+                  <span style={{marginLeft:"5px",color:"black",fontWeight:"600",fontSize:"16px"}}> À partir de quel âge doit-on faire une mammographie de dépistage ?</span>
                   <i className="bx bx-chevron-down icon-show"></i>
                   <i className="bx bx-chevron-up icon-close"></i>
                 </AccordionItemButton>
@@ -44,9 +41,9 @@ const Faq = () => {
               style={{background:"white"}}
               >
                 <p>
-                  Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id
-                  volutpat lacus laoreet non curabitur gravida. Venenatis lectus
-                  magna fringilla urna porttitor rhoncus dolor purus non.
+                La mammographie de dépistage est généralement recommandée à partir de l'âge de 40 ans, même en l'absence de symptômes. Toutefois, si vous présentez des antécédents familiaux de cancer du sein, une consultation précoce est conseillée pour évaluer le risque et adapter le suivi.
+
+
                 </p>
               </AccordionItemPanel>
             </AccordionItem>
@@ -58,7 +55,7 @@ const Faq = () => {
                     icon={faQuestionCircle}
                     aria-hidden="true"
                   ></FontAwesomeIcon>{" "}
-                  <span style={{marginLeft:"5px",color:"black",fontWeight:"600",fontSize:"16px"}}>Feugiat scelerisque varius morbi enim nunc?</span>
+                  <span style={{marginLeft:"5px",color:"black",fontWeight:"600",fontSize:"16px"}}>Une échographie mammaire peut-elle remplacer une mammographie ?</span>
                   <i className="bx bx-chevron-down icon-show"></i>
                   <i className="bx bx-chevron-up icon-close"></i>
                 </AccordionItemButton>
@@ -67,11 +64,7 @@ const Faq = () => {
               style={{background:"white"}}
               >
                 <p>
-                  Dolor sit amet consectetur adipiscing elit pellentesque
-                  habitant morbi. Id interdum velit laoreet id donec ultrices.
-                  Fringilla phasellus faucibus scelerisque eleifend donec
-                  pretium. Est pellentesque elit ullamcorper dignissim. Mauris
-                  ultrices eros in cursus turpis massa tincidunt dui.
+                Non, l'échographie mammaire ne remplace pas la mammographie. Ce sont des examens complémentaires. La mammographie reste le moyen principal de dépistage du cancer du sein, tandis que l'échographie est utilisée pour approfondir l'analyse en cas de seins denses ou d'anomalie détectée.
                 </p>
               </AccordionItemPanel>
             </AccordionItem>
@@ -83,7 +76,7 @@ const Faq = () => {
                     icon={faQuestionCircle}
                     aria-hidden="true"
                   ></FontAwesomeIcon>
-                  <span style={{marginLeft:"5px",color:"black",fontWeight:"600",fontSize:"16px"}}>Dolor sit amet consectetur adipiscing elit?</span>
+                  <span style={{marginLeft:"5px",color:"black",fontWeight:"600",fontSize:"16px"}}>Quels sont les signes qui doivent m’alerter pour consulter en sénologie ?</span>
                   <i className="bx bx-chevron-down icon-show"></i>
                   <i className="bx bx-chevron-up icon-close"></i>
                 </AccordionItemButton>
@@ -93,12 +86,13 @@ const Faq = () => {
               style={{background:"white"}}
               >
                 <p>
-                  Eleifend mi in nulla posuere sollicitudin aliquam ultrices
-                  sagittis orci. Faucibus pulvinar elementum integer enim. Sem
-                  nulla pharetra diam sit amet nisl suscipit. Rutrum tellus
-                  pellentesque eu tincidunt. Lectus urna duis convallis
-                  convallis tellus. Urna molestie at elementum eu facilisis sed
-                  odio morbi quis
+                Vous devriez consulter si vous remarquez :
+
+Une boule ou une masse dans le sein;
+Un écoulement anormal du mamelon;
+Une modification de la forme ou de la taille du sein;
+Une douleur persistante ou des changements de la peau (rougeur, rétraction).
+
                 </p>
               </AccordionItemPanel>
             </AccordionItem>
@@ -110,8 +104,7 @@ const Faq = () => {
                     icon={faQuestionCircle}
                     aria-hidden="true"
                   ></FontAwesomeIcon>{" "}
-                  <span style={{marginLeft:"5px",color:"black",fontWeight:"600",fontSize:"16px"}}>Tempus quam pellentesque nec nam aliquam sem et tortor
-                  consequat?</span>
+                  <span style={{marginLeft:"5px",color:"black",fontWeight:"600",fontSize:"16px"}}>L'exposition aux rayons X d'une mammographie est-elle dangereuse ?</span>
                   <i className="bx bx-chevron-down icon-show"></i>
                   <i className="bx bx-chevron-up icon-close"></i>
                 </AccordionItemButton>
@@ -121,10 +114,7 @@ const Faq = () => {
               style={{background:"white"}}
               >
                 <p>
-                  Molestie a iaculis at erat pellentesque adipiscing commodo.
-                  Dignissim suspendisse in est ante in. Nunc vel risus commodo
-                  viverra maecenas accumsan. Sit amet nisl suscipit adipiscing
-                  bibendum est. Purus gravida quis blandit turpis cursus in.
+                La dose de rayons X utilisée lors d’une mammographie est très faible et sans danger pour la plupart des femmes. Les bénéfices du dépistage précoce du cancer du sein surpassent largement les risques liés à cette exposition minime.
                 </p>
               </AccordionItemPanel>
             </AccordionItem>
@@ -136,7 +126,7 @@ const Faq = () => {
                     icon={faQuestionCircle}
                     aria-hidden="true"
                   ></FontAwesomeIcon>
-                  <span style={{marginLeft:"5px",color:"#343a40",fontWeight:"600",fontSize:"16px"}}>Tortor vitae purus faucibus ornare. Varius vel pharetra vel.turpis nunc eget lorem dolor?</span>
+                  <span style={{marginLeft:"5px",color:"#343a40",fontWeight:"600",fontSize:"16px"}}>Doit-on prendre des précautions particulières avant une IRM mammaire ?</span>
                   <i className="bx bx-chevron-down icon-show"></i>
                   <i className="bx bx-chevron-up icon-close"></i>
                 </AccordionItemButton>
@@ -146,10 +136,12 @@ const Faq = () => {
                 style={{background:"white"}}
               >
                 <p>
-                  Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris
-                  vitae ultricies leo integer malesuada nunc vel. Tincidunt eget
-                  nullam non nisi est sit amet. Turpis nunc eget lorem dolor
-                  sed. Ut venenatis tellus in metus vulputate eu scelerisque.
+                Oui, pour une IRM mammaire, il est conseillé de :
+
+Éviter de porter des objets métalliques;
+Informer votre radiologue si vous êtes enceinte ou si vous avez des implants métalliques;
+Planifier l’examen entre le 7ᵉ et le 14ᵉ jour du cycle menstruel pour une meilleure précision.
+
                 </p>
               </AccordionItemPanel>
             </AccordionItem>

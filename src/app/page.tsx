@@ -40,7 +40,7 @@ export default function Home() {
         <Departement/>
         <Doctors/>
         <Faq/>
-        <Testimonial/>
+     {/*    <Testimonial/> */}
         <Gallerie/>
         <Contact/>
       </main>

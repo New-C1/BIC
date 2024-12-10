@@ -1,4 +1,78 @@
-import  Image from 'next/image';
+import Image from 'next/image';
+
+const Doctors = () => {
+  return (
+    <section id="doctors" className="doctors">
+      <div className="container">
+
+        <div className="section-title">
+          <h2>Docteurs</h2>
+          <p>
+            Dr Zeineb Belkhiria vous accueille dans notre centre pour des services spécialisés en imagerie médicale. 
+            Grâce à son expertise et son engagement, bénéficiez d'un accompagnement personnalisé et professionnel.
+          </p>
+        </div>
+
+        <div className="row justify-content-center">
+          <div className="col-lg-6">
+            <div className="member d-flex align-items-start">
+              <div className="">
+                <Image width="200" height="200" src="/img/doctors/dr-belkiria.jpg" alt="Dr Zaineb Belkhiria" />
+              </div>
+              <div className="member-info">
+                <h4>Dr Zeineb Belkhiria</h4>
+                <span>Radiologue spécialisée en imagerie mammaire et interventionnelle</span>
+                <p>
+                  Spécialiste en imagerie féminine et oncologique avec 7 ans d'expérience dans le secteur privé. 
+                  Médecin scientifiquement et socialement engagée.
+                </p>
+                <div className="social">
+                  <a href="#"><i className="ri-twitter-fill"></i></a>
+                  <a href="#"><i className="ri-facebook-fill"></i></a>
+                  <a href="#"><i className="ri-instagram-fill"></i></a>
+                  <a href="#"><i className="ri-linkedin-box-fill"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+  );
+};
+
+export default Doctors;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* import  Image from 'next/image';
 
 const Doctors = () => {
     return (
@@ -87,4 +161,4 @@ const Doctors = () => {
     );
 };
 
-export default Doctors;
+export default Doctors; */

@@ -23,13 +23,13 @@ const AboutUs = () => {
             <div className="icon-box">
               <div className="icon"><i className="bx bx-gift"></i></div>
               <h4 className="title"><a href="">Expertise Diagnostique</a></h4>
-              <p className="description">Grâce à une radiologie spécialisée, nous proposons des diagnostics fiables, précis et personnalisés, adaptés aux attentes des médecins prescripteurs.</p>
+              <p className="description">Nous avons fait le choix d'intégrer une platforme à la pointe de la technologie, répondant aux enjeux cliniques les plus complexes et permettant d'offrir des solutions fiables. </p>
             </div>
 
             <div className="icon-box">
               <div className="icon"><i className="bx bx-atom"></i></div>
               <h4 className="title"><a href="">Partenariats Scientifiques</a></h4>
-              <p className="description">En collaboration avec des acteurs publics et privés, nous participons activement à la recherche appliquée pour faire progresser l’imagerie médicale.              </p>
+              <p className="description">En collaboration avec des acteurs publics et privés, nous participons activement à la recherche appliquée pour faire progresser l’imagerie médicale adaptée à notre contexte socio-économique.              </p>
             </div>
 
           </div>
