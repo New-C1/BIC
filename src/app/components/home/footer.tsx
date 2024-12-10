@@ -8,7 +8,7 @@ const footer = () => {
           <div className="col-lg-3 col-md-6 footer-contact">
             <h3>BIC</h3>
             <p>
-            Centre Médical El Hakim <br/>
+            Centre de Radiologie El Hakim <br/>
             Voie X2 - Cité El Khadra<br/>
               Tunis 1003 <br/><br/>
               <strong>Phone:</strong> +216 55 941 086<br/>
