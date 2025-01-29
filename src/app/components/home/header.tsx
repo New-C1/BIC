@@ -5,7 +5,14 @@ export default function Header () {
         <header id="header" className="fixed-top">
     <div className="container d-flex align-items-center">
 
-    <img src="/your-logo.png" alt="BIC Logo" className="img-fluid" />
+    <Image 
+            src="/img/your-logo.png" 
+            alt="BIC Logo" 
+            width={50} 
+            height={50} 
+            className="img-fluid" 
+            priority 
+          />
 
 
 
