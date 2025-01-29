@@ -38,7 +38,7 @@ const DepartementDetail : {title:string,paragraph:string,image:string}[] = [
     title:"IRM & Scanner",
     
     paragraph:"Les examens d’IRM et de scanner offrent une imagerie médicale avancée, capable de détecter et de surveiller les pathologies les plus complexes pour une prise en charge optimale.",
-    image:"/img/departments-5.jpg"
+    image:"/img/departments-6.jpg"
   }
 
 ]
