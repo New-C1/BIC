@@ -26,7 +26,9 @@ const Contact = () => {
               <div className="address">
                 <i className="bi bi-geo-alt"></i>
                 <h4>Adresse :</h4>
-                <p>Centre de Radiologie El Hakim<br />Voie X2 - Cité El Khadra - Tunis 1003</p>
+                <p>Centre de Radiologie El Hakim <br /> 
+                Étage (-1)  <br /> 
+                Voie X2 - Cité El Khadra - Tunis 1003</p>
               </div>
 
               <div className="email">

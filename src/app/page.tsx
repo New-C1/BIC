@@ -34,13 +34,13 @@ export default function Home() {
       <main>
         <Whyus/>
         <AboutUs/>
-        <Counts/>
+
         <Service/>
         <Appointment/>
         <Departement/>
         <Doctors/>
         <Faq/>
-     {/*    <Testimonial/> */}
+        <Testimonial/>
         <Gallerie/>
         <Contact/>
       </main>

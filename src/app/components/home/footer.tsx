@@ -9,6 +9,7 @@ const footer = () => {
             <h3>BIC</h3>
             <p>
             Centre de Radiologie El Hakim <br/>
+            Étage (-1) <br />
             Voie X2 - Cité El Khadra<br/>
               Tunis 1003 <br/><br/>
               <strong>Phone:</strong> +216 55 941 086<br/>

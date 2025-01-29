@@ -5,7 +5,9 @@ export default function Header () {
         <header id="header" className="fixed-top">
     <div className="container d-flex align-items-center">
 
-      <h1 className="logo me-auto"><a href="index.html">BIC </a></h1>
+    <img src="/your-logo.png" alt="BIC Logo" className="img-fluid" />
+
+
 
       
       
