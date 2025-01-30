@@ -22,11 +22,12 @@ import Testimonial from './components/home/testimonial'
 import Contact from './components/home/contact'
 import Faq from './components/home/faq'
 import Gallerie from './components/home/gallerie'
+import media from './components/home/media'
 
 config.autoAddCss = false;
 
 export default function Home() {
-  return (
+  return (  
     <>
       <Topbar/>
       <Header/>
@@ -43,6 +44,7 @@ export default function Home() {
         <Testimonial/>
         <Gallerie/>
         <Contact/>
+        <media />
       </main>
       <Footer/>
     </>

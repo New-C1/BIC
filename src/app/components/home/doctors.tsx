@@ -17,7 +17,7 @@ const Doctors = () => {
           <div className="col-lg-6">
             <div className="member d-flex align-items-start">
               <div className="">
-                <Image width="300" height="300" src="/img/doctors/dr-belkiria.jpg" alt="Dr Zaineb Belkhiria" />
+                <Image width="300" height="350" src="/img/doctors/dr-belkiria.jpg" alt="Dr Zaineb Belkhiria" />
               </div>
               <div className="member-info">
                 <h4>Dr Zeineb Belkhiria</h4>
