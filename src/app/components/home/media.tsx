@@ -1,9 +1,12 @@
 "use client";
 import React from "react";
+import { useTranslation } from "react-i18next";
 
-import "./Trainings.css"; // Import the CSS file for custom scrollbar styles
+ /* 
+ import "./Trainings.css"; // Import the CSS file for custom scrollbar styles 
+ */
 
-const Trainings = () => {
+const Media = () => {
   const { t } = useTranslation();
 
   const trainingPrograms = [
@@ -96,4 +99,4 @@ const Trainings = () => {
   );
 };
 
-export default Trainings;
+export default Media;
