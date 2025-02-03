@@ -25,7 +25,7 @@ export default function Header() {
             <li><a className="nav-link scrollto" href="#services">Services</a></li>
             <li><a className="nav-link scrollto" href="#departments">Departments</a></li>
             <li><a className="nav-link scrollto" href="#doctors">Doctors</a></li>
-            <li className="dropdown"><a href="#"><span>Recherche et Formation</span> <i className="bi bi-chevron-down"></i></a>
+{/*             <li className="dropdown"><a href="#"><span>Recherche et Formation</span> <i className="bi bi-chevron-down"></i></a>
               <ul>
                 <li><a href="#">Participations Scientifiques</a></li>
                 <li className="dropdown">
@@ -35,7 +35,7 @@ export default function Header() {
                 <li><a href="#">Congrés Internationaux</a></li>
                 <li><a href="#">Workshop</a></li>
               </ul>
-            </li>
+            </li> */}
             <li><a className="nav-link scrollto" href="#contact">Contact</a></li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>
