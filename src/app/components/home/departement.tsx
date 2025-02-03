@@ -7,7 +7,7 @@ const DepartementDetail : {title:string,paragraph:string,image:string}[] = [
   { 
     title:"Mammographie 3D & Angio-Mammographie",
     
-    paragraph:"La mammographie, combinée à l'angio-mammographie, offre une exploration avancée de la santé mammaire. Grâce à des équipements modernes, ce service permet de détecter avec précision des anomalies précoces et de guider les décisions cliniques.",
+    paragraph:"La mammographie 3D, combinée à une fonctionnalité exclusive sur nos machines haute définition, offre une efficacité diagnostique supérieure grâce à une technologie d'IA innovante de traitement d'image.",
     image:"/img/departments-1.jpg"
   },
   { 
@@ -19,7 +19,7 @@ const DepartementDetail : {title:string,paragraph:string,image:string}[] = [
   { 
     title:"Actes Interventionnels",
     
-    paragraph:"L’élastographie ShearWave est une technologie révolutionnaire qui mesure la rigidité des tissus afin de détecter les anomalies et d’affiner les diagnostics avec une précision inégalée.",
+    paragraph:"Il s'agit d'interventions percutanées réalisées en ambulatoire, à visée diagnostique, comme les biopsies, ou thérapeutique, sous guidage échographique ou scanner. En sénologie, certains actes sont effectués dans le cadre du repérage pré-thérapeutique, tels que la pose de harpons et de clips sous contrôle échographique ou mammographique, permettant d'identifier avec précision les lésions cibles avant le traitement.",
     image:"/img/departments-5.jpg"
   },
   { 

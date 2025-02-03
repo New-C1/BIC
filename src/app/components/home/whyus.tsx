@@ -1,7 +1,7 @@
 
 const Whyus = () => {
-    return (
-        <section id="why-us" className="why-us">
+  return (
+    <section id="why-us" className="why-us">
       <div className="container">
 
         <div className="row">
@@ -9,13 +9,13 @@ const Whyus = () => {
             <div className="content">
               <h3>Pourquoi Choisir BIC ?</h3>
               <p>
-             
 
-Chez BIC, nous repensons l’imagerie médicale pour offrir une approche, diagnostique et interventionnelle, centrée sur le patient. Forgé par notre expérience, encrés dans notre pratique nous mettons en avant une combinaison  unique d’innovation technologique, de rigueur scientifique et d’engagement social.
+
+              Parce que nous visons l'excellence, nous avons investi dans une technologie de pointe pour offrir un service alliant confort, innovation et expertise scientifique. Notre centre est une référence en imagerie du sein et en radiologie générale, intégrant les dernières avancées en intelligence artificielle et en logistique médicale. Grâce à notre plateforme unique en Afrique du Nord, nous garantissons un accompagnement personnalisé, où chaque patiente bénéficie d'un suivi attentif et d’une prise en charge optimisée. Votre santé est notre priorité, et notre équipe est à votre écoute avec bienveillance et engagement.
               </p>
-              <div className="text-center">
+{/*               <div className="text-center">
                 <a href="#" className="more-btn">Learn More <i className="bx bx-chevron-right"></i></a>
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="col-lg-8 d-flex align-items-stretch">
@@ -49,7 +49,7 @@ Chez BIC, nous repensons l’imagerie médicale pour offrir une approche, diagno
 
       </div>
     </section>
-    );
+  );
 }
 
 
