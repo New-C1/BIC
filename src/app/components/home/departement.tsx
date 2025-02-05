@@ -7,20 +7,20 @@ const DepartementDetail : {title:string,paragraph:string,image:string}[] = [
   { 
     title:"Mammographie 3D & Angio-Mammographie",
     
-    paragraph:"La mammographie 3D, combinée à une fonctionnalité exclusive sur nos machines haute définition, offre une efficacité diagnostique supérieure grâce à une technologie d'IA innovante de traitement d'image.",
+    paragraph:"La mammographie 3D, combinée à une fonctionnalité exclusive sur nos machines haute définition, offre une efficacité diagnostique supérieure grâce à une technologie d'IA innovante de traitement d'image. L'angio-Mammographie permet une imagerie du sein avec injection de produit de contraste permettant de démasquer des anomalies subtiles pour un diagnostic précoce et précis. ",
     image:"/img/departments-1.jpg"
   },
   { 
     title:"Échographie & Élastographie ShearWave",
     
-    paragraph:"L'échographie est une méthode d'imagerie douce et rapide, permettant d'observer en temps réel les organes internes, les tissus mous, et de surveiller efficacement l'état de santé global",
+    paragraph:"L'échographie est une méthode d'imagerie douce et rapide, permettant d'observer en temps réel les organes internes, les tissus mous, et de surveiller efficacement l'état de santé global. l'élastographie shearWave est une fonctionalité unique sur notre systéme permettant une supériorité diagnostique dans les cas les plus complexes. ",
     image:"/img/departments-2.jpg"
   },
   { 
     title:"Actes Interventionnels",
     
     paragraph:"Il s'agit d'interventions percutanées réalisées en ambulatoire, à visée diagnostique, comme les biopsies, ou thérapeutique, sous guidage échographique ou scanner. En sénologie, certains actes sont effectués dans le cadre du repérage pré-thérapeutique, tels que la pose de harpons et de clips sous contrôle échographique ou mammographique, permettant d'identifier avec précision les lésions cibles avant le traitement.",
-    image:"/img/departments-5.jpg"
+    image:"/img/departments-3.jpg"
   },
   { 
     title:"Radiologie Standard",
@@ -32,7 +32,7 @@ const DepartementDetail : {title:string,paragraph:string,image:string}[] = [
     title:"Cone Beam",
    
     paragraph:"Le Cone Beam est une technologie d'imagerie médicale utilisée principalement pour examiner la dentition, les sinus et l'ossature maxillo-faciale. Il permet de réaliser une étude détaillée des structures en une seule acquisition, avec une irradiation généralement inférieure à celle des scanners traditionnels, ce qui le rend particulièrement utile pour diagnostiquer des pathologies dans ces zones.",
-    image:"/img/departments-3.jpg"
+    image:"/img/departments-5.jpg"
   },
   { 
     title:"IRM & Scanner",

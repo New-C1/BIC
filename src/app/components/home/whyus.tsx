@@ -7,7 +7,7 @@ const Whyus = () => {
         <div className="row">
           <div className="col-lg-4 d-flex align-items-stretch">
             <div className="content">
-              <h3>Pourquoi Choisir BIC ?</h3>
+              <h3>Pourquoi Choisir BIC?</h3>
               <p>
 
 
@@ -25,7 +25,7 @@ const Whyus = () => {
                   <div className="icon-box mt-4 mt-xl-0">
                     <i className="bx bx-receipt"></i>
                     <h4>Une approche centrée sur le patient</h4>
-                    <p>Une optimisation des examens adaptés, une communication claire et un suivi personnalisé pour un diagnostic en toute sérénité.</p>
+                    <p>Une optimisation des examens, une communication claire et un suivi personnalisé pour un diagnostic en toute sérénité.</p>
                   </div>
                 </div>
                 <div className="col-xl-4 d-flex align-items-stretch">

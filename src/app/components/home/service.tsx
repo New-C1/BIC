@@ -34,7 +34,7 @@ const Service = () => {
             <div className="icon-box">
               <div className="icon"><FontAwesomeIcon icon={faWheelchair}  className="icon-service"></FontAwesomeIcon></div>
               <h4><a href="">Actes Interventionnels</a></h4>
-              <p>Une technique écho et/ou radio-guidé à but diagnostique et thérapeutique. </p>
+              <p>Une technique écho et/ou radio-guidée à but diagnostique et thérapeutique. </p>
               <p>Biopsies, ponction et repérage. </p> 
             
 
