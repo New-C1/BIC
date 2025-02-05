@@ -7,7 +7,7 @@ const Whyus = () => {
         <div className="row">
           <div className="col-lg-4 d-flex align-items-stretch">
             <div className="content">
-              <h3>Pourquoi Choisir BIC?</h3>
+              <h3>Pourquoi Choisir BIC ?</h3>
               <p>
 
 

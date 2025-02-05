@@ -5,7 +5,7 @@ const Hero = () => {
       <div className="container">
         <h1>Breast Imaging Center</h1>
         <h2>Les experts en imagerie diagnostique et interventionnelle du sein</h2>
-        <a href="#about" className="btn-get-started scrollto">Get Started</a>
+{/*         <a href="#about" className="btn-get-started scrollto">Get Started</a> */}
       </div>
     </section>
     );

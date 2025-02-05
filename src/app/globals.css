@@ -198,7 +198,7 @@ h6 {
 */
 .appointment-btn {
   margin-left: 25px;
-  background: #bcacd4;
+  background: #e94490 !important;
   color: #fff;
   border-radius: 50px;
   padding: 8px 25px;
@@ -254,7 +254,7 @@ h6 {
   align-items: center;
   justify-content: space-between;
   font-size: 14px;
-  color: #e94490;
+  color: #e94490 !important;
   white-space: nowrap;
   transition: 0.3s;
   border-bottom: 2px solid #fff;
@@ -272,8 +272,8 @@ h6 {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover > a {
-  color: #bcacd4;
-  border-color: #bcacd4;
+  color: #e94490 !important;
+  border-color: #e94490 !important;
 }
 
 .navbar .dropdown ul {
@@ -478,11 +478,11 @@ h6 {
   font-weight: 700;
   line-height: 56px;
   text-transform: uppercase;
-  color: #29235c;
+  color: #29235c !important;
 }
 
 #hero h2 {
-  color: #29235c;
+  color: #29235c !important;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -666,7 +666,7 @@ section {
 
 .why-us .content h3 {
   font-weight: 700;
-  font-size: 34px;
+  font-size: 30px  !important;
   margin-bottom: 30px;
 }
 
@@ -1135,8 +1135,8 @@ section {
 }
 
 .departments .nav-link.active {
-  color: #bcacd4;
-  border-color: #bcacd4;
+  color: #e94490 !important;
+  border-color: #e94490 !important;
 }
 
 .departments .tab-pane.active {
@@ -1530,7 +1530,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #4b7dab;
+  color: #e94490 !important;
 }
 
 .contact .info .email,
