@@ -9,16 +9,12 @@ export default function Topbar() {
           <i className="bi bi-phone"></i> +216 57 132 305
         </div>
         <div className="d-none d-lg-flex social-links align-items-center">
-          <a href="#" className="twitter">
-            <i className="bi bi-twitter"></i>
-          </a>
-          <a href="#" className="facebook">
+        
+          <a href="https://www.facebook.com/zeineb.belkhiria.3" className="facebook">
             <i className="bi bi-facebook"></i>
           </a>
-          <a href="#" className="instagram">
-            <i className="bi bi-instagram"></i>
-          </a>
-          <a href="#" className="linkedin">
+          
+          <a href="https://tn.linkedin.com/in/zeineb-belkhiria" className="linkedin">
             <i className="bi bi-linkedin"></i>
           </a>
         </div>
