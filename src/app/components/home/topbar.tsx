@@ -4,8 +4,8 @@ export default function Topbar() {
       <div className="container d-flex justify-content-between">
         <div className="contact-info d-flex align-items-center">
           <i className="bi bi-envelope"></i>{" "}
-          <a href="mailto:contact@example.com">contact@bic.com</a>
-          <i className="bi bi-phone"></i> +216 55 941 086
+          <a href="mailto:contact@example.com">drzeinebbelkhiria@gmail.com</a>
+          <i className="bi bi-phone"></i> +216 53 008 108
           <i className="bi bi-phone"></i> +216 57 132 305
         </div>
         <div className="d-none d-lg-flex social-links align-items-center">

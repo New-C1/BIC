@@ -13,7 +13,7 @@ const footer = () => {
             Voie X2 - Cité El Khadra<br/>
               Tunis 1003 <br/><br/>
               <strong>Phone:</strong> +216 55 941 086<br/>
-              <strong>Email:</strong> info@bic.com<br/>
+              <strong>Email:</strong> drzeinebbelkhiria@gmail.com<br/>
             </p>
           </div>
 

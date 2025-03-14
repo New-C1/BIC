@@ -26,21 +26,21 @@ const Contact = () => {
               <div className="address">
                 <i className="bi bi-geo-alt"></i>
                 <h4>Adresse :</h4>
-                <p>Centre de Radiologie El Hakim <br /> 
-                Étage (-1)  <br /> 
+                <p>Centre Médical El Hakim <br /> 
+                Sous-sol (-1)  <br /> 
                 Voie X2 - Cité El Khadra - Tunis 1003</p>
               </div>
 
               <div className="email">
                 <i className="bi bi-envelope"></i>
                 <h4>Email :</h4>
-                <p>info@bic.com</p>
+                <p>drzeinebbelkhiria@gmail.com</p>
               </div>
 
               <div className="phone">
                 <i className="bi bi-phone"></i>
                 <h4>Téléphone :</h4>
-                <p>+216 55 941 086</p>
+                <p>+216 53 008 108</p>
               </div>
             </div>
           </div>
@@ -131,7 +131,7 @@ const Contact = () => {
               <div className="email">
                 <i className="bi bi-envelope"></i>
                 <h4>Email:</h4>
-                <p>info@bic.com</p>
+                <p>drzeinebbelkhiria@gmail.com</p>
               </div>
 
               <div className="phone">
