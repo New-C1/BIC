@@ -1,6 +1,6 @@
 import Image from "next/image"
-import Media from './media'
-import Link from 'next/link';
+// import Media from './media'
+
 
 
 export default function Header() {

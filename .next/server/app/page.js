@@ -313,7 +313,7 @@ Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_
 
 /***/ }),
 
-/***/ 7923:
+/***/ 4257:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
@@ -877,6 +877,7 @@ var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
 ;// CONCATENATED MODULE: ./src/app/components/home/header.tsx
 
 
+// import Media from './media'
 function Header() {
     return /*#__PURE__*/ jsx_runtime_.jsx("header", {
         id: "header",
@@ -2358,6 +2359,7 @@ const gallerie = ()=>{
 
 
 
+// import Testimonial from './components/home/testimonial'
 
 
 
