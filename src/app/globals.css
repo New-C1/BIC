@@ -159,6 +159,39 @@ h6 {
   border-left: 0;
 }
 
+
+@media (max-width: 768px) {
+  #topbar .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #topbar .contact-info {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap but keep them readable */
+    justify-content: center;
+    font-size: 13px; /* Slightly reduce size for small screens */
+    gap: 5px; /* Space between numbers */
+  }
+
+  #topbar .contact-info i {
+    margin-left: 5px; /* Adjust spacing */
+    padding-right: 4px;
+  }
+
+  #topbar .contact-info span {
+    white-space: nowrap; /* Prevent numbers from breaking */
+    display: inline-block;
+  }
+
+  #topbar .social-links {
+    margin-top: 5px; /* Space between contacts and social icons */
+  }
+}
+
+
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -344,7 +377,7 @@ h6 {
 }
 
 /**
-* Mobile Navigation 
+* Mobile Navigation
 */
 .mobile-nav-toggle {
   color: #bcacd4;
@@ -364,97 +397,29 @@ h6 {
     display: block;
   }
 
+  /* Hide the menu by default */
   .navbar ul {
     display: none;
   }
-}
 
-.navbar-mobile {
-  position: fixed;
-  overflow: hidden;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(28, 47, 65, 0.9);
-  transition: 0.3s;
-  z-index: 999;
-}
+  /* Show the menu when it's active */
+  .navbar.navbar-mobile ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background: white;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  }
 
-.navbar-mobile .mobile-nav-toggle {
-  position: absolute;
-  top: 15px;
-  right: 15px;
-}
-
-.navbar-mobile ul {
-  display: block;
-  position: absolute;
-  top: 55px;
-  right: 15px;
-  bottom: 15px;
-  left: 15px;
-  padding: 10px 0;
-  background-color: #fff;
-  overflow-y: auto;
-  transition: 0.3s;
-}
-
-.navbar-mobile > ul > li {
-  padding: 0;
-}
-
-.navbar-mobile a,
-.navbar-mobile a:focus {
-  padding: 10px 20px;
-  font-size: 15px;
-  color: #bcacd4;
-  border: none;
-}
-
-.navbar-mobile a:hover,
-.navbar-mobile .active,
-.navbar-mobile li:hover > a {
-  color: #bcacd4;
-}
-
-.navbar-mobile .getstarted,
-.navbar-mobile .getstarted:focus {
-  margin: 15px;
-}
-
-.navbar-mobile .dropdown ul {
-  position: static;
-  display: none;
-  margin: 10px 20px;
-  padding: 10px 0;
-  z-index: 99;
-  opacity: 1;
-  visibility: visible;
-  background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
-}
-
-.navbar-mobile .dropdown ul li {
-  min-width: 200px;
-}
-
-.navbar-mobile .dropdown ul a {
-  padding: 10px 20px;
-}
-
-.navbar-mobile .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar-mobile .dropdown ul a:hover,
-.navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover > a {
-  color: #bcacd4;
-}
-
-.navbar-mobile .dropdown > .dropdown-active {
-  display: block;
+  .navbar.navbar-mobile a {
+    padding: 15px;
+    font-size: 16px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1190,13 +1155,13 @@ section {
   border-radius: 50%;
 }
 
-.doctors .member .pic img {
+/* .doctors .member .pic img {
   transition: ease-in-out 0.3s;
 }
 
 .doctors .member:hover img {
   transform: scale(1.1);
-}
+} */
 
 .doctors .member .member-info {
   padding-left: 30px;
@@ -1248,7 +1213,7 @@ section {
   border-radius: 50px;
   width: 32px;
   height: 32px;
-  background: #a0bcd5;
+  background: #e94490 !important;
 }
 
 .doctors .member .social a i {
@@ -1264,6 +1229,63 @@ section {
 .doctors .member .social a + a {
   margin-left: 8px;
 }
+
+@media (max-width: 768px) {
+  .doctors .member {
+    flex-direction: column;
+    align-items: center !important;
+    text-align: center !important;
+    padding-bottom: 80px; /* Extra space below to prevent hiding */
+  }
+
+  .doctors .member .pic {
+    width: 100%;
+    max-width: 250px; /* Ensures the image is not too big */
+    margin-bottom: 40px; /* More space between image and text */
+  }
+
+  .doctors .member .pic img {
+    transition: transform 0.3s ease-in-out;
+  }
+
+ 
+  .doctors .member .member-info {
+    padding-left: 0;
+    width: 100%;
+  }
+
+  .doctors .member h4 {
+    font-size: 20px;
+    margin-bottom: 15px; /* More space below name */
+  }
+
+  .doctors .member p {
+    font-size: 16px; /* Make text more readable */
+    line-height: 1.5;
+    margin-bottom: 20px; /* More space between text and social icons */
+  }
+
+  .doctors .member .social {
+    justify-content: center !important;
+    
+    /* display: center !important; */
+    gap: 15px; /* More space between icons */
+  }
+
+  .doctors .member .social a {
+    width: 40px;
+    height: 40px;
+    align-items: center !important;
+  }
+
+  .doctors .member .social a i {
+    font-size: 18px;
+    align-items: center !important;
+  }
+}
+
+
+
 
 /*--------------------------------------------------------------
 # Frequently Asked Questions

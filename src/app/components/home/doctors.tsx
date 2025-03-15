@@ -6,7 +6,7 @@ const Doctors = () => {
       <div className="container">
 
         <div className="section-title">
-          <h2>Docteurs</h2>
+          <h2>Médecins</h2>
           <p>
             Dr Zeineb Belkhiria vous accueille dans notre centre pour des services spécialisés en imagerie médicale. 
             Grâce à son expertise et son engagement, bénéficiez d'un accompagnement personnalisé et professionnel.
@@ -16,9 +16,10 @@ const Doctors = () => {
         <div className="row justify-content-center">
           <div className="col-lg-6">
             <div className="member d-flex align-items-start">
-              <div className="">
-                <Image width="300" height="350" src="/img/doctors/dr-belkiria.jpg" alt="Dr Zaineb Belkhiria" />
-              </div>
+            <div className="doctor-image">
+  <Image width="300" height="350" src="/img/doctors/dr-belkiria.jpg" alt="Dr Zaineb Belkhiria" />
+</div>
+
               <div className="member-info">
                 <h4>Dr Zeineb Belkhiria</h4>
                 <span>Radiologue spécialisée en imagerie mammaire et interventionnelle</span>
@@ -27,10 +28,10 @@ const Doctors = () => {
                   Médecin scientifiquement et socialement engagée.
                 </p>
                 <div className="social">
-                  <a href="#"><i className="ri-twitter-fill"></i></a>
-                  <a href="#"><i className="ri-facebook-fill"></i></a>
-                  <a href="#"><i className="ri-instagram-fill"></i></a>
-                  <a href="#"><i className="ri-linkedin-box-fill"></i></a>
+                 
+                  <a href="https://www.facebook.com/zeineb.belkhiria.3"><i className="ri-facebook-fill"></i></a>
+                 
+                  <a href="https://tn.linkedin.com/in/zeineb-belkhiria"><i className="ri-linkedin-box-fill"></i></a>
                 </div>
               </div>
             </div>

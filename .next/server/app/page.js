@@ -1,202 +1,87 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
 (() => {
 var exports = {};
-exports.id = 931;
-exports.ids = [931];
+exports.id = "app/page";
+exports.ids = ["app/page"];
 exports.modules = {
 
-/***/ 8038:
+/***/ "../../client/components/action-async-storage.external":
+/*!*******************************************************************************!*\
+  !*** external "next/dist/client/components/action-async-storage.external.js" ***!
+  \*******************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react");
+module.exports = require("next/dist/client/components/action-async-storage.external.js");
 
 /***/ }),
 
-/***/ 8704:
+/***/ "./request-async-storage.external":
+/*!*****************************************************************************!*\
+  !*** external "next/dist/client/components/request-async-storage.external" ***!
+  \*****************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react-dom/server-rendering-stub");
+module.exports = require("next/dist/client/components/request-async-storage.external");
 
 /***/ }),
 
-/***/ 7897:
+/***/ "../../client/components/request-async-storage.external":
+/*!********************************************************************************!*\
+  !*** external "next/dist/client/components/request-async-storage.external.js" ***!
+  \********************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react-server-dom-webpack/client");
+module.exports = require("next/dist/client/components/request-async-storage.external.js");
 
 /***/ }),
 
-/***/ 6786:
+/***/ "./static-generation-async-storage.external":
+/*!***************************************************************************************!*\
+  !*** external "next/dist/client/components/static-generation-async-storage.external" ***!
+  \***************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/compiled/react/jsx-runtime");
+module.exports = require("next/dist/client/components/static-generation-async-storage.external");
 
 /***/ }),
 
-/***/ 5868:
+/***/ "../../client/components/static-generation-async-storage.external":
+/*!******************************************************************************************!*\
+  !*** external "next/dist/client/components/static-generation-async-storage.external.js" ***!
+  \******************************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/server/app-render/app-render");
+module.exports = require("next/dist/client/components/static-generation-async-storage.external.js");
 
 /***/ }),
 
-/***/ 1844:
+/***/ "next/dist/compiled/next-server/app-page.runtime.dev.js":
+/*!*************************************************************************!*\
+  !*** external "next/dist/compiled/next-server/app-page.runtime.dev.js" ***!
+  \*************************************************************************/
 /***/ ((module) => {
 
 "use strict";
-module.exports = require("next/dist/server/app-render/get-segment-param");
+module.exports = require("next/dist/compiled/next-server/app-page.runtime.dev.js");
 
 /***/ }),
 
-/***/ 6624:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/server/future/helpers/interception-routes");
-
-/***/ }),
-
-/***/ 5281:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/server/future/route-modules/route-module");
-
-/***/ }),
-
-/***/ 7085:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/app-router-context");
-
-/***/ }),
-
-/***/ 1830:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/get-img-props");
-
-/***/ }),
-
-/***/ 199:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/hash");
-
-/***/ }),
-
-/***/ 6864:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/head");
-
-/***/ }),
-
-/***/ 9569:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/hooks-client-context");
-
-/***/ }),
-
-/***/ 2210:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-config");
-
-/***/ }),
-
-/***/ 5359:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/image-config-context");
-
-/***/ }),
-
-/***/ 7160:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router-context");
-
-/***/ }),
-
-/***/ 893:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix");
-
-/***/ }),
-
-/***/ 7887:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/handle-smooth-scroll");
-
-/***/ }),
-
-/***/ 8735:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/is-bot");
-
-/***/ }),
-
-/***/ 8231:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/parse-path");
-
-/***/ }),
-
-/***/ 4614:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/path-has-prefix");
-
-/***/ }),
-
-/***/ 3750:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slash");
-
-/***/ }),
-
-/***/ 9618:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/server-inserted-html");
-
-/***/ }),
-
-/***/ 8658:
-/***/ ((module) => {
-
-"use strict";
-module.exports = require("next/dist/shared/lib/utils/warn-once");
-
-/***/ }),
-
-/***/ 1017:
+/***/ "path":
+/*!***********************!*\
+  !*** external "path" ***!
+  \***********************/
 /***/ ((module) => {
 
 "use strict";
@@ -204,7 +89,10 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 7310:
+/***/ "url":
+/*!**********************!*\
+  !*** external "url" ***!
+  \**********************/
 /***/ ((module) => {
 
 "use strict";
@@ -212,1493 +100,162 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 9571:
+/***/ "util":
+/*!***********************!*\
+  !*** external "util" ***!
+  \***********************/
+/***/ ((module) => {
+
+"use strict";
+module.exports = require("util");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D! ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   GlobalError: () => (/* reexport default from dynamic */ next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default.a),
-/* harmony export */   __next_app__: () => (/* binding */ __next_app__),
-/* harmony export */   originalPathname: () => (/* binding */ originalPathname),
-/* harmony export */   pages: () => (/* binding */ pages),
-/* harmony export */   routeModule: () => (/* binding */ routeModule),
-/* harmony export */   tree: () => (/* binding */ tree)
-/* harmony export */ });
-/* harmony import */ var next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(7262);
-/* harmony import */ var next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(9513);
-/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(1823);
-/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2502);
-/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};
-/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__) if(["default","tree","pages","GlobalError","originalPathname","__next_app__","routeModule"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__[__WEBPACK_IMPORT_KEY__]
-/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);
-// @ts-ignore this need to be imported from next/dist to be external
-
-
-const AppPageRouteModule = next_dist_server_future_route_modules_app_page_module__WEBPACK_IMPORTED_MODULE_0__.AppPageRouteModule;
-// We inject the tree and pages here so that we can use them in the route
-// module.
-const tree = {
-        children: [
-        '',
-        {
-        children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4754)), "/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx"],
-          metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
-    apple: [],
-    openGraph: [],
-    twitter: [],
-    manifest: undefined
-  }
-        }]
-      },
-        {
-        'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4053)), "/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/layout.tsx"],
-'not-found': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 5493, 23)), "next/dist/client/components/not-found-error"],
-        metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 3881))).default(props))],
-    apple: [],
-    openGraph: [],
-    twitter: [],
-    manifest: undefined
-  }
-      }
-      ]
-      }.children;
-const pages = ["/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx"];
-
-// @ts-expect-error - replaced by webpack/turbopack loader
-
-const __next_app_require__ = __webpack_require__
-const __next_app_load_chunk__ = () => Promise.resolve()
-const originalPathname = "/page";
-const __next_app__ = {
-    require: __next_app_require__,
-    loadChunk: __next_app_load_chunk__
-};
-
-// Create and export the route module that will be consumed.
-const routeModule = new AppPageRouteModule({
-    definition: {
-        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_PAGE,
-        page: "/page",
-        pathname: "/",
-        // The following aren't used in production.
-        bundlePath: "",
-        filename: "",
-        appPaths: []
-    },
-    userland: {
-        loaderTree: tree
-    }
-});
-
-//# sourceMappingURL=app-page.js.map
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   GlobalError: () => (/* reexport default from dynamic */ next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default.a),\n/* harmony export */   __next_app__: () => (/* binding */ __next_app__),\n/* harmony export */   originalPathname: () => (/* binding */ originalPathname),\n/* harmony export */   pages: () => (/* binding */ pages),\n/* harmony export */   routeModule: () => (/* binding */ routeModule),\n/* harmony export */   tree: () => (/* binding */ tree)\n/* harmony export */ });\n/* harmony import */ var next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/server/future/route-modules/app-page/module.compiled */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/module.compiled.js?5bc9\");\n/* harmony import */ var next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/dist/server/future/route-kind */ \"(rsc)/./node_modules/next/dist/server/future/route-kind.js\");\n/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/dist/client/components/error-boundary */ \"(rsc)/./node_modules/next/dist/client/components/error-boundary.js\");\n/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/dist/server/app-render/entry-base */ \"(rsc)/./node_modules/next/dist/server/app-render/entry-base.js\");\n/* harmony import */ var next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony reexport (unknown) */ var __WEBPACK_REEXPORT_OBJECT__ = {};\n/* harmony reexport (unknown) */ for(const __WEBPACK_IMPORT_KEY__ in next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__) if([\"default\",\"tree\",\"pages\",\"GlobalError\",\"originalPathname\",\"__next_app__\",\"routeModule\"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) __WEBPACK_REEXPORT_OBJECT__[__WEBPACK_IMPORT_KEY__] = () => next_dist_server_app_render_entry_base__WEBPACK_IMPORTED_MODULE_3__[__WEBPACK_IMPORT_KEY__]\n/* harmony reexport (unknown) */ __webpack_require__.d(__webpack_exports__, __WEBPACK_REEXPORT_OBJECT__);\n\n\n// We inject the tree and pages here so that we can use them in the route\n// module.\nconst tree = {\n        children: [\n        '',\n        {\n        children: ['__PAGE__', {}, {\n          page: [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/page.tsx */ \"(rsc)/./src/app/page.tsx\")), \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\"],\n          metadata: {\n    icon: [(async (props) => (await Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! next-metadata-image-loader?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./src/app/favicon.ico?__next_metadata__ */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./src/app/favicon.ico?__next_metadata__\"))).default(props))],\n    apple: [],\n    openGraph: [],\n    twitter: [],\n    manifest: undefined\n  }\n        }]\n      },\n        {\n        'layout': [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/layout.tsx */ \"(rsc)/./src/app/layout.tsx\")), \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/layout.tsx\"],\n'not-found': [() => Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! next/dist/client/components/not-found-error */ \"(rsc)/./node_modules/next/dist/client/components/not-found-error.js\", 23)), \"next/dist/client/components/not-found-error\"],\n        metadata: {\n    icon: [(async (props) => (await Promise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! next-metadata-image-loader?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./src/app/favicon.ico?__next_metadata__ */ \"(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./src/app/favicon.ico?__next_metadata__\"))).default(props))],\n    apple: [],\n    openGraph: [],\n    twitter: [],\n    manifest: undefined\n  }\n      }\n      ]\n      }.children;\nconst pages = [\"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\"];\n\n\nconst __next_app_require__ = __webpack_require__\nconst __next_app_load_chunk__ = () => Promise.resolve()\nconst originalPathname = \"/page\";\nconst __next_app__ = {\n    require: __next_app_require__,\n    loadChunk: __next_app_load_chunk__\n};\n\n// Create and export the route module that will be consumed.\nconst routeModule = new next_dist_server_future_route_modules_app_page_module_compiled__WEBPACK_IMPORTED_MODULE_0__.AppPageRouteModule({\n    definition: {\n        kind: next_dist_server_future_route_kind__WEBPACK_IMPORTED_MODULE_1__.RouteKind.APP_PAGE,\n        page: \"/page\",\n        pathname: \"/\",\n        // The following aren't used in production.\n        bundlePath: \"\",\n        filename: \"\",\n        appPaths: []\n    },\n    userland: {\n        loaderTree: tree\n    }\n});\n\n//# sourceMappingURL=app-page.js.map//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWFwcC1sb2FkZXIuanM/bmFtZT1hcHAlMkZwYWdlJnBhZ2U9JTJGcGFnZSZhcHBQYXRocz0lMkZwYWdlJnBhZ2VQYXRoPXByaXZhdGUtbmV4dC1hcHAtZGlyJTJGcGFnZS50c3gmYXBwRGlyPSUyRlVzZXJzJTJGd2llbW1pbW91bmklMkZEZXNrdG9wJTJGR2l0SHViLVJlcG9zJTJGQklDJTJGc3JjJTJGYXBwJnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMmcm9vdERpcj0lMkZVc2VycyUyRndpZW1taW1vdW5pJTJGRGVza3RvcCUyRkdpdEh1Yi1SZXBvcyUyRkJJQyZpc0Rldj10cnVlJnRzY29uZmlnUGF0aD10c2NvbmZpZy5qc29uJmJhc2VQYXRoPSZhc3NldFByZWZpeD0mbmV4dENvbmZpZ091dHB1dD0mcHJlZmVycmVkUmVnaW9uPSZtaWRkbGV3YXJlQ29uZmlnPWUzMCUzRCEiLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFvRztBQUNyQztBQUMvRDtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQSxpQ0FBaUM7QUFDakMsdUJBQXVCLGdKQUFpRztBQUN4SDtBQUNBLG9DQUFvQyxzZkFBMlA7QUFDL1I7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBLFNBQVM7QUFDVCxPQUFPO0FBQ1A7QUFDQSx5QkFBeUIsb0pBQW1HO0FBQzVILG9CQUFvQiwwTkFBZ0Y7QUFDcEc7QUFDQSxvQ0FBb0Msc2ZBQTJQO0FBQy9SO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsT0FBTztBQUNQO0FBQ3VCO0FBQzZEO0FBQ3BGLDZCQUE2QixtQkFBbUI7QUFDaEQ7QUFDTztBQUNBO0FBQ1A7QUFDQTtBQUNBO0FBQ3VEO0FBQ3ZEO0FBQ08sd0JBQXdCLDhHQUFrQjtBQUNqRDtBQUNBLGNBQWMseUVBQVM7QUFDdkI7QUFDQTtBQUNBO0FBQ0E7QUFDQTtBQUNBO0FBQ0EsS0FBSztBQUNMO0FBQ0E7QUFDQTtBQUNBLENBQUM7O0FBRUQiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tZWRpbGFiLXByby8/MWM5ZiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBBcHBQYWdlUm91dGVNb2R1bGUgfSBmcm9tIFwibmV4dC9kaXN0L3NlcnZlci9mdXR1cmUvcm91dGUtbW9kdWxlcy9hcHAtcGFnZS9tb2R1bGUuY29tcGlsZWRcIjtcbmltcG9ydCB7IFJvdXRlS2luZCB9IGZyb20gXCJuZXh0L2Rpc3Qvc2VydmVyL2Z1dHVyZS9yb3V0ZS1raW5kXCI7XG4vLyBXZSBpbmplY3QgdGhlIHRyZWUgYW5kIHBhZ2VzIGhlcmUgc28gdGhhdCB3ZSBjYW4gdXNlIHRoZW0gaW4gdGhlIHJvdXRlXG4vLyBtb2R1bGUuXG5jb25zdCB0cmVlID0ge1xuICAgICAgICBjaGlsZHJlbjogW1xuICAgICAgICAnJyxcbiAgICAgICAge1xuICAgICAgICBjaGlsZHJlbjogWydfX1BBR0VfXycsIHt9LCB7XG4gICAgICAgICAgcGFnZTogWygpID0+IGltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3dpZW1taW1vdW5pL0Rlc2t0b3AvR2l0SHViLVJlcG9zL0JJQy9zcmMvYXBwL3BhZ2UudHN4XCIpLCBcIi9Vc2Vycy93aWVtbWltb3VuaS9EZXNrdG9wL0dpdEh1Yi1SZXBvcy9CSUMvc3JjL2FwcC9wYWdlLnRzeFwiXSxcbiAgICAgICAgICBtZXRhZGF0YToge1xuICAgIGljb246IFsoYXN5bmMgKHByb3BzKSA9PiAoYXdhaXQgaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCJuZXh0LW1ldGFkYXRhLWltYWdlLWxvYWRlcj90eXBlPWZhdmljb24mc2VnbWVudD0mYmFzZVBhdGg9JnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMhL1VzZXJzL3dpZW1taW1vdW5pL0Rlc2t0b3AvR2l0SHViLVJlcG9zL0JJQy9zcmMvYXBwL2Zhdmljb24uaWNvP19fbmV4dF9tZXRhZGF0YV9fXCIpKS5kZWZhdWx0KHByb3BzKSldLFxuICAgIGFwcGxlOiBbXSxcbiAgICBvcGVuR3JhcGg6IFtdLFxuICAgIHR3aXR0ZXI6IFtdLFxuICAgIG1hbmlmZXN0OiB1bmRlZmluZWRcbiAgfVxuICAgICAgICB9XVxuICAgICAgfSxcbiAgICAgICAge1xuICAgICAgICAnbGF5b3V0JzogWygpID0+IGltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3dpZW1taW1vdW5pL0Rlc2t0b3AvR2l0SHViLVJlcG9zL0JJQy9zcmMvYXBwL2xheW91dC50c3hcIiksIFwiL1VzZXJzL3dpZW1taW1vdW5pL0Rlc2t0b3AvR2l0SHViLVJlcG9zL0JJQy9zcmMvYXBwL2xheW91dC50c3hcIl0sXG4nbm90LWZvdW5kJzogWygpID0+IGltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwibmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL25vdC1mb3VuZC1lcnJvclwiKSwgXCJuZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvbm90LWZvdW5kLWVycm9yXCJdLFxuICAgICAgICBtZXRhZGF0YToge1xuICAgIGljb246IFsoYXN5bmMgKHByb3BzKSA9PiAoYXdhaXQgaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCJuZXh0LW1ldGFkYXRhLWltYWdlLWxvYWRlcj90eXBlPWZhdmljb24mc2VnbWVudD0mYmFzZVBhdGg9JnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMhL1VzZXJzL3dpZW1taW1vdW5pL0Rlc2t0b3AvR2l0SHViLVJlcG9zL0JJQy9zcmMvYXBwL2Zhdmljb24uaWNvP19fbmV4dF9tZXRhZGF0YV9fXCIpKS5kZWZhdWx0KHByb3BzKSldLFxuICAgIGFwcGxlOiBbXSxcbiAgICBvcGVuR3JhcGg6IFtdLFxuICAgIHR3aXR0ZXI6IFtdLFxuICAgIG1hbmlmZXN0OiB1bmRlZmluZWRcbiAgfVxuICAgICAgfVxuICAgICAgXVxuICAgICAgfS5jaGlsZHJlbjtcbmNvbnN0IHBhZ2VzID0gW1wiL1VzZXJzL3dpZW1taW1vdW5pL0Rlc2t0b3AvR2l0SHViLVJlcG9zL0JJQy9zcmMvYXBwL3BhZ2UudHN4XCJdO1xuZXhwb3J0IHsgdHJlZSwgcGFnZXMgfTtcbmV4cG9ydCB7IGRlZmF1bHQgYXMgR2xvYmFsRXJyb3IgfSBmcm9tIFwibmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL2Vycm9yLWJvdW5kYXJ5XCI7XG5jb25zdCBfX25leHRfYXBwX3JlcXVpcmVfXyA9IF9fd2VicGFja19yZXF1aXJlX19cbmNvbnN0IF9fbmV4dF9hcHBfbG9hZF9jaHVua19fID0gKCkgPT4gUHJvbWlzZS5yZXNvbHZlKClcbmV4cG9ydCBjb25zdCBvcmlnaW5hbFBhdGhuYW1lID0gXCIvcGFnZVwiO1xuZXhwb3J0IGNvbnN0IF9fbmV4dF9hcHBfXyA9IHtcbiAgICByZXF1aXJlOiBfX25leHRfYXBwX3JlcXVpcmVfXyxcbiAgICBsb2FkQ2h1bms6IF9fbmV4dF9hcHBfbG9hZF9jaHVua19fXG59O1xuZXhwb3J0ICogZnJvbSBcIm5leHQvZGlzdC9zZXJ2ZXIvYXBwLXJlbmRlci9lbnRyeS1iYXNlXCI7XG4vLyBDcmVhdGUgYW5kIGV4cG9ydCB0aGUgcm91dGUgbW9kdWxlIHRoYXQgd2lsbCBiZSBjb25zdW1lZC5cbmV4cG9ydCBjb25zdCByb3V0ZU1vZHVsZSA9IG5ldyBBcHBQYWdlUm91dGVNb2R1bGUoe1xuICAgIGRlZmluaXRpb246IHtcbiAgICAgICAga2luZDogUm91dGVLaW5kLkFQUF9QQUdFLFxuICAgICAgICBwYWdlOiBcIi9wYWdlXCIsXG4gICAgICAgIHBhdGhuYW1lOiBcIi9cIixcbiAgICAgICAgLy8gVGhlIGZvbGxvd2luZyBhcmVuJ3QgdXNlZCBpbiBwcm9kdWN0aW9uLlxuICAgICAgICBidW5kbGVQYXRoOiBcIlwiLFxuICAgICAgICBmaWxlbmFtZTogXCJcIixcbiAgICAgICAgYXBwUGF0aHM6IFtdXG4gICAgfSxcbiAgICB1c2VybGFuZDoge1xuICAgICAgICBsb2FkZXJUcmVlOiB0cmVlXG4gICAgfVxufSk7XG5cbi8vIyBzb3VyY2VNYXBwaW5nVVJMPWFwcC1wYWdlLmpzLm1hcCJdLCJuYW1lcyI6W10sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!\n");
 
 /***/ }),
 
-/***/ 819:
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fbootstrap%2Fdist%2Fcss%2Fbootstrap.min.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fboxicons%2Fcss%2Fboxicons.min.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fremixicon%2Ffonts%2Fremixicon.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fpublic%2Fscss%2Fstyle.scss&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fbootstrap-icons%2Ffont%2Fbootstrap-icons.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2F%40fortawesome%2Ffontawesome-svg-core%2Fstyles.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Fcontact.tsx&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Fdepartement.tsx&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Ffaq.tsx&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Fheader.tsx&server=true!":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fbootstrap%2Fdist%2Fcss%2Fbootstrap.min.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fboxicons%2Fcss%2Fboxicons.min.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fremixicon%2Ffonts%2Fremixicon.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fpublic%2Fscss%2Fstyle.scss&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fbootstrap-icons%2Ffont%2Fbootstrap-icons.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2F%40fortawesome%2Ffontawesome-svg-core%2Fstyles.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Fcontact.tsx&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Fdepartement.tsx&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Ffaq.tsx&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Fheader.tsx&server=true! ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 1232, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 2987, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 831, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6926, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 4282, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 6505, 23))
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/image-component.js */ \"(ssr)/./node_modules/next/dist/client/image-component.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/components/home/contact.tsx */ \"(ssr)/./src/app/components/home/contact.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/components/home/departement.tsx */ \"(ssr)/./src/app/components/home/departement.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/components/home/faq.tsx */ \"(ssr)/./src/app/components/home/faq.tsx\"));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.bind(__webpack_require__, /*! ./src/app/components/home/header.tsx */ \"(ssr)/./src/app/components/home/header.tsx\"))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTJGVXNlcnMlMkZ3aWVtbWltb3VuaSUyRkRlc2t0b3AlMkZHaXRIdWItUmVwb3MlMkZCSUMlMkZub2RlX21vZHVsZXMlMkZib290c3RyYXAlMkZkaXN0JTJGY3NzJTJGYm9vdHN0cmFwLm1pbi5jc3MmbW9kdWxlcz0lMkZVc2VycyUyRndpZW1taW1vdW5pJTJGRGVza3RvcCUyRkdpdEh1Yi1SZXBvcyUyRkJJQyUyRm5vZGVfbW9kdWxlcyUyRmJveGljb25zJTJGY3NzJTJGYm94aWNvbnMubWluLmNzcyZtb2R1bGVzPSUyRlVzZXJzJTJGd2llbW1pbW91bmklMkZEZXNrdG9wJTJGR2l0SHViLVJlcG9zJTJGQklDJTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmRpc3QlMkZjbGllbnQlMkZpbWFnZS1jb21wb25lbnQuanMmbW9kdWxlcz0lMkZVc2VycyUyRndpZW1taW1vdW5pJTJGRGVza3RvcCUyRkdpdEh1Yi1SZXBvcyUyRkJJQyUyRm5vZGVfbW9kdWxlcyUyRnJlbWl4aWNvbiUyRmZvbnRzJTJGcmVtaXhpY29uLmNzcyZtb2R1bGVzPSUyRlVzZXJzJTJGd2llbW1pbW91bmklMkZEZXNrdG9wJTJGR2l0SHViLVJlcG9zJTJGQklDJTJGcHVibGljJTJGc2NzcyUyRnN0eWxlLnNjc3MmbW9kdWxlcz0lMkZVc2VycyUyRndpZW1taW1vdW5pJTJGRGVza3RvcCUyRkdpdEh1Yi1SZXBvcyUyRkJJQyUyRm5vZGVfbW9kdWxlcyUyRmJvb3RzdHJhcC1pY29ucyUyRmZvbnQlMkZib290c3RyYXAtaWNvbnMuY3NzJm1vZHVsZXM9JTJGVXNlcnMlMkZ3aWVtbWltb3VuaSUyRkRlc2t0b3AlMkZHaXRIdWItUmVwb3MlMkZCSUMlMkZub2RlX21vZHVsZXMlMkYlNDBmb3J0YXdlc29tZSUyRmZvbnRhd2Vzb21lLXN2Zy1jb3JlJTJGc3R5bGVzLmNzcyZtb2R1bGVzPSUyRlVzZXJzJTJGd2llbW1pbW91bmklMkZEZXNrdG9wJTJGR2l0SHViLVJlcG9zJTJGQklDJTJGc3JjJTJGYXBwJTJGY29tcG9uZW50cyUyRmhvbWUlMkZjb250YWN0LnRzeCZtb2R1bGVzPSUyRlVzZXJzJTJGd2llbW1pbW91bmklMkZEZXNrdG9wJTJGR2l0SHViLVJlcG9zJTJGQklDJTJGc3JjJTJGYXBwJTJGY29tcG9uZW50cyUyRmhvbWUlMkZkZXBhcnRlbWVudC50c3gmbW9kdWxlcz0lMkZVc2VycyUyRndpZW1taW1vdW5pJTJGRGVza3RvcCUyRkdpdEh1Yi1SZXBvcyUyRkJJQyUyRnNyYyUyRmFwcCUyRmNvbXBvbmVudHMlMkZob21lJTJGZmFxLnRzeCZtb2R1bGVzPSUyRlVzZXJzJTJGd2llbW1pbW91bmklMkZEZXNrdG9wJTJGR2l0SHViLVJlcG9zJTJGQklDJTJGc3JjJTJGYXBwJTJGY29tcG9uZW50cyUyRmhvbWUlMkZoZWFkZXIudHN4JnNlcnZlcj10cnVlISIsIm1hcHBpbmdzIjoiQUFBQSxzTkFBaUk7QUFDakksc0xBQW9IO0FBQ3BILDhMQUF3SDtBQUN4SCw4S0FBZ0g7QUFDaEgiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tZWRpbGFiLXByby8/YTFkYSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy93aWVtbWltb3VuaS9EZXNrdG9wL0dpdEh1Yi1SZXBvcy9CSUMvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jbGllbnQvaW1hZ2UtY29tcG9uZW50LmpzXCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvd2llbW1pbW91bmkvRGVza3RvcC9HaXRIdWItUmVwb3MvQklDL3NyYy9hcHAvY29tcG9uZW50cy9ob21lL2NvbnRhY3QudHN4XCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvd2llbW1pbW91bmkvRGVza3RvcC9HaXRIdWItUmVwb3MvQklDL3NyYy9hcHAvY29tcG9uZW50cy9ob21lL2RlcGFydGVtZW50LnRzeFwiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3dpZW1taW1vdW5pL0Rlc2t0b3AvR2l0SHViLVJlcG9zL0JJQy9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9mYXEudHN4XCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvd2llbW1pbW91bmkvRGVza3RvcC9HaXRIdWItUmVwb3MvQklDL3NyYy9hcHAvY29tcG9uZW50cy9ob21lL2hlYWRlci50c3hcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fbootstrap%2Fdist%2Fcss%2Fbootstrap.min.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fboxicons%2Fcss%2Fboxicons.min.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fimage-component.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fremixicon%2Ffonts%2Fremixicon.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fpublic%2Fscss%2Fstyle.scss&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fbootstrap-icons%2Ffont%2Fbootstrap-icons.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2F%40fortawesome%2Ffontawesome-svg-core%2Fstyles.css&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Fcontact.tsx&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Fdepartement.tsx&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Ffaq.tsx&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fcomponents%2Fhome%2Fheader.tsx&server=true!\n");
 
 /***/ }),
 
-/***/ 4257:
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fapp-router.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Ferror-boundary.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Flayout-router.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-boundary.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Frender-from-template-context.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fstatic-generation-searchparams-bailout-provider.js&server=true!":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fapp-router.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Ferror-boundary.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Flayout-router.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-boundary.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Frender-from-template-context.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fstatic-generation-searchparams-bailout-provider.js&server=true! ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 3380, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 6268));
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2511))
+eval("Promise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/app-router.js */ \"(ssr)/./node_modules/next/dist/client/components/app-router.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/error-boundary.js */ \"(ssr)/./node_modules/next/dist/client/components/error-boundary.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/layout-router.js */ \"(ssr)/./node_modules/next/dist/client/components/layout-router.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/not-found-boundary.js */ \"(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/render-from-template-context.js */ \"(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js\", 23));\nPromise.resolve(/*! import() eager */).then(__webpack_require__.t.bind(__webpack_require__, /*! ./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js */ \"(ssr)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js\", 23))//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LWZsaWdodC1jbGllbnQtZW50cnktbG9hZGVyLmpzP21vZHVsZXM9JTJGVXNlcnMlMkZ3aWVtbWltb3VuaSUyRkRlc2t0b3AlMkZHaXRIdWItUmVwb3MlMkZCSUMlMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmNvbXBvbmVudHMlMkZhcHAtcm91dGVyLmpzJm1vZHVsZXM9JTJGVXNlcnMlMkZ3aWVtbWltb3VuaSUyRkRlc2t0b3AlMkZHaXRIdWItUmVwb3MlMkZCSUMlMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmNvbXBvbmVudHMlMkZlcnJvci1ib3VuZGFyeS5qcyZtb2R1bGVzPSUyRlVzZXJzJTJGd2llbW1pbW91bmklMkZEZXNrdG9wJTJGR2l0SHViLVJlcG9zJTJGQklDJTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmRpc3QlMkZjbGllbnQlMkZjb21wb25lbnRzJTJGbGF5b3V0LXJvdXRlci5qcyZtb2R1bGVzPSUyRlVzZXJzJTJGd2llbW1pbW91bmklMkZEZXNrdG9wJTJGR2l0SHViLVJlcG9zJTJGQklDJTJGbm9kZV9tb2R1bGVzJTJGbmV4dCUyRmRpc3QlMkZjbGllbnQlMkZjb21wb25lbnRzJTJGbm90LWZvdW5kLWJvdW5kYXJ5LmpzJm1vZHVsZXM9JTJGVXNlcnMlMkZ3aWVtbWltb3VuaSUyRkRlc2t0b3AlMkZHaXRIdWItUmVwb3MlMkZCSUMlMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmNvbXBvbmVudHMlMkZyZW5kZXItZnJvbS10ZW1wbGF0ZS1jb250ZXh0LmpzJm1vZHVsZXM9JTJGVXNlcnMlMkZ3aWVtbWltb3VuaSUyRkRlc2t0b3AlMkZHaXRIdWItUmVwb3MlMkZCSUMlMkZub2RlX21vZHVsZXMlMkZuZXh0JTJGZGlzdCUyRmNsaWVudCUyRmNvbXBvbmVudHMlMkZzdGF0aWMtZ2VuZXJhdGlvbi1zZWFyY2hwYXJhbXMtYmFpbG91dC1wcm92aWRlci5qcyZzZXJ2ZXI9dHJ1ZSEiLCJtYXBwaW5ncyI6IkFBQUEsa09BQXVJO0FBQ3ZJLDBPQUEySTtBQUMzSSx3T0FBMEk7QUFDMUksa1BBQStJO0FBQy9JLHNRQUF5SjtBQUN6SiIsInNvdXJjZXMiOlsid2VicGFjazovL21lZGlsYWItcHJvLz80YzNkIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3dpZW1taW1vdW5pL0Rlc2t0b3AvR2l0SHViLVJlcG9zL0JJQy9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL2FwcC1yb3V0ZXIuanNcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy93aWVtbWltb3VuaS9EZXNrdG9wL0dpdEh1Yi1SZXBvcy9CSUMvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9lcnJvci1ib3VuZGFyeS5qc1wiKTtcbmltcG9ydCgvKiB3ZWJwYWNrTW9kZTogXCJlYWdlclwiICovIFwiL1VzZXJzL3dpZW1taW1vdW5pL0Rlc2t0b3AvR2l0SHViLVJlcG9zL0JJQy9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2NsaWVudC9jb21wb25lbnRzL2xheW91dC1yb3V0ZXIuanNcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy93aWVtbWltb3VuaS9EZXNrdG9wL0dpdEh1Yi1SZXBvcy9CSUMvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9ub3QtZm91bmQtYm91bmRhcnkuanNcIik7XG5pbXBvcnQoLyogd2VicGFja01vZGU6IFwiZWFnZXJcIiAqLyBcIi9Vc2Vycy93aWVtbWltb3VuaS9EZXNrdG9wL0dpdEh1Yi1SZXBvcy9CSUMvbm9kZV9tb2R1bGVzL25leHQvZGlzdC9jbGllbnQvY29tcG9uZW50cy9yZW5kZXItZnJvbS10ZW1wbGF0ZS1jb250ZXh0LmpzXCIpO1xuaW1wb3J0KC8qIHdlYnBhY2tNb2RlOiBcImVhZ2VyXCIgKi8gXCIvVXNlcnMvd2llbW1pbW91bmkvRGVza3RvcC9HaXRIdWItUmVwb3MvQklDL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY2xpZW50L2NvbXBvbmVudHMvc3RhdGljLWdlbmVyYXRpb24tc2VhcmNocGFyYW1zLWJhaWxvdXQtcHJvdmlkZXIuanNcIikiXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fapp-router.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Ferror-boundary.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Flayout-router.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fnot-found-boundary.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Frender-from-template-context.js&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Fdist%2Fclient%2Fcomponents%2Fstatic-generation-searchparams-bailout-provider.js&server=true!\n");
 
 /***/ }),
 
-/***/ 6640:
+/***/ "(ssr)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%22path%22%3A%22src%2Fapp%2Flayout.tsx%22%2C%22import%22%3A%22Inter%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%7D%5D%2C%22variableName%22%3A%22inter%22%7D&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fglobals.css&server=true!":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fnode_modules%2Fnext%2Ffont%2Fgoogle%2Ftarget.css%3F%7B%22path%22%3A%22src%2Fapp%2Flayout.tsx%22%2C%22import%22%3A%22Inter%22%2C%22arguments%22%3A%5B%7B%22subsets%22%3A%5B%22latin%22%5D%7D%5D%2C%22variableName%22%3A%22inter%22%7D&modules=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp%2Fglobals.css&server=true! ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /***/ (() => {
 
 
 
 /***/ }),
 
-/***/ 2511:
+/***/ "(ssr)/./src/app/components/home/contact.tsx":
+/*!*********************************************!*\
+  !*** ./src/app/components/home/contact.tsx ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! styled-jsx/style */ \"(ssr)/./node_modules/styled-jsx/style.js\");\n/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\nconst Contact = ()=>{\n    const [messageSent, setMessageSent] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(false);\n    const handleFakeSubmit = (e)=>{\n        e.preventDefault(); // Prevents actual form submission\n        setMessageSent(true); // Show success message\n        // Hide the message after 3 seconds\n        setTimeout(()=>{\n            setMessageSent(false);\n        }, 3000);\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        id: \"contact\",\n        className: \"jsx-8d0364c003992a12\" + \" \" + \"contact\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"jsx-8d0364c003992a12\" + \" \" + \"container\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"jsx-8d0364c003992a12\" + \" \" + \"section-title\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                            className: \"jsx-8d0364c003992a12\",\n                            children: \"Contact\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                            lineNumber: 23,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            className: \"jsx-8d0364c003992a12\",\n                            children: \"N'h\\xe9sitez pas \\xe0 nous contacter pour toute question ou prise de rendez-vous. Nous sommes \\xe0 votre \\xe9coute pour vous offrir les meilleurs soins en imagerie m\\xe9dicale et s\\xe9nologie.\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                            lineNumber: 24,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                    lineNumber: 22,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                lineNumber: 21,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"jsx-8d0364c003992a12\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"iframe\", {\n                    style: {\n                        border: 0,\n                        width: \"100%\",\n                        height: \"350px\"\n                    },\n                    src: \"https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1595.999836280515!2d10.194301!3d36.825689!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzYuODI1Njg5LCAxMC4xOTQzMDE=!5e0!3m2!1sfr!2stn!4v1710353820000\",\n                    className: \"jsx-8d0364c003992a12\"\n                }, void 0, false, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                    lineNumber: 32,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                lineNumber: 31,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"jsx-8d0364c003992a12\" + \" \" + \"container\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"jsx-8d0364c003992a12\" + \" \" + \"row mt-5\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"jsx-8d0364c003992a12\" + \" \" + \"col-lg-4\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"jsx-8d0364c003992a12\" + \" \" + \"info\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"jsx-8d0364c003992a12\" + \" \" + \"address\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                className: \"jsx-8d0364c003992a12\" + \" \" + \"bi bi-geo-alt\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                lineNumber: 43,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                                className: \"jsx-8d0364c003992a12\",\n                                                children: \"Adresse :\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                lineNumber: 44,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                                className: \"jsx-8d0364c003992a12\",\n                                                children: [\n                                                    \"Centre M\\xe9dical El Hakim \",\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {\n                                                        className: \"jsx-8d0364c003992a12\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                        lineNumber: 45,\n                                                        columnNumber: 44\n                                                    }, undefined),\n                                                    \"Sous-sol (-1) \",\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {\n                                                        className: \"jsx-8d0364c003992a12\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                        lineNumber: 46,\n                                                        columnNumber: 31\n                                                    }, undefined),\n                                                    \"Voie X2 - Cit\\xe9 El Khadra - Tunis 1003\"\n                                                ]\n                                            }, void 0, true, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                lineNumber: 45,\n                                                columnNumber: 17\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                        lineNumber: 42,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"jsx-8d0364c003992a12\" + \" \" + \"email\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                className: \"jsx-8d0364c003992a12\" + \" \" + \"bi bi-envelope\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                lineNumber: 51,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                                className: \"jsx-8d0364c003992a12\",\n                                                children: \"Email :\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                lineNumber: 52,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                                className: \"jsx-8d0364c003992a12\",\n                                                children: \"drzeinebbelkhiria@gmail.com\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                lineNumber: 53,\n                                                columnNumber: 17\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                        lineNumber: 50,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"jsx-8d0364c003992a12\" + \" \" + \"phone\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                className: \"jsx-8d0364c003992a12\" + \" \" + \"bi bi-phone\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                lineNumber: 57,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                                className: \"jsx-8d0364c003992a12\",\n                                                children: \"T\\xe9l\\xe9phone :\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                lineNumber: 58,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                                className: \"jsx-8d0364c003992a12\",\n                                                children: \"+216 53 008 108\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                lineNumber: 59,\n                                                columnNumber: 17\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                        lineNumber: 56,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                lineNumber: 41,\n                                columnNumber: 13\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                            lineNumber: 40,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"jsx-8d0364c003992a12\" + \" \" + \"col-lg-8 mt-5 mt-lg-0\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                                onSubmit: handleFakeSubmit,\n                                className: \"jsx-8d0364c003992a12\" + \" \" + \"php-email-form\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"jsx-8d0364c003992a12\" + \" \" + \"row\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                className: \"jsx-8d0364c003992a12\" + \" \" + \"col-md-6 form-group\",\n                                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                                    type: \"text\",\n                                                    name: \"name\",\n                                                    placeholder: \"Votre Nom\",\n                                                    required: true,\n                                                    className: \"jsx-8d0364c003992a12\" + \" \" + \"form-control\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                    lineNumber: 69,\n                                                    columnNumber: 19\n                                                }, undefined)\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                lineNumber: 68,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                className: \"jsx-8d0364c003992a12\" + \" \" + \"col-md-6 form-group mt-3 mt-md-0\",\n                                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                                    type: \"email\",\n                                                    name: \"email\",\n                                                    placeholder: \"Votre Email\",\n                                                    required: true,\n                                                    className: \"jsx-8d0364c003992a12\" + \" \" + \"form-control\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                    lineNumber: 72,\n                                                    columnNumber: 19\n                                                }, undefined)\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                                lineNumber: 71,\n                                                columnNumber: 17\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                        lineNumber: 67,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"jsx-8d0364c003992a12\" + \" \" + \"form-group mt-3\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                            type: \"text\",\n                                            name: \"subject\",\n                                            placeholder: \"Objet\",\n                                            required: true,\n                                            className: \"jsx-8d0364c003992a12\" + \" \" + \"form-control\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                            lineNumber: 76,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                        lineNumber: 75,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"jsx-8d0364c003992a12\" + \" \" + \"form-group mt-3\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"textarea\", {\n                                            name: \"message\",\n                                            placeholder: \"Votre Message\",\n                                            required: true,\n                                            className: \"jsx-8d0364c003992a12\" + \" \" + \"form-control\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                            lineNumber: 79,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                        lineNumber: 78,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    messageSent && /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"jsx-8d0364c003992a12\" + \" \" + \"alert alert-success fade-in\",\n                                        children: \"✅ Votre message a \\xe9t\\xe9 envoy\\xe9 avec succ\\xe8s !\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                        lineNumber: 84,\n                                        columnNumber: 17\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"jsx-8d0364c003992a12\" + \" \" + \"text-center\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"button\", {\n                                            type: \"submit\",\n                                            className: \"jsx-8d0364c003992a12\" + \" \" + \"btn btn-primary\",\n                                            children: \"Envoyer le Message\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                            lineNumber: 90,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                        lineNumber: 89,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                                lineNumber: 66,\n                                columnNumber: 13\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                            lineNumber: 64,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                    lineNumber: 39,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n                lineNumber: 38,\n                columnNumber: 7\n            }, undefined),\n            (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((styled_jsx_style__WEBPACK_IMPORTED_MODULE_1___default()), {\n                id: \"8d0364c003992a12\",\n                children: \".alert.jsx-8d0364c003992a12{margin-top:15px;padding:10px;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;background-color:#d4edda;color:#155724;text-align:center;font-weight:bold;-webkit-transition:opacity.5s ease-in-out;-moz-transition:opacity.5s ease-in-out;-o-transition:opacity.5s ease-in-out;transition:opacity.5s ease-in-out}.fade-in.jsx-8d0364c003992a12{opacity:1}\"\n            }, void 0, false, void 0, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx\",\n        lineNumber: 20,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Contact);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9jb250YWN0LnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7QUFFaUM7QUFHakMsTUFBTUMsVUFBVTtJQUNkLE1BQU0sQ0FBQ0MsYUFBYUMsZUFBZSxHQUFHSCwrQ0FBUUEsQ0FBQztJQUUvQyxNQUFNSSxtQkFBbUIsQ0FBQ0M7UUFDeEJBLEVBQUVDLGNBQWMsSUFBSSxrQ0FBa0M7UUFDdERILGVBQWUsT0FBTyx1QkFBdUI7UUFFN0MsbUNBQW1DO1FBQ25DSSxXQUFXO1lBQ1RKLGVBQWU7UUFDakIsR0FBRztJQUNMO0lBRUEscUJBQ0UsOERBQUNLO1FBQVFDLElBQUc7a0RBQW9COzswQkFDOUIsOERBQUNDOzBEQUFjOzBCQUNiLDRFQUFDQTs4REFBYzs7c0NBQ2IsOERBQUNDOztzQ0FBRzs7Ozs7O3NDQUNKLDhEQUFDQzs7c0NBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7OzBCQU9QLDhEQUFDRjs7MEJBQ0MsNEVBQUNHO29CQUNDQyxPQUFPO3dCQUFFQyxRQUFRO3dCQUFHQyxPQUFPO3dCQUFRQyxRQUFRO29CQUFRO29CQUNuREMsS0FBSTs7Ozs7Ozs7Ozs7OzBCQUlSLDhEQUFDUjswREFBYzswQkFDYiw0RUFBQ0E7OERBQWM7O3NDQUNiLDhEQUFDQTtzRUFBYztzQ0FDYiw0RUFBQ0E7MEVBQWM7O2tEQUNiLDhEQUFDQTtrRkFBYzs7MERBQ2IsOERBQUNTOzBGQUFZOzs7Ozs7MERBQ2IsOERBQUNDOzswREFBRzs7Ozs7OzBEQUNKLDhEQUFDUjs7O29EQUFFO2tFQUF3Qiw4REFBQ1M7Ozs7Ozs7b0RBQUs7a0VBQ25CLDhEQUFDQTs7Ozs7OztvREFBSzs7Ozs7Ozs7Ozs7OztrREFJdEIsOERBQUNYO2tGQUFjOzswREFDYiw4REFBQ1M7MEZBQVk7Ozs7OzswREFDYiw4REFBQ0M7OzBEQUFHOzs7Ozs7MERBQ0osOERBQUNSOzswREFBRTs7Ozs7Ozs7Ozs7O2tEQUdMLDhEQUFDRjtrRkFBYzs7MERBQ2IsOERBQUNTOzBGQUFZOzs7Ozs7MERBQ2IsOERBQUNDOzswREFBRzs7Ozs7OzBEQUNKLDhEQUFDUjs7MERBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O3NDQUtULDhEQUFDRjtzRUFBYztzQ0FFYiw0RUFBQ1k7Z0NBQWdDQyxVQUFVbkI7MEVBQTNCOztrREFDZCw4REFBQ007a0ZBQWM7OzBEQUNiLDhEQUFDQTswRkFBYzswREFDYiw0RUFBQ2M7b0RBQU1DLE1BQUs7b0RBQU9DLE1BQUs7b0RBQWdDQyxhQUFZO29EQUFZQyxRQUFROzhGQUEvQzs7Ozs7Ozs7Ozs7MERBRTNDLDhEQUFDbEI7MEZBQWM7MERBQ2IsNEVBQUNjO29EQUFNQyxNQUFLO29EQUFpQ0MsTUFBSztvREFBUUMsYUFBWTtvREFBY0MsUUFBUTs4RkFBOUQ7Ozs7Ozs7Ozs7Ozs7Ozs7O2tEQUdsQyw4REFBQ2xCO2tGQUFjO2tEQUNiLDRFQUFDYzs0Q0FBTUMsTUFBSzs0Q0FBZ0NDLE1BQUs7NENBQVVDLGFBQVk7NENBQVFDLFFBQVE7c0ZBQTFEOzs7Ozs7Ozs7OztrREFFL0IsOERBQUNsQjtrRkFBYztrREFDYiw0RUFBQ21COzRDQUFrQ0gsTUFBSzs0Q0FBVUMsYUFBWTs0Q0FBZ0JDLFFBQVE7c0ZBQWxFOzs7Ozs7Ozs7OztvQ0FJckIxQiw2QkFDQyw4REFBQ1E7a0ZBQWM7a0RBQThCOzs7Ozs7a0RBSy9DLDhEQUFDQTtrRkFBYztrREFDYiw0RUFBQ29COzRDQUFPTCxNQUFLO3NGQUFtQjtzREFBa0I7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUF5QmxFO0FBRUEsaUVBQWV4QixPQUFPQSxFQUFDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkaWxhYi1wcm8vLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9jb250YWN0LnRzeD9iNWQwIl0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiO1xuXG5pbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gJ3JlYWN0JztcbmltcG9ydCBJbWFnZSBmcm9tICduZXh0L2ltYWdlJztcblxuY29uc3QgQ29udGFjdCA9ICgpID0+IHtcbiAgY29uc3QgW21lc3NhZ2VTZW50LCBzZXRNZXNzYWdlU2VudF0gPSB1c2VTdGF0ZShmYWxzZSk7XG5cbiAgY29uc3QgaGFuZGxlRmFrZVN1Ym1pdCA9IChlOiBSZWFjdC5Gb3JtRXZlbnQpID0+IHtcbiAgICBlLnByZXZlbnREZWZhdWx0KCk7IC8vIFByZXZlbnRzIGFjdHVhbCBmb3JtIHN1Ym1pc3Npb25cbiAgICBzZXRNZXNzYWdlU2VudCh0cnVlKTsgLy8gU2hvdyBzdWNjZXNzIG1lc3NhZ2VcblxuICAgIC8vIEhpZGUgdGhlIG1lc3NhZ2UgYWZ0ZXIgMyBzZWNvbmRzXG4gICAgc2V0VGltZW91dCgoKSA9PiB7XG4gICAgICBzZXRNZXNzYWdlU2VudChmYWxzZSk7XG4gICAgfSwgMzAwMCk7XG4gIH07XG5cbiAgcmV0dXJuIChcbiAgICA8c2VjdGlvbiBpZD1cImNvbnRhY3RcIiBjbGFzc05hbWU9XCJjb250YWN0XCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNlY3Rpb24tdGl0bGVcIj5cbiAgICAgICAgICA8aDI+Q29udGFjdDwvaDI+XG4gICAgICAgICAgPHA+XG4gICAgICAgICAgICBOJ2jDqXNpdGV6IHBhcyDDoCBub3VzIGNvbnRhY3RlciBwb3VyIHRvdXRlIHF1ZXN0aW9uIG91IHByaXNlIGRlIHJlbmRlei12b3VzLlxuICAgICAgICAgICAgTm91cyBzb21tZXMgw6Agdm90cmUgw6ljb3V0ZSBwb3VyIHZvdXMgb2ZmcmlyIGxlcyBtZWlsbGV1cnMgc29pbnMgZW4gaW1hZ2VyaWUgbcOpZGljYWxlIGV0IHPDqW5vbG9naWUuXG4gICAgICAgICAgPC9wPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuXG4gICAgICA8ZGl2PlxuICAgICAgICA8aWZyYW1lXG4gICAgICAgICAgc3R5bGU9e3sgYm9yZGVyOiAwLCB3aWR0aDogJzEwMCUnLCBoZWlnaHQ6ICczNTBweCcgfX1cbiAgICAgICAgICBzcmM9XCJodHRwczovL3d3dy5nb29nbGUuY29tL21hcHMvZW1iZWQ/cGI9ITFtMTQhMW04ITFtMyExZDE1OTUuOTk5ODM2MjgwNTE1ITJkMTAuMTk0MzAxITNkMzYuODI1Njg5ITNtMiExaTEwMjQhMmk3NjghNGYxMy4xITNtMyExbTIhMXMweDAlM0EweDAhMnpNell1T0RJMU5qZzVMQ0F4TUM0eE9UUXpNREU9ITVlMCEzbTIhMXNmciEyc3RuITR2MTcxMDM1MzgyMDAwMFwiXG4gICAgICAgIC8+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgbXQtNVwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTRcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaW5mb1wiPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImFkZHJlc3NcIj5cbiAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJiaSBiaS1nZW8tYWx0XCI+PC9pPlxuICAgICAgICAgICAgICAgIDxoND5BZHJlc3NlIDo8L2g0PlxuICAgICAgICAgICAgICAgIDxwPkNlbnRyZSBNw6lkaWNhbCBFbCBIYWtpbSA8YnIgLz4gXG4gICAgICAgICAgICAgICAgU291cy1zb2wgKC0xKSA8YnIgLz4gXG4gICAgICAgICAgICAgICAgVm9pZSBYMiAtIENpdMOpIEVsIEtoYWRyYSAtIFR1bmlzIDEwMDM8L3A+XG4gICAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZW1haWxcIj5cbiAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJiaSBiaS1lbnZlbG9wZVwiPjwvaT5cbiAgICAgICAgICAgICAgICA8aDQ+RW1haWwgOjwvaDQ+XG4gICAgICAgICAgICAgICAgPHA+ZHJ6ZWluZWJiZWxraGlyaWFAZ21haWwuY29tPC9wPlxuICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInBob25lXCI+XG4gICAgICAgICAgICAgICAgPGkgY2xhc3NOYW1lPVwiYmkgYmktcGhvbmVcIj48L2k+XG4gICAgICAgICAgICAgICAgPGg0PlTDqWzDqXBob25lIDo8L2g0PlxuICAgICAgICAgICAgICAgIDxwPisyMTYgNTMgMDA4IDEwODwvcD5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTggbXQtNSBtdC1sZy0wXCI+XG4gICAgICAgICAgICB7LyogUHJldmVudCByZWFsIHN1Ym1pc3Npb24sIHNob3cgZmFrZSBtZXNzYWdlICovfVxuICAgICAgICAgICAgPGZvcm0gY2xhc3NOYW1lPVwicGhwLWVtYWlsLWZvcm1cIiBvblN1Ym1pdD17aGFuZGxlRmFrZVN1Ym1pdH0+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbWQtNiBmb3JtLWdyb3VwXCI+XG4gICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT1cInRleHRcIiBuYW1lPVwibmFtZVwiIGNsYXNzTmFtZT1cImZvcm0tY29udHJvbFwiIHBsYWNlaG9sZGVyPVwiVm90cmUgTm9tXCIgcmVxdWlyZWQgLz5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1tZC02IGZvcm0tZ3JvdXAgbXQtMyBtdC1tZC0wXCI+XG4gICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT1cImVtYWlsXCIgY2xhc3NOYW1lPVwiZm9ybS1jb250cm9sXCIgbmFtZT1cImVtYWlsXCIgcGxhY2Vob2xkZXI9XCJWb3RyZSBFbWFpbFwiIHJlcXVpcmVkIC8+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvcm0tZ3JvdXAgbXQtM1wiPlxuICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPVwidGV4dFwiIGNsYXNzTmFtZT1cImZvcm0tY29udHJvbFwiIG5hbWU9XCJzdWJqZWN0XCIgcGxhY2Vob2xkZXI9XCJPYmpldFwiIHJlcXVpcmVkIC8+XG4gICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvcm0tZ3JvdXAgbXQtM1wiPlxuICAgICAgICAgICAgICAgIDx0ZXh0YXJlYSBjbGFzc05hbWU9XCJmb3JtLWNvbnRyb2xcIiBuYW1lPVwibWVzc2FnZVwiIHBsYWNlaG9sZGVyPVwiVm90cmUgTWVzc2FnZVwiIHJlcXVpcmVkPjwvdGV4dGFyZWE+XG4gICAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICAgIHsvKiDinIUgRmFrZSBzdWNjZXNzIG1lc3NhZ2UgKi99XG4gICAgICAgICAgICAgIHttZXNzYWdlU2VudCAmJiAoXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJhbGVydCBhbGVydC1zdWNjZXNzIGZhZGUtaW5cIj5cbiAgICAgICAgICAgICAgICAgIOKchSBWb3RyZSBtZXNzYWdlIGEgw6l0w6kgZW52b3nDqSBhdmVjIHN1Y2PDqHMgIVxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICApfVxuXG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGV4dC1jZW50ZXJcIj5cbiAgICAgICAgICAgICAgICA8YnV0dG9uIHR5cGU9XCJzdWJtaXRcIiBjbGFzc05hbWU9XCJidG4gYnRuLXByaW1hcnlcIj5FbnZveWVyIGxlIE1lc3NhZ2U8L2J1dHRvbj5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Zvcm0+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuICAgICAgPC9kaXY+XG5cbiAgICAgIHsvKiDwn5S5IENTUyB0byBtYWtlIHN1Y2Nlc3MgbWVzc2FnZSB2aXNpYmxlICovfVxuICAgICAgPHN0eWxlIGpzeD57YFxuICAgICAgICAuYWxlcnQge1xuICAgICAgICAgIG1hcmdpbi10b3A6IDE1cHg7XG4gICAgICAgICAgcGFkZGluZzogMTBweDtcbiAgICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogI2Q0ZWRkYTtcbiAgICAgICAgICBjb2xvcjogIzE1NTcyNDtcbiAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgICAgICAgdHJhbnNpdGlvbjogb3BhY2l0eSAwLjVzIGVhc2UtaW4tb3V0O1xuICAgICAgICB9XG4gICAgICAgIC5mYWRlLWluIHtcbiAgICAgICAgICBvcGFjaXR5OiAxO1xuICAgICAgICB9XG4gICAgICBgfTwvc3R5bGU+XG4gICAgPC9zZWN0aW9uPlxuICApO1xufTtcblxuZXhwb3J0IGRlZmF1bHQgQ29udGFjdDtcbiJdLCJuYW1lcyI6WyJ1c2VTdGF0ZSIsIkNvbnRhY3QiLCJtZXNzYWdlU2VudCIsInNldE1lc3NhZ2VTZW50IiwiaGFuZGxlRmFrZVN1Ym1pdCIsImUiLCJwcmV2ZW50RGVmYXVsdCIsInNldFRpbWVvdXQiLCJzZWN0aW9uIiwiaWQiLCJkaXYiLCJoMiIsInAiLCJpZnJhbWUiLCJzdHlsZSIsImJvcmRlciIsIndpZHRoIiwiaGVpZ2h0Iiwic3JjIiwiaSIsImg0IiwiYnIiLCJmb3JtIiwib25TdWJtaXQiLCJpbnB1dCIsInR5cGUiLCJuYW1lIiwicGxhY2Vob2xkZXIiLCJyZXF1aXJlZCIsInRleHRhcmVhIiwiYnV0dG9uIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./src/app/components/home/contact.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./src/app/components/home/departement.tsx":
+/*!*************************************************!*\
+  !*** ./src/app/components/home/departement.tsx ***!
+  \*************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\nconst departement = [\n    \"Cardiology\",\n    \"Neurology\",\n    \"Hepatology\",\n    \"Pediatrics\",\n    \"Eye Care\"\n];\nconst DepartementDetail = [\n    {\n        title: \"Mammographie 3D & Angio-Mammographie\",\n        paragraph: \"La mammographie 3D, combin\\xe9e \\xe0 une fonctionnalit\\xe9 exclusive sur nos machines haute d\\xe9finition, offre une efficacit\\xe9 diagnostique sup\\xe9rieure gr\\xe2ce \\xe0 une technologie d'IA innovante de traitement d'image. L'angio-Mammographie permet une imagerie du sein avec injection de produit de contraste permettant de d\\xe9masquer des anomalies subtiles pour un diagnostic pr\\xe9coce et pr\\xe9cis. \",\n        image: \"/img/departments-1.jpg\"\n    },\n    {\n        title: \"\\xc9chographie & \\xc9lastographie ShearWave\",\n        paragraph: \"L'\\xe9chographie est une m\\xe9thode d'imagerie douce et rapide, permettant d'observer en temps r\\xe9el les organes internes, les tissus mous, et de surveiller efficacement l'\\xe9tat de sant\\xe9 global. l'\\xe9lastographie shearWave est une fonctionalit\\xe9 unique sur notre syst\\xe9me permettant une sup\\xe9riorit\\xe9 diagnostique dans les cas les plus complexes. \",\n        image: \"/img/departments-2.jpg\"\n    },\n    {\n        title: \"Actes Interventionnels\",\n        paragraph: \"Il s'agit d'interventions percutan\\xe9es r\\xe9alis\\xe9es en ambulatoire, \\xe0 vis\\xe9e diagnostique, comme les biopsies, ou th\\xe9rapeutique, sous guidage \\xe9chographique ou scanner. En s\\xe9nologie, certains actes sont effectu\\xe9s dans le cadre du rep\\xe9rage pr\\xe9-th\\xe9rapeutique, tels que la pose de harpons et de clips sous contr\\xf4le \\xe9chographique ou mammographique, permettant d'identifier avec pr\\xe9cision les l\\xe9sions cibles avant le traitement.\",\n        image: \"/img/departments-3.jpg\"\n    },\n    {\n        title: \"Radiologie Standard\",\n        paragraph: \"La radiologie standard regroupe les examens d'imagerie essentiels comme les radiographies du thorax ou des articulations. Ce service permet une \\xe9valuation rapide et efficace des pathologies courantes.\",\n        image: \"/img/departments-4.jpg\"\n    },\n    {\n        title: \"Cone Beam\",\n        paragraph: \"Le Cone Beam est une technologie d'imagerie m\\xe9dicale utilis\\xe9e principalement pour examiner la dentition, les sinus et l'ossature maxillo-faciale. Il permet de r\\xe9aliser une \\xe9tude d\\xe9taill\\xe9e des structures en une seule acquisition, avec une irradiation g\\xe9n\\xe9ralement inf\\xe9rieure \\xe0 celle des scanners traditionnels, ce qui le rend particuli\\xe8rement utile pour diagnostiquer des pathologies dans ces zones.\",\n        image: \"/img/departments-5.jpg\"\n    },\n    {\n        title: \"IRM & Scanner\",\n        paragraph: \"Les examens d’IRM et de scanner offrent une imagerie m\\xe9dicale avanc\\xe9e, capable de d\\xe9tecter et de surveiller les pathologies les plus complexes pour une prise en charge optimale.\",\n        image: \"/img/departments-6.jpg\"\n    }\n];\nconst Departement = ()=>{\n    const [view, setView] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(0);\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        id: \"departments\",\n        className: \"departments\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"container\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"section-title\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                            children: \"D\\xe9partements\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                            lineNumber: 51,\n                            columnNumber: 13\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            children: \"D\\xe9couvrez nos d\\xe9partements d\\xe9di\\xe9s \\xe0 l'imagerie m\\xe9dicale de pointe, con\\xe7us pour r\\xe9pondre \\xe0 vos besoins de sant\\xe9 avec pr\\xe9cision et efficacit\\xe9. Notre \\xe9quipe d'experts utilise les derni\\xe8res technologies pour vous offrir des services personnalis\\xe9s et des diagnostics fiables. Chaque d\\xe9partement est sp\\xe9cialis\\xe9 pour garantir une prise en charge optimale et adapt\\xe9e \\xe0 chaque patient.\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                            lineNumber: 52,\n                            columnNumber: 13\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                    lineNumber: 50,\n                    columnNumber: 11\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"row gy-4\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"col-lg-3\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                                className: \"nav nav-tabs flex-column\",\n                                children: DepartementDetail.map((dep, index)=>/*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                        className: \"nav-item\",\n                                        onClick: ()=>setView(index),\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            className: `nav-link ${view === index ? \"active\" : \"\"} show`,\n                                            href: \"#tab-\" + index + 1,\n                                            children: dep.title\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                                            lineNumber: 59,\n                                            columnNumber: 19\n                                        }, undefined)\n                                    }, \"dep\", false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                                        lineNumber: 58,\n                                        columnNumber: 19\n                                    }, undefined))\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                                lineNumber: 56,\n                                columnNumber: 15\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                            lineNumber: 55,\n                            columnNumber: 13\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"col-lg-9\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"tab-content\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"tab-pane active show\",\n                                    id: \"tab-1\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"row gy-4\",\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                className: \"col-lg-8 details order-2 order-lg-1\",\n                                                children: [\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                                        children: DepartementDetail[view].title\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                                                        lineNumber: 69,\n                                                        columnNumber: 23\n                                                    }, undefined),\n                                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                                        children: DepartementDetail[view].paragraph\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                                                        lineNumber: 71,\n                                                        columnNumber: 23\n                                                    }, undefined)\n                                                ]\n                                            }, void 0, true, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                                                lineNumber: 68,\n                                                columnNumber: 21\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                                className: \"col-lg-4 text-center order-1 order-lg-2\",\n                                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                                    width: \"306\",\n                                                    height: \"267\",\n                                                    src: DepartementDetail[view].image,\n                                                    alt: \"\",\n                                                    className: \"Image -fluid\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                                                    lineNumber: 74,\n                                                    columnNumber: 23\n                                                }, undefined)\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                                                lineNumber: 73,\n                                                columnNumber: 21\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                                        lineNumber: 67,\n                                        columnNumber: 19\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                                    lineNumber: 66,\n                                    columnNumber: 17\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                                lineNumber: 65,\n                                columnNumber: 15\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                            lineNumber: 64,\n                            columnNumber: 13\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n                    lineNumber: 54,\n                    columnNumber: 11\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n            lineNumber: 49,\n            columnNumber: 9\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx\",\n        lineNumber: 48,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Departement);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9kZXBhcnRlbWVudC50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFDOEI7QUFDRztBQUVqQyxNQUFNRSxjQUF3QjtJQUFDO0lBQWE7SUFBWTtJQUFhO0lBQWE7Q0FBVztBQUM3RixNQUFNQyxvQkFBcUU7SUFDekU7UUFDRUMsT0FBTTtRQUVOQyxXQUFVO1FBQ1ZDLE9BQU07SUFDUjtJQUNBO1FBQ0VGLE9BQU07UUFFTkMsV0FBVTtRQUNWQyxPQUFNO0lBQ1I7SUFDQTtRQUNFRixPQUFNO1FBRU5DLFdBQVU7UUFDVkMsT0FBTTtJQUNSO0lBQ0E7UUFDRUYsT0FBTTtRQUVOQyxXQUFVO1FBQ1ZDLE9BQU07SUFDUjtJQUNBO1FBQ0VGLE9BQU07UUFFTkMsV0FBVTtRQUNWQyxPQUFNO0lBQ1I7SUFDQTtRQUNFRixPQUFNO1FBRU5DLFdBQVU7UUFDVkMsT0FBTTtJQUNSO0NBRUQ7QUFDRCxNQUFNQyxjQUFjO0lBQ2hCLE1BQU0sQ0FBQ0MsTUFBS0MsUUFBUSxHQUFHUiwrQ0FBUUEsQ0FBQztJQUNoQyxxQkFDSSw4REFBQ1M7UUFBUUMsSUFBRztRQUFjQyxXQUFVO2tCQUNwQyw0RUFBQ0M7WUFBSUQsV0FBVTs7OEJBQ2IsOERBQUNDO29CQUFJRCxXQUFVOztzQ0FDYiw4REFBQ0U7c0NBQUc7Ozs7OztzQ0FDSiw4REFBQ0M7c0NBQUU7Ozs7Ozs7Ozs7Ozs4QkFFTCw4REFBQ0Y7b0JBQUlELFdBQVU7O3NDQUNiLDhEQUFDQzs0QkFBSUQsV0FBVTtzQ0FDYiw0RUFBQ0k7Z0NBQUdKLFdBQVU7MENBQ2pCVCxrQkFBa0JjLEdBQUcsQ0FBQyxDQUFDQyxLQUFJQyxzQkFDcEIsOERBQUNDO3dDQUFHUixXQUFVO3dDQUFxQlMsU0FBUyxJQUFJWixRQUFRVTtrREFDeEQsNEVBQUNHOzRDQUFFVixXQUFXLENBQUMsU0FBUyxFQUFFSixTQUFTVyxRQUFPLFdBQVcsR0FBSSxLQUFLLENBQUM7NENBQUVJLE1BQU0sVUFBUUosUUFBTTtzREFBS0QsSUFBSWQsS0FBSzs7Ozs7O3VDQUR0RTs7Ozs7Ozs7Ozs7Ozs7O3NDQU1uQyw4REFBQ1M7NEJBQUlELFdBQVU7c0NBQ2IsNEVBQUNDO2dDQUFJRCxXQUFVOzBDQUNiLDRFQUFDQztvQ0FBSUQsV0FBVTtvQ0FBdUJELElBQUc7OENBQ3ZDLDRFQUFDRTt3Q0FBSUQsV0FBVTs7MERBQ2IsOERBQUNDO2dEQUFJRCxXQUFVOztrRUFDYiw4REFBQ1k7a0VBQUlyQixpQkFBaUIsQ0FBQ0ssS0FBSyxDQUFDSixLQUFLOzs7Ozs7a0VBRWxDLDhEQUFDVztrRUFBR1osaUJBQWlCLENBQUNLLEtBQUssQ0FBQ0gsU0FBUzs7Ozs7Ozs7Ozs7OzBEQUV2Qyw4REFBQ1E7Z0RBQUlELFdBQVU7MERBQ2IsNEVBQUNaLG1EQUFLQTtvREFBRXlCLE9BQU07b0RBQU1DLFFBQU87b0RBQUtDLEtBQUt4QixpQkFBaUIsQ0FBQ0ssS0FBSyxDQUFDRixLQUFLO29EQUFFc0IsS0FBSTtvREFBR2hCLFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFVM0c7QUFFQSxpRUFBZUwsV0FBV0EsRUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL21lZGlsYWItcHJvLy4vc3JjL2FwcC9jb21wb25lbnRzL2hvbWUvZGVwYXJ0ZW1lbnQudHN4PzE4N2UiXSwic291cmNlc0NvbnRlbnQiOlsiXCJ1c2UgY2xpZW50XCJcbmltcG9ydCBJbWFnZSBmcm9tIFwibmV4dC9pbWFnZVwiXG5pbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xudHlwZSBEZXBhcnRlbWVudCA9IHt0aXRsZTpzdHJpbmcsaXRhbGljUGFyYTpzdHJpbmcscGFyYWdyYXBoOnN0cmluZyxpbWFnZTpzdHJpbmd9XG5jb25zdCBkZXBhcnRlbWVudCA6c3RyaW5nW10gPSBbXCJDYXJkaW9sb2d5XCIsXCJOZXVyb2xvZ3lcIixcIkhlcGF0b2xvZ3lcIixcIlBlZGlhdHJpY3NcIixcIkV5ZSBDYXJlXCJdXG5jb25zdCBEZXBhcnRlbWVudERldGFpbCA6IHt0aXRsZTpzdHJpbmcscGFyYWdyYXBoOnN0cmluZyxpbWFnZTpzdHJpbmd9W10gPSBbXG4gIHsgXG4gICAgdGl0bGU6XCJNYW1tb2dyYXBoaWUgM0QgJiBBbmdpby1NYW1tb2dyYXBoaWVcIixcbiAgICBcbiAgICBwYXJhZ3JhcGg6XCJMYSBtYW1tb2dyYXBoaWUgM0QsIGNvbWJpbsOpZSDDoCB1bmUgZm9uY3Rpb25uYWxpdMOpIGV4Y2x1c2l2ZSBzdXIgbm9zIG1hY2hpbmVzIGhhdXRlIGTDqWZpbml0aW9uLCBvZmZyZSB1bmUgZWZmaWNhY2l0w6kgZGlhZ25vc3RpcXVlIHN1cMOpcmlldXJlIGdyw6JjZSDDoCB1bmUgdGVjaG5vbG9naWUgZCdJQSBpbm5vdmFudGUgZGUgdHJhaXRlbWVudCBkJ2ltYWdlLiBMJ2FuZ2lvLU1hbW1vZ3JhcGhpZSBwZXJtZXQgdW5lIGltYWdlcmllIGR1IHNlaW4gYXZlYyBpbmplY3Rpb24gZGUgcHJvZHVpdCBkZSBjb250cmFzdGUgcGVybWV0dGFudCBkZSBkw6ltYXNxdWVyIGRlcyBhbm9tYWxpZXMgc3VidGlsZXMgcG91ciB1biBkaWFnbm9zdGljIHByw6ljb2NlIGV0IHByw6ljaXMuIFwiLFxuICAgIGltYWdlOlwiL2ltZy9kZXBhcnRtZW50cy0xLmpwZ1wiXG4gIH0sXG4gIHsgXG4gICAgdGl0bGU6XCLDiWNob2dyYXBoaWUgJiDDiWxhc3RvZ3JhcGhpZSBTaGVhcldhdmVcIixcbiAgICBcbiAgICBwYXJhZ3JhcGg6XCJMJ8OpY2hvZ3JhcGhpZSBlc3QgdW5lIG3DqXRob2RlIGQnaW1hZ2VyaWUgZG91Y2UgZXQgcmFwaWRlLCBwZXJtZXR0YW50IGQnb2JzZXJ2ZXIgZW4gdGVtcHMgcsOpZWwgbGVzIG9yZ2FuZXMgaW50ZXJuZXMsIGxlcyB0aXNzdXMgbW91cywgZXQgZGUgc3VydmVpbGxlciBlZmZpY2FjZW1lbnQgbCfDqXRhdCBkZSBzYW50w6kgZ2xvYmFsLiBsJ8OpbGFzdG9ncmFwaGllIHNoZWFyV2F2ZSBlc3QgdW5lIGZvbmN0aW9uYWxpdMOpIHVuaXF1ZSBzdXIgbm90cmUgc3lzdMOpbWUgcGVybWV0dGFudCB1bmUgc3Vww6lyaW9yaXTDqSBkaWFnbm9zdGlxdWUgZGFucyBsZXMgY2FzIGxlcyBwbHVzIGNvbXBsZXhlcy4gXCIsXG4gICAgaW1hZ2U6XCIvaW1nL2RlcGFydG1lbnRzLTIuanBnXCJcbiAgfSxcbiAgeyBcbiAgICB0aXRsZTpcIkFjdGVzIEludGVydmVudGlvbm5lbHNcIixcbiAgICBcbiAgICBwYXJhZ3JhcGg6XCJJbCBzJ2FnaXQgZCdpbnRlcnZlbnRpb25zIHBlcmN1dGFuw6llcyByw6lhbGlzw6llcyBlbiBhbWJ1bGF0b2lyZSwgw6Agdmlzw6llIGRpYWdub3N0aXF1ZSwgY29tbWUgbGVzIGJpb3BzaWVzLCBvdSB0aMOpcmFwZXV0aXF1ZSwgc291cyBndWlkYWdlIMOpY2hvZ3JhcGhpcXVlIG91IHNjYW5uZXIuIEVuIHPDqW5vbG9naWUsIGNlcnRhaW5zIGFjdGVzIHNvbnQgZWZmZWN0dcOpcyBkYW5zIGxlIGNhZHJlIGR1IHJlcMOpcmFnZSBwcsOpLXRow6lyYXBldXRpcXVlLCB0ZWxzIHF1ZSBsYSBwb3NlIGRlIGhhcnBvbnMgZXQgZGUgY2xpcHMgc291cyBjb250csO0bGUgw6ljaG9ncmFwaGlxdWUgb3UgbWFtbW9ncmFwaGlxdWUsIHBlcm1ldHRhbnQgZCdpZGVudGlmaWVyIGF2ZWMgcHLDqWNpc2lvbiBsZXMgbMOpc2lvbnMgY2libGVzIGF2YW50IGxlIHRyYWl0ZW1lbnQuXCIsXG4gICAgaW1hZ2U6XCIvaW1nL2RlcGFydG1lbnRzLTMuanBnXCJcbiAgfSxcbiAgeyBcbiAgICB0aXRsZTpcIlJhZGlvbG9naWUgU3RhbmRhcmRcIixcbiAgICBcbiAgICBwYXJhZ3JhcGg6XCJMYSByYWRpb2xvZ2llIHN0YW5kYXJkIHJlZ3JvdXBlIGxlcyBleGFtZW5zIGQnaW1hZ2VyaWUgZXNzZW50aWVscyBjb21tZSBsZXMgcmFkaW9ncmFwaGllcyBkdSB0aG9yYXggb3UgZGVzIGFydGljdWxhdGlvbnMuIENlIHNlcnZpY2UgcGVybWV0IHVuZSDDqXZhbHVhdGlvbiByYXBpZGUgZXQgZWZmaWNhY2UgZGVzIHBhdGhvbG9naWVzIGNvdXJhbnRlcy5cIixcbiAgICBpbWFnZTpcIi9pbWcvZGVwYXJ0bWVudHMtNC5qcGdcIlxuICB9LFxuICB7IFxuICAgIHRpdGxlOlwiQ29uZSBCZWFtXCIsXG4gICBcbiAgICBwYXJhZ3JhcGg6XCJMZSBDb25lIEJlYW0gZXN0IHVuZSB0ZWNobm9sb2dpZSBkJ2ltYWdlcmllIG3DqWRpY2FsZSB1dGlsaXPDqWUgcHJpbmNpcGFsZW1lbnQgcG91ciBleGFtaW5lciBsYSBkZW50aXRpb24sIGxlcyBzaW51cyBldCBsJ29zc2F0dXJlIG1heGlsbG8tZmFjaWFsZS4gSWwgcGVybWV0IGRlIHLDqWFsaXNlciB1bmUgw6l0dWRlIGTDqXRhaWxsw6llIGRlcyBzdHJ1Y3R1cmVzIGVuIHVuZSBzZXVsZSBhY3F1aXNpdGlvbiwgYXZlYyB1bmUgaXJyYWRpYXRpb24gZ8OpbsOpcmFsZW1lbnQgaW5mw6lyaWV1cmUgw6AgY2VsbGUgZGVzIHNjYW5uZXJzIHRyYWRpdGlvbm5lbHMsIGNlIHF1aSBsZSByZW5kIHBhcnRpY3VsacOocmVtZW50IHV0aWxlIHBvdXIgZGlhZ25vc3RpcXVlciBkZXMgcGF0aG9sb2dpZXMgZGFucyBjZXMgem9uZXMuXCIsXG4gICAgaW1hZ2U6XCIvaW1nL2RlcGFydG1lbnRzLTUuanBnXCJcbiAgfSxcbiAgeyBcbiAgICB0aXRsZTpcIklSTSAmIFNjYW5uZXJcIixcbiAgICBcbiAgICBwYXJhZ3JhcGg6XCJMZXMgZXhhbWVucyBk4oCZSVJNIGV0IGRlIHNjYW5uZXIgb2ZmcmVudCB1bmUgaW1hZ2VyaWUgbcOpZGljYWxlIGF2YW5jw6llLCBjYXBhYmxlIGRlIGTDqXRlY3RlciBldCBkZSBzdXJ2ZWlsbGVyIGxlcyBwYXRob2xvZ2llcyBsZXMgcGx1cyBjb21wbGV4ZXMgcG91ciB1bmUgcHJpc2UgZW4gY2hhcmdlIG9wdGltYWxlLlwiLFxuICAgIGltYWdlOlwiL2ltZy9kZXBhcnRtZW50cy02LmpwZ1wiXG4gIH1cblxuXVxuY29uc3QgRGVwYXJ0ZW1lbnQgPSAoKSA9PiB7XG4gICAgY29uc3QgW3ZpZXcsc2V0Vmlld10gPSB1c2VTdGF0ZSgwKVxuICAgIHJldHVybiAoXG4gICAgICAgIDxzZWN0aW9uIGlkPVwiZGVwYXJ0bWVudHNcIiBjbGFzc05hbWU9XCJkZXBhcnRtZW50c1wiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2VjdGlvbi10aXRsZVwiPlxuICAgICAgICAgICAgPGgyPkTDqXBhcnRlbWVudHM8L2gyPlxuICAgICAgICAgICAgPHA+RMOpY291dnJleiBub3MgZMOpcGFydGVtZW50cyBkw6lkacOpcyDDoCBsJ2ltYWdlcmllIG3DqWRpY2FsZSBkZSBwb2ludGUsIGNvbsOndXMgcG91ciByw6lwb25kcmUgw6Agdm9zIGJlc29pbnMgZGUgc2FudMOpIGF2ZWMgcHLDqWNpc2lvbiBldCBlZmZpY2FjaXTDqS4gTm90cmUgw6lxdWlwZSBkJ2V4cGVydHMgdXRpbGlzZSBsZXMgZGVybmnDqHJlcyB0ZWNobm9sb2dpZXMgcG91ciB2b3VzIG9mZnJpciBkZXMgc2VydmljZXMgcGVyc29ubmFsaXPDqXMgZXQgZGVzIGRpYWdub3N0aWNzIGZpYWJsZXMuIENoYXF1ZSBkw6lwYXJ0ZW1lbnQgZXN0IHNww6ljaWFsaXPDqSBwb3VyIGdhcmFudGlyIHVuZSBwcmlzZSBlbiBjaGFyZ2Ugb3B0aW1hbGUgZXQgYWRhcHTDqWUgw6AgY2hhcXVlIHBhdGllbnQuPC9wPlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93IGd5LTRcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTNcIj5cbiAgICAgICAgICAgICAgPHVsIGNsYXNzTmFtZT1cIm5hdiBuYXYtdGFicyBmbGV4LWNvbHVtblwiPlxuICAgICAgICAgIHtEZXBhcnRlbWVudERldGFpbC5tYXAoKGRlcCxpbmRleCk9PiAoXG4gICAgICAgICAgICAgICAgICA8bGkgY2xhc3NOYW1lPVwibmF2LWl0ZW1cIiBrZXk9XCJkZXBcIiBvbkNsaWNrPXsoKT0+c2V0VmlldyhpbmRleCl9PlxuICAgICAgICAgICAgICAgICAgPGEgY2xhc3NOYW1lPXtgbmF2LWxpbmsgJHt2aWV3ID09PSBpbmRleCA/XCJhY3RpdmVcIiA6IFwiXCIgfSBzaG93YH0gaHJlZj17XCIjdGFiLVwiK2luZGV4KzF9ID57ZGVwLnRpdGxlfTwvYT5cbiAgICAgICAgICAgICAgICA8L2xpPlxuICAgICAgICAgICkpfVxuICAgICAgICAgICAgICA8L3VsPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy05XCI+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGFiLWNvbnRlbnRcIj5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRhYi1wYW5lIGFjdGl2ZSBzaG93XCIgaWQ9XCJ0YWItMVwiPlxuICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgZ3ktNFwiPlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy04IGRldGFpbHMgb3JkZXItMiBvcmRlci1sZy0xXCI+XG4gICAgICAgICAgICAgICAgICAgICAgPGgzPntEZXBhcnRlbWVudERldGFpbFt2aWV3XS50aXRsZX08L2gzPlxuICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgPHA+e0RlcGFydGVtZW50RGV0YWlsW3ZpZXddLnBhcmFncmFwaH08L3A+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy00IHRleHQtY2VudGVyIG9yZGVyLTEgb3JkZXItbGctMlwiPlxuICAgICAgICAgICAgICAgICAgICAgIDxJbWFnZSAgd2lkdGg9XCIzMDZcIiBoZWlnaHQ9XCIyNjdcInNyYz17RGVwYXJ0ZW1lbnREZXRhaWxbdmlld10uaW1hZ2V9IGFsdD1cIlwiIGNsYXNzTmFtZT1cIkltYWdlIC1mbHVpZFwiLz5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L3NlY3Rpb24+XG4gICAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgRGVwYXJ0ZW1lbnQiXSwibmFtZXMiOlsiSW1hZ2UiLCJ1c2VTdGF0ZSIsImRlcGFydGVtZW50IiwiRGVwYXJ0ZW1lbnREZXRhaWwiLCJ0aXRsZSIsInBhcmFncmFwaCIsImltYWdlIiwiRGVwYXJ0ZW1lbnQiLCJ2aWV3Iiwic2V0VmlldyIsInNlY3Rpb24iLCJpZCIsImNsYXNzTmFtZSIsImRpdiIsImgyIiwicCIsInVsIiwibWFwIiwiZGVwIiwiaW5kZXgiLCJsaSIsIm9uQ2xpY2siLCJhIiwiaHJlZiIsImgzIiwid2lkdGgiLCJoZWlnaHQiLCJzcmMiLCJhbHQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(ssr)/./src/app/components/home/departement.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./src/app/components/home/faq.tsx":
+/*!*****************************************!*\
+  !*** ./src/app/components/home/faq.tsx ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ \"(ssr)/./node_modules/@fortawesome/free-solid-svg-icons/index.mjs\");\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ \"(ssr)/./node_modules/@fortawesome/react-fontawesome/index.js\");\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-accessible-accordion */ \"(ssr)/./node_modules/react-accessible-accordion/dist/umd/index.js\");\n/* harmony import */ var react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var react_accessible_accordion_dist_fancy_example_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-accessible-accordion/dist/fancy-example.css */ \"(ssr)/./node_modules/react-accessible-accordion/dist/fancy-example.css\");\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\n// Demo styles, see 'Styles' section below for some notes on use.\n\nconst Faq = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        id: \"faq\",\n        className: \"faq section-bg\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"container\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"section-title\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                            children: \"Questions Fr\\xe9quemment Pos\\xe9es\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                            lineNumber: 20,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            children: \"Nous r\\xe9pondons \\xe0 vos interrogations les plus courantes concernant les examens de radiologie, d'imagerie de la femme et de s\\xe9nologie. N’h\\xe9sitez pas \\xe0 nous contacter pour toute question suppl\\xe9mentaire ou pour prendre rendez-vous.\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                            lineNumber: 21,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                    lineNumber: 19,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"faq-list\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.Accordion, {\n                        style: {\n                            border: \"none\"\n                        },\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItem, {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemHeading, {\n                                        style: {\n                                            border: \"none\"\n                                        },\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemButton, {\n                                            className: \"accordion-item\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                                                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faQuestionCircle,\n                                                    \"aria-hidden\": \"true\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 31,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                    style: {\n                                                        marginLeft: \"5px\",\n                                                        color: \"black\",\n                                                        fontWeight: \"600\",\n                                                        fontSize: \"16px\"\n                                                    },\n                                                    children: \" \\xc0 partir de quel \\xe2ge doit-on faire une mammographie de d\\xe9pistage ?\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 35,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-chevron-down icon-show\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 36,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-chevron-up icon-close\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 37,\n                                                    columnNumber: 19\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                            lineNumber: 30,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                        lineNumber: 29,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemPanel, {\n                                        style: {\n                                            background: \"white\"\n                                        },\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                            children: \"La mammographie de d\\xe9pistage est g\\xe9n\\xe9ralement recommand\\xe9e \\xe0 partir de l'\\xe2ge de 40 ans, m\\xeame en l'absence de sympt\\xf4mes. Toutefois, si vous pr\\xe9sentez des ant\\xe9c\\xe9dents familiaux de cancer du sein, une consultation pr\\xe9coce est conseill\\xe9e pour \\xe9valuer le risque et adapter le suivi.\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                            lineNumber: 43,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                        lineNumber: 40,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                lineNumber: 28,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItem, {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemHeading, {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemButton, {\n                                            className: \"accordion-item\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                                                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faQuestionCircle,\n                                                    \"aria-hidden\": \"true\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 54,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                \" \",\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                    style: {\n                                                        marginLeft: \"5px\",\n                                                        color: \"black\",\n                                                        fontWeight: \"600\",\n                                                        fontSize: \"16px\"\n                                                    },\n                                                    children: \"Une \\xe9chographie mammaire peut-elle remplacer une mammographie ?\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 58,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-chevron-down icon-show\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 59,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-chevron-up icon-close\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 60,\n                                                    columnNumber: 19\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                            lineNumber: 53,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                        lineNumber: 52,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemPanel, {\n                                        style: {\n                                            background: \"white\"\n                                        },\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                            children: \"Non, l'\\xe9chographie mammaire ne remplace pas la mammographie. Ce sont des examens compl\\xe9mentaires. La mammographie reste le moyen principal de d\\xe9pistage du cancer du sein, tandis que l'\\xe9chographie est utilis\\xe9e pour approfondir l'analyse en cas de seins denses ou d'anomalie d\\xe9tect\\xe9e.\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                            lineNumber: 66,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                        lineNumber: 63,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                lineNumber: 51,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItem, {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemHeading, {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemButton, {\n                                            className: \"accordion-item\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                                                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faQuestionCircle,\n                                                    \"aria-hidden\": \"true\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 75,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                    style: {\n                                                        marginLeft: \"5px\",\n                                                        color: \"black\",\n                                                        fontWeight: \"600\",\n                                                        fontSize: \"16px\"\n                                                    },\n                                                    children: \"Quels sont les signes qui doivent m’alerter pour consulter en s\\xe9nologie ?\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 79,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-chevron-down icon-show\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 80,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-chevron-up icon-close\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 81,\n                                                    columnNumber: 19\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                            lineNumber: 74,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                        lineNumber: 73,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemPanel, {\n                                        style: {\n                                            background: \"white\"\n                                        },\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                            children: \"Vous devriez consulter si vous remarquez : Une boule ou une masse dans le sein; Un \\xe9coulement anormal du mamelon; Une modification de la forme ou de la taille du sein; Une douleur persistante ou des changements de la peau (rougeur, r\\xe9traction).\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                            lineNumber: 88,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                        lineNumber: 85,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                lineNumber: 72,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItem, {\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemHeading, {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemButton, {\n                                            className: \"accordion-item\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                                                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faQuestionCircle,\n                                                    \"aria-hidden\": \"true\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 103,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                \" \",\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                    style: {\n                                                        marginLeft: \"5px\",\n                                                        color: \"black\",\n                                                        fontWeight: \"600\",\n                                                        fontSize: \"16px\"\n                                                    },\n                                                    children: \"L'exposition aux rayons X d'une mammographie est-elle dangereuse ?\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 107,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-chevron-down icon-show\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 108,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-chevron-up icon-close\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 109,\n                                                    columnNumber: 19\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                            lineNumber: 102,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                        lineNumber: 101,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemPanel, {\n                                        style: {\n                                            background: \"white\"\n                                        },\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                            children: \"La dose de rayons X utilis\\xe9e lors d’une mammographie est tr\\xe8s faible et sans danger pour la plupart des femmes. Les b\\xe9n\\xe9fices du d\\xe9pistage pr\\xe9coce du cancer du sein surpassent largement les risques li\\xe9s \\xe0 cette exposition minime.\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                            lineNumber: 116,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                        lineNumber: 113,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                lineNumber: 100,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItem, {\n                                style: {\n                                    border: \"none\"\n                                },\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemHeading, {\n                                        style: {\n                                            border: \"none\"\n                                        },\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemButton, {\n                                            className: \"accordion-item\",\n                                            style: {\n                                                border: \"none\"\n                                            },\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                                                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__.faQuestionCircle,\n                                                    \"aria-hidden\": \"true\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 125,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                                    style: {\n                                                        marginLeft: \"5px\",\n                                                        color: \"#343a40\",\n                                                        fontWeight: \"600\",\n                                                        fontSize: \"16px\"\n                                                    },\n                                                    children: \"Doit-on prendre des pr\\xe9cautions particuli\\xe8res avant une IRM mammaire ?\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 129,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-chevron-down icon-show\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 130,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-chevron-up icon-close\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                                    lineNumber: 131,\n                                                    columnNumber: 19\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                            lineNumber: 124,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                        lineNumber: 123,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemPanel, {\n                                        style: {\n                                            background: \"white\"\n                                        },\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                            children: \"Oui, pour une IRM mammaire, il est conseill\\xe9 de : \\xc9viter de porter des objets m\\xe9talliques; Informer votre radiologue si vous \\xeates enceinte ou si vous avez des implants m\\xe9talliques; Planifier l’examen entre le 7ᵉ et le 14ᵉ jour du cycle menstruel pour une meilleure pr\\xe9cision.\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                            lineNumber: 138,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                        lineNumber: 135,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                                lineNumber: 122,\n                                columnNumber: 13\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                        lineNumber: 27,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n                    lineNumber: 26,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n            lineNumber: 18,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx\",\n        lineNumber: 17,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Faq);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9mYXEudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFDcUU7QUFDSjtBQU83QjtBQUVwQyxpRUFBaUU7QUFDTjtBQUUzRCxNQUFNTyxNQUFNO0lBQ1YscUJBQ0UsOERBQUNDO1FBQVFDLElBQUc7UUFBTUMsV0FBVTtrQkFDMUIsNEVBQUNDO1lBQUlELFdBQVU7OzhCQUNiLDhEQUFDQztvQkFBSUQsV0FBVTs7c0NBQ2IsOERBQUNFO3NDQUFHOzs7Ozs7c0NBQ0osOERBQUNDO3NDQUFFOzs7Ozs7Ozs7Ozs7OEJBS0wsOERBQUNGO29CQUFJRCxXQUFVOzhCQUNiLDRFQUFDUixpRUFBU0E7d0JBQUNZLE9BQU87NEJBQUNDLFFBQU87d0JBQU07OzBDQUM5Qiw4REFBQ1oscUVBQWFBOztrREFDWiw4REFBQ0MsNEVBQW9CQTt3Q0FBQ1UsT0FBTzs0Q0FBQ0MsUUFBTzt3Q0FBTTtrREFDekMsNEVBQUNWLDJFQUFtQkE7NENBQUNLLFdBQVU7OzhEQUM3Qiw4REFBQ1QsMkVBQWVBO29EQUNkZSxNQUFNaEIsK0VBQWdCQTtvREFDdEJpQixlQUFZOzs7Ozs7OERBRWQsOERBQUNDO29EQUFLSixPQUFPO3dEQUFDSyxZQUFXO3dEQUFNQyxPQUFNO3dEQUFRQyxZQUFXO3dEQUFNQyxVQUFTO29EQUFNOzhEQUFHOzs7Ozs7OERBQ2hGLDhEQUFDQztvREFBRWIsV0FBVTs7Ozs7OzhEQUNiLDhEQUFDYTtvREFBRWIsV0FBVTs7Ozs7Ozs7Ozs7Ozs7Ozs7a0RBR2pCLDhEQUFDSiwwRUFBa0JBO3dDQUNuQlEsT0FBTzs0Q0FBQ1UsWUFBVzt3Q0FBTztrREFFeEIsNEVBQUNYO3NEQUFFOzs7Ozs7Ozs7Ozs7Ozs7OzswQ0FRUCw4REFBQ1YscUVBQWFBOztrREFDWiw4REFBQ0MsNEVBQW9CQTtrREFDbkIsNEVBQUNDLDJFQUFtQkE7NENBQUNLLFdBQVU7OzhEQUM3Qiw4REFBQ1QsMkVBQWVBO29EQUNkZSxNQUFNaEIsK0VBQWdCQTtvREFDdEJpQixlQUFZOzs7Ozs7Z0RBQ007OERBQ3BCLDhEQUFDQztvREFBS0osT0FBTzt3REFBQ0ssWUFBVzt3REFBTUMsT0FBTTt3REFBUUMsWUFBVzt3REFBTUMsVUFBUztvREFBTTs4REFBRzs7Ozs7OzhEQUNoRiw4REFBQ0M7b0RBQUViLFdBQVU7Ozs7Ozs4REFDYiw4REFBQ2E7b0RBQUViLFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7O2tEQUdqQiw4REFBQ0osMEVBQWtCQTt3Q0FDbkJRLE9BQU87NENBQUNVLFlBQVc7d0NBQU87a0RBRXhCLDRFQUFDWDtzREFBRTs7Ozs7Ozs7Ozs7Ozs7Ozs7MENBTVAsOERBQUNWLHFFQUFhQTs7a0RBQ1osOERBQUNDLDRFQUFvQkE7a0RBQ25CLDRFQUFDQywyRUFBbUJBOzRDQUFDSyxXQUFVOzs4REFDN0IsOERBQUNULDJFQUFlQTtvREFDZGUsTUFBTWhCLCtFQUFnQkE7b0RBQ3RCaUIsZUFBWTs7Ozs7OzhEQUVkLDhEQUFDQztvREFBS0osT0FBTzt3REFBQ0ssWUFBVzt3REFBTUMsT0FBTTt3REFBUUMsWUFBVzt3REFBTUMsVUFBUztvREFBTTs4REFBRzs7Ozs7OzhEQUNoRiw4REFBQ0M7b0RBQUViLFdBQVU7Ozs7Ozs4REFDYiw4REFBQ2E7b0RBQUViLFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7O2tEQUlqQiw4REFBQ0osMEVBQWtCQTt3Q0FDbkJRLE9BQU87NENBQUNVLFlBQVc7d0NBQU87a0RBRXhCLDRFQUFDWDtzREFBRTs7Ozs7Ozs7Ozs7Ozs7Ozs7MENBWVAsOERBQUNWLHFFQUFhQTs7a0RBQ1osOERBQUNDLDRFQUFvQkE7a0RBQ25CLDRFQUFDQywyRUFBbUJBOzRDQUFDSyxXQUFVOzs4REFDN0IsOERBQUNULDJFQUFlQTtvREFDZGUsTUFBTWhCLCtFQUFnQkE7b0RBQ3RCaUIsZUFBWTs7Ozs7O2dEQUNNOzhEQUNwQiw4REFBQ0M7b0RBQUtKLE9BQU87d0RBQUNLLFlBQVc7d0RBQU1DLE9BQU07d0RBQVFDLFlBQVc7d0RBQU1DLFVBQVM7b0RBQU07OERBQUc7Ozs7Ozs4REFDaEYsOERBQUNDO29EQUFFYixXQUFVOzs7Ozs7OERBQ2IsOERBQUNhO29EQUFFYixXQUFVOzs7Ozs7Ozs7Ozs7Ozs7OztrREFJakIsOERBQUNKLDBFQUFrQkE7d0NBQ25CUSxPQUFPOzRDQUFDVSxZQUFXO3dDQUFPO2tEQUV4Qiw0RUFBQ1g7c0RBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7OzBDQU1QLDhEQUFDVixxRUFBYUE7Z0NBQUNXLE9BQU87b0NBQUNDLFFBQU87Z0NBQU07O2tEQUNsQyw4REFBQ1gsNEVBQW9CQTt3Q0FBQ1UsT0FBTzs0Q0FBQ0MsUUFBTzt3Q0FBTTtrREFDekMsNEVBQUNWLDJFQUFtQkE7NENBQUNLLFdBQVU7NENBQWlCSSxPQUFPO2dEQUFDQyxRQUFPOzRDQUFNOzs4REFDbkUsOERBQUNkLDJFQUFlQTtvREFDZGUsTUFBTWhCLCtFQUFnQkE7b0RBQ3RCaUIsZUFBWTs7Ozs7OzhEQUVkLDhEQUFDQztvREFBS0osT0FBTzt3REFBQ0ssWUFBVzt3REFBTUMsT0FBTTt3REFBVUMsWUFBVzt3REFBTUMsVUFBUztvREFBTTs4REFBRzs7Ozs7OzhEQUNsRiw4REFBQ0M7b0RBQUViLFdBQVU7Ozs7Ozs4REFDYiw4REFBQ2E7b0RBQUViLFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7O2tEQUlqQiw4REFBQ0osMEVBQWtCQTt3Q0FDakJRLE9BQU87NENBQUNVLFlBQVc7d0NBQU87a0RBRTFCLDRFQUFDWDtzREFBRTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBZW5CO0FBRUEsaUVBQWVOLEdBQUdBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tZWRpbGFiLXByby8uL3NyYy9hcHAvY29tcG9uZW50cy9ob21lL2ZhcS50c3g/ODlkNyJdLCJzb3VyY2VzQ29udGVudCI6WyJcInVzZSBjbGllbnRcIlxuaW1wb3J0IHsgZmFRdWVzdGlvbkNpcmNsZSB9IGZyb20gXCJAZm9ydGF3ZXNvbWUvZnJlZS1zb2xpZC1zdmctaWNvbnNcIjtcbmltcG9ydCB7IEZvbnRBd2Vzb21lSWNvbiB9IGZyb20gXCJAZm9ydGF3ZXNvbWUvcmVhY3QtZm9udGF3ZXNvbWVcIjtcbmltcG9ydCB7XG4gIEFjY29yZGlvbixcbiAgQWNjb3JkaW9uSXRlbSxcbiAgQWNjb3JkaW9uSXRlbUhlYWRpbmcsXG4gIEFjY29yZGlvbkl0ZW1CdXR0b24sXG4gIEFjY29yZGlvbkl0ZW1QYW5lbCxcbn0gZnJvbSBcInJlYWN0LWFjY2Vzc2libGUtYWNjb3JkaW9uXCI7XG5cbi8vIERlbW8gc3R5bGVzLCBzZWUgJ1N0eWxlcycgc2VjdGlvbiBiZWxvdyBmb3Igc29tZSBub3RlcyBvbiB1c2UuXG5pbXBvcnQgXCJyZWFjdC1hY2Nlc3NpYmxlLWFjY29yZGlvbi9kaXN0L2ZhbmN5LWV4YW1wbGUuY3NzXCI7XG5cbmNvbnN0IEZhcSA9ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8c2VjdGlvbiBpZD1cImZhcVwiIGNsYXNzTmFtZT1cImZhcSBzZWN0aW9uLWJnXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNlY3Rpb24tdGl0bGVcIj5cbiAgICAgICAgICA8aDI+UXVlc3Rpb25zIEZyw6lxdWVtbWVudCBQb3PDqWVzPC9oMj5cbiAgICAgICAgICA8cD5cbiAgICAgICAgICBOb3VzIHLDqXBvbmRvbnMgw6Agdm9zIGludGVycm9nYXRpb25zIGxlcyBwbHVzIGNvdXJhbnRlcyBjb25jZXJuYW50IGxlcyBleGFtZW5zIGRlIHJhZGlvbG9naWUsIGQnaW1hZ2VyaWUgZGUgbGEgZmVtbWUgZXQgZGUgc8Opbm9sb2dpZS4gTuKAmWjDqXNpdGV6IHBhcyDDoCBub3VzIGNvbnRhY3RlciBwb3VyIHRvdXRlIHF1ZXN0aW9uIHN1cHBsw6ltZW50YWlyZSBvdSBwb3VyIHByZW5kcmUgcmVuZGV6LXZvdXMuXG4gICAgICAgICAgPC9wPlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZhcS1saXN0XCI+XG4gICAgICAgICAgPEFjY29yZGlvbiBzdHlsZT17e2JvcmRlcjpcIm5vbmVcIn19PlxuICAgICAgICAgICAgPEFjY29yZGlvbkl0ZW0gPlxuICAgICAgICAgICAgICA8QWNjb3JkaW9uSXRlbUhlYWRpbmcgc3R5bGU9e3tib3JkZXI6XCJub25lXCJ9fSA+XG4gICAgICAgICAgICAgICAgPEFjY29yZGlvbkl0ZW1CdXR0b24gY2xhc3NOYW1lPVwiYWNjb3JkaW9uLWl0ZW1cIj5cbiAgICAgICAgICAgICAgICAgIDxGb250QXdlc29tZUljb25cbiAgICAgICAgICAgICAgICAgICAgaWNvbj17ZmFRdWVzdGlvbkNpcmNsZX1cbiAgICAgICAgICAgICAgICAgICAgYXJpYS1oaWRkZW49XCJ0cnVlXCJcbiAgICAgICAgICAgICAgICAgID48L0ZvbnRBd2Vzb21lSWNvbj5cbiAgICAgICAgICAgICAgICAgIDxzcGFuIHN0eWxlPXt7bWFyZ2luTGVmdDpcIjVweFwiLGNvbG9yOlwiYmxhY2tcIixmb250V2VpZ2h0OlwiNjAwXCIsZm9udFNpemU6XCIxNnB4XCJ9fT4gw4AgcGFydGlyIGRlIHF1ZWwgw6JnZSBkb2l0LW9uIGZhaXJlIHVuZSBtYW1tb2dyYXBoaWUgZGUgZMOpcGlzdGFnZSA/PC9zcGFuPlxuICAgICAgICAgICAgICAgICAgPGkgY2xhc3NOYW1lPVwiYnggYngtY2hldnJvbi1kb3duIGljb24tc2hvd1wiPjwvaT5cbiAgICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImJ4IGJ4LWNoZXZyb24tdXAgaWNvbi1jbG9zZVwiPjwvaT5cbiAgICAgICAgICAgICAgICA8L0FjY29yZGlvbkl0ZW1CdXR0b24+XG4gICAgICAgICAgICAgIDwvQWNjb3JkaW9uSXRlbUhlYWRpbmc+XG4gICAgICAgICAgICAgIDxBY2NvcmRpb25JdGVtUGFuZWwgXG4gICAgICAgICAgICAgIHN0eWxlPXt7YmFja2dyb3VuZDpcIndoaXRlXCJ9fVxuICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgICAgTGEgbWFtbW9ncmFwaGllIGRlIGTDqXBpc3RhZ2UgZXN0IGfDqW7DqXJhbGVtZW50IHJlY29tbWFuZMOpZSDDoCBwYXJ0aXIgZGUgbCfDomdlIGRlIDQwIGFucywgbcOqbWUgZW4gbCdhYnNlbmNlIGRlIHN5bXB0w7RtZXMuIFRvdXRlZm9pcywgc2kgdm91cyBwcsOpc2VudGV6IGRlcyBhbnTDqWPDqWRlbnRzIGZhbWlsaWF1eCBkZSBjYW5jZXIgZHUgc2VpbiwgdW5lIGNvbnN1bHRhdGlvbiBwcsOpY29jZSBlc3QgY29uc2VpbGzDqWUgcG91ciDDqXZhbHVlciBsZSByaXNxdWUgZXQgYWRhcHRlciBsZSBzdWl2aS5cblxuXG4gICAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICA8L0FjY29yZGlvbkl0ZW1QYW5lbD5cbiAgICAgICAgICAgIDwvQWNjb3JkaW9uSXRlbT5cblxuICAgICAgICAgICAgPEFjY29yZGlvbkl0ZW0gPlxuICAgICAgICAgICAgICA8QWNjb3JkaW9uSXRlbUhlYWRpbmc+XG4gICAgICAgICAgICAgICAgPEFjY29yZGlvbkl0ZW1CdXR0b24gY2xhc3NOYW1lPVwiYWNjb3JkaW9uLWl0ZW1cIj5cbiAgICAgICAgICAgICAgICAgIDxGb250QXdlc29tZUljb25cbiAgICAgICAgICAgICAgICAgICAgaWNvbj17ZmFRdWVzdGlvbkNpcmNsZX1cbiAgICAgICAgICAgICAgICAgICAgYXJpYS1oaWRkZW49XCJ0cnVlXCJcbiAgICAgICAgICAgICAgICAgID48L0ZvbnRBd2Vzb21lSWNvbj57XCIgXCJ9XG4gICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17e21hcmdpbkxlZnQ6XCI1cHhcIixjb2xvcjpcImJsYWNrXCIsZm9udFdlaWdodDpcIjYwMFwiLGZvbnRTaXplOlwiMTZweFwifX0+VW5lIMOpY2hvZ3JhcGhpZSBtYW1tYWlyZSBwZXV0LWVsbGUgcmVtcGxhY2VyIHVuZSBtYW1tb2dyYXBoaWUgPzwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImJ4IGJ4LWNoZXZyb24tZG93biBpY29uLXNob3dcIj48L2k+XG4gICAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJieCBieC1jaGV2cm9uLXVwIGljb24tY2xvc2VcIj48L2k+XG4gICAgICAgICAgICAgICAgPC9BY2NvcmRpb25JdGVtQnV0dG9uPlxuICAgICAgICAgICAgICA8L0FjY29yZGlvbkl0ZW1IZWFkaW5nPlxuICAgICAgICAgICAgICA8QWNjb3JkaW9uSXRlbVBhbmVsIFxuICAgICAgICAgICAgICBzdHlsZT17e2JhY2tncm91bmQ6XCJ3aGl0ZVwifX1cbiAgICAgICAgICAgICAgPlxuICAgICAgICAgICAgICAgIDxwPlxuICAgICAgICAgICAgICAgIE5vbiwgbCfDqWNob2dyYXBoaWUgbWFtbWFpcmUgbmUgcmVtcGxhY2UgcGFzIGxhIG1hbW1vZ3JhcGhpZS4gQ2Ugc29udCBkZXMgZXhhbWVucyBjb21wbMOpbWVudGFpcmVzLiBMYSBtYW1tb2dyYXBoaWUgcmVzdGUgbGUgbW95ZW4gcHJpbmNpcGFsIGRlIGTDqXBpc3RhZ2UgZHUgY2FuY2VyIGR1IHNlaW4sIHRhbmRpcyBxdWUgbCfDqWNob2dyYXBoaWUgZXN0IHV0aWxpc8OpZSBwb3VyIGFwcHJvZm9uZGlyIGwnYW5hbHlzZSBlbiBjYXMgZGUgc2VpbnMgZGVuc2VzIG91IGQnYW5vbWFsaWUgZMOpdGVjdMOpZS5cbiAgICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICAgIDwvQWNjb3JkaW9uSXRlbVBhbmVsPlxuICAgICAgICAgICAgPC9BY2NvcmRpb25JdGVtPlxuXG4gICAgICAgICAgICA8QWNjb3JkaW9uSXRlbT5cbiAgICAgICAgICAgICAgPEFjY29yZGlvbkl0ZW1IZWFkaW5nPlxuICAgICAgICAgICAgICAgIDxBY2NvcmRpb25JdGVtQnV0dG9uIGNsYXNzTmFtZT1cImFjY29yZGlvbi1pdGVtXCI+XG4gICAgICAgICAgICAgICAgICA8Rm9udEF3ZXNvbWVJY29uXG4gICAgICAgICAgICAgICAgICAgIGljb249e2ZhUXVlc3Rpb25DaXJjbGV9XG4gICAgICAgICAgICAgICAgICAgIGFyaWEtaGlkZGVuPVwidHJ1ZVwiXG4gICAgICAgICAgICAgICAgICA+PC9Gb250QXdlc29tZUljb24+XG4gICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17e21hcmdpbkxlZnQ6XCI1cHhcIixjb2xvcjpcImJsYWNrXCIsZm9udFdlaWdodDpcIjYwMFwiLGZvbnRTaXplOlwiMTZweFwifX0+UXVlbHMgc29udCBsZXMgc2lnbmVzIHF1aSBkb2l2ZW50IG3igJlhbGVydGVyIHBvdXIgY29uc3VsdGVyIGVuIHPDqW5vbG9naWUgPzwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImJ4IGJ4LWNoZXZyb24tZG93biBpY29uLXNob3dcIj48L2k+XG4gICAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJieCBieC1jaGV2cm9uLXVwIGljb24tY2xvc2VcIj48L2k+XG4gICAgICAgICAgICAgICAgPC9BY2NvcmRpb25JdGVtQnV0dG9uPlxuICAgICAgICAgICAgICA8L0FjY29yZGlvbkl0ZW1IZWFkaW5nPlxuXG4gICAgICAgICAgICAgIDxBY2NvcmRpb25JdGVtUGFuZWwgXG4gICAgICAgICAgICAgIHN0eWxlPXt7YmFja2dyb3VuZDpcIndoaXRlXCJ9fVxuICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgICAgVm91cyBkZXZyaWV6IGNvbnN1bHRlciBzaSB2b3VzIHJlbWFycXVleiA6XG5cblVuZSBib3VsZSBvdSB1bmUgbWFzc2UgZGFucyBsZSBzZWluO1xuVW4gw6ljb3VsZW1lbnQgYW5vcm1hbCBkdSBtYW1lbG9uO1xuVW5lIG1vZGlmaWNhdGlvbiBkZSBsYSBmb3JtZSBvdSBkZSBsYSB0YWlsbGUgZHUgc2VpbjtcblVuZSBkb3VsZXVyIHBlcnNpc3RhbnRlIG91IGRlcyBjaGFuZ2VtZW50cyBkZSBsYSBwZWF1IChyb3VnZXVyLCByw6l0cmFjdGlvbikuXG5cbiAgICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICAgIDwvQWNjb3JkaW9uSXRlbVBhbmVsPlxuICAgICAgICAgICAgPC9BY2NvcmRpb25JdGVtPlxuXG4gICAgICAgICAgICA8QWNjb3JkaW9uSXRlbT5cbiAgICAgICAgICAgICAgPEFjY29yZGlvbkl0ZW1IZWFkaW5nPlxuICAgICAgICAgICAgICAgIDxBY2NvcmRpb25JdGVtQnV0dG9uIGNsYXNzTmFtZT1cImFjY29yZGlvbi1pdGVtXCI+XG4gICAgICAgICAgICAgICAgICA8Rm9udEF3ZXNvbWVJY29uXG4gICAgICAgICAgICAgICAgICAgIGljb249e2ZhUXVlc3Rpb25DaXJjbGV9XG4gICAgICAgICAgICAgICAgICAgIGFyaWEtaGlkZGVuPVwidHJ1ZVwiXG4gICAgICAgICAgICAgICAgICA+PC9Gb250QXdlc29tZUljb24+e1wiIFwifVxuICAgICAgICAgICAgICAgICAgPHNwYW4gc3R5bGU9e3ttYXJnaW5MZWZ0OlwiNXB4XCIsY29sb3I6XCJibGFja1wiLGZvbnRXZWlnaHQ6XCI2MDBcIixmb250U2l6ZTpcIjE2cHhcIn19PkwnZXhwb3NpdGlvbiBhdXggcmF5b25zIFggZCd1bmUgbWFtbW9ncmFwaGllIGVzdC1lbGxlIGRhbmdlcmV1c2UgPzwvc3Bhbj5cbiAgICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImJ4IGJ4LWNoZXZyb24tZG93biBpY29uLXNob3dcIj48L2k+XG4gICAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJieCBieC1jaGV2cm9uLXVwIGljb24tY2xvc2VcIj48L2k+XG4gICAgICAgICAgICAgICAgPC9BY2NvcmRpb25JdGVtQnV0dG9uPlxuICAgICAgICAgICAgICA8L0FjY29yZGlvbkl0ZW1IZWFkaW5nPlxuXG4gICAgICAgICAgICAgIDxBY2NvcmRpb25JdGVtUGFuZWwgXG4gICAgICAgICAgICAgIHN0eWxlPXt7YmFja2dyb3VuZDpcIndoaXRlXCJ9fVxuICAgICAgICAgICAgICA+XG4gICAgICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgICAgTGEgZG9zZSBkZSByYXlvbnMgWCB1dGlsaXPDqWUgbG9ycyBk4oCZdW5lIG1hbW1vZ3JhcGhpZSBlc3QgdHLDqHMgZmFpYmxlIGV0IHNhbnMgZGFuZ2VyIHBvdXIgbGEgcGx1cGFydCBkZXMgZmVtbWVzLiBMZXMgYsOpbsOpZmljZXMgZHUgZMOpcGlzdGFnZSBwcsOpY29jZSBkdSBjYW5jZXIgZHUgc2VpbiBzdXJwYXNzZW50IGxhcmdlbWVudCBsZXMgcmlzcXVlcyBsacOpcyDDoCBjZXR0ZSBleHBvc2l0aW9uIG1pbmltZS5cbiAgICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICAgIDwvQWNjb3JkaW9uSXRlbVBhbmVsPlxuICAgICAgICAgICAgPC9BY2NvcmRpb25JdGVtPlxuXG4gICAgICAgICAgICA8QWNjb3JkaW9uSXRlbSBzdHlsZT17e2JvcmRlcjpcIm5vbmVcIn19PlxuICAgICAgICAgICAgICA8QWNjb3JkaW9uSXRlbUhlYWRpbmcgc3R5bGU9e3tib3JkZXI6XCJub25lXCJ9fT5cbiAgICAgICAgICAgICAgICA8QWNjb3JkaW9uSXRlbUJ1dHRvbiBjbGFzc05hbWU9XCJhY2NvcmRpb24taXRlbVwiIHN0eWxlPXt7Ym9yZGVyOlwibm9uZVwifX0+XG4gICAgICAgICAgICAgICAgICA8Rm9udEF3ZXNvbWVJY29uXG4gICAgICAgICAgICAgICAgICAgIGljb249e2ZhUXVlc3Rpb25DaXJjbGV9XG4gICAgICAgICAgICAgICAgICAgIGFyaWEtaGlkZGVuPVwidHJ1ZVwiXG4gICAgICAgICAgICAgICAgICA+PC9Gb250QXdlc29tZUljb24+XG4gICAgICAgICAgICAgICAgICA8c3BhbiBzdHlsZT17e21hcmdpbkxlZnQ6XCI1cHhcIixjb2xvcjpcIiMzNDNhNDBcIixmb250V2VpZ2h0OlwiNjAwXCIsZm9udFNpemU6XCIxNnB4XCJ9fT5Eb2l0LW9uIHByZW5kcmUgZGVzIHByw6ljYXV0aW9ucyBwYXJ0aWN1bGnDqHJlcyBhdmFudCB1bmUgSVJNIG1hbW1haXJlID88L3NwYW4+XG4gICAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJieCBieC1jaGV2cm9uLWRvd24gaWNvbi1zaG93XCI+PC9pPlxuICAgICAgICAgICAgICAgICAgPGkgY2xhc3NOYW1lPVwiYnggYngtY2hldnJvbi11cCBpY29uLWNsb3NlXCI+PC9pPlxuICAgICAgICAgICAgICAgIDwvQWNjb3JkaW9uSXRlbUJ1dHRvbj5cbiAgICAgICAgICAgICAgPC9BY2NvcmRpb25JdGVtSGVhZGluZz5cblxuICAgICAgICAgICAgICA8QWNjb3JkaW9uSXRlbVBhbmVsXG4gICAgICAgICAgICAgICAgc3R5bGU9e3tiYWNrZ3JvdW5kOlwid2hpdGVcIn19XG4gICAgICAgICAgICAgID5cbiAgICAgICAgICAgICAgICA8cD5cbiAgICAgICAgICAgICAgICBPdWksIHBvdXIgdW5lIElSTSBtYW1tYWlyZSwgaWwgZXN0IGNvbnNlaWxsw6kgZGUgOlxuXG7DiXZpdGVyIGRlIHBvcnRlciBkZXMgb2JqZXRzIG3DqXRhbGxpcXVlcztcbkluZm9ybWVyIHZvdHJlIHJhZGlvbG9ndWUgc2kgdm91cyDDqnRlcyBlbmNlaW50ZSBvdSBzaSB2b3VzIGF2ZXogZGVzIGltcGxhbnRzIG3DqXRhbGxpcXVlcztcblBsYW5pZmllciBs4oCZZXhhbWVuIGVudHJlIGxlIDfhtYkgZXQgbGUgMTThtYkgam91ciBkdSBjeWNsZSBtZW5zdHJ1ZWwgcG91ciB1bmUgbWVpbGxldXJlIHByw6ljaXNpb24uXG5cbiAgICAgICAgICAgICAgICA8L3A+XG4gICAgICAgICAgICAgIDwvQWNjb3JkaW9uSXRlbVBhbmVsPlxuICAgICAgICAgICAgPC9BY2NvcmRpb25JdGVtPlxuICAgICAgICAgIDwvQWNjb3JkaW9uPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgIDwvc2VjdGlvbj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IEZhcTtcbiJdLCJuYW1lcyI6WyJmYVF1ZXN0aW9uQ2lyY2xlIiwiRm9udEF3ZXNvbWVJY29uIiwiQWNjb3JkaW9uIiwiQWNjb3JkaW9uSXRlbSIsIkFjY29yZGlvbkl0ZW1IZWFkaW5nIiwiQWNjb3JkaW9uSXRlbUJ1dHRvbiIsIkFjY29yZGlvbkl0ZW1QYW5lbCIsIkZhcSIsInNlY3Rpb24iLCJpZCIsImNsYXNzTmFtZSIsImRpdiIsImgyIiwicCIsInN0eWxlIiwiYm9yZGVyIiwiaWNvbiIsImFyaWEtaGlkZGVuIiwic3BhbiIsIm1hcmdpbkxlZnQiLCJjb2xvciIsImZvbnRXZWlnaHQiLCJmb250U2l6ZSIsImkiLCJiYWNrZ3JvdW5kIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(ssr)/./src/app/components/home/faq.tsx\n");
+
+/***/ }),
+
+/***/ "(ssr)/./src/app/components/home/header.tsx":
+/*!********************************************!*\
+  !*** ./src/app/components/home/header.tsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Header)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"(ssr)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/ssr/react.js\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/image */ \"(ssr)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! next/navigation */ \"(ssr)/./node_modules/next/navigation.js\");\n/* harmony import */ var next_navigation__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_navigation__WEBPACK_IMPORTED_MODULE_3__);\n/* __next_internal_client_entry_do_not_use__ default auto */ \n\n\n\nfunction Header() {\n    const [isMobileMenuOpen, setIsMobileMenuOpen] = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(false);\n    const router = (0,next_navigation__WEBPACK_IMPORTED_MODULE_3__.useRouter)();\n    const toggleMobileMenu = ()=>{\n        setIsMobileMenuOpen(!isMobileMenuOpen);\n        document.body.classList.toggle(\"mobile-menu-active\");\n    };\n    const closeMobileMenu = (sectionId)=>{\n        setIsMobileMenuOpen(false);\n        document.body.classList.remove(\"mobile-menu-active\");\n        // Force hash change for scrolling\n        setTimeout(()=>{\n            router.push(sectionId);\n        }, 50);\n    };\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"header\", {\n        id: \"header\",\n        className: \"fixed-top\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"container d-flex align-items-center justify-content-between\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_2___default()), {\n                    src: \"/img/your-logo.png\",\n                    alt: \"BIC Logo\",\n                    width: 50,\n                    height: 50,\n                    className: \"img-fluid\",\n                    priority: true\n                }, void 0, false, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                    lineNumber: 31,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"nav\", {\n                    id: \"navbar\",\n                    className: `navbar ${isMobileMenuOpen ? \"navbar-mobile\" : \"\"}`,\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"ul\", {\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    className: \"nav-link scrollto active\",\n                                    href: \"#hero\",\n                                    onClick: ()=>closeMobileMenu(\"#hero\"),\n                                    children: \"Accueil\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                    lineNumber: 43,\n                                    columnNumber: 17\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                lineNumber: 43,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    className: \"nav-link scrollto\",\n                                    href: \"#about\",\n                                    onClick: ()=>closeMobileMenu(\"#about\"),\n                                    children: \"Infos\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                    lineNumber: 44,\n                                    columnNumber: 17\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                lineNumber: 44,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    className: \"nav-link scrollto\",\n                                    href: \"#services\",\n                                    onClick: ()=>closeMobileMenu(\"#services\"),\n                                    children: \"Services\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                    lineNumber: 45,\n                                    columnNumber: 17\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                lineNumber: 45,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    className: \"nav-link scrollto\",\n                                    href: \"#departments\",\n                                    onClick: ()=>closeMobileMenu(\"#departments\"),\n                                    children: \"D\\xe9partements\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                    lineNumber: 46,\n                                    columnNumber: 17\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                lineNumber: 46,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    className: \"nav-link scrollto\",\n                                    href: \"#doctors\",\n                                    onClick: ()=>closeMobileMenu(\"#doctors\"),\n                                    children: \"M\\xe9decins\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                    lineNumber: 47,\n                                    columnNumber: 17\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                lineNumber: 47,\n                                columnNumber: 13\n                            }, this),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"li\", {\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                    className: \"nav-link scrollto\",\n                                    href: \"#contact\",\n                                    onClick: ()=>closeMobileMenu(\"#contact\"),\n                                    children: \"Contact\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                    lineNumber: 48,\n                                    columnNumber: 17\n                                }, this)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                                lineNumber: 48,\n                                columnNumber: 13\n                            }, this)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                        lineNumber: 42,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                    lineNumber: 41,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"mobile-nav-toggle\",\n                    onClick: toggleMobileMenu,\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                        className: `bi ${isMobileMenuOpen ? \"bi-x\" : \"bi-list\"}`\n                    }, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                        lineNumber: 54,\n                        columnNumber: 11\n                    }, this)\n                }, void 0, false, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                    lineNumber: 53,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                    href: \"#appointment\",\n                    className: \"appointment-btn scrollto\",\n                    onClick: ()=>closeMobileMenu(\"#appointment\"),\n                    children: \"Rendez-Vous\"\n                }, void 0, false, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n                    lineNumber: 58,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n            lineNumber: 28,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx\",\n        lineNumber: 27,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHNzcikvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9oZWFkZXIudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7QUFFaUM7QUFDRjtBQUNhO0FBRTdCLFNBQVNHO0lBQ3RCLE1BQU0sQ0FBQ0Msa0JBQWtCQyxvQkFBb0IsR0FBR0wsK0NBQVFBLENBQUM7SUFDekQsTUFBTU0sU0FBU0osMERBQVNBO0lBRXhCLE1BQU1LLG1CQUFtQjtRQUN2QkYsb0JBQW9CLENBQUNEO1FBQ3JCSSxTQUFTQyxJQUFJLENBQUNDLFNBQVMsQ0FBQ0MsTUFBTSxDQUFDO0lBQ2pDO0lBRUEsTUFBTUMsa0JBQWtCLENBQUNDO1FBQ3ZCUixvQkFBb0I7UUFDcEJHLFNBQVNDLElBQUksQ0FBQ0MsU0FBUyxDQUFDSSxNQUFNLENBQUM7UUFFL0Isa0NBQWtDO1FBQ2xDQyxXQUFXO1lBQ1RULE9BQU9VLElBQUksQ0FBQ0g7UUFDZCxHQUFHO0lBQ0w7SUFFQSxxQkFDRSw4REFBQ0k7UUFBT0MsSUFBRztRQUFTQyxXQUFVO2tCQUM1Qiw0RUFBQ0M7WUFBSUQsV0FBVTs7OEJBR2IsOERBQUNsQixtREFBS0E7b0JBQ0pvQixLQUFJO29CQUNKQyxLQUFJO29CQUNKQyxPQUFPO29CQUNQQyxRQUFRO29CQUNSTCxXQUFVO29CQUNWTSxRQUFROzs7Ozs7OEJBSVYsOERBQUNDO29CQUFJUixJQUFHO29CQUFTQyxXQUFXLENBQUMsT0FBTyxFQUFFZixtQkFBbUIsa0JBQWtCLEdBQUcsQ0FBQzs4QkFDN0UsNEVBQUN1Qjs7MENBQ0MsOERBQUNDOzBDQUFHLDRFQUFDQztvQ0FBRVYsV0FBVTtvQ0FBMkJXLE1BQUs7b0NBQVFDLFNBQVMsSUFBTW5CLGdCQUFnQjs4Q0FBVTs7Ozs7Ozs7Ozs7MENBQ2xHLDhEQUFDZ0I7MENBQUcsNEVBQUNDO29DQUFFVixXQUFVO29DQUFvQlcsTUFBSztvQ0FBU0MsU0FBUyxJQUFNbkIsZ0JBQWdCOzhDQUFXOzs7Ozs7Ozs7OzswQ0FDN0YsOERBQUNnQjswQ0FBRyw0RUFBQ0M7b0NBQUVWLFdBQVU7b0NBQW9CVyxNQUFLO29DQUFZQyxTQUFTLElBQU1uQixnQkFBZ0I7OENBQWM7Ozs7Ozs7Ozs7OzBDQUNuRyw4REFBQ2dCOzBDQUFHLDRFQUFDQztvQ0FBRVYsV0FBVTtvQ0FBb0JXLE1BQUs7b0NBQWVDLFNBQVMsSUFBTW5CLGdCQUFnQjs4Q0FBaUI7Ozs7Ozs7Ozs7OzBDQUN6Ryw4REFBQ2dCOzBDQUFHLDRFQUFDQztvQ0FBRVYsV0FBVTtvQ0FBb0JXLE1BQUs7b0NBQVdDLFNBQVMsSUFBTW5CLGdCQUFnQjs4Q0FBYTs7Ozs7Ozs7Ozs7MENBQ2pHLDhEQUFDZ0I7MENBQUcsNEVBQUNDO29DQUFFVixXQUFVO29DQUFvQlcsTUFBSztvQ0FBV0MsU0FBUyxJQUFNbkIsZ0JBQWdCOzhDQUFhOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzhCQUtyRyw4REFBQ1E7b0JBQUlELFdBQVU7b0JBQW9CWSxTQUFTeEI7OEJBQzFDLDRFQUFDeUI7d0JBQUViLFdBQVcsQ0FBQyxHQUFHLEVBQUVmLG1CQUFtQixTQUFTLFVBQVUsQ0FBQzs7Ozs7Ozs7Ozs7OEJBSTdELDhEQUFDeUI7b0JBQUVDLE1BQUs7b0JBQWVYLFdBQVU7b0JBQTJCWSxTQUFTLElBQU1uQixnQkFBZ0I7OEJBQWlCOzs7Ozs7Ozs7Ozs7Ozs7OztBQU9wSCIsInNvdXJjZXMiOlsid2VicGFjazovL21lZGlsYWItcHJvLy4vc3JjL2FwcC9jb21wb25lbnRzL2hvbWUvaGVhZGVyLnRzeD8yMzE0Il0sInNvdXJjZXNDb250ZW50IjpbIlwidXNlIGNsaWVudFwiO1xuXG5pbXBvcnQgeyB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xuaW1wb3J0IEltYWdlIGZyb20gXCJuZXh0L2ltYWdlXCI7XG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tIFwibmV4dC9uYXZpZ2F0aW9uXCI7XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIEhlYWRlcigpIHtcbiAgY29uc3QgW2lzTW9iaWxlTWVudU9wZW4sIHNldElzTW9iaWxlTWVudU9wZW5dID0gdXNlU3RhdGUoZmFsc2UpO1xuICBjb25zdCByb3V0ZXIgPSB1c2VSb3V0ZXIoKTtcblxuICBjb25zdCB0b2dnbGVNb2JpbGVNZW51ID0gKCkgPT4ge1xuICAgIHNldElzTW9iaWxlTWVudU9wZW4oIWlzTW9iaWxlTWVudU9wZW4pO1xuICAgIGRvY3VtZW50LmJvZHkuY2xhc3NMaXN0LnRvZ2dsZShcIm1vYmlsZS1tZW51LWFjdGl2ZVwiKTtcbiAgfTtcblxuICBjb25zdCBjbG9zZU1vYmlsZU1lbnUgPSAoc2VjdGlvbklkOiBzdHJpbmcpID0+IHtcbiAgICBzZXRJc01vYmlsZU1lbnVPcGVuKGZhbHNlKTtcbiAgICBkb2N1bWVudC5ib2R5LmNsYXNzTGlzdC5yZW1vdmUoXCJtb2JpbGUtbWVudS1hY3RpdmVcIik7XG5cbiAgICAvLyBGb3JjZSBoYXNoIGNoYW5nZSBmb3Igc2Nyb2xsaW5nXG4gICAgc2V0VGltZW91dCgoKSA9PiB7XG4gICAgICByb3V0ZXIucHVzaChzZWN0aW9uSWQpO1xuICAgIH0sIDUwKTtcbiAgfTtcblxuICByZXR1cm4gKFxuICAgIDxoZWFkZXIgaWQ9XCJoZWFkZXJcIiBjbGFzc05hbWU9XCJmaXhlZC10b3BcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyIGQtZmxleCBhbGlnbi1pdGVtcy1jZW50ZXIganVzdGlmeS1jb250ZW50LWJldHdlZW5cIj5cblxuICAgICAgICB7LyogTG9nbyAqL31cbiAgICAgICAgPEltYWdlXG4gICAgICAgICAgc3JjPVwiL2ltZy95b3VyLWxvZ28ucG5nXCJcbiAgICAgICAgICBhbHQ9XCJCSUMgTG9nb1wiXG4gICAgICAgICAgd2lkdGg9ezUwfVxuICAgICAgICAgIGhlaWdodD17NTB9XG4gICAgICAgICAgY2xhc3NOYW1lPVwiaW1nLWZsdWlkXCJcbiAgICAgICAgICBwcmlvcml0eVxuICAgICAgICAvPlxuXG4gICAgICAgIHsvKiBOYXZiYXIgKi99XG4gICAgICAgIDxuYXYgaWQ9XCJuYXZiYXJcIiBjbGFzc05hbWU9e2BuYXZiYXIgJHtpc01vYmlsZU1lbnVPcGVuID8gXCJuYXZiYXItbW9iaWxlXCIgOiBcIlwifWB9PlxuICAgICAgICAgIDx1bD5cbiAgICAgICAgICAgIDxsaT48YSBjbGFzc05hbWU9XCJuYXYtbGluayBzY3JvbGx0byBhY3RpdmVcIiBocmVmPVwiI2hlcm9cIiBvbkNsaWNrPXsoKSA9PiBjbG9zZU1vYmlsZU1lbnUoXCIjaGVyb1wiKX0+QWNjdWVpbDwvYT48L2xpPlxuICAgICAgICAgICAgPGxpPjxhIGNsYXNzTmFtZT1cIm5hdi1saW5rIHNjcm9sbHRvXCIgaHJlZj1cIiNhYm91dFwiIG9uQ2xpY2s9eygpID0+IGNsb3NlTW9iaWxlTWVudShcIiNhYm91dFwiKX0+SW5mb3M8L2E+PC9saT5cbiAgICAgICAgICAgIDxsaT48YSBjbGFzc05hbWU9XCJuYXYtbGluayBzY3JvbGx0b1wiIGhyZWY9XCIjc2VydmljZXNcIiBvbkNsaWNrPXsoKSA9PiBjbG9zZU1vYmlsZU1lbnUoXCIjc2VydmljZXNcIil9PlNlcnZpY2VzPC9hPjwvbGk+XG4gICAgICAgICAgICA8bGk+PGEgY2xhc3NOYW1lPVwibmF2LWxpbmsgc2Nyb2xsdG9cIiBocmVmPVwiI2RlcGFydG1lbnRzXCIgb25DbGljaz17KCkgPT4gY2xvc2VNb2JpbGVNZW51KFwiI2RlcGFydG1lbnRzXCIpfT5Ew6lwYXJ0ZW1lbnRzPC9hPjwvbGk+XG4gICAgICAgICAgICA8bGk+PGEgY2xhc3NOYW1lPVwibmF2LWxpbmsgc2Nyb2xsdG9cIiBocmVmPVwiI2RvY3RvcnNcIiBvbkNsaWNrPXsoKSA9PiBjbG9zZU1vYmlsZU1lbnUoXCIjZG9jdG9yc1wiKX0+TcOpZGVjaW5zPC9hPjwvbGk+XG4gICAgICAgICAgICA8bGk+PGEgY2xhc3NOYW1lPVwibmF2LWxpbmsgc2Nyb2xsdG9cIiBocmVmPVwiI2NvbnRhY3RcIiBvbkNsaWNrPXsoKSA9PiBjbG9zZU1vYmlsZU1lbnUoXCIjY29udGFjdFwiKX0+Q29udGFjdDwvYT48L2xpPlxuICAgICAgICAgIDwvdWw+XG4gICAgICAgIDwvbmF2PlxuXG4gICAgICAgIHsvKiBNb2JpbGUgTWVudSBUb2dnbGUgKi99XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibW9iaWxlLW5hdi10b2dnbGVcIiBvbkNsaWNrPXt0b2dnbGVNb2JpbGVNZW51fT5cbiAgICAgICAgICA8aSBjbGFzc05hbWU9e2BiaSAke2lzTW9iaWxlTWVudU9wZW4gPyBcImJpLXhcIiA6IFwiYmktbGlzdFwifWB9PjwvaT5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgey8qIEFwcG9pbnRtZW50IEJ1dHRvbiAqL31cbiAgICAgICAgPGEgaHJlZj1cIiNhcHBvaW50bWVudFwiIGNsYXNzTmFtZT1cImFwcG9pbnRtZW50LWJ0biBzY3JvbGx0b1wiIG9uQ2xpY2s9eygpID0+IGNsb3NlTW9iaWxlTWVudShcIiNhcHBvaW50bWVudFwiKX0+XG4gICAgICAgICAgUmVuZGV6LVZvdXNcbiAgICAgICAgPC9hPlxuXG4gICAgICA8L2Rpdj5cbiAgICA8L2hlYWRlcj5cbiAgKTtcbn1cbiJdLCJuYW1lcyI6WyJ1c2VTdGF0ZSIsIkltYWdlIiwidXNlUm91dGVyIiwiSGVhZGVyIiwiaXNNb2JpbGVNZW51T3BlbiIsInNldElzTW9iaWxlTWVudU9wZW4iLCJyb3V0ZXIiLCJ0b2dnbGVNb2JpbGVNZW51IiwiZG9jdW1lbnQiLCJib2R5IiwiY2xhc3NMaXN0IiwidG9nZ2xlIiwiY2xvc2VNb2JpbGVNZW51Iiwic2VjdGlvbklkIiwicmVtb3ZlIiwic2V0VGltZW91dCIsInB1c2giLCJoZWFkZXIiLCJpZCIsImNsYXNzTmFtZSIsImRpdiIsInNyYyIsImFsdCIsIndpZHRoIiwiaGVpZ2h0IiwicHJpb3JpdHkiLCJuYXYiLCJ1bCIsImxpIiwiYSIsImhyZWYiLCJvbkNsaWNrIiwiaSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(ssr)/./src/app/components/home/header.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./public/scss/style.scss":
+/*!********************************!*\
+  !*** ./public/scss/style.scss ***!
+  \********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"400e5336cee5\");\nif (false) {}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9wdWJsaWMvc2Nzcy9zdHlsZS5zY3NzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSxpRUFBZSxjQUFjO0FBQzdCLElBQUksS0FBVSxFQUFFLEVBQXVCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkaWxhYi1wcm8vLi9wdWJsaWMvc2Nzcy9zdHlsZS5zY3NzP2IwZDgiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgXCI0MDBlNTMzNmNlZTVcIlxuaWYgKG1vZHVsZS5ob3QpIHsgbW9kdWxlLmhvdC5hY2NlcHQoKSB9XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./public/scss/style.scss\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/globals.css":
+/*!*****************************!*\
+  !*** ./src/app/globals.css ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (\"40e2ed35a47d\");\nif (false) {}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2dsb2JhbHMuY3NzIiwibWFwcGluZ3MiOiI7Ozs7QUFBQSxpRUFBZSxjQUFjO0FBQzdCLElBQUksS0FBVSxFQUFFLEVBQXVCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkaWxhYi1wcm8vLi9zcmMvYXBwL2dsb2JhbHMuY3NzP2MxOTciXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgXCI0MGUyZWQzNWE0N2RcIlxuaWYgKG1vZHVsZS5ob3QpIHsgbW9kdWxlLmhvdC5hY2NlcHQoKSB9XG4iXSwibmFtZXMiOltdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./src/app/globals.css\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/components/home/aboutUs.tsx":
+/*!*********************************************!*\
+  !*** ./src/app/components/home/aboutUs.tsx ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__),\n/* harmony export */   getServerSideProps: () => (/* binding */ getServerSideProps)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst AboutUs = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        id: \"about\",\n        className: \"about\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"container-fluid\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"row\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"https://www.youtube.com/watch?v=jDDaplaOz7Q\",\n                            className: \"glightbox play-btn mb-4\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                            lineNumber: 10,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                        lineNumber: 9,\n                        columnNumber: 11\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                children: \"Une \\xc9quipe D\\xe9di\\xe9e \\xe0 Votre Sant\\xe9\"\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                lineNumber: 14,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                children: \"Nous sommes une \\xe9quipe de sp\\xe9cialistes engag\\xe9s, unissant expertise m\\xe9dicale et innovation technologique pour offrir des soins de qualit\\xe9 et un suivi personnalis\\xe9.\"\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                lineNumber: 15,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"icon-box\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"icon\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                            className: \"bx bx-fingerprint\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                            lineNumber: 18,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                        lineNumber: 18,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                        className: \"title\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            href: \"\",\n                                            children: \"Une Approche Humaine\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                            lineNumber: 19,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                        lineNumber: 19,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"description\",\n                                        children: \"Chaque patient est unique. Nous adaptons nos services pour r\\xe9pondre \\xe0 vos besoins sp\\xe9cifiques et vous accompagner tout au long de votre parcours de sant\\xe9.\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                        lineNumber: 20,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                lineNumber: 17,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"icon-box\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"icon\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                            className: \"bx bx-gift\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                            lineNumber: 24,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                        lineNumber: 24,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                        className: \"title\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            href: \"\",\n                                            children: \"Expertise Diagnostique\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                            lineNumber: 25,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                        lineNumber: 25,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"description\",\n                                        children: \"Nous avons fait le choix d'int\\xe9grer une platforme \\xe0 la pointe de la technologie, r\\xe9pondant aux enjeux cliniques les plus complexes et permettant d'offrir des solutions fiables. \"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                        lineNumber: 26,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                lineNumber: 23,\n                                columnNumber: 13\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"icon-box\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"icon\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                            className: \"bx bx-atom\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                            lineNumber: 30,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                        lineNumber: 30,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                        className: \"title\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            href: \"\",\n                                            children: \"Partenariats Scientifiques\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                            lineNumber: 31,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                        lineNumber: 31,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        className: \"description\",\n                                        children: \"En collaboration avec des acteurs publics et priv\\xe9s, nous participons activement \\xe0 la recherche appliqu\\xe9e pour faire progresser l’imagerie m\\xe9dicale adapt\\xe9e \\xe0 notre contexte socio-\\xe9conomique.              \"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                        lineNumber: 32,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                                lineNumber: 29,\n                                columnNumber: 13\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                        lineNumber: 13,\n                        columnNumber: 11\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n                lineNumber: 8,\n                columnNumber: 9\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n            lineNumber: 6,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/aboutUs.tsx\",\n        lineNumber: 5,\n        columnNumber: 9\n    }, undefined);\n};\nconst getServerSideProps = async (ctx)=>{\n    return {\n        props: {}\n    };\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (AboutUs);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9hYm91dFVzLnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUVBLE1BQU1BLFVBQVU7SUFDWixxQkFDSSw4REFBQ0M7UUFBUUMsSUFBRztRQUFRQyxXQUFVO2tCQUNoQyw0RUFBQ0M7WUFBSUQsV0FBVTtzQkFFYiw0RUFBQ0M7Z0JBQUlELFdBQVU7O2tDQUNiLDhEQUFDQzt3QkFBSUQsV0FBVTtrQ0FDYiw0RUFBQ0U7NEJBQUVDLE1BQUs7NEJBQThDSCxXQUFVOzs7Ozs7Ozs7OztrQ0FHbEUsOERBQUNDO3dCQUFJRCxXQUFVOzswQ0FDYiw4REFBQ0k7MENBQUc7Ozs7OzswQ0FDSiw4REFBQ0M7MENBQUU7Ozs7OzswQ0FFSCw4REFBQ0o7Z0NBQUlELFdBQVU7O2tEQUNiLDhEQUFDQzt3Q0FBSUQsV0FBVTtrREFBTyw0RUFBQ007NENBQUVOLFdBQVU7Ozs7Ozs7Ozs7O2tEQUNuQyw4REFBQ087d0NBQUdQLFdBQVU7a0RBQVEsNEVBQUNFOzRDQUFFQyxNQUFLO3NEQUFHOzs7Ozs7Ozs7OztrREFDakMsOERBQUNFO3dDQUFFTCxXQUFVO2tEQUFjOzs7Ozs7Ozs7Ozs7MENBRzdCLDhEQUFDQztnQ0FBSUQsV0FBVTs7a0RBQ2IsOERBQUNDO3dDQUFJRCxXQUFVO2tEQUFPLDRFQUFDTTs0Q0FBRU4sV0FBVTs7Ozs7Ozs7Ozs7a0RBQ25DLDhEQUFDTzt3Q0FBR1AsV0FBVTtrREFBUSw0RUFBQ0U7NENBQUVDLE1BQUs7c0RBQUc7Ozs7Ozs7Ozs7O2tEQUNqQyw4REFBQ0U7d0NBQUVMLFdBQVU7a0RBQWM7Ozs7Ozs7Ozs7OzswQ0FHN0IsOERBQUNDO2dDQUFJRCxXQUFVOztrREFDYiw4REFBQ0M7d0NBQUlELFdBQVU7a0RBQU8sNEVBQUNNOzRDQUFFTixXQUFVOzs7Ozs7Ozs7OztrREFDbkMsOERBQUNPO3dDQUFHUCxXQUFVO2tEQUFRLDRFQUFDRTs0Q0FBRUMsTUFBSztzREFBRzs7Ozs7Ozs7Ozs7a0RBQ2pDLDhEQUFDRTt3Q0FBRUwsV0FBVTtrREFBYzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQVN6QztBQUVPLE1BQU1RLHFCQUF5QyxPQUFPQztJQUd6RCxPQUFPO1FBQ0hDLE9BQU0sQ0FFTjtJQUNKO0FBQ0osRUFBQztBQUVELGlFQUFlYixPQUFPQSxFQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkaWxhYi1wcm8vLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9hYm91dFVzLnRzeD9mNTZiIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB7IEdldFNlcnZlclNpZGVQcm9wcyB9IGZyb20gJ25leHQnO1xuXG5jb25zdCBBYm91dFVzID0gKCkgPT4ge1xuICAgIHJldHVybiAoXG4gICAgICAgIDxzZWN0aW9uIGlkPVwiYWJvdXRcIiBjbGFzc05hbWU9XCJhYm91dFwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXItZmx1aWRcIj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLXhsLTUgY29sLWxnLTYgdmlkZW8tYm94IGQtZmxleCBqdXN0aWZ5LWNvbnRlbnQtY2VudGVyIGFsaWduLWl0ZW1zLXN0cmV0Y2ggcG9zaXRpb24tcmVsYXRpdmVcIj5cbiAgICAgICAgICAgIDxhIGhyZWY9XCJodHRwczovL3d3dy55b3V0dWJlLmNvbS93YXRjaD92PWpERGFwbGFPejdRXCIgY2xhc3NOYW1lPVwiZ2xpZ2h0Ym94IHBsYXktYnRuIG1iLTRcIj48L2E+XG4gICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC14bC03IGNvbC1sZy02IGljb24tYm94ZXMgZC1mbGV4IGZsZXgtY29sdW1uIGFsaWduLWl0ZW1zLXN0cmV0Y2gganVzdGlmeS1jb250ZW50LWNlbnRlciBweS01IHB4LWxnLTVcIj5cbiAgICAgICAgICAgIDxoMz5VbmUgw4lxdWlwZSBEw6lkacOpZSDDoCBWb3RyZSBTYW50w6k8L2gzPlxuICAgICAgICAgICAgPHA+Tm91cyBzb21tZXMgdW5lIMOpcXVpcGUgZGUgc3DDqWNpYWxpc3RlcyBlbmdhZ8OpcywgdW5pc3NhbnQgZXhwZXJ0aXNlIG3DqWRpY2FsZSBldCBpbm5vdmF0aW9uIHRlY2hub2xvZ2lxdWUgcG91ciBvZmZyaXIgZGVzIHNvaW5zIGRlIHF1YWxpdMOpIGV0IHVuIHN1aXZpIHBlcnNvbm5hbGlzw6kuPC9wPlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImljb24tYm94XCI+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaWNvblwiPjxpIGNsYXNzTmFtZT1cImJ4IGJ4LWZpbmdlcnByaW50XCI+PC9pPjwvZGl2PlxuICAgICAgICAgICAgICA8aDQgY2xhc3NOYW1lPVwidGl0bGVcIj48YSBocmVmPVwiXCI+VW5lIEFwcHJvY2hlIEh1bWFpbmU8L2E+PC9oND5cbiAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwiZGVzY3JpcHRpb25cIj5DaGFxdWUgcGF0aWVudCBlc3QgdW5pcXVlLiBOb3VzIGFkYXB0b25zIG5vcyBzZXJ2aWNlcyBwb3VyIHLDqXBvbmRyZSDDoCB2b3MgYmVzb2lucyBzcMOpY2lmaXF1ZXMgZXQgdm91cyBhY2NvbXBhZ25lciB0b3V0IGF1IGxvbmcgZGUgdm90cmUgcGFyY291cnMgZGUgc2FudMOpLjwvcD5cbiAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImljb24tYm94XCI+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaWNvblwiPjxpIGNsYXNzTmFtZT1cImJ4IGJ4LWdpZnRcIj48L2k+PC9kaXY+XG4gICAgICAgICAgICAgIDxoNCBjbGFzc05hbWU9XCJ0aXRsZVwiPjxhIGhyZWY9XCJcIj5FeHBlcnRpc2UgRGlhZ25vc3RpcXVlPC9hPjwvaDQ+XG4gICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImRlc2NyaXB0aW9uXCI+Tm91cyBhdm9ucyBmYWl0IGxlIGNob2l4IGQnaW50w6lncmVyIHVuZSBwbGF0Zm9ybWUgw6AgbGEgcG9pbnRlIGRlIGxhIHRlY2hub2xvZ2llLCByw6lwb25kYW50IGF1eCBlbmpldXggY2xpbmlxdWVzIGxlcyBwbHVzIGNvbXBsZXhlcyBldCBwZXJtZXR0YW50IGQnb2ZmcmlyIGRlcyBzb2x1dGlvbnMgZmlhYmxlcy4gPC9wPlxuICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaWNvbi1ib3hcIj5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpY29uXCI+PGkgY2xhc3NOYW1lPVwiYnggYngtYXRvbVwiPjwvaT48L2Rpdj5cbiAgICAgICAgICAgICAgPGg0IGNsYXNzTmFtZT1cInRpdGxlXCI+PGEgaHJlZj1cIlwiPlBhcnRlbmFyaWF0cyBTY2llbnRpZmlxdWVzPC9hPjwvaDQ+XG4gICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cImRlc2NyaXB0aW9uXCI+RW4gY29sbGFib3JhdGlvbiBhdmVjIGRlcyBhY3RldXJzIHB1YmxpY3MgZXQgcHJpdsOpcywgbm91cyBwYXJ0aWNpcG9ucyBhY3RpdmVtZW50IMOgIGxhIHJlY2hlcmNoZSBhcHBsaXF1w6llIHBvdXIgZmFpcmUgcHJvZ3Jlc3NlciBs4oCZaW1hZ2VyaWUgbcOpZGljYWxlIGFkYXB0w6llIMOgIG5vdHJlIGNvbnRleHRlIHNvY2lvLcOpY29ub21pcXVlLiAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgIDwvZGl2PlxuICAgIDwvc2VjdGlvbj5cbiAgICApO1xufVxuXG5leHBvcnQgY29uc3QgZ2V0U2VydmVyU2lkZVByb3BzOiBHZXRTZXJ2ZXJTaWRlUHJvcHMgPSBhc3luYyAoY3R4KSA9PiB7XG5cblxuICAgIHJldHVybiB7XG4gICAgICAgIHByb3BzOntcblxuICAgICAgICB9XG4gICAgfVxufVxuXG5leHBvcnQgZGVmYXVsdCBBYm91dFVzIl0sIm5hbWVzIjpbIkFib3V0VXMiLCJzZWN0aW9uIiwiaWQiLCJjbGFzc05hbWUiLCJkaXYiLCJhIiwiaHJlZiIsImgzIiwicCIsImkiLCJoNCIsImdldFNlcnZlclNpZGVQcm9wcyIsImN0eCIsInByb3BzIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/components/home/aboutUs.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/components/home/appointement.tsx":
+/*!**************************************************!*\
+  !*** ./src/app/components/home/appointement.tsx ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Appointment = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        id: \"appointment\",\n        className: \"appointment section-bg\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"container\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"section-title\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                            children: \"Prendre un Rendez-vous\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                            lineNumber: 9,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            children: \"Nous facilitons votre prise de rendez-vous avec nos experts en imagerie m\\xe9dicale. Chaque consultation est trait\\xe9e avec pr\\xe9cision et attention pour r\\xe9pondre \\xe0 vos besoins en diagnostic.\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                            lineNumber: 10,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                    lineNumber: 8,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                    className: \"php-email-form\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"row\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"col-md-4 form-group\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                        type: \"text\",\n                                        name: \"name\",\n                                        className: \"form-control\",\n                                        id: \"name\",\n                                        placeholder: \"Votre Nom\",\n                                        \"data-rule\": \"minlen:4\",\n                                        \"data-msg\": \"Veuillez entrer au moins 4 caract\\xe8res\",\n                                        disabled: true\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                        lineNumber: 17,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                    lineNumber: 16,\n                                    columnNumber: 13\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"col-md-4 form-group mt-3 mt-md-0\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                        type: \"email\",\n                                        className: \"form-control\",\n                                        name: \"email\",\n                                        id: \"email\",\n                                        placeholder: \"Votre Email\",\n                                        \"data-rule\": \"email\",\n                                        \"data-msg\": \"Veuillez entrer un email valide\",\n                                        disabled: true\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                        lineNumber: 20,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                    lineNumber: 19,\n                                    columnNumber: 13\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"col-md-4 form-group mt-3 mt-md-0\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                        type: \"tel\",\n                                        className: \"form-control\",\n                                        name: \"phone\",\n                                        id: \"phone\",\n                                        placeholder: \"Votre T\\xe9l\\xe9phone\",\n                                        \"data-rule\": \"minlen:4\",\n                                        \"data-msg\": \"Veuillez entrer au moins 4 caract\\xe8res\",\n                                        disabled: true\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                        lineNumber: 23,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                    lineNumber: 22,\n                                    columnNumber: 13\n                                }, undefined)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                            lineNumber: 15,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"row\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"col-md-4 form-group mt-3\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                        type: \"datetime\",\n                                        name: \"date\",\n                                        className: \"form-control datepicker\",\n                                        id: \"date\",\n                                        placeholder: \"Date du Rendez-vous\",\n                                        disabled: true\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                        lineNumber: 29,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                    lineNumber: 28,\n                                    columnNumber: 13\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"col-md-4 form-group mt-3\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"select\", {\n                                        name: \"department\",\n                                        id: \"department\",\n                                        className: \"form-select\",\n                                        disabled: true,\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"option\", {\n                                                value: \"\",\n                                                children: \"S\\xe9lectionnez le D\\xe9partement\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                                lineNumber: 33,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"option\", {\n                                                value: \"Department 1\",\n                                                children: \"Mammographie & Angio-Mammographie\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                                lineNumber: 34,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"option\", {\n                                                value: \"Department 2\",\n                                                children: \"\\xc9chographie\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                                lineNumber: 35,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"option\", {\n                                                value: \"Department 3\",\n                                                children: \"Combiner Dentaire\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                                lineNumber: 36,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"option\", {\n                                                value: \"Department 4\",\n                                                children: \"Radiologie Standard\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                                lineNumber: 37,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"option\", {\n                                                value: \"Department 5\",\n                                                children: \"\\xc9lastographie ShearWave\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                                lineNumber: 38,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"option\", {\n                                                value: \"Department 6\",\n                                                children: \"IRM & Scanner\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                                lineNumber: 39,\n                                                columnNumber: 17\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                        lineNumber: 32,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                    lineNumber: 31,\n                                    columnNumber: 13\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"col-md-4 form-group mt-3\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"select\", {\n                                        name: \"doctor\",\n                                        id: \"doctor\",\n                                        className: \"form-select\",\n                                        disabled: true,\n                                        children: [\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"option\", {\n                                                value: \"\",\n                                                children: \"S\\xe9lectionnez le M\\xe9decin\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                                lineNumber: 44,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"option\", {\n                                                value: \"Doctor 1\",\n                                                children: \"Doctor 1\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                                lineNumber: 45,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"option\", {\n                                                value: \"Doctor 2\",\n                                                children: \"Doctor 2\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                                lineNumber: 46,\n                                                columnNumber: 17\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"option\", {\n                                                value: \"Doctor 3\",\n                                                children: \"Doctor 3\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                                lineNumber: 47,\n                                                columnNumber: 17\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                        lineNumber: 43,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                    lineNumber: 42,\n                                    columnNumber: 13\n                                }, undefined)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                            lineNumber: 27,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"form-group mt-3\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"textarea\", {\n                                className: \"form-control\",\n                                name: \"message\",\n                                placeholder: \"Message (Optionnel)\",\n                                disabled: true\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                lineNumber: 53,\n                                columnNumber: 13\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                            lineNumber: 52,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"mb-3\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"loading\",\n                                    children: \"Loading...\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                    lineNumber: 57,\n                                    columnNumber: 13\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"error-message\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                    lineNumber: 58,\n                                    columnNumber: 13\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"sent-message\",\n                                    children: \"Votre demande de rendez-vous a \\xe9t\\xe9 envoy\\xe9e avec succ\\xe8s. Merci !\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                                    lineNumber: 59,\n                                    columnNumber: 13\n                                }, undefined)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                            lineNumber: 56,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                    lineNumber: 14,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                    style: {\n                        textAlign: \"center\",\n                        color: \"#e94490\",\n                        fontWeight: \"bold\"\n                    },\n                    children: \"⚠️ La prise de rendez-vous en ligne sera bient\\xf4t disponible.\"\n                }, void 0, false, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n                    lineNumber: 66,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n            lineNumber: 6,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/appointement.tsx\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Appointment);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9hcHBvaW50ZW1lbnQudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFFQSxNQUFNQSxjQUFjO0lBQ2xCLHFCQUNFLDhEQUFDQztRQUFRQyxJQUFHO1FBQWNDLFdBQVU7a0JBQ2xDLDRFQUFDQztZQUFJRCxXQUFVOzs4QkFFYiw4REFBQ0M7b0JBQUlELFdBQVU7O3NDQUNiLDhEQUFDRTtzQ0FBRzs7Ozs7O3NDQUNKLDhEQUFDQztzQ0FBRTs7Ozs7Ozs7Ozs7OzhCQUlMLDhEQUFDQztvQkFBS0osV0FBVTs7c0NBQ2QsOERBQUNDOzRCQUFJRCxXQUFVOzs4Q0FDYiw4REFBQ0M7b0NBQUlELFdBQVU7OENBQ2IsNEVBQUNLO3dDQUFNQyxNQUFLO3dDQUFPQyxNQUFLO3dDQUFPUCxXQUFVO3dDQUFlRCxJQUFHO3dDQUFPUyxhQUFZO3dDQUFZQyxhQUFVO3dDQUFXQyxZQUFTO3dDQUF3Q0MsUUFBUTs7Ozs7Ozs7Ozs7OENBRTFLLDhEQUFDVjtvQ0FBSUQsV0FBVTs4Q0FDYiw0RUFBQ0s7d0NBQU1DLE1BQUs7d0NBQVFOLFdBQVU7d0NBQWVPLE1BQUs7d0NBQVFSLElBQUc7d0NBQVFTLGFBQVk7d0NBQWNDLGFBQVU7d0NBQVFDLFlBQVM7d0NBQWtDQyxRQUFROzs7Ozs7Ozs7Ozs4Q0FFdEssOERBQUNWO29DQUFJRCxXQUFVOzhDQUNiLDRFQUFDSzt3Q0FBTUMsTUFBSzt3Q0FBTU4sV0FBVTt3Q0FBZU8sTUFBSzt3Q0FBUVIsSUFBRzt3Q0FBUVMsYUFBWTt3Q0FBa0JDLGFBQVU7d0NBQVdDLFlBQVM7d0NBQXdDQyxRQUFROzs7Ozs7Ozs7Ozs7Ozs7OztzQ0FJbkwsOERBQUNWOzRCQUFJRCxXQUFVOzs4Q0FDYiw4REFBQ0M7b0NBQUlELFdBQVU7OENBQ2IsNEVBQUNLO3dDQUFNQyxNQUFLO3dDQUFXQyxNQUFLO3dDQUFPUCxXQUFVO3dDQUEwQkQsSUFBRzt3Q0FBT1MsYUFBWTt3Q0FBc0JHLFFBQVE7Ozs7Ozs7Ozs7OzhDQUU3SCw4REFBQ1Y7b0NBQUlELFdBQVU7OENBQ2IsNEVBQUNZO3dDQUFPTCxNQUFLO3dDQUFhUixJQUFHO3dDQUFhQyxXQUFVO3dDQUFjVyxRQUFROzswREFDeEUsOERBQUNFO2dEQUFPQyxPQUFNOzBEQUFHOzs7Ozs7MERBQ2pCLDhEQUFDRDtnREFBT0MsT0FBTTswREFBZTs7Ozs7OzBEQUM3Qiw4REFBQ0Q7Z0RBQU9DLE9BQU07MERBQWU7Ozs7OzswREFDN0IsOERBQUNEO2dEQUFPQyxPQUFNOzBEQUFlOzs7Ozs7MERBQzdCLDhEQUFDRDtnREFBT0MsT0FBTTswREFBZTs7Ozs7OzBEQUM3Qiw4REFBQ0Q7Z0RBQU9DLE9BQU07MERBQWU7Ozs7OzswREFDN0IsOERBQUNEO2dEQUFPQyxPQUFNOzBEQUFlOzs7Ozs7Ozs7Ozs7Ozs7Ozs4Q0FHakMsOERBQUNiO29DQUFJRCxXQUFVOzhDQUNiLDRFQUFDWTt3Q0FBT0wsTUFBSzt3Q0FBU1IsSUFBRzt3Q0FBU0MsV0FBVTt3Q0FBY1csUUFBUTs7MERBQ2hFLDhEQUFDRTtnREFBT0MsT0FBTTswREFBRzs7Ozs7OzBEQUNqQiw4REFBQ0Q7Z0RBQU9DLE9BQU07MERBQVc7Ozs7OzswREFDekIsOERBQUNEO2dEQUFPQyxPQUFNOzBEQUFXOzs7Ozs7MERBQ3pCLDhEQUFDRDtnREFBT0MsT0FBTTswREFBVzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7c0NBSy9CLDhEQUFDYjs0QkFBSUQsV0FBVTtzQ0FDYiw0RUFBQ2U7Z0NBQVNmLFdBQVU7Z0NBQWVPLE1BQUs7Z0NBQVVDLGFBQVk7Z0NBQXNCRyxRQUFROzs7Ozs7Ozs7OztzQ0FHOUYsOERBQUNWOzRCQUFJRCxXQUFVOzs4Q0FDYiw4REFBQ0M7b0NBQUlELFdBQVU7OENBQVU7Ozs7Ozs4Q0FDekIsOERBQUNDO29DQUFJRCxXQUFVOzs7Ozs7OENBQ2YsOERBQUNDO29DQUFJRCxXQUFVOzhDQUFlOzs7Ozs7Ozs7Ozs7Ozs7Ozs7OEJBT2xDLDhEQUFDRztvQkFBRWEsT0FBTzt3QkFBRUMsV0FBVzt3QkFBVUMsT0FBTzt3QkFBV0MsWUFBWTtvQkFBTzs4QkFBRzs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFPakY7QUFFQSxpRUFBZXRCLFdBQVdBLEVBQUMiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tZWRpbGFiLXByby8uL3NyYy9hcHAvY29tcG9uZW50cy9ob21lL2FwcG9pbnRlbWVudC50c3g/NmYzNyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBHZXRTZXJ2ZXJTaWRlUHJvcHMgfSBmcm9tICduZXh0JztcblxuY29uc3QgQXBwb2ludG1lbnQgPSAoKSA9PiB7XG4gIHJldHVybiAoXG4gICAgPHNlY3Rpb24gaWQ9XCJhcHBvaW50bWVudFwiIGNsYXNzTmFtZT1cImFwcG9pbnRtZW50IHNlY3Rpb24tYmdcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzZWN0aW9uLXRpdGxlXCI+XG4gICAgICAgICAgPGgyPlByZW5kcmUgdW4gUmVuZGV6LXZvdXM8L2gyPlxuICAgICAgICAgIDxwPk5vdXMgZmFjaWxpdG9ucyB2b3RyZSBwcmlzZSBkZSByZW5kZXotdm91cyBhdmVjIG5vcyBleHBlcnRzIGVuIGltYWdlcmllIG3DqWRpY2FsZS4gQ2hhcXVlIGNvbnN1bHRhdGlvbiBlc3QgdHJhaXTDqWUgYXZlYyBwcsOpY2lzaW9uIGV0IGF0dGVudGlvbiBwb3VyIHLDqXBvbmRyZSDDoCB2b3MgYmVzb2lucyBlbiBkaWFnbm9zdGljLjwvcD5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgey8qIERpc2FibGVkIGZvcm0gYWN0aW9uICYgbWV0aG9kIHRvIHByZXZlbnQgZXJyb3JzICovfVxuICAgICAgICA8Zm9ybSBjbGFzc05hbWU9XCJwaHAtZW1haWwtZm9ybVwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1tZC00IGZvcm0tZ3JvdXBcIj5cbiAgICAgICAgICAgICAgPGlucHV0IHR5cGU9XCJ0ZXh0XCIgbmFtZT1cIm5hbWVcIiBjbGFzc05hbWU9XCJmb3JtLWNvbnRyb2xcIiBpZD1cIm5hbWVcIiBwbGFjZWhvbGRlcj1cIlZvdHJlIE5vbVwiIGRhdGEtcnVsZT1cIm1pbmxlbjo0XCIgZGF0YS1tc2c9XCJWZXVpbGxleiBlbnRyZXIgYXUgbW9pbnMgNCBjYXJhY3TDqHJlc1wiIGRpc2FibGVkIC8+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLW1kLTQgZm9ybS1ncm91cCBtdC0zIG10LW1kLTBcIj5cbiAgICAgICAgICAgICAgPGlucHV0IHR5cGU9XCJlbWFpbFwiIGNsYXNzTmFtZT1cImZvcm0tY29udHJvbFwiIG5hbWU9XCJlbWFpbFwiIGlkPVwiZW1haWxcIiBwbGFjZWhvbGRlcj1cIlZvdHJlIEVtYWlsXCIgZGF0YS1ydWxlPVwiZW1haWxcIiBkYXRhLW1zZz1cIlZldWlsbGV6IGVudHJlciB1biBlbWFpbCB2YWxpZGVcIiBkaXNhYmxlZCAvPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1tZC00IGZvcm0tZ3JvdXAgbXQtMyBtdC1tZC0wXCI+XG4gICAgICAgICAgICAgIDxpbnB1dCB0eXBlPVwidGVsXCIgY2xhc3NOYW1lPVwiZm9ybS1jb250cm9sXCIgbmFtZT1cInBob25lXCIgaWQ9XCJwaG9uZVwiIHBsYWNlaG9sZGVyPVwiVm90cmUgVMOpbMOpcGhvbmVcIiBkYXRhLXJ1bGU9XCJtaW5sZW46NFwiIGRhdGEtbXNnPVwiVmV1aWxsZXogZW50cmVyIGF1IG1vaW5zIDQgY2FyYWN0w6hyZXNcIiBkaXNhYmxlZCAvPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbWQtNCBmb3JtLWdyb3VwIG10LTNcIj5cbiAgICAgICAgICAgICAgPGlucHV0IHR5cGU9XCJkYXRldGltZVwiIG5hbWU9XCJkYXRlXCIgY2xhc3NOYW1lPVwiZm9ybS1jb250cm9sIGRhdGVwaWNrZXJcIiBpZD1cImRhdGVcIiBwbGFjZWhvbGRlcj1cIkRhdGUgZHUgUmVuZGV6LXZvdXNcIiBkaXNhYmxlZCAvPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1tZC00IGZvcm0tZ3JvdXAgbXQtM1wiPlxuICAgICAgICAgICAgICA8c2VsZWN0IG5hbWU9XCJkZXBhcnRtZW50XCIgaWQ9XCJkZXBhcnRtZW50XCIgY2xhc3NOYW1lPVwiZm9ybS1zZWxlY3RcIiBkaXNhYmxlZD5cbiAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPVwiXCI+U8OpbGVjdGlvbm5leiBsZSBEw6lwYXJ0ZW1lbnQ8L29wdGlvbj5cbiAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPVwiRGVwYXJ0bWVudCAxXCI+TWFtbW9ncmFwaGllICYgQW5naW8tTWFtbW9ncmFwaGllPC9vcHRpb24+XG4gICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cIkRlcGFydG1lbnQgMlwiPsOJY2hvZ3JhcGhpZTwvb3B0aW9uPlxuICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9XCJEZXBhcnRtZW50IDNcIj5Db21iaW5lciBEZW50YWlyZTwvb3B0aW9uPlxuICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9XCJEZXBhcnRtZW50IDRcIj5SYWRpb2xvZ2llIFN0YW5kYXJkPC9vcHRpb24+XG4gICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cIkRlcGFydG1lbnQgNVwiPsOJbGFzdG9ncmFwaGllIFNoZWFyV2F2ZTwvb3B0aW9uPlxuICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9XCJEZXBhcnRtZW50IDZcIj5JUk0gJiBTY2FubmVyPC9vcHRpb24+XG4gICAgICAgICAgICAgIDwvc2VsZWN0PlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1tZC00IGZvcm0tZ3JvdXAgbXQtM1wiPlxuICAgICAgICAgICAgICA8c2VsZWN0IG5hbWU9XCJkb2N0b3JcIiBpZD1cImRvY3RvclwiIGNsYXNzTmFtZT1cImZvcm0tc2VsZWN0XCIgZGlzYWJsZWQ+XG4gICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cIlwiPlPDqWxlY3Rpb25uZXogbGUgTcOpZGVjaW48L29wdGlvbj5cbiAgICAgICAgICAgICAgICA8b3B0aW9uIHZhbHVlPVwiRG9jdG9yIDFcIj5Eb2N0b3IgMTwvb3B0aW9uPlxuICAgICAgICAgICAgICAgIDxvcHRpb24gdmFsdWU9XCJEb2N0b3IgMlwiPkRvY3RvciAyPC9vcHRpb24+XG4gICAgICAgICAgICAgICAgPG9wdGlvbiB2YWx1ZT1cIkRvY3RvciAzXCI+RG9jdG9yIDM8L29wdGlvbj5cbiAgICAgICAgICAgICAgPC9zZWxlY3Q+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9ybS1ncm91cCBtdC0zXCI+XG4gICAgICAgICAgICA8dGV4dGFyZWEgY2xhc3NOYW1lPVwiZm9ybS1jb250cm9sXCIgbmFtZT1cIm1lc3NhZ2VcIiBwbGFjZWhvbGRlcj1cIk1lc3NhZ2UgKE9wdGlvbm5lbClcIiBkaXNhYmxlZD48L3RleHRhcmVhPlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYi0zXCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImxvYWRpbmdcIj5Mb2FkaW5nLi4uPC9kaXY+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImVycm9yLW1lc3NhZ2VcIj48L2Rpdj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2VudC1tZXNzYWdlXCI+Vm90cmUgZGVtYW5kZSBkZSByZW5kZXotdm91cyBhIMOpdMOpIGVudm95w6llIGF2ZWMgc3VjY8Oocy4gTWVyY2kgITwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgey8qIENvbW1lbnRlZCBvdXQgdGhlIGJ1dHRvbiB0byBwcmV2ZW50IGludGVyYWN0aW9ucyAqL31cbiAgICAgICAgICB7LyogPGRpdiBjbGFzc05hbWU9XCJ0ZXh0LWNlbnRlclwiPjxidXR0b24gdHlwZT1cInN1Ym1pdFwiPiBQcmVuZHJlIHVuIFJlbmRlei12b3VzPC9idXR0b24+PC9kaXY+ICovfVxuICAgICAgICA8L2Zvcm0+XG5cbiAgICAgICAgPHAgc3R5bGU9e3sgdGV4dEFsaWduOiBcImNlbnRlclwiLCBjb2xvcjogXCIjZTk0NDkwXCIsIGZvbnRXZWlnaHQ6IFwiYm9sZFwiIH19PlxuICAgICAgICAgIOKaoO+4jyBMYSBwcmlzZSBkZSByZW5kZXotdm91cyBlbiBsaWduZSBzZXJhIGJpZW50w7R0IGRpc3BvbmlibGUuXG4gICAgICAgIDwvcD5cblxuICAgICAgPC9kaXY+XG4gICAgPC9zZWN0aW9uPlxuICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBBcHBvaW50bWVudDtcbiJdLCJuYW1lcyI6WyJBcHBvaW50bWVudCIsInNlY3Rpb24iLCJpZCIsImNsYXNzTmFtZSIsImRpdiIsImgyIiwicCIsImZvcm0iLCJpbnB1dCIsInR5cGUiLCJuYW1lIiwicGxhY2Vob2xkZXIiLCJkYXRhLXJ1bGUiLCJkYXRhLW1zZyIsImRpc2FibGVkIiwic2VsZWN0Iiwib3B0aW9uIiwidmFsdWUiLCJ0ZXh0YXJlYSIsInN0eWxlIiwidGV4dEFsaWduIiwiY29sb3IiLCJmb250V2VpZ2h0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/components/home/appointement.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/components/home/contact.tsx":
+/*!*********************************************!*\
+  !*** ./src/app/components/home/contact.tsx ***!
+  \*********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2451);
-/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(8038);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
-/* __next_internal_client_entry_do_not_use__ default auto */ 
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-
-const departement = (/* unused pure expression or super */ null && ([
-    "Cardiology",
-    "Neurology",
-    "Hepatology",
-    "Pediatrics",
-    "Eye Care"
-]));
-const DepartementDetail = [
-    {
-        title: "Mammographie 3D & Angio-Mammographie",
-        paragraph: "La mammographie 3D, combin\xe9e \xe0 une fonctionnalit\xe9 exclusive sur nos machines haute d\xe9finition, offre une efficacit\xe9 diagnostique sup\xe9rieure gr\xe2ce \xe0 une technologie d'IA innovante de traitement d'image. L'angio-Mammographie permet une imagerie du sein avec injection de produit de contraste permettant de d\xe9masquer des anomalies subtiles pour un diagnostic pr\xe9coce et pr\xe9cis. ",
-        image: "/img/departments-1.jpg"
-    },
-    {
-        title: "\xc9chographie & \xc9lastographie ShearWave",
-        paragraph: "L'\xe9chographie est une m\xe9thode d'imagerie douce et rapide, permettant d'observer en temps r\xe9el les organes internes, les tissus mous, et de surveiller efficacement l'\xe9tat de sant\xe9 global. l'\xe9lastographie shearWave est une fonctionalit\xe9 unique sur notre syst\xe9me permettant une sup\xe9riorit\xe9 diagnostique dans les cas les plus complexes. ",
-        image: "/img/departments-2.jpg"
-    },
-    {
-        title: "Actes Interventionnels",
-        paragraph: "Il s'agit d'interventions percutan\xe9es r\xe9alis\xe9es en ambulatoire, \xe0 vis\xe9e diagnostique, comme les biopsies, ou th\xe9rapeutique, sous guidage \xe9chographique ou scanner. En s\xe9nologie, certains actes sont effectu\xe9s dans le cadre du rep\xe9rage pr\xe9-th\xe9rapeutique, tels que la pose de harpons et de clips sous contr\xf4le \xe9chographique ou mammographique, permettant d'identifier avec pr\xe9cision les l\xe9sions cibles avant le traitement.",
-        image: "/img/departments-3.jpg"
-    },
-    {
-        title: "Radiologie Standard",
-        paragraph: "La radiologie standard regroupe les examens d'imagerie essentiels comme les radiographies du thorax ou des articulations. Ce service permet une \xe9valuation rapide et efficace des pathologies courantes.",
-        image: "/img/departments-4.jpg"
-    },
-    {
-        title: "Cone Beam",
-        paragraph: "Le Cone Beam est une technologie d'imagerie m\xe9dicale utilis\xe9e principalement pour examiner la dentition, les sinus et l'ossature maxillo-faciale. Il permet de r\xe9aliser une \xe9tude d\xe9taill\xe9e des structures en une seule acquisition, avec une irradiation g\xe9n\xe9ralement inf\xe9rieure \xe0 celle des scanners traditionnels, ce qui le rend particuli\xe8rement utile pour diagnostiquer des pathologies dans ces zones.",
-        image: "/img/departments-5.jpg"
-    },
-    {
-        title: "IRM & Scanner",
-        paragraph: "Les examens d’IRM et de scanner offrent une imagerie m\xe9dicale avanc\xe9e, capable de d\xe9tecter et de surveiller les pathologies les plus complexes pour une prise en charge optimale.",
-        image: "/img/departments-6.jpg"
-    }
-];
-const Departement = ()=>{
-    const [view, setView] = (0,react__WEBPACK_IMPORTED_MODULE_2__.useState)(0);
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-        id: "departments",
-        className: "departments",
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "container",
-            children: [
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "section-title",
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                            children: "Departments"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            children: "D\xe9couvrez nos d\xe9partements d\xe9di\xe9s \xe0 l'imagerie m\xe9dicale de pointe, con\xe7us pour r\xe9pondre \xe0 vos besoins de sant\xe9 avec pr\xe9cision et efficacit\xe9. Notre \xe9quipe d'experts utilise les derni\xe8res technologies pour vous offrir des services personnalis\xe9s et des diagnostics fiables. Chaque d\xe9partement est sp\xe9cialis\xe9 pour garantir une prise en charge optimale et adapt\xe9e \xe0 chaque patient."
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "row gy-4",
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: "col-lg-3",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("ul", {
-                                className: "nav nav-tabs flex-column",
-                                children: DepartementDetail.map((dep, index)=>/*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("li", {
-                                        className: "nav-item",
-                                        onClick: ()=>setView(index),
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("a", {
-                                            className: `nav-link ${view === index ? "active" : ""} show`,
-                                            href: "#tab-" + index + 1,
-                                            children: dep.title
-                                        })
-                                    }, "dep"))
-                            })
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                            className: "col-lg-9",
-                            children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                className: "tab-content",
-                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                    className: "tab-pane active show",
-                                    id: "tab-1",
-                                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                        className: "row gy-4",
-                                        children: [
-                                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                                                className: "col-lg-8 details order-2 order-lg-1",
-                                                children: [
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h3", {
-                                                        children: DepartementDetail[view].title
-                                                    }),
-                                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                                        children: DepartementDetail[view].paragraph
-                                                    })
-                                                ]
-                                            }),
-                                            /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                                                className: "col-lg-4 text-center order-1 order-lg-2",
-                                                children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {
-                                                    width: "306",
-                                                    height: "267",
-                                                    src: DepartementDetail[view].image,
-                                                    alt: "",
-                                                    className: "Image -fluid"
-                                                })
-                                            })
-                                        ]
-                                    })
-                                })
-                            })
-                        })
-                    ]
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Departement);
-
-
-/***/ }),
-
-/***/ 6268:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(2050);
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(2196);
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7338);
-/* harmony import */ var react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var react_accessible_accordion_dist_fancy_example_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(857);
-/* harmony import */ var react_accessible_accordion_dist_fancy_example_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react_accessible_accordion_dist_fancy_example_css__WEBPACK_IMPORTED_MODULE_3__);
-/* __next_internal_client_entry_do_not_use__ default auto */ 
-
-
-
-// Demo styles, see 'Styles' section below for some notes on use.
-
-const Faq = ()=>{
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("section", {
-        id: "faq",
-        className: "faq section-bg",
-        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-            className: "container",
-            children: [
-                /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)("div", {
-                    className: "section-title",
-                    children: [
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("h2", {
-                            children: "Questions Fr\xe9quemment Pos\xe9es"
-                        }),
-                        /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                            children: "Nous r\xe9pondons \xe0 vos interrogations les plus courantes concernant les examens de radiologie, d'imagerie de la femme et de s\xe9nologie. N’h\xe9sitez pas \xe0 nous contacter pour toute question suppl\xe9mentaire ou pour prendre rendez-vous."
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("div", {
-                    className: "faq-list",
-                    children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.Accordion, {
-                        style: {
-                            border: "none"
-                        },
-                        children: [
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItem, {
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemHeading, {
-                                        style: {
-                                            border: "none"
-                                        },
-                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemButton, {
-                                            className: "accordion-item",
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-                                                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__/* .faQuestionCircle */ .Fuz,
-                                                    "aria-hidden": "true"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                    style: {
-                                                        marginLeft: "5px",
-                                                        color: "black",
-                                                        fontWeight: "600",
-                                                        fontSize: "16px"
-                                                    },
-                                                    children: " \xc0 partir de quel \xe2ge doit-on faire une mammographie de d\xe9pistage ?"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                    className: "bx bx-chevron-down icon-show"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                    className: "bx bx-chevron-up icon-close"
-                                                })
-                                            ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemPanel, {
-                                        style: {
-                                            background: "white"
-                                        },
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "La mammographie de d\xe9pistage est g\xe9n\xe9ralement recommand\xe9e \xe0 partir de l'\xe2ge de 40 ans, m\xeame en l'absence de sympt\xf4mes. Toutefois, si vous pr\xe9sentez des ant\xe9c\xe9dents familiaux de cancer du sein, une consultation pr\xe9coce est conseill\xe9e pour \xe9valuer le risque et adapter le suivi."
-                                        })
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItem, {
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemHeading, {
-                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemButton, {
-                                            className: "accordion-item",
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-                                                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__/* .faQuestionCircle */ .Fuz,
-                                                    "aria-hidden": "true"
-                                                }),
-                                                " ",
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                    style: {
-                                                        marginLeft: "5px",
-                                                        color: "black",
-                                                        fontWeight: "600",
-                                                        fontSize: "16px"
-                                                    },
-                                                    children: "Une \xe9chographie mammaire peut-elle remplacer une mammographie ?"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                    className: "bx bx-chevron-down icon-show"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                    className: "bx bx-chevron-up icon-close"
-                                                })
-                                            ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemPanel, {
-                                        style: {
-                                            background: "white"
-                                        },
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "Non, l'\xe9chographie mammaire ne remplace pas la mammographie. Ce sont des examens compl\xe9mentaires. La mammographie reste le moyen principal de d\xe9pistage du cancer du sein, tandis que l'\xe9chographie est utilis\xe9e pour approfondir l'analyse en cas de seins denses ou d'anomalie d\xe9tect\xe9e."
-                                        })
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItem, {
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemHeading, {
-                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemButton, {
-                                            className: "accordion-item",
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-                                                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__/* .faQuestionCircle */ .Fuz,
-                                                    "aria-hidden": "true"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                    style: {
-                                                        marginLeft: "5px",
-                                                        color: "black",
-                                                        fontWeight: "600",
-                                                        fontSize: "16px"
-                                                    },
-                                                    children: "Quels sont les signes qui doivent m’alerter pour consulter en s\xe9nologie ?"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                    className: "bx bx-chevron-down icon-show"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                    className: "bx bx-chevron-up icon-close"
-                                                })
-                                            ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemPanel, {
-                                        style: {
-                                            background: "white"
-                                        },
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "Vous devriez consulter si vous remarquez : Une boule ou une masse dans le sein; Un \xe9coulement anormal du mamelon; Une modification de la forme ou de la taille du sein; Une douleur persistante ou des changements de la peau (rougeur, r\xe9traction)."
-                                        })
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItem, {
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemHeading, {
-                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemButton, {
-                                            className: "accordion-item",
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-                                                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__/* .faQuestionCircle */ .Fuz,
-                                                    "aria-hidden": "true"
-                                                }),
-                                                " ",
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                    style: {
-                                                        marginLeft: "5px",
-                                                        color: "black",
-                                                        fontWeight: "600",
-                                                        fontSize: "16px"
-                                                    },
-                                                    children: "L'exposition aux rayons X d'une mammographie est-elle dangereuse ?"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                    className: "bx bx-chevron-down icon-show"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                    className: "bx bx-chevron-up icon-close"
-                                                })
-                                            ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemPanel, {
-                                        style: {
-                                            background: "white"
-                                        },
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "La dose de rayons X utilis\xe9e lors d’une mammographie est tr\xe8s faible et sans danger pour la plupart des femmes. Les b\xe9n\xe9fices du d\xe9pistage pr\xe9coce du cancer du sein surpassent largement les risques li\xe9s \xe0 cette exposition minime."
-                                        })
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItem, {
-                                style: {
-                                    border: "none"
-                                },
-                                children: [
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemHeading, {
-                                        style: {
-                                            border: "none"
-                                        },
-                                        children: /*#__PURE__*/ (0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxs)(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemButton, {
-                                            className: "accordion-item",
-                                            style: {
-                                                border: "none"
-                                            },
-                                            children: [
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {
-                                                    icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_4__/* .faQuestionCircle */ .Fuz,
-                                                    "aria-hidden": "true"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("span", {
-                                                    style: {
-                                                        marginLeft: "5px",
-                                                        color: "#343a40",
-                                                        fontWeight: "600",
-                                                        fontSize: "16px"
-                                                    },
-                                                    children: "Doit-on prendre des pr\xe9cautions particuli\xe8res avant une IRM mammaire ?"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                    className: "bx bx-chevron-down icon-show"
-                                                }),
-                                                /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("i", {
-                                                    className: "bx bx-chevron-up icon-close"
-                                                })
-                                            ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx(react_accessible_accordion__WEBPACK_IMPORTED_MODULE_2__.AccordionItemPanel, {
-                                        style: {
-                                            background: "white"
-                                        },
-                                        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("p", {
-                                            children: "Oui, pour une IRM mammaire, il est conseill\xe9 de : \xc9viter de porter des objets m\xe9talliques; Informer votre radiologue si vous \xeates enceinte ou si vous avez des implants m\xe9talliques; Planifier l’examen entre le 7ᵉ et le 14ᵉ jour du cycle menstruel pour une meilleure pr\xe9cision."
-                                        })
-                                    })
-                                ]
-                            })
-                        ]
-                    })
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Faq);
-
-
-/***/ }),
-
-/***/ 4053:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* binding */ RootLayout),
-/* harmony export */   metadata: () => (/* binding */ metadata)
-/* harmony export */ });
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(6786);
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(5856);
-/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(5023);
-/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_globals_css__WEBPACK_IMPORTED_MODULE_1__);
-
-
-
-const metadata = {
-    title: "Create Next App",
-    description: "Generated by create next app"
-};
-function RootLayout({ children }) {
-    return /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("html", {
-        lang: "en",
-        children: /*#__PURE__*/ react_jsx_runtime__WEBPACK_IMPORTED_MODULE_0__.jsx("body", {
-            className: (next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2___default().className),
-            children: children
-        })
-    });
-}
-
-
-/***/ }),
-
-/***/ 4754:
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-"use strict";
-// ESM COMPAT FLAG
-__webpack_require__.r(__webpack_exports__);
-
-// EXPORTS
-__webpack_require__.d(__webpack_exports__, {
-  "default": () => (/* binding */ Home)
-});
-
-// EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
-// EXTERNAL MODULE: ./node_modules/bootstrap/dist/css/bootstrap.min.css
-var bootstrap_min = __webpack_require__(7453);
-// EXTERNAL MODULE: ./node_modules/remixicon/fonts/remixicon.css
-var remixicon = __webpack_require__(4598);
-// EXTERNAL MODULE: ./node_modules/boxicons/css/boxicons.min.css
-var boxicons_min = __webpack_require__(301);
-// EXTERNAL MODULE: ./public/scss/style.scss
-var style = __webpack_require__(5746);
-// EXTERNAL MODULE: ./node_modules/bootstrap-icons/font/bootstrap-icons.css
-var bootstrap_icons = __webpack_require__(7994);
-// EXTERNAL MODULE: ./node_modules/@fortawesome/fontawesome-svg-core/styles.css
-var styles = __webpack_require__(9175);
-// EXTERNAL MODULE: ./node_modules/@fortawesome/fontawesome-svg-core/index.mjs
-var fontawesome_svg_core = __webpack_require__(5906);
-;// CONCATENATED MODULE: ./src/app/components/home/topbar.tsx
-
-function Topbar() {
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        id: "topbar",
-        className: "d-flex align-items-center fixed-top",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "container d-flex justify-content-between",
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "contact-info d-flex align-items-center",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                            className: "bi bi-envelope"
-                        }),
-                        " ",
-                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                            href: "mailto:contact@example.com",
-                            children: "drzeinebbelkhiria@gmail.com"
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                            className: "bi bi-phone"
-                        }),
-                        " +216 53 008 108",
-                        /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                            className: "bi bi-phone"
-                        }),
-                        " +216 57 132 305"
-                    ]
-                }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "d-none d-lg-flex social-links align-items-center",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                            href: "https://www.facebook.com/zeineb.belkhiria.3",
-                            className: "facebook",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                className: "bi bi-facebook"
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                            href: "https://tn.linkedin.com/in/zeineb-belkhiria",
-                            className: "linkedin",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                className: "bi bi-linkedin"
-                            })
-                        })
-                    ]
-                })
-            ]
-        })
-    });
-}
-
-;// CONCATENATED MODULE: ./src/app/components/home/hero.tsx
-
-const Hero = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        id: "hero",
-        className: "d-flex align-items-center",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "container",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx("h1", {
-                    children: "Breast Imaging Center"
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                    children: "Les experts en imagerie diagnostique et interventionnelle du sein"
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const hero = (Hero);
-
-// EXTERNAL MODULE: ./node_modules/next/image.js
-var next_image = __webpack_require__(4178);
-var image_default = /*#__PURE__*/__webpack_require__.n(next_image);
-;// CONCATENATED MODULE: ./src/app/components/home/header.tsx
-
-
-// import Media from './media'
-function Header() {
-    return /*#__PURE__*/ jsx_runtime_.jsx("header", {
-        id: "header",
-        className: "fixed-top",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "container d-flex align-items-center",
-            children: [
-                /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                    src: "/img/your-logo.png",
-                    alt: "BIC Logo",
-                    width: 50,
-                    height: 50,
-                    className: "img-fluid",
-                    priority: true
-                }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("nav", {
-                    id: "navbar",
-                    className: "navbar order-last order-lg-0",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("ul", {
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        className: "nav-link scrollto active",
-                                        href: "#hero",
-                                        children: "Home"
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        className: "nav-link scrollto",
-                                        href: "#about",
-                                        children: "About"
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        className: "nav-link scrollto",
-                                        href: "#services",
-                                        children: "Services"
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        className: "nav-link scrollto",
-                                        href: "#departments",
-                                        children: "Departments"
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        className: "nav-link scrollto",
-                                        href: "#doctors",
-                                        children: "Doctors"
-                                    })
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("li", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        className: "nav-link scrollto",
-                                        href: "#contact",
-                                        children: "Contact"
-                                    })
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                            className: "bi bi-list mobile-nav-toggle"
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("a", {
-                    href: "#appointment",
-                    className: "appointment-btn scrollto",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                            className: "d-none d-md-inline",
-                            children: "Make an"
-                        }),
-                        " Appointment"
-                    ]
-                })
-            ]
-        })
-    });
-}
-
-;// CONCATENATED MODULE: ./src/app/components/home/footer.tsx
-
-const footer = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("footer", {
-        id: "footer",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "footer-top",
-                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "container",
-                    children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "row",
-                        children: [
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "col-lg-3 col-md-6 footer-contact",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                        children: "BIC"
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                        children: [
-                                            "Centre de Radiologie El Hakim ",
-                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                            "\xc9tage (-1) ",
-                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                            "Voie X2 - Cit\xe9 El Khadra",
-                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                            "Tunis 1003 ",
-                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                                children: "Phone:"
-                                            }),
-                                            " +216 55 941 086",
-                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                                children: "Email:"
-                                            }),
-                                            " drzeinebbelkhiria@gmail.com",
-                                            /*#__PURE__*/ jsx_runtime_.jsx("br", {})
-                                        ]
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "col-lg-2 col-md-6 footer-links"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "col-lg-3 col-md-6 footer-links"
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "col-lg-4 col-md-6 footer-newsletter",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        children: "Join Our Blogs"
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "Restez inform\xe9 des derni\xe8res avanc\xe9es en radiologie, imagerie m\xe9dicale et s\xe9nologie. D\xe9couvrez nos articles et conseils d\xe9di\xe9s \xe0 la sant\xe9 de la femme."
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
-                                        action: "",
-                                        method: "post",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                                type: "email",
-                                                name: "email"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                                type: "submit",
-                                                value: "Subscribe"
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        ]
-                    })
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "container d-md-flex py-4",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "me-md-auto text-center text-md-start",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "copyright",
-                            children: [
-                                "\xa9 Copyright ",
-                                /*#__PURE__*/ jsx_runtime_.jsx("strong", {
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                        children: "BIC"
-                                    })
-                                }),
-                                ". All Rights Reserved"
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "social-links text-center text-md-right pt-3 pt-md-0",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                href: "https://www.facebook.com/zeineb.belkhiria.3",
-                                className: "facebook",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                    className: "bx bxl-facebook"
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                href: "https://tn.linkedin.com/in/zeineb-belkhiria",
-                                className: "linkedin",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                    className: "bx bxl-linkedin"
-                                })
-                            })
-                        ]
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const home_footer = (footer);
-
-;// CONCATENATED MODULE: ./src/app/components/home/whyus.tsx
-
-const Whyus = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        id: "why-us",
-        className: "why-us",
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: "container",
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "row",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "col-lg-4 d-flex align-items-stretch",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "content",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                    children: "Pourquoi Choisir BIC ?"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                    children: "Parce que nous visons l'excellence, nous avons investi dans une technologie de pointe pour offrir un service alliant confort, innovation et expertise scientifique. Notre centre est une r\xe9f\xe9rence en imagerie du sein et en radiologie g\xe9n\xe9rale, int\xe9grant les derni\xe8res avanc\xe9es en intelligence artificielle et en logistique m\xe9dicale. Gr\xe2ce \xe0 notre plateforme unique en Afrique du Nord, nous garantissons un accompagnement personnalis\xe9, o\xf9 chaque patiente b\xe9n\xe9ficie d'un suivi attentif et d’une prise en charge optimis\xe9e. Votre sant\xe9 est notre priorit\xe9, et notre \xe9quipe est \xe0 votre \xe9coute avec bienveillance et engagement."
-                                })
-                            ]
-                        })
-                    }),
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "col-lg-8 d-flex align-items-stretch",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "icon-boxes d-flex flex-column justify-content-center",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "row",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "col-xl-4 d-flex align-items-stretch",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "icon-box mt-4 mt-xl-0",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                    className: "bx bx-receipt"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                                    children: "Une approche centr\xe9e sur le patient"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    children: "Une optimisation des examens, une communication claire et un suivi personnalis\xe9 pour un diagnostic en toute s\xe9r\xe9nit\xe9."
-                                                })
-                                            ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "col-xl-4 d-flex align-items-stretch",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "icon-box mt-4 mt-xl-0",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                    className: "bx bx-cube-alt"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                                    children: "Un diagnostic synth\xe9tique"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    children: "Des services d’expertise et de relecture, en coordination avec les m\xe9decins soignants, pour une prise en charge optimale."
-                                                })
-                                            ]
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "col-xl-4 d-flex align-items-stretch",
-                                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "icon-box mt-4 mt-xl-0",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                    className: "bx bx-images"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                                    children: "Un engagement sociale et scientifique"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                    children: "Des participations b\xe9n\xe9voles avec des partenaires reconnus, combinant impact social et engagement m\xe9dical."
-                                                })
-                                            ]
-                                        })
-                                    })
-                                ]
-                            })
-                        })
-                    })
-                ]
-            })
-        })
-    });
-};
-/* harmony default export */ const whyus = (Whyus);
-
-;// CONCATENATED MODULE: ./src/app/components/home/aboutUs.tsx
-
-const AboutUs = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        id: "about",
-        className: "about",
-        children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-            className: "container-fluid",
-            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "row",
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "col-xl-5 col-lg-6 video-box d-flex justify-content-center align-items-stretch position-relative",
-                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                            href: "https://www.youtube.com/watch?v=jDDaplaOz7Q",
-                            className: "glightbox play-btn mb-4"
-                        })
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "col-xl-7 col-lg-6 icon-boxes d-flex flex-column align-items-stretch justify-content-center py-5 px-lg-5",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("h3", {
-                                children: "Une \xc9quipe D\xe9di\xe9e \xe0 Votre Sant\xe9"
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                children: "Nous sommes une \xe9quipe de sp\xe9cialistes engag\xe9s, unissant expertise m\xe9dicale et innovation technologique pour offrir des soins de qualit\xe9 et un suivi personnalis\xe9."
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "icon-box",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "icon",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                            className: "bx bx-fingerprint"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        className: "title",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "",
-                                            children: "Une Approche Humaine"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: "description",
-                                        children: "Chaque patient est unique. Nous adaptons nos services pour r\xe9pondre \xe0 vos besoins sp\xe9cifiques et vous accompagner tout au long de votre parcours de sant\xe9."
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "icon-box",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "icon",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                            className: "bx bx-gift"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        className: "title",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "",
-                                            children: "Expertise Diagnostique"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: "description",
-                                        children: "Nous avons fait le choix d'int\xe9grer une platforme \xe0 la pointe de la technologie, r\xe9pondant aux enjeux cliniques les plus complexes et permettant d'offrir des solutions fiables. "
-                                    })
-                                ]
-                            }),
-                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "icon-box",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "icon",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                            className: "bx bx-atom"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        className: "title",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "",
-                                            children: "Partenariats Scientifiques"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        className: "description",
-                                        children: "En collaboration avec des acteurs publics et priv\xe9s, nous participons activement \xe0 la recherche appliqu\xe9e pour faire progresser l’imagerie m\xe9dicale adapt\xe9e \xe0 notre contexte socio-\xe9conomique.              "
-                                    })
-                                ]
-                            })
-                        ]
-                    })
-                ]
-            })
-        })
-    });
-};
-const getServerSideProps = async (ctx)=>{
-    return {
-        props: {}
-    };
-};
-/* harmony default export */ const aboutUs = (AboutUs);
-
-// EXTERNAL MODULE: ./node_modules/@fortawesome/free-solid-svg-icons/index.mjs
-var free_solid_svg_icons = __webpack_require__(5723);
-// EXTERNAL MODULE: ./node_modules/@fortawesome/react-fontawesome/index.js
-var react_fontawesome = __webpack_require__(5927);
-;// CONCATENATED MODULE: ./src/app/components/home/service.tsx
-
-
-
-const Service = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        id: "services",
-        className: "services",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "container",
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "section-title",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                            children: "Services"
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "un centre d’imagerie m\xe9dicale qui allie innovation, humanit\xe9 et excellence diagnostique. Nous croyons que chaque patient m\xe9rite un suivi clair et pr\xe9cis, et chaque m\xe9decin un partenaire de confiance."
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "row",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-4 col-md-6 d-flex align-items-stretch",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "icon-box",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "icon",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(react_fontawesome.FontAwesomeIcon, {
-                                            icon: free_solid_svg_icons/* faHeartbeat */.s2n,
-                                            className: "icon-service"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "",
-                                            children: "Mammographie 3D & Angio-Mammographie"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "D\xe9pistage et diagnostic pr\xe9cis des maladies du sein gr\xe2ce \xe0 des technologies de pointe adapt\xe9es \xe0 chaque besoin."
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "icon-box",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "icon",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(react_fontawesome.FontAwesomeIcon, {
-                                            icon: free_solid_svg_icons/* faPills */.uR4,
-                                            className: "icon-service"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "",
-                                            children: "\xc9chographie & \xc9lastographie ShearWave"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "Une solution non invasive pour examiner en temps r\xe9el les organes internes.Une technique avanc\xe9e pour \xe9valuer la rigidit\xe9 des tissus et faciliter un diagnostic pr\xe9cis des anomalies."
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-4 col-md-6 d-flex align-items-stretch mt-4",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "icon-box",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "icon",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(react_fontawesome.FontAwesomeIcon, {
-                                            icon: free_solid_svg_icons/* faWheelchair */.woC,
-                                            className: "icon-service"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "",
-                                            children: "Actes Interventionnels"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "Une technique \xe9cho et/ou radio-guid\xe9e \xe0 but diagnostique et th\xe9rapeutique. "
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "Biopsies, ponction et rep\xe9rage. "
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-4 col-md-6 d-flex align-items-stretch mt-4",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "icon-box",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "icon",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(react_fontawesome.FontAwesomeIcon, {
-                                            icon: free_solid_svg_icons/* faDna */.DWN,
-                                            className: "icon-service"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "",
-                                            children: "Radiologie Standard"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "Inclut les examens classiques comme la radiographie des genoux ou du thorax pour une prise en charge efficace."
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "icon-box",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "icon",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(react_fontawesome.FontAwesomeIcon, {
-                                            icon: free_solid_svg_icons/* faHospitalUser */.u13,
-                                            className: "icon-service"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "",
-                                            children: "Cone Beam"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "Des images radiographiques pr\xe9cises pour des soins dentaires optimaux et un diagnostic approfondi. Exploration en coupe des sinus."
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-4 col-md-6 d-flex align-items-stretch mt-4",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "icon-box",
-                                children: [
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "icon",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx(react_fontawesome.FontAwesomeIcon, {
-                                            icon: free_solid_svg_icons/* faNotesMedical */.AKf,
-                                            className: "icon-service"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                            href: "",
-                                            children: "IRM & Scanner"
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                        children: "Imagerie de haute pr\xe9cision pour d\xe9tecter, analyser et suivre l’\xe9volution de pathologies complexes."
-                                    })
-                                ]
-                            })
-                        })
-                    ]
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const service = (Service);
-
-;// CONCATENATED MODULE: ./src/app/components/home/appointement.tsx
-
-const Appointment = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        id: "appointment",
-        className: "appointment section-bg",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "container",
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "section-title",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                            children: "Prendre un Rendez-vous"
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "Nous facilitons votre prise de rendez-vous avec nos experts en imagerie m\xe9dicale. Chaque consultation est trait\xe9e avec pr\xe9cision et attention pour r\xe9pondre \xe0 vos besoins en diagnostic."
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
-                    action: "forms/appointment.php",
-                    method: "post",
-                    role: "form",
-                    className: "php-email-form",
-                    children: [
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "row",
-                            children: [
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: "col-md-4 form-group",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                            type: "text",
-                                            name: "name",
-                                            className: "form-control",
-                                            id: "name",
-                                            placeholder: "Votre Nom",
-                                            "data-rule": "minlen:4",
-                                            "data-msg": "Please enter at least 4 chars"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "validate"
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: "col-md-4 form-group mt-3 mt-md-0",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                            type: "email",
-                                            className: "form-control",
-                                            name: "email",
-                                            id: "email",
-                                            placeholder: "Votre Email",
-                                            "data-rule": "email",
-                                            "data-msg": "Please enter a valid email"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "validate"
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: "col-md-4 form-group mt-3 mt-md-0",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                            type: "tel",
-                                            className: "form-control",
-                                            name: "phone",
-                                            id: "phone",
-                                            placeholder: "Votre T\xe9l\xe9phone",
-                                            "data-rule": "minlen:4",
-                                            "data-msg": "Please enter at least 4 chars"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "validate"
-                                        })
-                                    ]
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "row",
-                            children: [
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: "col-md-4 form-group mt-3",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                            type: "datetime",
-                                            name: "date",
-                                            className: "form-control datepicker",
-                                            id: "date",
-                                            placeholder: "Date du Rendez-vous",
-                                            "data-rule": "minlen:4",
-                                            "data-msg": "Please enter at least 4 chars"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "validate"
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: "col-md-4 form-group mt-3",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("select", {
-                                            name: "department",
-                                            id: "department",
-                                            className: "form-select",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                    value: "",
-                                                    children: "S\xe9lectionnez le D\xe9partement"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                    value: "Department 1",
-                                                    children: "Mammographie & Angio-Mammographie"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                    value: "Department 2",
-                                                    children: "\xc9chographie"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                    value: "Department 3",
-                                                    children: "Combiner Dentaire"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                    value: "Department 3",
-                                                    children: "Radiologie Standard"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                    value: "Department 3",
-                                                    children: "\xc9lastographie ShearWave"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                    value: "Department 3",
-                                                    children: "IRM & Scanner"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "validate"
-                                        })
-                                    ]
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: "col-md-4 form-group mt-3",
-                                    children: [
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("select", {
-                                            name: "doctor",
-                                            id: "doctor",
-                                            className: "form-select",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                    value: "",
-                                                    children: "S\xe9lectionnez le M\xe9decin"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                    value: "Doctor 1",
-                                                    children: "Doctor 1"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                    value: "Doctor 2",
-                                                    children: "Doctor 2"
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("option", {
-                                                    value: "Doctor 3",
-                                                    children: "Doctor 3"
-                                                })
-                                            ]
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                            className: "validate"
-                                        })
-                                    ]
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "form-group mt-3",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("textarea", {
-                                    className: "form-control",
-                                    name: "message",
-                                    placeholder: "Message (Optionnel)"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "validate"
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "mb-3",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "loading",
-                                    children: "Loading"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "error-message"
-                                }),
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "sent-message",
-                                    children: "Votre demande de rendez-vous a \xe9t\xe9 envoy\xe9e avec succ\xe8s. Merci !"
-                                })
-                            ]
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "text-center",
-                            children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                type: "submit",
-                                children: " Prendre un Rendez-vous"
-                            })
-                        })
-                    ]
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const appointement = (Appointment);
-
-// EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
-var module_proxy = __webpack_require__(1363);
-;// CONCATENATED MODULE: ./src/app/components/home/departement.tsx
-
-const proxy = (0,module_proxy.createProxy)(String.raw`/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx`)
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/contact.tsx`)
 
 // Accessing the __esModule property and exporting $$typeof are required here.
 // The __esModule getter forces the proxy target to create the default export
@@ -1708,724 +265,204 @@ const { __esModule, $$typeof } = proxy;
 const __default__ = proxy.default;
 
 
-/* harmony default export */ const departement = (__default__);
-;// CONCATENATED MODULE: ./src/app/components/home/doctors.tsx
-
-
-const Doctors = ()=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("section", {
-        id: "doctors",
-        className: "doctors",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "container",
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "section-title",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                            children: "Docteurs"
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "Dr Zeineb Belkhiria vous accueille dans notre centre pour des services sp\xe9cialis\xe9s en imagerie m\xe9dicale. Gr\xe2ce \xe0 son expertise et son engagement, b\xe9n\xe9ficiez d'un accompagnement personnalis\xe9 et professionnel."
-                        })
-                    ]
-                }),
-                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                    className: "row justify-content-center",
-                    children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                        className: "col-lg-6",
-                        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                            className: "member d-flex align-items-start",
-                            children: [
-                                /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                        width: "300",
-                                        height: "350",
-                                        src: "/img/doctors/dr-belkiria.jpg",
-                                        alt: "Dr Zaineb Belkhiria"
-                                    })
-                                }),
-                                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                    className: "member-info",
-                                    children: [
-                                        /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                            children: "Dr Zeineb Belkhiria"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("span", {
-                                            children: "Radiologue sp\xe9cialis\xe9e en imagerie mammaire et interventionnelle"
-                                        }),
-                                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                            children: "Sp\xe9cialiste en imagerie f\xe9minine et oncologique avec 7 ans d'exp\xe9rience dans le secteur priv\xe9. M\xe9decin scientifiquement et socialement engag\xe9e."
-                                        }),
-                                        /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                            className: "social",
-                                            children: [
-                                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                    href: "#",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                        className: "ri-twitter-fill"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                    href: "#",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                        className: "ri-facebook-fill"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                    href: "#",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                        className: "ri-instagram-fill"
-                                                    })
-                                                }),
-                                                /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                                    href: "#",
-                                                    children: /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                        className: "ri-linkedin-box-fill"
-                                                    })
-                                                })
-                                            ]
-                                        })
-                                    ]
-                                })
-                            ]
-                        })
-                    })
-                })
-            ]
-        })
-    });
-};
-/* harmony default export */ const doctors = (Doctors); /* import  Image from 'next/image';
-
-const Doctors = () => {
-    return (
-        <section id="doctors" className="doctors">
-      <div className="container">
-
-        <div className="section-title">
-          <h2>Doctors</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-
-        <div className="row">
-
-          <div className="col-lg-6">
-            <div className="member d-flex align-items-start">
-              <div className="pic"><Image  width="173" height="173"src="/img/doctors/doctors-1.jpg" className="img-fluid" alt=""/></div>
-              <div className="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Medical Officer</span>
-                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
-                <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-6 mt-4 mt-lg-0">
-            <div className="member d-flex align-items-start">
-              <div className="pic"><Image  width="173" height="173"src="/img/doctors/doctors-2.jpg" className="img-fluid" alt=""/></div>
-              <div className="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Anesthesiologist</span>
-                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>
-                <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-6 mt-4">
-            <div className="member d-flex align-items-start">
-              <div className="pic"><Image  width="173" height="173"src="/img/doctors/doctors-3.jpg" className="img-fluid" alt=""/></div>
-              <div className="member-info">
-                <h4>William Anderson</h4>
-                <span>Cardiology</span>
-                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>
-                <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-6 mt-4">
-            <div className="member d-flex align-items-start">
-              <div className="pic"><Image  width="173" height="173"src="/img/doctors/doctors-4.jpg" className="img-fluid" alt=""/></div>
-              <div className="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Neurosurgeon</span>
-                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>
-                <div className="social">
-                  <a href=""><i className="ri-twitter-fill"></i></a>
-                  <a href=""><i className="ri-facebook-fill"></i></a>
-                  <a href=""><i className="ri-instagram-fill"></i></a>
-                  <a href=""> <i className="ri-linkedin-box-fill"></i> </a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-    );
-};
-
-export default Doctors; */ 
-
-;// CONCATENATED MODULE: ./src/app/components/home/contact.tsx
-
-const Contact = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
-        id: "C",
-        className: "contact",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "container",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "section-title",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                            children: "Contact"
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "N'h\xe9sitez pas \xe0 nous contacter pour toute question ou prise de rendez-vous. Nous sommes \xe0 votre \xe9coute pour vous offrir les meilleurs soins en imagerie m\xe9dicale et s\xe9nologie."
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                children: /*#__PURE__*/ jsx_runtime_.jsx("iframe", {
-                    style: {
-                        border: 0,
-                        width: "100%",
-                        height: "350px"
-                    },
-                    src: "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                })
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "container",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "row mt-5",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-4",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                className: "info",
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "address",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                className: "bi bi-geo-alt"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                                children: "Adresse :"
-                                            }),
-                                            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("p", {
-                                                children: [
-                                                    "Centre M\xe9dical El Hakim ",
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                                    "Sous-sol (-1)  ",
-                                                    /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
-                                                    "Voie X2 - Cit\xe9 El Khadra - Tunis 1003"
-                                                ]
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "email",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                className: "bi bi-envelope"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                                children: "Email :"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                children: "drzeinebbelkhiria@gmail.com"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "phone",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("i", {
-                                                className: "bi bi-phone"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("h4", {
-                                                children: "T\xe9l\xe9phone :"
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                                                children: "+216 53 008 108"
-                                            })
-                                        ]
-                                    })
-                                ]
-                            })
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                            className: "col-lg-8 mt-5 mt-lg-0",
-                            children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("form", {
-                                action: "forms/contact.php",
-                                method: "post",
-                                role: "form",
-                                className: "php-email-form",
-                                children: [
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "row",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                className: "col-md-6 form-group",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                                    type: "text",
-                                                    name: "name",
-                                                    className: "form-control",
-                                                    id: "name",
-                                                    placeholder: "Votre Nom",
-                                                    required: true
-                                                })
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                className: "col-md-6 form-group mt-3 mt-md-0",
-                                                children: /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                                    type: "email",
-                                                    className: "form-control",
-                                                    name: "email",
-                                                    id: "email",
-                                                    placeholder: "Votre Email",
-                                                    required: true
-                                                })
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "form-group mt-3",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("input", {
-                                            type: "text",
-                                            className: "form-control",
-                                            name: "subject",
-                                            id: "subject",
-                                            placeholder: "Objet",
-                                            required: true
-                                        })
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "form-group mt-3",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("textarea", {
-                                            className: "form-control",
-                                            name: "message",
-                                            placeholder: "Votre Message",
-                                            required: true
-                                        })
-                                    }),
-                                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                                        className: "my-3",
-                                        children: [
-                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                className: "loading",
-                                                children: "Chargement..."
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                className: "error-message",
-                                                children: "Une erreur s'est produite. Veuillez r\xe9essayer."
-                                            }),
-                                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                                className: "sent-message",
-                                                children: "Votre message a \xe9t\xe9 envoy\xe9. Merci !"
-                                            })
-                                        ]
-                                    }),
-                                    /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                        className: "text-center",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx("button", {
-                                            type: "submit",
-                                            children: "Envoyer le Message"
-                                        })
-                                    })
-                                ]
-                            })
-                        })
-                    ]
-                })
-            })
-        ]
-    });
-};
-/* harmony default export */ const contact = (Contact); /* import Image from 'next/image';
-
-const Contact = () => {
-    return (
-        <section id="C" className="contact">
-      <div className="container">
-
-        <div className="section-title">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
-        </div>
-      </div>
-
-      <div>
-        <iframe style={{border:0, width: "100%", height: "350px"}} src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"></iframe>
-      </div>
-
-      <div className="container">
-        <div className="row mt-5">
-
-          <div className="col-lg-4">
-            <div className="info">
-              <div className="address">
-                <i className="bi bi-geo-alt"></i>
-                <h4>Location:</h4>
-                <p>Centre Médical El Hakim 
-                Voie X2 - Cité El Khadra - Tunis 1003</p>
-              </div>
-
-              <div className="email">
-                <i className="bi bi-envelope"></i>
-                <h4>Email:</h4>
-                <p>drzeinebbelkhiria@gmail.com</p>
-              </div>
-
-              <div className="phone">
-                <i className="bi bi-phone"></i>
-                <h4>Call:</h4>
-                <p>+216 55 941 086</p>
-              </div>
-
-            </div>
-
-          </div>
-
-          <div className="col-lg-8 mt-5 mt-lg-0">
-
-            <form action="forms/contact.php" method="post" role="form" className="php-email-form">
-              <div className="row">
-                <div className="col-md-6 form-group">
-                  <input type="text" name="name" className="form-control" id="name" placeholder="Your Name" required/>
-                </div>
-                <div className="col-md-6 form-group mt-3 mt-md-0">
-                  <input type="email" className="form-control" name="email" id="email" placeholder="Your Email" required/>
-                </div>
-              </div>
-              <div className="form-group mt-3">
-                <input type="text" className="form-control" name="subject" id="subject" placeholder="Subject" required/>
-              </div>
-              <div className="form-group mt-3">
-                <textarea className="form-control" name="message" placeholder="Message" required></textarea>
-              </div>
-              <div className="my-3">
-                <div className="loading">Loading</div>
-                <div className="error-message"></div>
-                <div className="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div className="text-center"><button type="submit">Send Message</button></div>
-            </form>
-
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-    );
-}
-
-export default Contact */ 
-
-;// CONCATENATED MODULE: ./src/app/components/home/faq.tsx
-
-const faq_proxy = (0,module_proxy.createProxy)(String.raw`/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx`)
-
-// Accessing the __esModule property and exporting $$typeof are required here.
-// The __esModule getter forces the proxy target to create the default export
-// and the $$typeof value is for rendering logic to determine if the module
-// is a client boundary.
-const { __esModule: faq_esModule, $$typeof: faq_$$typeof } = faq_proxy;
-const faq_default_ = faq_proxy.default;
-
-
-/* harmony default export */ const faq = (faq_default_);
-;// CONCATENATED MODULE: ./src/app/components/home/gallerie.tsx
-
-
-const gallerie = ()=>{
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("section", {
-        id: "gallery",
-        className: "gallery",
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "container",
-                children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                    className: "section-title",
-                    children: [
-                        /*#__PURE__*/ jsx_runtime_.jsx("h2", {
-                            children: "Gallerie"
-                        }),
-                        /*#__PURE__*/ jsx_runtime_.jsx("p", {
-                            children: "Situ\xe9 \xe0 Cit\xe9 El Khadra - Voie X2, Tunis 1003, notre Centre d'imagerie mammaire vous accueille du lundi au vendredi, de 8h \xe0 19h, et 2 samedis par mois de 9h \xe0 13h."
-                        })
-                    ]
-                })
-            }),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                className: "container-fluid",
-                children: [
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "row g-0",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "col-lg-3 col-md-4",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "gallery-item",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "/img/gallery/gallery-1.jpg",
-                                        className: "galelry-lightbox",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            width: "351",
-                                            height: "263",
-                                            src: "/img/gallery/gallery-1.jpg",
-                                            alt: "",
-                                            className: "img-fluid"
-                                        })
-                                    })
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "col-lg-3 col-md-4",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "gallery-item",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "/img/gallery/gallery-2.jpg",
-                                        className: "galelry-lightbox",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            width: "351",
-                                            height: "263",
-                                            src: "/img/gallery/gallery-2.jpg",
-                                            alt: "",
-                                            className: "img-fluid"
-                                        })
-                                    })
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "col-lg-3 col-md-4",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "gallery-item",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "/img/gallery/gallery-3.jpg",
-                                        className: "galelry-lightbox",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            width: "351",
-                                            height: "263",
-                                            src: "/img/gallery/gallery-3.jpg",
-                                            alt: "",
-                                            className: "img-fluid"
-                                        })
-                                    })
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "col-lg-3 col-md-4",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "gallery-item",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "/img/gallery/gallery-4.jpg",
-                                        className: "galelry-lightbox",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            width: "351",
-                                            height: "263",
-                                            src: "/img/gallery/gallery-4.jpg",
-                                            alt: "",
-                                            className: "img-fluid"
-                                        })
-                                    })
-                                })
-                            })
-                        ]
-                    }),
-                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-                        className: "row g-0",
-                        children: [
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "col-lg-3 col-md-4",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "gallery-item",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "/img/gallery/gallery-5.jpg",
-                                        className: "galelry-lightbox",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            width: "351",
-                                            height: "263",
-                                            src: "/img/gallery/gallery-5.jpg",
-                                            alt: "",
-                                            className: "img-fluid"
-                                        })
-                                    })
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "col-lg-3 col-md-4",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "gallery-item",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "/img/gallery/gallery-6.jpg",
-                                        className: "galelry-lightbox",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            width: "351",
-                                            height: "263",
-                                            src: "/img/gallery/gallery-6.jpg",
-                                            alt: "",
-                                            className: "img-fluid"
-                                        })
-                                    })
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "col-lg-3 col-md-4",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "gallery-item",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "/img/gallery/gallery-7.jpg",
-                                        className: "galelry-lightbox",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            width: "351",
-                                            height: "263",
-                                            src: "/img/gallery/gallery-7.jpg",
-                                            alt: "",
-                                            className: "img-fluid"
-                                        })
-                                    })
-                                })
-                            }),
-                            /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                className: "col-lg-3 col-md-4",
-                                children: /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                                    className: "gallery-item",
-                                    children: /*#__PURE__*/ jsx_runtime_.jsx("a", {
-                                        href: "/img/gallery/gallery-8.jpg",
-                                        className: "galelry-lightbox",
-                                        children: /*#__PURE__*/ jsx_runtime_.jsx((image_default()), {
-                                            width: "351",
-                                            height: "263",
-                                            src: "/img/gallery/gallery-8.jpg",
-                                            alt: "",
-                                            className: "img-fluid"
-                                        })
-                                    })
-                                })
-                            })
-                        ]
-                    })
-                ]
-            })
-        ]
-    });
-};
-/* harmony default export */ const home_gallerie = (gallerie);
-
-;// CONCATENATED MODULE: ./src/app/page.tsx
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// import Testimonial from './components/home/testimonial'
-
-
-
-/* import Media from './components/home/media' */ fontawesome_svg_core.config.autoAddCss = false;
-function Home() {
-    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)(jsx_runtime_.Fragment, {
-        children: [
-            /*#__PURE__*/ jsx_runtime_.jsx(Topbar, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(Header, {}),
-            /*#__PURE__*/ jsx_runtime_.jsx(hero, {}),
-            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("main", {
-                children: [
-                    /*#__PURE__*/ jsx_runtime_.jsx(whyus, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(aboutUs, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(service, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(appointement, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(departement, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(doctors, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(faq, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(home_gallerie, {}),
-                    /*#__PURE__*/ jsx_runtime_.jsx(contact, {})
-                ]
-            }),
-            /*#__PURE__*/ jsx_runtime_.jsx(home_footer, {})
-        ]
-    });
-}
-
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
 /***/ }),
 
-/***/ 3881:
+/***/ "(rsc)/./src/app/components/home/departement.tsx":
+/*!*************************************************!*\
+  !*** ./src/app/components/home/departement.tsx ***!
+  \*************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(85);
-/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);
-  
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
 
-  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {
-    const imageData = {"type":"image/x-icon","sizes":"16x16"}
-    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(".", props.params, "favicon.ico")
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/departement.tsx`)
 
-    return [{
-      ...imageData,
-      url: imageUrl + "",
-    }]
-  });
-
-/***/ }),
-
-/***/ 5746:
-/***/ (() => {
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
 
 
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
 
 /***/ }),
 
-/***/ 5023:
-/***/ (() => {
+/***/ "(rsc)/./src/app/components/home/doctors.tsx":
+/*!*********************************************!*\
+  !*** ./src/app/components/home/doctors.tsx ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(rsc)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst Doctors = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        id: \"doctors\",\n        className: \"doctors\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"container\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"section-title\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                            children: \"M\\xe9decins\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                            lineNumber: 9,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            children: \"Dr Zeineb Belkhiria vous accueille dans notre centre pour des services sp\\xe9cialis\\xe9s en imagerie m\\xe9dicale. Gr\\xe2ce \\xe0 son expertise et son engagement, b\\xe9n\\xe9ficiez d'un accompagnement personnalis\\xe9 et professionnel.\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                            lineNumber: 10,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                    lineNumber: 8,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"row justify-content-center\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"col-lg-6\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"member d-flex align-items-start\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"doctor-image\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                        width: \"300\",\n                                        height: \"350\",\n                                        src: \"/img/doctors/dr-belkiria.jpg\",\n                                        alt: \"Dr Zaineb Belkhiria\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                                        lineNumber: 20,\n                                        columnNumber: 3\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                                    lineNumber: 19,\n                                    columnNumber: 13\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"member-info\",\n                                    children: [\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                            children: \"Dr Zeineb Belkhiria\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                                            lineNumber: 24,\n                                            columnNumber: 17\n                                        }, undefined),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                            children: \"Radiologue sp\\xe9cialis\\xe9e en imagerie mammaire et interventionnelle\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                                            lineNumber: 25,\n                                            columnNumber: 17\n                                        }, undefined),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                            children: \"Sp\\xe9cialiste en imagerie f\\xe9minine et oncologique avec 7 ans d'exp\\xe9rience dans le secteur priv\\xe9. M\\xe9decin scientifiquement et socialement engag\\xe9e.\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                                            lineNumber: 26,\n                                            columnNumber: 17\n                                        }, undefined),\n                                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                            className: \"social\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                                    href: \"https://www.facebook.com/zeineb.belkhiria.3\",\n                                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                        className: \"ri-facebook-fill\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                                                        lineNumber: 32,\n                                                        columnNumber: 73\n                                                    }, undefined)\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                                                    lineNumber: 32,\n                                                    columnNumber: 19\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                                    href: \"https://tn.linkedin.com/in/zeineb-belkhiria\",\n                                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                        className: \"ri-linkedin-box-fill\"\n                                                    }, void 0, false, {\n                                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                                                        lineNumber: 34,\n                                                        columnNumber: 73\n                                                    }, undefined)\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                                                    lineNumber: 34,\n                                                    columnNumber: 19\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                                            lineNumber: 30,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    ]\n                                }, void 0, true, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                                    lineNumber: 23,\n                                    columnNumber: 15\n                                }, undefined)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                            lineNumber: 18,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                        lineNumber: 17,\n                        columnNumber: 11\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n                    lineNumber: 16,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n            lineNumber: 6,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/doctors.tsx\",\n        lineNumber: 5,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Doctors); /* import  Image from 'next/image';\n\nconst Doctors = () => {\n    return (\n        <section id=\"doctors\" className=\"doctors\">\n      <div className=\"container\">\n\n        <div className=\"section-title\">\n          <h2>Doctors</h2>\n          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>\n        </div>\n\n        <div className=\"row\">\n\n          <div className=\"col-lg-6\">\n            <div className=\"member d-flex align-items-start\">\n              <div className=\"pic\"><Image  width=\"173\" height=\"173\"src=\"/img/doctors/doctors-1.jpg\" className=\"img-fluid\" alt=\"\"/></div>\n              <div className=\"member-info\">\n                <h4>Walter White</h4>\n                <span>Chief Medical Officer</span>\n                <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>\n                <div className=\"social\">\n                  <a href=\"\"><i className=\"ri-twitter-fill\"></i></a>\n                  <a href=\"\"><i className=\"ri-facebook-fill\"></i></a>\n                  <a href=\"\"><i className=\"ri-instagram-fill\"></i></a>\n                  <a href=\"\"> <i className=\"ri-linkedin-box-fill\"></i> </a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div className=\"col-lg-6 mt-4 mt-lg-0\">\n            <div className=\"member d-flex align-items-start\">\n              <div className=\"pic\"><Image  width=\"173\" height=\"173\"src=\"/img/doctors/doctors-2.jpg\" className=\"img-fluid\" alt=\"\"/></div>\n              <div className=\"member-info\">\n                <h4>Sarah Jhonson</h4>\n                <span>Anesthesiologist</span>\n                <p>Aut maiores voluptates amet et quis praesentium qui senda para</p>\n                <div className=\"social\">\n                  <a href=\"\"><i className=\"ri-twitter-fill\"></i></a>\n                  <a href=\"\"><i className=\"ri-facebook-fill\"></i></a>\n                  <a href=\"\"><i className=\"ri-instagram-fill\"></i></a>\n                  <a href=\"\"> <i className=\"ri-linkedin-box-fill\"></i> </a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div className=\"col-lg-6 mt-4\">\n            <div className=\"member d-flex align-items-start\">\n              <div className=\"pic\"><Image  width=\"173\" height=\"173\"src=\"/img/doctors/doctors-3.jpg\" className=\"img-fluid\" alt=\"\"/></div>\n              <div className=\"member-info\">\n                <h4>William Anderson</h4>\n                <span>Cardiology</span>\n                <p>Quisquam facilis cum velit laborum corrupti fuga rerum quia</p>\n                <div className=\"social\">\n                  <a href=\"\"><i className=\"ri-twitter-fill\"></i></a>\n                  <a href=\"\"><i className=\"ri-facebook-fill\"></i></a>\n                  <a href=\"\"><i className=\"ri-instagram-fill\"></i></a>\n                  <a href=\"\"> <i className=\"ri-linkedin-box-fill\"></i> </a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n          <div className=\"col-lg-6 mt-4\">\n            <div className=\"member d-flex align-items-start\">\n              <div className=\"pic\"><Image  width=\"173\" height=\"173\"src=\"/img/doctors/doctors-4.jpg\" className=\"img-fluid\" alt=\"\"/></div>\n              <div className=\"member-info\">\n                <h4>Amanda Jepson</h4>\n                <span>Neurosurgeon</span>\n                <p>Dolorum tempora officiis odit laborum officiis et et accusamus</p>\n                <div className=\"social\">\n                  <a href=\"\"><i className=\"ri-twitter-fill\"></i></a>\n                  <a href=\"\"><i className=\"ri-facebook-fill\"></i></a>\n                  <a href=\"\"><i className=\"ri-instagram-fill\"></i></a>\n                  <a href=\"\"> <i className=\"ri-linkedin-box-fill\"></i> </a>\n                </div>\n              </div>\n            </div>\n          </div>\n\n        </div>\n\n      </div>\n    </section>\n    );\n};\n\nexport default Doctors; */ \n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9kb2N0b3JzLnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7QUFBK0I7QUFFL0IsTUFBTUMsVUFBVTtJQUNkLHFCQUNFLDhEQUFDQztRQUFRQyxJQUFHO1FBQVVDLFdBQVU7a0JBQzlCLDRFQUFDQztZQUFJRCxXQUFVOzs4QkFFYiw4REFBQ0M7b0JBQUlELFdBQVU7O3NDQUNiLDhEQUFDRTtzQ0FBRzs7Ozs7O3NDQUNKLDhEQUFDQztzQ0FBRTs7Ozs7Ozs7Ozs7OzhCQU1MLDhEQUFDRjtvQkFBSUQsV0FBVTs4QkFDYiw0RUFBQ0M7d0JBQUlELFdBQVU7a0NBQ2IsNEVBQUNDOzRCQUFJRCxXQUFVOzs4Q0FDZiw4REFBQ0M7b0NBQUlELFdBQVU7OENBQ3pCLDRFQUFDSixtREFBS0E7d0NBQUNRLE9BQU07d0NBQU1DLFFBQU87d0NBQU1DLEtBQUk7d0NBQStCQyxLQUFJOzs7Ozs7Ozs7Ozs4Q0FHM0QsOERBQUNOO29DQUFJRCxXQUFVOztzREFDYiw4REFBQ1E7c0RBQUc7Ozs7OztzREFDSiw4REFBQ0M7c0RBQUs7Ozs7OztzREFDTiw4REFBQ047c0RBQUU7Ozs7OztzREFJSCw4REFBQ0Y7NENBQUlELFdBQVU7OzhEQUViLDhEQUFDVTtvREFBRUMsTUFBSzs4REFBOEMsNEVBQUNDO3dEQUFFWixXQUFVOzs7Ozs7Ozs7Ozs4REFFbkUsOERBQUNVO29EQUFFQyxNQUFLOzhEQUE4Qyw0RUFBQ0M7d0RBQUVaLFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBVXJGO0FBRUEsaUVBQWVILE9BQU9BLEVBQUMsQ0E4QnZCOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozt3QkF5RndCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkaWxhYi1wcm8vLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9kb2N0b3JzLnRzeD9kY2I0Il0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBJbWFnZSBmcm9tICduZXh0L2ltYWdlJztcblxuY29uc3QgRG9jdG9ycyA9ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8c2VjdGlvbiBpZD1cImRvY3RvcnNcIiBjbGFzc05hbWU9XCJkb2N0b3JzXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2VjdGlvbi10aXRsZVwiPlxuICAgICAgICAgIDxoMj5Nw6lkZWNpbnM8L2gyPlxuICAgICAgICAgIDxwPlxuICAgICAgICAgICAgRHIgWmVpbmViIEJlbGtoaXJpYSB2b3VzIGFjY3VlaWxsZSBkYW5zIG5vdHJlIGNlbnRyZSBwb3VyIGRlcyBzZXJ2aWNlcyBzcMOpY2lhbGlzw6lzIGVuIGltYWdlcmllIG3DqWRpY2FsZS4gXG4gICAgICAgICAgICBHcsOiY2Ugw6Agc29uIGV4cGVydGlzZSBldCBzb24gZW5nYWdlbWVudCwgYsOpbsOpZmljaWV6IGQndW4gYWNjb21wYWduZW1lbnQgcGVyc29ubmFsaXPDqSBldCBwcm9mZXNzaW9ubmVsLlxuICAgICAgICAgIDwvcD5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cganVzdGlmeS1jb250ZW50LWNlbnRlclwiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTZcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWVtYmVyIGQtZmxleCBhbGlnbi1pdGVtcy1zdGFydFwiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJkb2N0b3ItaW1hZ2VcIj5cbiAgPEltYWdlIHdpZHRoPVwiMzAwXCIgaGVpZ2h0PVwiMzUwXCIgc3JjPVwiL2ltZy9kb2N0b3JzL2RyLWJlbGtpcmlhLmpwZ1wiIGFsdD1cIkRyIFphaW5lYiBCZWxraGlyaWFcIiAvPlxuPC9kaXY+XG5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZW1iZXItaW5mb1wiPlxuICAgICAgICAgICAgICAgIDxoND5EciBaZWluZWIgQmVsa2hpcmlhPC9oND5cbiAgICAgICAgICAgICAgICA8c3Bhbj5SYWRpb2xvZ3VlIHNww6ljaWFsaXPDqWUgZW4gaW1hZ2VyaWUgbWFtbWFpcmUgZXQgaW50ZXJ2ZW50aW9ubmVsbGU8L3NwYW4+XG4gICAgICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgICAgICBTcMOpY2lhbGlzdGUgZW4gaW1hZ2VyaWUgZsOpbWluaW5lIGV0IG9uY29sb2dpcXVlIGF2ZWMgNyBhbnMgZCdleHDDqXJpZW5jZSBkYW5zIGxlIHNlY3RldXIgcHJpdsOpLiBcbiAgICAgICAgICAgICAgICAgIE3DqWRlY2luIHNjaWVudGlmaXF1ZW1lbnQgZXQgc29jaWFsZW1lbnQgZW5nYWfDqWUuXG4gICAgICAgICAgICAgICAgPC9wPlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic29jaWFsXCI+XG4gICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS96ZWluZWIuYmVsa2hpcmlhLjNcIj48aSBjbGFzc05hbWU9XCJyaS1mYWNlYm9vay1maWxsXCI+PC9pPjwvYT5cbiAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly90bi5saW5rZWRpbi5jb20vaW4vemVpbmViLWJlbGtoaXJpYVwiPjxpIGNsYXNzTmFtZT1cInJpLWxpbmtlZGluLWJveC1maWxsXCI+PC9pPjwvYT5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgPC9kaXY+XG5cbiAgICAgIDwvZGl2PlxuICAgIDwvc2VjdGlvbj5cbiAgKTtcbn07XG5cbmV4cG9ydCBkZWZhdWx0IERvY3RvcnM7XG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cblxuXG5cblxuLyogaW1wb3J0ICBJbWFnZSBmcm9tICduZXh0L2ltYWdlJztcblxuY29uc3QgRG9jdG9ycyA9ICgpID0+IHtcbiAgICByZXR1cm4gKFxuICAgICAgICA8c2VjdGlvbiBpZD1cImRvY3RvcnNcIiBjbGFzc05hbWU9XCJkb2N0b3JzXCI+XG4gICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbnRhaW5lclwiPlxuXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwic2VjdGlvbi10aXRsZVwiPlxuICAgICAgICAgIDxoMj5Eb2N0b3JzPC9oMj5cbiAgICAgICAgICA8cD5NYWduYW0gZG9sb3JlcyBjb21tb2RpIHN1c2NpcGl0LiBOZWNlc3NpdGF0aWJ1cyBlaXVzIGNvbnNlcXVhdHVyIGV4IGFsaXF1aWQgZnVnYSBldW0gcXVpZGVtLiBTaXQgc2ludCBjb25zZWN0ZXR1ciB2ZWxpdC4gUXVpc3F1YW0gcXVvcyBxdWlzcXVhbSBjdXBpZGl0YXRlLiBFdCBuZW1vIHF1aSBpbXBlZGl0IHN1c2NpcGl0IGFsaWFzIGVhLiBRdWlhIGZ1Z2lhdCBzaXQgaW4gaXN0ZSBvZmZpY2lpcyBjb21tb2RpIHF1aWRlbSBoaWMgcXVhcy48L3A+XG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy02XCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1lbWJlciBkLWZsZXggYWxpZ24taXRlbXMtc3RhcnRcIj5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwaWNcIj48SW1hZ2UgIHdpZHRoPVwiMTczXCIgaGVpZ2h0PVwiMTczXCJzcmM9XCIvaW1nL2RvY3RvcnMvZG9jdG9ycy0xLmpwZ1wiIGNsYXNzTmFtZT1cImltZy1mbHVpZFwiIGFsdD1cIlwiLz48L2Rpdj5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZW1iZXItaW5mb1wiPlxuICAgICAgICAgICAgICAgIDxoND5XYWx0ZXIgV2hpdGU8L2g0PlxuICAgICAgICAgICAgICAgIDxzcGFuPkNoaWVmIE1lZGljYWwgT2ZmaWNlcjwvc3Bhbj5cbiAgICAgICAgICAgICAgICA8cD5FeHBsaWNhYm8gdm9sdXB0YXRlbSBtb2xsaXRpYSBldCByZXBlbGxhdCBxdWkgZG9sb3J1bSBxdWFzaTwvcD5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNvY2lhbFwiPlxuICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cIlwiPjxpIGNsYXNzTmFtZT1cInJpLXR3aXR0ZXItZmlsbFwiPjwvaT48L2E+XG4gICAgICAgICAgICAgICAgICA8YSBocmVmPVwiXCI+PGkgY2xhc3NOYW1lPVwicmktZmFjZWJvb2stZmlsbFwiPjwvaT48L2E+XG4gICAgICAgICAgICAgICAgICA8YSBocmVmPVwiXCI+PGkgY2xhc3NOYW1lPVwicmktaW5zdGFncmFtLWZpbGxcIj48L2k+PC9hPlxuICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cIlwiPiA8aSBjbGFzc05hbWU9XCJyaS1saW5rZWRpbi1ib3gtZmlsbFwiPjwvaT4gPC9hPlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBtdC00IG10LWxnLTBcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWVtYmVyIGQtZmxleCBhbGlnbi1pdGVtcy1zdGFydFwiPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInBpY1wiPjxJbWFnZSAgd2lkdGg9XCIxNzNcIiBoZWlnaHQ9XCIxNzNcInNyYz1cIi9pbWcvZG9jdG9ycy9kb2N0b3JzLTIuanBnXCIgY2xhc3NOYW1lPVwiaW1nLWZsdWlkXCIgYWx0PVwiXCIvPjwvZGl2PlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1lbWJlci1pbmZvXCI+XG4gICAgICAgICAgICAgICAgPGg0PlNhcmFoIEpob25zb248L2g0PlxuICAgICAgICAgICAgICAgIDxzcGFuPkFuZXN0aGVzaW9sb2dpc3Q8L3NwYW4+XG4gICAgICAgICAgICAgICAgPHA+QXV0IG1haW9yZXMgdm9sdXB0YXRlcyBhbWV0IGV0IHF1aXMgcHJhZXNlbnRpdW0gcXVpIHNlbmRhIHBhcmE8L3A+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzb2NpYWxcIj5cbiAgICAgICAgICAgICAgICAgIDxhIGhyZWY9XCJcIj48aSBjbGFzc05hbWU9XCJyaS10d2l0dGVyLWZpbGxcIj48L2k+PC9hPlxuICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cIlwiPjxpIGNsYXNzTmFtZT1cInJpLWZhY2Vib29rLWZpbGxcIj48L2k+PC9hPlxuICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cIlwiPjxpIGNsYXNzTmFtZT1cInJpLWluc3RhZ3JhbS1maWxsXCI+PC9pPjwvYT5cbiAgICAgICAgICAgICAgICAgIDxhIGhyZWY9XCJcIj4gPGkgY2xhc3NOYW1lPVwicmktbGlua2VkaW4tYm94LWZpbGxcIj48L2k+IDwvYT5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTYgbXQtNFwiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZW1iZXIgZC1mbGV4IGFsaWduLWl0ZW1zLXN0YXJ0XCI+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicGljXCI+PEltYWdlICB3aWR0aD1cIjE3M1wiIGhlaWdodD1cIjE3M1wic3JjPVwiL2ltZy9kb2N0b3JzL2RvY3RvcnMtMy5qcGdcIiBjbGFzc05hbWU9XCJpbWctZmx1aWRcIiBhbHQ9XCJcIi8+PC9kaXY+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWVtYmVyLWluZm9cIj5cbiAgICAgICAgICAgICAgICA8aDQ+V2lsbGlhbSBBbmRlcnNvbjwvaDQ+XG4gICAgICAgICAgICAgICAgPHNwYW4+Q2FyZGlvbG9neTwvc3Bhbj5cbiAgICAgICAgICAgICAgICA8cD5RdWlzcXVhbSBmYWNpbGlzIGN1bSB2ZWxpdCBsYWJvcnVtIGNvcnJ1cHRpIGZ1Z2EgcmVydW0gcXVpYTwvcD5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNvY2lhbFwiPlxuICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cIlwiPjxpIGNsYXNzTmFtZT1cInJpLXR3aXR0ZXItZmlsbFwiPjwvaT48L2E+XG4gICAgICAgICAgICAgICAgICA8YSBocmVmPVwiXCI+PGkgY2xhc3NOYW1lPVwicmktZmFjZWJvb2stZmlsbFwiPjwvaT48L2E+XG4gICAgICAgICAgICAgICAgICA8YSBocmVmPVwiXCI+PGkgY2xhc3NOYW1lPVwicmktaW5zdGFncmFtLWZpbGxcIj48L2k+PC9hPlxuICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cIlwiPiA8aSBjbGFzc05hbWU9XCJyaS1saW5rZWRpbi1ib3gtZmlsbFwiPjwvaT4gPC9hPlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNiBtdC00XCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm1lbWJlciBkLWZsZXggYWxpZ24taXRlbXMtc3RhcnRcIj5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJwaWNcIj48SW1hZ2UgIHdpZHRoPVwiMTczXCIgaGVpZ2h0PVwiMTczXCJzcmM9XCIvaW1nL2RvY3RvcnMvZG9jdG9ycy00LmpwZ1wiIGNsYXNzTmFtZT1cImltZy1mbHVpZFwiIGFsdD1cIlwiLz48L2Rpdj5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZW1iZXItaW5mb1wiPlxuICAgICAgICAgICAgICAgIDxoND5BbWFuZGEgSmVwc29uPC9oND5cbiAgICAgICAgICAgICAgICA8c3Bhbj5OZXVyb3N1cmdlb248L3NwYW4+XG4gICAgICAgICAgICAgICAgPHA+RG9sb3J1bSB0ZW1wb3JhIG9mZmljaWlzIG9kaXQgbGFib3J1bSBvZmZpY2lpcyBldCBldCBhY2N1c2FtdXM8L3A+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJzb2NpYWxcIj5cbiAgICAgICAgICAgICAgICAgIDxhIGhyZWY9XCJcIj48aSBjbGFzc05hbWU9XCJyaS10d2l0dGVyLWZpbGxcIj48L2k+PC9hPlxuICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cIlwiPjxpIGNsYXNzTmFtZT1cInJpLWZhY2Vib29rLWZpbGxcIj48L2k+PC9hPlxuICAgICAgICAgICAgICAgICAgPGEgaHJlZj1cIlwiPjxpIGNsYXNzTmFtZT1cInJpLWluc3RhZ3JhbS1maWxsXCI+PC9pPjwvYT5cbiAgICAgICAgICAgICAgICAgIDxhIGhyZWY9XCJcIj4gPGkgY2xhc3NOYW1lPVwicmktbGlua2VkaW4tYm94LWZpbGxcIj48L2k+IDwvYT5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICA8L2Rpdj5cblxuICAgICAgPC9kaXY+XG4gICAgPC9zZWN0aW9uPlxuICAgICk7XG59O1xuXG5leHBvcnQgZGVmYXVsdCBEb2N0b3JzOyAqLyJdLCJuYW1lcyI6WyJJbWFnZSIsIkRvY3RvcnMiLCJzZWN0aW9uIiwiaWQiLCJjbGFzc05hbWUiLCJkaXYiLCJoMiIsInAiLCJ3aWR0aCIsImhlaWdodCIsInNyYyIsImFsdCIsImg0Iiwic3BhbiIsImEiLCJocmVmIiwiaSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./src/app/components/home/doctors.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/components/home/faq.tsx":
+/*!*****************************************!*\
+  !*** ./src/app/components/home/faq.tsx ***!
+  \*****************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/faq.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
 
 
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/components/home/footer.tsx":
+/*!********************************************!*\
+  !*** ./src/app/components/home/footer.tsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst footer = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"footer\", {\n        id: \"footer\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"footer-top\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"container\",\n                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"row\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-3 col-md-6 footer-contact\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                        children: \"BIC\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                        lineNumber: 9,\n                                        columnNumber: 13\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        children: [\n                                            \"Centre de Radiologie El Hakim \",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                                lineNumber: 11,\n                                                columnNumber: 43\n                                            }, undefined),\n                                            \"\\xc9tage (-1) \",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                                lineNumber: 12,\n                                                columnNumber: 24\n                                            }, undefined),\n                                            \"Voie X2 - Cit\\xe9 El Khadra\",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                                lineNumber: 13,\n                                                columnNumber: 37\n                                            }, undefined),\n                                            \"Tunis 1003 \",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                                lineNumber: 14,\n                                                columnNumber: 26\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                                lineNumber: 14,\n                                                columnNumber: 31\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                                                children: \"Phone:\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                                lineNumber: 15,\n                                                columnNumber: 15\n                                            }, undefined),\n                                            \" +216 55 941 086\",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                                lineNumber: 15,\n                                                columnNumber: 54\n                                            }, undefined),\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                                                children: \"Email:\"\n                                            }, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                                lineNumber: 16,\n                                                columnNumber: 15\n                                            }, undefined),\n                                            \" drzeinebbelkhiria@gmail.com\",\n                                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"br\", {}, void 0, false, {\n                                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                                lineNumber: 16,\n                                                columnNumber: 66\n                                            }, undefined)\n                                        ]\n                                    }, void 0, true, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                        lineNumber: 10,\n                                        columnNumber: 13\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                lineNumber: 8,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-2 col-md-6 footer-links\"\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                lineNumber: 20,\n                                columnNumber: 12\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-3 col-md-6 footer-links\"\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                lineNumber: 24,\n                                columnNumber: 12\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-4 col-md-6 footer-newsletter\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                        children: \"Nos Blogs\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                        lineNumber: 36,\n                                        columnNumber: 3\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        children: \"Bient\\xf4t disponible ! Restez inform\\xe9 des derni\\xe8res avanc\\xe9es en radiologie, imagerie m\\xe9dicale et s\\xe9nologie. Nos articles et conseils d\\xe9di\\xe9s \\xe0 la sant\\xe9 de la femme arrivent bient\\xf4t.\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                        lineNumber: 37,\n                                        columnNumber: 3\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"form\", {\n                                        action: \"\",\n                                        method: \"post\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"input\", {\n                                            type: \"email\",\n                                            name: \"email\",\n                                            placeholder: \"Votre email\",\n                                            disabled: true\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                            lineNumber: 42,\n                                            columnNumber: 5\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                        lineNumber: 41,\n                                        columnNumber: 3\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                lineNumber: 35,\n                                columnNumber: 11\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                        lineNumber: 6,\n                        columnNumber: 9\n                    }, undefined)\n                }, void 0, false, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                    lineNumber: 5,\n                    columnNumber: 7\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                lineNumber: 4,\n                columnNumber: 5\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"container d-md-flex py-4\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"me-md-auto text-center text-md-start\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"copyright\",\n                            children: [\n                                \"\\xa9 Copyright \",\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"strong\", {\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                                        children: \"BIC\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                        lineNumber: 56,\n                                        columnNumber: 36\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                    lineNumber: 56,\n                                    columnNumber: 28\n                                }, undefined),\n                                \". All Rights Reserved\"\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                            lineNumber: 55,\n                            columnNumber: 9\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                        lineNumber: 54,\n                        columnNumber: 7\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"social-links text-center text-md-right pt-3 pt-md-0\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                href: \"https://www.facebook.com/zeineb.belkhiria.3\",\n                                className: \"facebook\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                    className: \"bx bxl-facebook\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                    lineNumber: 62,\n                                    columnNumber: 84\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                lineNumber: 62,\n                                columnNumber: 9\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                href: \"https://tn.linkedin.com/in/zeineb-belkhiria\",\n                                className: \"linkedin\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                    className: \"bx bxl-linkedin\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                    lineNumber: 64,\n                                    columnNumber: 84\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                                lineNumber: 64,\n                                columnNumber: 9\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                        lineNumber: 60,\n                        columnNumber: 7\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n                lineNumber: 52,\n                columnNumber: 5\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/footer.tsx\",\n        lineNumber: 3,\n        columnNumber: 1\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (footer);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9mb290ZXIudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBQSxNQUFNQSxTQUFTO0lBQ1gscUJBQ0osOERBQUNBO1FBQU9DLElBQUc7OzBCQUNQLDhEQUFDQztnQkFBSUMsV0FBVTswQkFDYiw0RUFBQ0Q7b0JBQUlDLFdBQVU7OEJBQ2IsNEVBQUNEO3dCQUFJQyxXQUFVOzswQ0FFYiw4REFBQ0Q7Z0NBQUlDLFdBQVU7O2tEQUNiLDhEQUFDQztrREFBRzs7Ozs7O2tEQUNKLDhEQUFDQzs7NENBQUU7MERBQzJCLDhEQUFDQzs7Ozs7NENBQUk7MERBQ3hCLDhEQUFDQTs7Ozs7NENBQUs7MERBQ08sOERBQUNBOzs7Ozs0Q0FBSTswREFDaEIsOERBQUNBOzs7OzswREFBSSw4REFBQ0E7Ozs7OzBEQUNqQiw4REFBQ0M7MERBQU87Ozs7Ozs0Q0FBZTswREFBZ0IsOERBQUNEOzs7OzswREFDeEMsOERBQUNDOzBEQUFPOzs7Ozs7NENBQWU7MERBQTRCLDhEQUFDRDs7Ozs7Ozs7Ozs7Ozs7Ozs7MENBSXZELDhEQUFDSjtnQ0FBSUMsV0FBVTs7Ozs7OzBDQUlmLDhEQUFDRDtnQ0FBSUMsV0FBVTs7Ozs7OzBDQVdoQiw4REFBQ0Q7Z0NBQUlDLFdBQVU7O2tEQUN2Qiw4REFBQ0s7a0RBQUc7Ozs7OztrREFDSiw4REFBQ0g7a0RBQUU7Ozs7OztrREFJSCw4REFBQ0k7d0NBQUtDLFFBQU87d0NBQUdDLFFBQU87a0RBQ3JCLDRFQUFDQzs0Q0FBTUMsTUFBSzs0Q0FBUUMsTUFBSzs0Q0FBUUMsYUFBWTs0Q0FBY0MsUUFBUTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzBCQVVuRSw4REFBQ2Q7Z0JBQUlDLFdBQVU7O2tDQUViLDhEQUFDRDt3QkFBSUMsV0FBVTtrQ0FDYiw0RUFBQ0Q7NEJBQUlDLFdBQVU7O2dDQUFZOzhDQUNSLDhEQUFDSTs4Q0FBTyw0RUFBQ1U7a0RBQUs7Ozs7Ozs7Ozs7O2dDQUFtQjs7Ozs7Ozs7Ozs7O2tDQUl0RCw4REFBQ2Y7d0JBQUlDLFdBQVU7OzBDQUViLDhEQUFDZTtnQ0FBRUMsTUFBSztnQ0FBOENoQixXQUFVOzBDQUFXLDRFQUFDaUI7b0NBQUVqQixXQUFVOzs7Ozs7Ozs7OzswQ0FFeEYsOERBQUNlO2dDQUFFQyxNQUFLO2dDQUE4Q2hCLFdBQVU7MENBQVcsNEVBQUNpQjtvQ0FBRWpCLFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBS2hHO0FBRUEsaUVBQWVILE1BQU1BLEVBQUEiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tZWRpbGFiLXByby8uL3NyYy9hcHAvY29tcG9uZW50cy9ob21lL2Zvb3Rlci50c3g/NzY2ZCJdLCJzb3VyY2VzQ29udGVudCI6WyJjb25zdCBmb290ZXIgPSAoKSA9PiB7XG4gICAgcmV0dXJuIChcbjxmb290ZXIgaWQ9XCJmb290ZXJcIj5cbiAgICA8ZGl2IGNsYXNzTmFtZT1cImZvb3Rlci10b3BcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy0zIGNvbC1tZC02IGZvb3Rlci1jb250YWN0XCI+XG4gICAgICAgICAgICA8aDM+QklDPC9oMz5cbiAgICAgICAgICAgIDxwPlxuICAgICAgICAgICAgQ2VudHJlIGRlIFJhZGlvbG9naWUgRWwgSGFraW0gPGJyLz5cbiAgICAgICAgICAgIMOJdGFnZSAoLTEpIDxiciAvPlxuICAgICAgICAgICAgVm9pZSBYMiAtIENpdMOpIEVsIEtoYWRyYTxici8+XG4gICAgICAgICAgICAgIFR1bmlzIDEwMDMgPGJyLz48YnIvPlxuICAgICAgICAgICAgICA8c3Ryb25nPlBob25lOjwvc3Ryb25nPiArMjE2IDU1IDk0MSAwODY8YnIvPlxuICAgICAgICAgICAgICA8c3Ryb25nPkVtYWlsOjwvc3Ryb25nPiBkcnplaW5lYmJlbGtoaXJpYUBnbWFpbC5jb208YnIvPlxuICAgICAgICAgICAgPC9wPlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTIgY29sLW1kLTYgZm9vdGVyLWxpbmtzXCI+XG4gICAgICAgICAgIFxuICAgICAgICAgIDwvZGl2PiBcblxuICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy0zIGNvbC1tZC02IGZvb3Rlci1saW5rc1wiPlxuICAgICAgICAgICAgey8qIDxoND5PdXIgU2VydmljZXM8L2g0PlxuICAgICAgICAgICAgPHVsPlxuICAgICAgICAgICAgICA8bGk+PGkgY2xhc3NOYW1lPVwiYnggYngtY2hldnJvbi1yaWdodFwiPjwvaT4gPGEgaHJlZj1cIiNcIj5XZWIgRGVzaWduPC9hPjwvbGk+XG4gICAgICAgICAgICAgIDxsaT48aSBjbGFzc05hbWU9XCJieCBieC1jaGV2cm9uLXJpZ2h0XCI+PC9pPiA8YSBocmVmPVwiI1wiPldlYiBEZXZlbG9wbWVudDwvYT48L2xpPlxuICAgICAgICAgICAgICA8bGk+PGkgY2xhc3NOYW1lPVwiYnggYngtY2hldnJvbi1yaWdodFwiPjwvaT4gPGEgaHJlZj1cIiNcIj5Qcm9kdWN0IE1hbmFnZW1lbnQ8L2E+PC9saT5cbiAgICAgICAgICAgICAgPGxpPjxpIGNsYXNzTmFtZT1cImJ4IGJ4LWNoZXZyb24tcmlnaHRcIj48L2k+IDxhIGhyZWY9XCIjXCI+TWFya2V0aW5nPC9hPjwvbGk+XG4gICAgICAgICAgICAgIDxsaT48aSBjbGFzc05hbWU9XCJieCBieC1jaGV2cm9uLXJpZ2h0XCI+PC9pPiA8YSBocmVmPVwiI1wiPkdyYXBoaWMgRGVzaWduPC9hPjwvbGk+XG4gICAgICAgICAgICA8L3VsPiAqL31cbiAgICAgICAgICA8L2Rpdj4gXG5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy00IGNvbC1tZC02IGZvb3Rlci1uZXdzbGV0dGVyXCI+XG4gIDxoND5Ob3MgQmxvZ3M8L2g0PlxuICA8cD5cbiAgICBCaWVudMO0dCBkaXNwb25pYmxlICEgUmVzdGV6IGluZm9ybcOpIGRlcyBkZXJuacOocmVzIGF2YW5jw6llcyBlbiByYWRpb2xvZ2llLCBcbiAgICBpbWFnZXJpZSBtw6lkaWNhbGUgZXQgc8Opbm9sb2dpZS4gTm9zIGFydGljbGVzIGV0IGNvbnNlaWxzIGTDqWRpw6lzIMOgIGxhIHNhbnTDqSBkZSBsYSBmZW1tZSBhcnJpdmVudCBiaWVudMO0dC5cbiAgPC9wPlxuICA8Zm9ybSBhY3Rpb249XCJcIiBtZXRob2Q9XCJwb3N0XCI+XG4gICAgPGlucHV0IHR5cGU9XCJlbWFpbFwiIG5hbWU9XCJlbWFpbFwiIHBsYWNlaG9sZGVyPVwiVm90cmUgZW1haWxcIiBkaXNhYmxlZCAvPiBcbiAgICB7LyogPGlucHV0IHR5cGU9XCJzdWJtaXRcIiB2YWx1ZT1cIlN1YnNjcmliZVwiIC8+ICovfSBcbiAgICB7LyogQm91dG9uIGTDqXNhY3RpdsOpIGp1c3F1J8OgIGxhIG1pc2UgZW4gbGlnbmUgZGVzIGJsb2dzICovfVxuICA8L2Zvcm0+XG48L2Rpdj5cblxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuXG4gICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXIgZC1tZC1mbGV4IHB5LTRcIj5cblxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJtZS1tZC1hdXRvIHRleHQtY2VudGVyIHRleHQtbWQtc3RhcnRcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb3B5cmlnaHRcIj5cbiAgICAgICAgICAmY29weTsgQ29weXJpZ2h0IDxzdHJvbmc+PHNwYW4+QklDPC9zcGFuPjwvc3Ryb25nPi4gQWxsIFJpZ2h0cyBSZXNlcnZlZFxuICAgICAgICA8L2Rpdj5cbiAgICAgICAgXG4gICAgICA8L2Rpdj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwic29jaWFsLWxpbmtzIHRleHQtY2VudGVyIHRleHQtbWQtcmlnaHQgcHQtMyBwdC1tZC0wXCI+XG5cbiAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vd3d3LmZhY2Vib29rLmNvbS96ZWluZWIuYmVsa2hpcmlhLjNcIiBjbGFzc05hbWU9XCJmYWNlYm9va1wiPjxpIGNsYXNzTmFtZT1cImJ4IGJ4bC1mYWNlYm9va1wiPjwvaT48L2E+XG4gICAgICAgIFxuICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly90bi5saW5rZWRpbi5jb20vaW4vemVpbmViLWJlbGtoaXJpYVwiIGNsYXNzTmFtZT1cImxpbmtlZGluXCI+PGkgY2xhc3NOYW1lPVwiYnggYnhsLWxpbmtlZGluXCI+PC9pPjwvYT5cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuICA8L2Zvb3Rlcj5cbiAgICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBmb290ZXIiXSwibmFtZXMiOlsiZm9vdGVyIiwiaWQiLCJkaXYiLCJjbGFzc05hbWUiLCJoMyIsInAiLCJiciIsInN0cm9uZyIsImg0IiwiZm9ybSIsImFjdGlvbiIsIm1ldGhvZCIsImlucHV0IiwidHlwZSIsIm5hbWUiLCJwbGFjZWhvbGRlciIsImRpc2FibGVkIiwic3BhbiIsImEiLCJocmVmIiwiaSJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./src/app/components/home/footer.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/components/home/gallerie.tsx":
+/*!**********************************************!*\
+  !*** ./src/app/components/home/gallerie.tsx ***!
+  \**********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/image */ \"(rsc)/./node_modules/next/image.js\");\n/* harmony import */ var next_image__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_image__WEBPACK_IMPORTED_MODULE_1__);\n\n\nconst gallerie = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        id: \"gallery\",\n        className: \"gallery\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"container\",\n                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"section-title\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                            children: \"Gallerie\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                            lineNumber: 9,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            children: \"Situ\\xe9 \\xe0 Cit\\xe9 El Khadra - Voie X2, Tunis 1003, notre Centre d'imagerie mammaire vous accueille du lundi au vendredi, de 8h \\xe0 19h, et 2 samedis par mois de 9h \\xe0 13h.\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                            lineNumber: 10,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                    lineNumber: 8,\n                    columnNumber: 9\n                }, undefined)\n            }, void 0, false, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                lineNumber: 6,\n                columnNumber: 7\n            }, undefined),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"container-fluid\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"row g-0\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-3 col-md-4\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"gallery-item\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"/img/gallery/gallery-1.jpg\",\n                                        className: \"galelry-lightbox\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                            width: \"351\",\n                                            height: \"263\",\n                                            src: \"/img/gallery/gallery-1.jpg\",\n                                            alt: \"\",\n                                            className: \"img-fluid\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                            lineNumber: 20,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                        lineNumber: 19,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                    lineNumber: 18,\n                                    columnNumber: 13\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                lineNumber: 17,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-3 col-md-4\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"gallery-item\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"/img/gallery/gallery-2.jpg\",\n                                        className: \"galelry-lightbox\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                            width: \"351\",\n                                            height: \"263\",\n                                            src: \"/img/gallery/gallery-2.jpg\",\n                                            alt: \"\",\n                                            className: \"img-fluid\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                            lineNumber: 28,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                        lineNumber: 27,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                    lineNumber: 26,\n                                    columnNumber: 13\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                lineNumber: 25,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-3 col-md-4\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"gallery-item\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"/img/gallery/gallery-3.jpg\",\n                                        className: \"galelry-lightbox\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                            width: \"351\",\n                                            height: \"263\",\n                                            src: \"/img/gallery/gallery-3.jpg\",\n                                            alt: \"\",\n                                            className: \"img-fluid\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                            lineNumber: 36,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                        lineNumber: 35,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                    lineNumber: 34,\n                                    columnNumber: 13\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                lineNumber: 33,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-3 col-md-4\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"gallery-item\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"/img/gallery/gallery-4.jpg\",\n                                        className: \"galelry-lightbox\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                            width: \"351\",\n                                            height: \"263\",\n                                            src: \"/img/gallery/gallery-4.jpg\",\n                                            alt: \"\",\n                                            className: \"img-fluid\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                            lineNumber: 44,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                        lineNumber: 43,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                    lineNumber: 42,\n                                    columnNumber: 13\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                lineNumber: 41,\n                                columnNumber: 11\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                        lineNumber: 15,\n                        columnNumber: 9\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"row g-0\",\n                        children: [\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-3 col-md-4\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"gallery-item\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"/img/gallery/gallery-5.jpg\",\n                                        className: \"galelry-lightbox\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                            width: \"351\",\n                                            height: \"263\",\n                                            src: \"/img/gallery/gallery-5.jpg\",\n                                            alt: \"\",\n                                            className: \"img-fluid\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                            lineNumber: 54,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                        lineNumber: 53,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                    lineNumber: 52,\n                                    columnNumber: 13\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                lineNumber: 51,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-3 col-md-4\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"gallery-item\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"/img/gallery/gallery-6.jpg\",\n                                        className: \"galelry-lightbox\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                            width: \"351\",\n                                            height: \"263\",\n                                            src: \"/img/gallery/gallery-6.jpg\",\n                                            alt: \"\",\n                                            className: \"img-fluid\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                            lineNumber: 62,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                        lineNumber: 61,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                    lineNumber: 60,\n                                    columnNumber: 13\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                lineNumber: 59,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-3 col-md-4\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"gallery-item\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"/img/gallery/gallery-7.jpg\",\n                                        className: \"galelry-lightbox\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                            width: \"351\",\n                                            height: \"263\",\n                                            src: \"/img/gallery/gallery-7.jpg\",\n                                            alt: \"\",\n                                            className: \"img-fluid\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                            lineNumber: 70,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                        lineNumber: 69,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                    lineNumber: 68,\n                                    columnNumber: 13\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                lineNumber: 67,\n                                columnNumber: 11\n                            }, undefined),\n                            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"col-lg-3 col-md-4\",\n                                children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                    className: \"gallery-item\",\n                                    children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                        href: \"/img/gallery/gallery-8.jpg\",\n                                        className: \"galelry-lightbox\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)((next_image__WEBPACK_IMPORTED_MODULE_1___default()), {\n                                            width: \"351\",\n                                            height: \"263\",\n                                            src: \"/img/gallery/gallery-8.jpg\",\n                                            alt: \"\",\n                                            className: \"img-fluid\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                            lineNumber: 78,\n                                            columnNumber: 17\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                        lineNumber: 77,\n                                        columnNumber: 15\n                                    }, undefined)\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                    lineNumber: 76,\n                                    columnNumber: 13\n                                }, undefined)\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                                lineNumber: 75,\n                                columnNumber: 11\n                            }, undefined)\n                        ]\n                    }, void 0, true, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                        lineNumber: 49,\n                        columnNumber: 9\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n                lineNumber: 14,\n                columnNumber: 7\n            }, undefined)\n        ]\n    }, void 0, true, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/gallerie.tsx\",\n        lineNumber: 5,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (gallerie);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9nYWxsZXJpZS50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7O0FBQThCO0FBRTlCLE1BQU1DLFdBQVc7SUFDYixxQkFDSSw4REFBQ0M7UUFBUUMsSUFBRztRQUFVQyxXQUFVOzswQkFDbEMsOERBQUNDO2dCQUFJRCxXQUFVOzBCQUViLDRFQUFDQztvQkFBSUQsV0FBVTs7c0NBQ2IsOERBQUNFO3NDQUFHOzs7Ozs7c0NBQ0osOERBQUNDO3NDQUFFOzs7Ozs7Ozs7Ozs7Ozs7OzswQkFJUCw4REFBQ0Y7Z0JBQUlELFdBQVU7O2tDQUNiLDhEQUFDQzt3QkFBSUQsV0FBVTs7MENBRWIsOERBQUNDO2dDQUFJRCxXQUFVOzBDQUNiLDRFQUFDQztvQ0FBSUQsV0FBVTs4Q0FDYiw0RUFBQ0k7d0NBQUVDLE1BQUs7d0NBQTZCTCxXQUFVO2tEQUM3Qyw0RUFBQ0osbURBQUtBOzRDQUFDVSxPQUFNOzRDQUFNQyxRQUFPOzRDQUFNQyxLQUFJOzRDQUE2QkMsS0FBSTs0Q0FBR1QsV0FBVTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzBDQUt4Riw4REFBQ0M7Z0NBQUlELFdBQVU7MENBQ2IsNEVBQUNDO29DQUFJRCxXQUFVOzhDQUNiLDRFQUFDSTt3Q0FBRUMsTUFBSzt3Q0FBNkJMLFdBQVU7a0RBQzdDLDRFQUFDSixtREFBS0E7NENBQUNVLE9BQU07NENBQU1DLFFBQU87NENBQU1DLEtBQUk7NENBQTZCQyxLQUFJOzRDQUFHVCxXQUFVOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7MENBS3hGLDhEQUFDQztnQ0FBSUQsV0FBVTswQ0FDYiw0RUFBQ0M7b0NBQUlELFdBQVU7OENBQ2IsNEVBQUNJO3dDQUFFQyxNQUFLO3dDQUE2QkwsV0FBVTtrREFDN0MsNEVBQUNKLG1EQUFLQTs0Q0FBQ1UsT0FBTTs0Q0FBTUMsUUFBTzs0Q0FBTUMsS0FBSTs0Q0FBNkJDLEtBQUk7NENBQUdULFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzswQ0FLeEYsOERBQUNDO2dDQUFJRCxXQUFVOzBDQUNiLDRFQUFDQztvQ0FBSUQsV0FBVTs4Q0FDYiw0RUFBQ0k7d0NBQUVDLE1BQUs7d0NBQTZCTCxXQUFVO2tEQUM3Qyw0RUFBQ0osbURBQUtBOzRDQUFDVSxPQUFNOzRDQUFNQyxRQUFPOzRDQUFNQyxLQUFJOzRDQUE2QkMsS0FBSTs0Q0FBR1QsV0FBVTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O2tDQUsxRiw4REFBQ0M7d0JBQUlELFdBQVU7OzBDQUViLDhEQUFDQztnQ0FBSUQsV0FBVTswQ0FDYiw0RUFBQ0M7b0NBQUlELFdBQVU7OENBQ2IsNEVBQUNJO3dDQUFFQyxNQUFLO3dDQUE2QkwsV0FBVTtrREFDN0MsNEVBQUNKLG1EQUFLQTs0Q0FBQ1UsT0FBTTs0Q0FBTUMsUUFBTzs0Q0FBTUMsS0FBSTs0Q0FBNkJDLEtBQUk7NENBQUdULFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzswQ0FLeEYsOERBQUNDO2dDQUFJRCxXQUFVOzBDQUNiLDRFQUFDQztvQ0FBSUQsV0FBVTs4Q0FDYiw0RUFBQ0k7d0NBQUVDLE1BQUs7d0NBQTZCTCxXQUFVO2tEQUM3Qyw0RUFBQ0osbURBQUtBOzRDQUFFVSxPQUFNOzRDQUFNQyxRQUFPOzRDQUFNQyxLQUFJOzRDQUE2QkMsS0FBSTs0Q0FBR1QsV0FBVTs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OzBDQUt6Riw4REFBQ0M7Z0NBQUlELFdBQVU7MENBQ2IsNEVBQUNDO29DQUFJRCxXQUFVOzhDQUNiLDRFQUFDSTt3Q0FBRUMsTUFBSzt3Q0FBNkJMLFdBQVU7a0RBQzdDLDRFQUFDSixtREFBS0E7NENBQUVVLE9BQU07NENBQU1DLFFBQU87NENBQU1DLEtBQUk7NENBQTZCQyxLQUFJOzRDQUFHVCxXQUFVOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7MENBS3pGLDhEQUFDQztnQ0FBSUQsV0FBVTswQ0FDYiw0RUFBQ0M7b0NBQUlELFdBQVU7OENBQ2IsNEVBQUNJO3dDQUFFQyxNQUFLO3dDQUE2QkwsV0FBVTtrREFDN0MsNEVBQUNKLG1EQUFLQTs0Q0FBRVUsT0FBTTs0Q0FBTUMsUUFBTzs0Q0FBTUMsS0FBSTs0Q0FBNkJDLEtBQUk7NENBQUdULFdBQVU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQVNuRztBQUVBLGlFQUFlSCxRQUFRQSxFQUFBIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkaWxhYi1wcm8vLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9nYWxsZXJpZS50c3g/MjA3NiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSW1hZ2UgZnJvbSAnbmV4dC9pbWFnZSdcblxuY29uc3QgZ2FsbGVyaWUgPSAoKSA9PiB7XG4gICAgcmV0dXJuIChcbiAgICAgICAgPHNlY3Rpb24gaWQ9XCJnYWxsZXJ5XCIgY2xhc3NOYW1lPVwiZ2FsbGVyeVwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNlY3Rpb24tdGl0bGVcIj5cbiAgICAgICAgICA8aDI+R2FsbGVyaWU8L2gyPlxuICAgICAgICAgIDxwPlNpdHXDqSDDoCBDaXTDqSBFbCBLaGFkcmEgLSBWb2llIFgyLCBUdW5pcyAxMDAzLCBub3RyZSBDZW50cmUgZCdpbWFnZXJpZSBtYW1tYWlyZSB2b3VzIGFjY3VlaWxsZSBkdSBsdW5kaSBhdSB2ZW5kcmVkaSwgZGUgOGggw6AgMTloLCBldCAyIHNhbWVkaXMgcGFyIG1vaXMgZGUgOWggw6AgMTNoLjwvcD5cbiAgICAgICAgPC9kaXY+XG4gICAgICA8L2Rpdj5cblxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXItZmx1aWRcIj5cbiAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJyb3cgZy0wXCI+XG5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy0zIGNvbC1tZC00XCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImdhbGxlcnktaXRlbVwiPlxuICAgICAgICAgICAgICA8YSBocmVmPVwiL2ltZy9nYWxsZXJ5L2dhbGxlcnktMS5qcGdcIiBjbGFzc05hbWU9XCJnYWxlbHJ5LWxpZ2h0Ym94XCI+XG4gICAgICAgICAgICAgICAgPEltYWdlIHdpZHRoPVwiMzUxXCIgaGVpZ2h0PVwiMjYzXCIgc3JjPVwiL2ltZy9nYWxsZXJ5L2dhbGxlcnktMS5qcGdcIiBhbHQ9XCJcIiBjbGFzc05hbWU9XCJpbWctZmx1aWRcIi8+XG4gICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctMyBjb2wtbWQtNFwiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJnYWxsZXJ5LWl0ZW1cIj5cbiAgICAgICAgICAgICAgPGEgaHJlZj1cIi9pbWcvZ2FsbGVyeS9nYWxsZXJ5LTIuanBnXCIgY2xhc3NOYW1lPVwiZ2FsZWxyeS1saWdodGJveFwiPlxuICAgICAgICAgICAgICAgIDxJbWFnZSB3aWR0aD1cIjM1MVwiIGhlaWdodD1cIjI2M1wiIHNyYz1cIi9pbWcvZ2FsbGVyeS9nYWxsZXJ5LTIuanBnXCIgYWx0PVwiXCIgY2xhc3NOYW1lPVwiaW1nLWZsdWlkXCIvPlxuICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTMgY29sLW1kLTRcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZ2FsbGVyeS1pdGVtXCI+XG4gICAgICAgICAgICAgIDxhIGhyZWY9XCIvaW1nL2dhbGxlcnkvZ2FsbGVyeS0zLmpwZ1wiIGNsYXNzTmFtZT1cImdhbGVscnktbGlnaHRib3hcIj5cbiAgICAgICAgICAgICAgICA8SW1hZ2Ugd2lkdGg9XCIzNTFcIiBoZWlnaHQ9XCIyNjNcIiBzcmM9XCIvaW1nL2dhbGxlcnkvZ2FsbGVyeS0zLmpwZ1wiIGFsdD1cIlwiIGNsYXNzTmFtZT1cImltZy1mbHVpZFwiLz5cbiAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy0zIGNvbC1tZC00XCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImdhbGxlcnktaXRlbVwiPlxuICAgICAgICAgICAgICA8YSBocmVmPVwiL2ltZy9nYWxsZXJ5L2dhbGxlcnktNC5qcGdcIiBjbGFzc05hbWU9XCJnYWxlbHJ5LWxpZ2h0Ym94XCI+XG4gICAgICAgICAgICAgICAgPEltYWdlIHdpZHRoPVwiMzUxXCIgaGVpZ2h0PVwiMjYzXCIgc3JjPVwiL2ltZy9nYWxsZXJ5L2dhbGxlcnktNC5qcGdcIiBhbHQ9XCJcIiBjbGFzc05hbWU9XCJpbWctZmx1aWRcIi8+XG4gICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvdyBnLTBcIj5cblxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTMgY29sLW1kLTRcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZ2FsbGVyeS1pdGVtXCI+XG4gICAgICAgICAgICAgIDxhIGhyZWY9XCIvaW1nL2dhbGxlcnkvZ2FsbGVyeS01LmpwZ1wiIGNsYXNzTmFtZT1cImdhbGVscnktbGlnaHRib3hcIj5cbiAgICAgICAgICAgICAgICA8SW1hZ2Ugd2lkdGg9XCIzNTFcIiBoZWlnaHQ9XCIyNjNcIiBzcmM9XCIvaW1nL2dhbGxlcnkvZ2FsbGVyeS01LmpwZ1wiIGFsdD1cIlwiIGNsYXNzTmFtZT1cImltZy1mbHVpZFwiLz5cbiAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy0zIGNvbC1tZC00XCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImdhbGxlcnktaXRlbVwiPlxuICAgICAgICAgICAgICA8YSBocmVmPVwiL2ltZy9nYWxsZXJ5L2dhbGxlcnktNi5qcGdcIiBjbGFzc05hbWU9XCJnYWxlbHJ5LWxpZ2h0Ym94XCI+XG4gICAgICAgICAgICAgICAgPEltYWdlICB3aWR0aD1cIjM1MVwiIGhlaWdodD1cIjI2M1wiIHNyYz1cIi9pbWcvZ2FsbGVyeS9nYWxsZXJ5LTYuanBnXCIgYWx0PVwiXCIgY2xhc3NOYW1lPVwiaW1nLWZsdWlkXCIvPlxuICAgICAgICAgICAgICA8L2E+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTMgY29sLW1kLTRcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZ2FsbGVyeS1pdGVtXCI+XG4gICAgICAgICAgICAgIDxhIGhyZWY9XCIvaW1nL2dhbGxlcnkvZ2FsbGVyeS03LmpwZ1wiIGNsYXNzTmFtZT1cImdhbGVscnktbGlnaHRib3hcIj5cbiAgICAgICAgICAgICAgICA8SW1hZ2UgIHdpZHRoPVwiMzUxXCIgaGVpZ2h0PVwiMjYzXCIgc3JjPVwiL2ltZy9nYWxsZXJ5L2dhbGxlcnktNy5qcGdcIiBhbHQ9XCJcIiBjbGFzc05hbWU9XCJpbWctZmx1aWRcIi8+XG4gICAgICAgICAgICAgIDwvYT5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctMyBjb2wtbWQtNFwiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJnYWxsZXJ5LWl0ZW1cIj5cbiAgICAgICAgICAgICAgPGEgaHJlZj1cIi9pbWcvZ2FsbGVyeS9nYWxsZXJ5LTguanBnXCIgY2xhc3NOYW1lPVwiZ2FsZWxyeS1saWdodGJveFwiPlxuICAgICAgICAgICAgICAgIDxJbWFnZSAgd2lkdGg9XCIzNTFcIiBoZWlnaHQ9XCIyNjNcIiBzcmM9XCIvaW1nL2dhbGxlcnkvZ2FsbGVyeS04LmpwZ1wiIGFsdD1cIlwiIGNsYXNzTmFtZT1cImltZy1mbHVpZFwiLz5cbiAgICAgICAgICAgICAgPC9hPlxuICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgPC9kaXY+XG4gICAgICAgIDwvZGl2PlxuXG4gICAgICA8L2Rpdj5cbiAgICA8L3NlY3Rpb24+XG4gICAgKTtcbn1cblxuZXhwb3J0IGRlZmF1bHQgZ2FsbGVyaWUiXSwibmFtZXMiOlsiSW1hZ2UiLCJnYWxsZXJpZSIsInNlY3Rpb24iLCJpZCIsImNsYXNzTmFtZSIsImRpdiIsImgyIiwicCIsImEiLCJocmVmIiwid2lkdGgiLCJoZWlnaHQiLCJzcmMiLCJhbHQiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./src/app/components/home/gallerie.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/components/home/header.tsx":
+/*!********************************************!*\
+  !*** ./src/app/components/home/header.tsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   $$typeof: () => (/* binding */ $$typeof),
+/* harmony export */   __esModule: () => (/* binding */ __esModule),
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/build/webpack/loaders/next-flight-loader/module-proxy */ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js");
+
+const proxy = (0,next_dist_build_webpack_loaders_next_flight_loader_module_proxy__WEBPACK_IMPORTED_MODULE_0__.createProxy)(String.raw`/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/header.tsx`)
+
+// Accessing the __esModule property and exporting $$typeof are required here.
+// The __esModule getter forces the proxy target to create the default export
+// and the $$typeof value is for rendering logic to determine if the module
+// is a client boundary.
+const { __esModule, $$typeof } = proxy;
+const __default__ = proxy.default;
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__default__);
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/components/home/hero.tsx":
+/*!******************************************!*\
+  !*** ./src/app/components/home/hero.tsx ***!
+  \******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Hero = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        id: \"hero\",\n        className: \"d-flex align-items-center\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"container\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n                    children: \"Breast Imaging Center\"\n                }, void 0, false, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/hero.tsx\",\n                    lineNumber: 6,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                    children: \"Les experts en imagerie diagnostique et interventionnelle du sein\"\n                }, void 0, false, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/hero.tsx\",\n                    lineNumber: 7,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/hero.tsx\",\n            lineNumber: 5,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/hero.tsx\",\n        lineNumber: 4,\n        columnNumber: 7\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Hero);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9oZXJvLnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7O0FBQ0EsTUFBTUEsT0FBTztJQUNULHFCQUNFLDhEQUFDQztRQUFRQyxJQUFHO1FBQU9DLFdBQVU7a0JBQzdCLDRFQUFDQztZQUFJRCxXQUFVOzs4QkFDYiw4REFBQ0U7OEJBQUc7Ozs7Ozs4QkFDSiw4REFBQ0M7OEJBQUc7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBS1o7QUFFQSxpRUFBZU4sSUFBSUEsRUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL21lZGlsYWItcHJvLy4vc3JjL2FwcC9jb21wb25lbnRzL2hvbWUvaGVyby50c3g/NmI1YyJdLCJzb3VyY2VzQ29udGVudCI6WyJcbmNvbnN0IEhlcm8gPSAoKSA9PiB7XG4gICAgcmV0dXJuIChcbiAgICAgIDxzZWN0aW9uIGlkPVwiaGVyb1wiIGNsYXNzTmFtZT1cImQtZmxleCBhbGlnbi1pdGVtcy1jZW50ZXJcIj5cbiAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICAgIDxoMT5CcmVhc3QgSW1hZ2luZyBDZW50ZXI8L2gxPlxuICAgICAgICA8aDI+TGVzIGV4cGVydHMgZW4gaW1hZ2VyaWUgZGlhZ25vc3RpcXVlIGV0IGludGVydmVudGlvbm5lbGxlIGR1IHNlaW48L2gyPlxuey8qICAgICAgICAgPGEgaHJlZj1cIiNhYm91dFwiIGNsYXNzTmFtZT1cImJ0bi1nZXQtc3RhcnRlZCBzY3JvbGx0b1wiPkdldCBTdGFydGVkPC9hPiAqL31cbiAgICAgIDwvZGl2PlxuICAgIDwvc2VjdGlvbj5cbiAgICApO1xufVxuXG5leHBvcnQgZGVmYXVsdCBIZXJvIl0sIm5hbWVzIjpbIkhlcm8iLCJzZWN0aW9uIiwiaWQiLCJjbGFzc05hbWUiLCJkaXYiLCJoMSIsImgyIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/components/home/hero.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/components/home/service.tsx":
+/*!*********************************************!*\
+  !*** ./src/app/components/home/service.tsx ***!
+  \*********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ \"(rsc)/./node_modules/@fortawesome/free-solid-svg-icons/index.mjs\");\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ \"(rsc)/./node_modules/@fortawesome/react-fontawesome/index.js\");\n/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\nconst Service = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        id: \"services\",\n        className: \"services\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"container\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"section-title\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                            children: \"Services\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                            lineNumber: 10,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                            children: \"un centre d’imagerie m\\xe9dicale qui allie innovation, humanit\\xe9 et excellence diagnostique. Nous croyons que chaque patient m\\xe9rite un suivi clair et pr\\xe9cis, et chaque m\\xe9decin un partenaire de confiance.\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                            lineNumber: 11,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                    lineNumber: 9,\n                    columnNumber: 9\n                }, undefined),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"row\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"col-lg-4 col-md-6 d-flex align-items-stretch\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"icon-box\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"icon\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__.faHeartbeat,\n                                            className: \"icon-service\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 18,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 18,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            href: \"\",\n                                            children: \"Mammographie 3D & Angio-Mammographie\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 19,\n                                            columnNumber: 19\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 19,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        children: \"D\\xe9pistage et diagnostic pr\\xe9cis des maladies du sein gr\\xe2ce \\xe0 des technologies de pointe adapt\\xe9es \\xe0 chaque besoin.\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 20,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                lineNumber: 17,\n                                columnNumber: 13\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                            lineNumber: 16,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"icon-box\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"icon\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__.faPills,\n                                            className: \"icon-service\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 26,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 26,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            href: \"\",\n                                            children: \"\\xc9chographie & \\xc9lastographie ShearWave\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 27,\n                                            columnNumber: 19\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 27,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        children: \"Une solution non invasive pour examiner en temps r\\xe9el les organes internes.Une technique avanc\\xe9e pour \\xe9valuer la rigidit\\xe9 des tissus et faciliter un diagnostic pr\\xe9cis des anomalies.\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 28,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                lineNumber: 25,\n                                columnNumber: 13\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                            lineNumber: 24,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"col-lg-4 col-md-6 d-flex align-items-stretch mt-4\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"icon-box\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"icon\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__.faWheelchair,\n                                            className: \"icon-service\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 35,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 35,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            href: \"\",\n                                            children: \"Actes Interventionnels\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 36,\n                                            columnNumber: 19\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 36,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        children: \"Une technique \\xe9cho et/ou radio-guid\\xe9e \\xe0 but diagnostique et th\\xe9rapeutique. \"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 37,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        children: \"Biopsies, ponction et rep\\xe9rage. \"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 38,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                lineNumber: 34,\n                                columnNumber: 13\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                            lineNumber: 33,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"col-lg-4 col-md-6 d-flex align-items-stretch mt-4\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"icon-box\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"icon\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__.faDna,\n                                            className: \"icon-service\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 47,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 47,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            href: \"\",\n                                            children: \"Radiologie Standard\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 48,\n                                            columnNumber: 19\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 48,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        children: \"Inclut les examens classiques comme la radiographie des genoux ou du thorax pour une prise en charge efficace.\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 49,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                lineNumber: 46,\n                                columnNumber: 13\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                            lineNumber: 45,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"icon-box\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"icon\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__.faHospitalUser,\n                                            className: \"icon-service\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 55,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 55,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            href: \"\",\n                                            children: \"Cone Beam\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 56,\n                                            columnNumber: 19\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 56,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        children: \"Des images radiographiques pr\\xe9cises pour des soins dentaires optimaux et un diagnostic approfondi. Exploration en coupe des sinus.\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 57,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                lineNumber: 54,\n                                columnNumber: 13\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                            lineNumber: 53,\n                            columnNumber: 11\n                        }, undefined),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"col-lg-4 col-md-6 d-flex align-items-stretch mt-4\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"icon-box\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"icon\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__.FontAwesomeIcon, {\n                                            icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__.faNotesMedical,\n                                            className: \"icon-service\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 63,\n                                            columnNumber: 37\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 63,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                                            href: \"\",\n                                            children: \"IRM & Scanner\"\n                                        }, void 0, false, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                            lineNumber: 64,\n                                            columnNumber: 19\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 64,\n                                        columnNumber: 15\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                        children: \"Imagerie de haute pr\\xe9cision pour d\\xe9tecter, analyser et suivre l’\\xe9volution de pathologies complexes.\"\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                        lineNumber: 65,\n                                        columnNumber: 15\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                                lineNumber: 62,\n                                columnNumber: 13\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                            lineNumber: 61,\n                            columnNumber: 11\n                        }, undefined)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n                    lineNumber: 15,\n                    columnNumber: 9\n                }, undefined)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n            lineNumber: 7,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/service.tsx\",\n        lineNumber: 6,\n        columnNumber: 9\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Service);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS9zZXJ2aWNlLnRzeCIsIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7O0FBQThIO0FBQzdEO0FBRWpFLE1BQU1PLFVBQVU7SUFDWixxQkFDSSw4REFBQ0M7UUFBUUMsSUFBRztRQUFXQyxXQUFVO2tCQUNuQyw0RUFBQ0M7WUFBSUQsV0FBVTs7OEJBRWIsOERBQUNDO29CQUFJRCxXQUFVOztzQ0FDYiw4REFBQ0U7c0NBQUc7Ozs7OztzQ0FDSiw4REFBQ0M7c0NBQUU7Ozs7Ozs7Ozs7Ozs4QkFJTCw4REFBQ0Y7b0JBQUlELFdBQVU7O3NDQUNiLDhEQUFDQzs0QkFBSUQsV0FBVTtzQ0FDYiw0RUFBQ0M7Z0NBQUlELFdBQVU7O2tEQUNiLDhEQUFDQzt3Q0FBSUQsV0FBVTtrREFBTyw0RUFBQ0osMkVBQWVBOzRDQUFDUSxNQUFNYiwwRUFBV0E7NENBQUdTLFdBQVU7Ozs7Ozs7Ozs7O2tEQUNyRSw4REFBQ0s7a0RBQUcsNEVBQUNDOzRDQUFFQyxNQUFLO3NEQUFHOzs7Ozs7Ozs7OztrREFDZiw4REFBQ0o7a0RBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7O3NDQUlQLDhEQUFDRjs0QkFBSUQsV0FBVTtzQ0FDYiw0RUFBQ0M7Z0NBQUlELFdBQVU7O2tEQUNiLDhEQUFDQzt3Q0FBSUQsV0FBVTtrREFBTyw0RUFBQ0osMkVBQWVBOzRDQUFDUSxNQUFNVixzRUFBT0E7NENBQUdNLFdBQVU7Ozs7Ozs7Ozs7O2tEQUNqRSw4REFBQ0s7a0RBQUcsNEVBQUNDOzRDQUFFQyxNQUFLO3NEQUFHOzs7Ozs7Ozs7OztrREFDZiw4REFBQ0o7a0RBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7O3NDQUtQLDhEQUFDRjs0QkFBSUQsV0FBVTtzQ0FDYiw0RUFBQ0M7Z0NBQUlELFdBQVU7O2tEQUNiLDhEQUFDQzt3Q0FBSUQsV0FBVTtrREFBTyw0RUFBQ0osMkVBQWVBOzRDQUFDUSxNQUFNVCwyRUFBWUE7NENBQUdLLFdBQVU7Ozs7Ozs7Ozs7O2tEQUN0RSw4REFBQ0s7a0RBQUcsNEVBQUNDOzRDQUFFQyxNQUFLO3NEQUFHOzs7Ozs7Ozs7OztrREFDZiw4REFBQ0o7a0RBQUU7Ozs7OztrREFDSCw4REFBQ0E7a0RBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7O3NDQU9QLDhEQUFDRjs0QkFBSUQsV0FBVTtzQ0FDYiw0RUFBQ0M7Z0NBQUlELFdBQVU7O2tEQUNiLDhEQUFDQzt3Q0FBSUQsV0FBVTtrREFBTyw0RUFBQ0osMkVBQWVBOzRDQUFDUSxNQUFNZCxvRUFBS0E7NENBQUdVLFdBQVU7Ozs7Ozs7Ozs7O2tEQUMvRCw4REFBQ0s7a0RBQUcsNEVBQUNDOzRDQUFFQyxNQUFLO3NEQUFHOzs7Ozs7Ozs7OztrREFDZiw4REFBQ0o7a0RBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7O3NDQUlQLDhEQUFDRjs0QkFBSUQsV0FBVTtzQ0FDYiw0RUFBQ0M7Z0NBQUlELFdBQVU7O2tEQUNiLDhEQUFDQzt3Q0FBSUQsV0FBVTtrREFBTyw0RUFBQ0osMkVBQWVBOzRDQUFDUSxNQUFNWiw2RUFBY0E7NENBQUdRLFdBQVU7Ozs7Ozs7Ozs7O2tEQUN4RSw4REFBQ0s7a0RBQUcsNEVBQUNDOzRDQUFFQyxNQUFLO3NEQUFHOzs7Ozs7Ozs7OztrREFDZiw4REFBQ0o7a0RBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7O3NDQUlQLDhEQUFDRjs0QkFBSUQsV0FBVTtzQ0FDYiw0RUFBQ0M7Z0NBQUlELFdBQVU7O2tEQUNiLDhEQUFDQzt3Q0FBSUQsV0FBVTtrREFBTyw0RUFBQ0osMkVBQWVBOzRDQUFDUSxNQUFNWCw2RUFBY0E7NENBQUdPLFdBQVU7Ozs7Ozs7Ozs7O2tEQUN4RSw4REFBQ0s7a0RBQUcsNEVBQUNDOzRDQUFFQyxNQUFLO3NEQUFHOzs7Ozs7Ozs7OztrREFDZiw4REFBQ0o7a0RBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFTakI7QUFHQSxpRUFBZU4sT0FBT0EsRUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL21lZGlsYWItcHJvLy4vc3JjL2FwcC9jb21wb25lbnRzL2hvbWUvc2VydmljZS50c3g/MjQ1MSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBmYURuYSwgZmFIZWFydGJlYXQsIGZhSG9zcGl0YWxVc2VyLCBmYU5vdGVzTWVkaWNhbCwgZmFQaWxscywgZmFXaGVlbGNoYWlyIH0gZnJvbSBcIkBmb3J0YXdlc29tZS9mcmVlLXNvbGlkLXN2Zy1pY29uc1wiO1xuaW1wb3J0IHsgRm9udEF3ZXNvbWVJY29uIH0gZnJvbSBcIkBmb3J0YXdlc29tZS9yZWFjdC1mb250YXdlc29tZVwiO1xuXG5jb25zdCBTZXJ2aWNlID0gKCkgPT4ge1xuICAgIHJldHVybiAoXG4gICAgICAgIDxzZWN0aW9uIGlkPVwic2VydmljZXNcIiBjbGFzc05hbWU9XCJzZXJ2aWNlc1wiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInNlY3Rpb24tdGl0bGVcIj5cbiAgICAgICAgICA8aDI+U2VydmljZXM8L2gyPlxuICAgICAgICAgIDxwPnVuIGNlbnRyZSBk4oCZaW1hZ2VyaWUgbcOpZGljYWxlIHF1aSBhbGxpZSBpbm5vdmF0aW9uLCBodW1hbml0w6kgZXQgZXhjZWxsZW5jZSBkaWFnbm9zdGlxdWUuIE5vdXMgY3JveW9ucyBxdWUgY2hhcXVlIHBhdGllbnQgbcOpcml0ZSB1biBzdWl2aSBjbGFpciBldCBwcsOpY2lzLCBldCBjaGFxdWUgbcOpZGVjaW4gdW4gcGFydGVuYWlyZSBkZSBjb25maWFuY2UuXG48L3A+XG4gICAgICAgIDwvZGl2PlxuXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwicm93XCI+XG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNCBjb2wtbWQtNiBkLWZsZXggYWxpZ24taXRlbXMtc3RyZXRjaFwiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpY29uLWJveFwiPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImljb25cIj48Rm9udEF3ZXNvbWVJY29uIGljb249e2ZhSGVhcnRiZWF0fSAgY2xhc3NOYW1lPVwiaWNvbi1zZXJ2aWNlXCI+PC9Gb250QXdlc29tZUljb24+PC9kaXY+XG4gICAgICAgICAgICAgIDxoND48YSBocmVmPVwiXCI+TWFtbW9ncmFwaGllIDNEICYgQW5naW8tTWFtbW9ncmFwaGllPC9hPjwvaDQ+XG4gICAgICAgICAgICAgIDxwPkTDqXBpc3RhZ2UgZXQgZGlhZ25vc3RpYyBwcsOpY2lzIGRlcyBtYWxhZGllcyBkdSBzZWluIGdyw6JjZSDDoCBkZXMgdGVjaG5vbG9naWVzIGRlIHBvaW50ZSBhZGFwdMOpZXMgw6AgY2hhcXVlIGJlc29pbi48L3A+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTQgY29sLW1kLTYgZC1mbGV4IGFsaWduLWl0ZW1zLXN0cmV0Y2ggbXQtNCBtdC1tZC0wXCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImljb24tYm94XCI+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaWNvblwiPjxGb250QXdlc29tZUljb24gaWNvbj17ZmFQaWxsc30gIGNsYXNzTmFtZT1cImljb24tc2VydmljZVwiPjwvRm9udEF3ZXNvbWVJY29uPjwvZGl2PlxuICAgICAgICAgICAgICA8aDQ+PGEgaHJlZj1cIlwiPsOJY2hvZ3JhcGhpZSAmIMOJbGFzdG9ncmFwaGllIFNoZWFyV2F2ZTwvYT48L2g0PlxuICAgICAgICAgICAgICA8cD5VbmUgc29sdXRpb24gbm9uIGludmFzaXZlIHBvdXIgZXhhbWluZXIgZW4gdGVtcHMgcsOpZWwgbGVzIG9yZ2FuZXMgaW50ZXJuZXMuVW5lIHRlY2huaXF1ZSBhdmFuY8OpZSBwb3VyIMOpdmFsdWVyIGxhIHJpZ2lkaXTDqSBkZXMgdGlzc3VzIGV0IGZhY2lsaXRlciB1biBkaWFnbm9zdGljIHByw6ljaXMgZGVzIGFub21hbGllcy48L3A+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cblxuXG4gICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wtbGctNCBjb2wtbWQtNiBkLWZsZXggYWxpZ24taXRlbXMtc3RyZXRjaCBtdC00XCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImljb24tYm94XCI+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaWNvblwiPjxGb250QXdlc29tZUljb24gaWNvbj17ZmFXaGVlbGNoYWlyfSAgY2xhc3NOYW1lPVwiaWNvbi1zZXJ2aWNlXCI+PC9Gb250QXdlc29tZUljb24+PC9kaXY+XG4gICAgICAgICAgICAgIDxoND48YSBocmVmPVwiXCI+QWN0ZXMgSW50ZXJ2ZW50aW9ubmVsczwvYT48L2g0PlxuICAgICAgICAgICAgICA8cD5VbmUgdGVjaG5pcXVlIMOpY2hvIGV0L291IHJhZGlvLWd1aWTDqWUgw6AgYnV0IGRpYWdub3N0aXF1ZSBldCB0aMOpcmFwZXV0aXF1ZS4gPC9wPlxuICAgICAgICAgICAgICA8cD5CaW9wc2llcywgcG9uY3Rpb24gZXQgcmVww6lyYWdlLiA8L3A+IFxuICAgICAgICAgICAgXG5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgXG5cbiAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC1sZy00IGNvbC1tZC02IGQtZmxleCBhbGlnbi1pdGVtcy1zdHJldGNoIG10LTRcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaWNvbi1ib3hcIj5cbiAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpY29uXCI+PEZvbnRBd2Vzb21lSWNvbiBpY29uPXtmYURuYX0gIGNsYXNzTmFtZT1cImljb24tc2VydmljZVwiPjwvRm9udEF3ZXNvbWVJY29uPjwvZGl2PlxuICAgICAgICAgICAgICA8aDQ+PGEgaHJlZj1cIlwiPlJhZGlvbG9naWUgU3RhbmRhcmQ8L2E+PC9oND5cbiAgICAgICAgICAgICAgPHA+SW5jbHV0IGxlcyBleGFtZW5zIGNsYXNzaXF1ZXMgY29tbWUgbGEgcmFkaW9ncmFwaGllIGRlcyBnZW5vdXggb3UgZHUgdGhvcmF4IHBvdXIgdW5lIHByaXNlIGVuIGNoYXJnZSBlZmZpY2FjZS48L3A+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTQgY29sLW1kLTYgZC1mbGV4IGFsaWduLWl0ZW1zLXN0cmV0Y2ggbXQtNCBtdC1sZy0wXCI+XG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImljb24tYm94XCI+XG4gICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaWNvblwiPjxGb250QXdlc29tZUljb24gaWNvbj17ZmFIb3NwaXRhbFVzZXJ9ICBjbGFzc05hbWU9XCJpY29uLXNlcnZpY2VcIj48L0ZvbnRBd2Vzb21lSWNvbj48L2Rpdj5cbiAgICAgICAgICAgICAgPGg0PjxhIGhyZWY9XCJcIj5Db25lIEJlYW08L2E+PC9oND5cbiAgICAgICAgICAgICAgPHA+RGVzIGltYWdlcyByYWRpb2dyYXBoaXF1ZXMgcHLDqWNpc2VzIHBvdXIgZGVzIHNvaW5zIGRlbnRhaXJlcyBvcHRpbWF1eCBldCB1biBkaWFnbm9zdGljIGFwcHJvZm9uZGkuIEV4cGxvcmF0aW9uIGVuIGNvdXBlIGRlcyBzaW51cy48L3A+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTQgY29sLW1kLTYgZC1mbGV4IGFsaWduLWl0ZW1zLXN0cmV0Y2ggbXQtNFwiPlxuICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpY29uLWJveFwiPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImljb25cIj48Rm9udEF3ZXNvbWVJY29uIGljb249e2ZhTm90ZXNNZWRpY2FsfSAgY2xhc3NOYW1lPVwiaWNvbi1zZXJ2aWNlXCI+PC9Gb250QXdlc29tZUljb24+PC9kaXY+XG4gICAgICAgICAgICAgIDxoND48YSBocmVmPVwiXCI+SVJNICYgU2Nhbm5lcjwvYT48L2g0PlxuICAgICAgICAgICAgICA8cD5JbWFnZXJpZSBkZSBoYXV0ZSBwcsOpY2lzaW9uIHBvdXIgZMOpdGVjdGVyLCBhbmFseXNlciBldCBzdWl2cmUgbOKAmcOpdm9sdXRpb24gZGUgcGF0aG9sb2dpZXMgY29tcGxleGVzLjwvcD5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgIDwvZGl2PlxuXG4gICAgICA8L2Rpdj5cbiAgICA8L3NlY3Rpb24+XG4gICAgKTtcbn1cblxuXG5leHBvcnQgZGVmYXVsdCBTZXJ2aWNlIl0sIm5hbWVzIjpbImZhRG5hIiwiZmFIZWFydGJlYXQiLCJmYUhvc3BpdGFsVXNlciIsImZhTm90ZXNNZWRpY2FsIiwiZmFQaWxscyIsImZhV2hlZWxjaGFpciIsIkZvbnRBd2Vzb21lSWNvbiIsIlNlcnZpY2UiLCJzZWN0aW9uIiwiaWQiLCJjbGFzc05hbWUiLCJkaXYiLCJoMiIsInAiLCJpY29uIiwiaDQiLCJhIiwiaHJlZiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./src/app/components/home/service.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/components/home/topbar.tsx":
+/*!********************************************!*\
+  !*** ./src/app/components/home/topbar.tsx ***!
+  \********************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Topbar)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Topbar() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        id: \"topbar\",\n        className: \"d-flex align-items-center fixed-top\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"container d-flex justify-content-between\",\n            children: [\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"contact-info d-flex align-items-center flex-wrap\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                            className: \"bi bi-envelope\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                            lineNumber: 6,\n                            columnNumber: 11\n                        }, this),\n                        \" \",\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"mailto:contact@example.com\",\n                            children: \"drzeinebbelkhiria@gmail.com\"\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                            lineNumber: 7,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                    className: \"bi bi-phone\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                                    lineNumber: 8,\n                                    columnNumber: 17\n                                }, this),\n                                \" +216 53 008 108\"\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                            lineNumber: 8,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                    className: \"bi bi-phone\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                                    lineNumber: 9,\n                                    columnNumber: 17\n                                }, this),\n                                \" +216 57 132 305\"\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                            lineNumber: 9,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                    lineNumber: 5,\n                    columnNumber: 9\n                }, this),\n                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                    className: \"d-none d-lg-flex social-links align-items-center\",\n                    children: [\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"https://www.facebook.com/zeineb.belkhiria.3\",\n                            className: \"facebook\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                className: \"bi bi-facebook\"\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                                lineNumber: 14,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                            lineNumber: 13,\n                            columnNumber: 11\n                        }, this),\n                        /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"a\", {\n                            href: \"https://tn.linkedin.com/in/zeineb-belkhiria\",\n                            className: \"linkedin\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                className: \"bi bi-linkedin\"\n                            }, void 0, false, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                                lineNumber: 18,\n                                columnNumber: 13\n                            }, this)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                            lineNumber: 17,\n                            columnNumber: 11\n                        }, this)\n                    ]\n                }, void 0, true, {\n                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n                    lineNumber: 11,\n                    columnNumber: 9\n                }, this)\n            ]\n        }, void 0, true, {\n            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n            lineNumber: 4,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/topbar.tsx\",\n        lineNumber: 3,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS90b3BiYXIudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7QUFBZSxTQUFTQTtJQUN0QixxQkFDRSw4REFBQ0M7UUFBSUMsSUFBRztRQUFTQyxXQUFVO2tCQUN6Qiw0RUFBQ0Y7WUFBSUUsV0FBVTs7OEJBQ2IsOERBQUNGO29CQUFJRSxXQUFVOztzQ0FDYiw4REFBQ0M7NEJBQUVELFdBQVU7Ozs7Ozt3QkFBc0I7c0NBQ25DLDhEQUFDRTs0QkFBRUMsTUFBSztzQ0FBNkI7Ozs7OztzQ0FDckMsOERBQUNDOzs4Q0FBSyw4REFBQ0g7b0NBQUVELFdBQVU7Ozs7OztnQ0FBa0I7Ozs7Ozs7c0NBQ3JDLDhEQUFDSTs7OENBQUssOERBQUNIO29DQUFFRCxXQUFVOzs7Ozs7Z0NBQWtCOzs7Ozs7Ozs7Ozs7OzhCQUV2Qyw4REFBQ0Y7b0JBQUlFLFdBQVU7O3NDQUViLDhEQUFDRTs0QkFBRUMsTUFBSzs0QkFBOENILFdBQVU7c0NBQzlELDRFQUFDQztnQ0FBRUQsV0FBVTs7Ozs7Ozs7Ozs7c0NBR2YsOERBQUNFOzRCQUFFQyxNQUFLOzRCQUE4Q0gsV0FBVTtzQ0FDOUQsNEVBQUNDO2dDQUFFRCxXQUFVOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBTXpCIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkaWxhYi1wcm8vLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS90b3BiYXIudHN4PzcxMGQiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGRlZmF1bHQgZnVuY3Rpb24gVG9wYmFyKCkge1xuICByZXR1cm4gKFxuICAgIDxkaXYgaWQ9XCJ0b3BiYXJcIiBjbGFzc05hbWU9XCJkLWZsZXggYWxpZ24taXRlbXMtY2VudGVyIGZpeGVkLXRvcFwiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXIgZC1mbGV4IGp1c3RpZnktY29udGVudC1iZXR3ZWVuXCI+XG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFjdC1pbmZvIGQtZmxleCBhbGlnbi1pdGVtcy1jZW50ZXIgZmxleC13cmFwXCI+XG4gICAgICAgICAgPGkgY2xhc3NOYW1lPVwiYmkgYmktZW52ZWxvcGVcIj48L2k+e1wiIFwifVxuICAgICAgICAgIDxhIGhyZWY9XCJtYWlsdG86Y29udGFjdEBleGFtcGxlLmNvbVwiPmRyemVpbmViYmVsa2hpcmlhQGdtYWlsLmNvbTwvYT5cbiAgICAgICAgICA8c3Bhbj48aSBjbGFzc05hbWU9XCJiaSBiaS1waG9uZVwiPjwvaT4gKzIxNiA1MyAwMDggMTA4PC9zcGFuPlxuICAgICAgICAgIDxzcGFuPjxpIGNsYXNzTmFtZT1cImJpIGJpLXBob25lXCI+PC9pPiArMjE2IDU3IDEzMiAzMDU8L3NwYW4+XG4gICAgICAgIDwvZGl2PlxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImQtbm9uZSBkLWxnLWZsZXggc29jaWFsLWxpbmtzIGFsaWduLWl0ZW1zLWNlbnRlclwiPlxuICAgICAgICBcbiAgICAgICAgICA8YSBocmVmPVwiaHR0cHM6Ly93d3cuZmFjZWJvb2suY29tL3plaW5lYi5iZWxraGlyaWEuM1wiIGNsYXNzTmFtZT1cImZhY2Vib29rXCI+XG4gICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJiaSBiaS1mYWNlYm9va1wiPjwvaT5cbiAgICAgICAgICA8L2E+XG4gICAgICAgICAgXG4gICAgICAgICAgPGEgaHJlZj1cImh0dHBzOi8vdG4ubGlua2VkaW4uY29tL2luL3plaW5lYi1iZWxraGlyaWFcIiBjbGFzc05hbWU9XCJsaW5rZWRpblwiPlxuICAgICAgICAgICAgPGkgY2xhc3NOYW1lPVwiYmkgYmktbGlua2VkaW5cIj48L2k+XG4gICAgICAgICAgPC9hPlxuICAgICAgICA8L2Rpdj5cbiAgICAgIDwvZGl2PlxuICAgIDwvZGl2PlxuICApO1xufVxuIl0sIm5hbWVzIjpbIlRvcGJhciIsImRpdiIsImlkIiwiY2xhc3NOYW1lIiwiaSIsImEiLCJocmVmIiwic3BhbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///(rsc)/./src/app/components/home/topbar.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/components/home/whyus.tsx":
+/*!*******************************************!*\
+  !*** ./src/app/components/home/whyus.tsx ***!
+  \*******************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nconst Whyus = ()=>{\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"section\", {\n        id: \"why-us\",\n        className: \"why-us\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n            className: \"container\",\n            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                className: \"row\",\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"col-lg-4 d-flex align-items-stretch\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"content\",\n                            children: [\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h3\", {\n                                    children: \"Pourquoi Choisir BIC ?\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                    lineNumber: 10,\n                                    columnNumber: 15\n                                }, undefined),\n                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                    children: \"Parce que nous visons l'excellence, nous avons investi dans une technologie de pointe pour offrir un service alliant confort, innovation et expertise scientifique. Notre centre est une r\\xe9f\\xe9rence en imagerie du sein et en radiologie g\\xe9n\\xe9rale, int\\xe9grant les derni\\xe8res avanc\\xe9es en intelligence artificielle et en logistique m\\xe9dicale. Gr\\xe2ce \\xe0 notre plateforme unique en Afrique du Nord, nous garantissons un accompagnement personnalis\\xe9, o\\xf9 chaque patiente b\\xe9n\\xe9ficie d'un suivi attentif et d’une prise en charge optimis\\xe9e. Votre sant\\xe9 est notre priorit\\xe9, et notre \\xe9quipe est \\xe0 votre \\xe9coute avec bienveillance et engagement.\"\n                                }, void 0, false, {\n                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                    lineNumber: 11,\n                                    columnNumber: 15\n                                }, undefined)\n                            ]\n                        }, void 0, true, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                            lineNumber: 9,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                        lineNumber: 8,\n                        columnNumber: 11\n                    }, undefined),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                        className: \"col-lg-8 d-flex align-items-stretch\",\n                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                            className: \"icon-boxes d-flex flex-column justify-content-center\",\n                            children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                className: \"row\",\n                                children: [\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"col-xl-4 d-flex align-items-stretch\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                            className: \"icon-box mt-4 mt-xl-0\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-receipt\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                                    lineNumber: 26,\n                                                    columnNumber: 21\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                                    children: \"Une approche centr\\xe9e sur le patient\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                                    lineNumber: 27,\n                                                    columnNumber: 21\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                                    children: \"Une optimisation des examens, une communication claire et un suivi personnalis\\xe9 pour un diagnostic en toute s\\xe9r\\xe9nit\\xe9.\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                                    lineNumber: 28,\n                                                    columnNumber: 21\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                            lineNumber: 25,\n                                            columnNumber: 19\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                        lineNumber: 24,\n                                        columnNumber: 17\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"col-xl-4 d-flex align-items-stretch\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                            className: \"icon-box mt-4 mt-xl-0\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-cube-alt\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                                    lineNumber: 33,\n                                                    columnNumber: 21\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                                    children: \"Un diagnostic synth\\xe9tique\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                                    lineNumber: 34,\n                                                    columnNumber: 21\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                                    children: \"Des services d’expertise et de relecture, en coordination avec les m\\xe9decins soignants, pour une prise en charge optimale.\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                                    lineNumber: 35,\n                                                    columnNumber: 21\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                            lineNumber: 32,\n                                            columnNumber: 19\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                        lineNumber: 31,\n                                        columnNumber: 17\n                                    }, undefined),\n                                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                        className: \"col-xl-4 d-flex align-items-stretch\",\n                                        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                                            className: \"icon-box mt-4 mt-xl-0\",\n                                            children: [\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"i\", {\n                                                    className: \"bx bx-images\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                                    lineNumber: 40,\n                                                    columnNumber: 21\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h4\", {\n                                                    children: \"Un engagement sociale et scientifique\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                                    lineNumber: 41,\n                                                    columnNumber: 21\n                                                }, undefined),\n                                                /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"p\", {\n                                                    children: \"Des participations b\\xe9n\\xe9voles avec des partenaires reconnus, combinant impact social et engagement m\\xe9dical.\"\n                                                }, void 0, false, {\n                                                    fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                                    lineNumber: 42,\n                                                    columnNumber: 21\n                                                }, undefined)\n                                            ]\n                                        }, void 0, true, {\n                                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                            lineNumber: 39,\n                                            columnNumber: 19\n                                        }, undefined)\n                                    }, void 0, false, {\n                                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                        lineNumber: 38,\n                                        columnNumber: 17\n                                    }, undefined)\n                                ]\n                            }, void 0, true, {\n                                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                                lineNumber: 23,\n                                columnNumber: 15\n                            }, undefined)\n                        }, void 0, false, {\n                            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                            lineNumber: 22,\n                            columnNumber: 13\n                        }, undefined)\n                    }, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                        lineNumber: 21,\n                        columnNumber: 11\n                    }, undefined)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n                lineNumber: 7,\n                columnNumber: 9\n            }, undefined)\n        }, void 0, false, {\n            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n            lineNumber: 5,\n            columnNumber: 7\n        }, undefined)\n    }, void 0, false, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/components/home/whyus.tsx\",\n        lineNumber: 4,\n        columnNumber: 5\n    }, undefined);\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Whyus);\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2NvbXBvbmVudHMvaG9tZS93aHl1cy50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7OztBQUNBLE1BQU1BLFFBQVE7SUFDWixxQkFDRSw4REFBQ0M7UUFBUUMsSUFBRztRQUFTQyxXQUFVO2tCQUM3Qiw0RUFBQ0M7WUFBSUQsV0FBVTtzQkFFYiw0RUFBQ0M7Z0JBQUlELFdBQVU7O2tDQUNiLDhEQUFDQzt3QkFBSUQsV0FBVTtrQ0FDYiw0RUFBQ0M7NEJBQUlELFdBQVU7OzhDQUNiLDhEQUFDRTs4Q0FBRzs7Ozs7OzhDQUNKLDhEQUFDQzs4Q0FBRTs7Ozs7Ozs7Ozs7Ozs7Ozs7a0NBVVAsOERBQUNGO3dCQUFJRCxXQUFVO2tDQUNiLDRFQUFDQzs0QkFBSUQsV0FBVTtzQ0FDYiw0RUFBQ0M7Z0NBQUlELFdBQVU7O2tEQUNiLDhEQUFDQzt3Q0FBSUQsV0FBVTtrREFDYiw0RUFBQ0M7NENBQUlELFdBQVU7OzhEQUNiLDhEQUFDSTtvREFBRUosV0FBVTs7Ozs7OzhEQUNiLDhEQUFDSzs4REFBRzs7Ozs7OzhEQUNKLDhEQUFDRjs4REFBRTs7Ozs7Ozs7Ozs7Ozs7Ozs7a0RBR1AsOERBQUNGO3dDQUFJRCxXQUFVO2tEQUNiLDRFQUFDQzs0Q0FBSUQsV0FBVTs7OERBQ2IsOERBQUNJO29EQUFFSixXQUFVOzs7Ozs7OERBQ2IsOERBQUNLOzhEQUFHOzs7Ozs7OERBQ0osOERBQUNGOzhEQUFFOzs7Ozs7Ozs7Ozs7Ozs7OztrREFHUCw4REFBQ0Y7d0NBQUlELFdBQVU7a0RBQ2IsNEVBQUNDOzRDQUFJRCxXQUFVOzs4REFDYiw4REFBQ0k7b0RBQUVKLFdBQVU7Ozs7Ozs4REFDYiw4REFBQ0s7OERBQUc7Ozs7Ozs4REFDSiw4REFBQ0Y7OERBQUU7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFXdkI7QUFHQSxpRUFBZU4sS0FBS0EsRUFBQSIsInNvdXJjZXMiOlsid2VicGFjazovL21lZGlsYWItcHJvLy4vc3JjL2FwcC9jb21wb25lbnRzL2hvbWUvd2h5dXMudHN4PzA1ZTUiXSwic291cmNlc0NvbnRlbnQiOlsiXG5jb25zdCBXaHl1cyA9ICgpID0+IHtcbiAgcmV0dXJuIChcbiAgICA8c2VjdGlvbiBpZD1cIndoeS11c1wiIGNsYXNzTmFtZT1cIndoeS11c1wiPlxuICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWluZXJcIj5cblxuICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTQgZC1mbGV4IGFsaWduLWl0ZW1zLXN0cmV0Y2hcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGVudFwiPlxuICAgICAgICAgICAgICA8aDM+UG91cnF1b2kgQ2hvaXNpciBCSUMgPzwvaDM+XG4gICAgICAgICAgICAgIDxwPlxuXG5cbiAgICAgICAgICAgICAgUGFyY2UgcXVlIG5vdXMgdmlzb25zIGwnZXhjZWxsZW5jZSwgbm91cyBhdm9ucyBpbnZlc3RpIGRhbnMgdW5lIHRlY2hub2xvZ2llIGRlIHBvaW50ZSBwb3VyIG9mZnJpciB1biBzZXJ2aWNlIGFsbGlhbnQgY29uZm9ydCwgaW5ub3ZhdGlvbiBldCBleHBlcnRpc2Ugc2NpZW50aWZpcXVlLiBOb3RyZSBjZW50cmUgZXN0IHVuZSByw6lmw6lyZW5jZSBlbiBpbWFnZXJpZSBkdSBzZWluIGV0IGVuIHJhZGlvbG9naWUgZ8OpbsOpcmFsZSwgaW50w6lncmFudCBsZXMgZGVybmnDqHJlcyBhdmFuY8OpZXMgZW4gaW50ZWxsaWdlbmNlIGFydGlmaWNpZWxsZSBldCBlbiBsb2dpc3RpcXVlIG3DqWRpY2FsZS4gR3LDomNlIMOgIG5vdHJlIHBsYXRlZm9ybWUgdW5pcXVlIGVuIEFmcmlxdWUgZHUgTm9yZCwgbm91cyBnYXJhbnRpc3NvbnMgdW4gYWNjb21wYWduZW1lbnQgcGVyc29ubmFsaXPDqSwgb8O5IGNoYXF1ZSBwYXRpZW50ZSBiw6luw6lmaWNpZSBkJ3VuIHN1aXZpIGF0dGVudGlmIGV0IGTigJl1bmUgcHJpc2UgZW4gY2hhcmdlIG9wdGltaXPDqWUuIFZvdHJlIHNhbnTDqSBlc3Qgbm90cmUgcHJpb3JpdMOpLCBldCBub3RyZSDDqXF1aXBlIGVzdCDDoCB2b3RyZSDDqWNvdXRlIGF2ZWMgYmllbnZlaWxsYW5jZSBldCBlbmdhZ2VtZW50LlxuICAgICAgICAgICAgICA8L3A+XG57LyogICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRleHQtY2VudGVyXCI+XG4gICAgICAgICAgICAgICAgPGEgaHJlZj1cIiNcIiBjbGFzc05hbWU9XCJtb3JlLWJ0blwiPkxlYXJuIE1vcmUgPGkgY2xhc3NOYW1lPVwiYnggYngtY2hldnJvbi1yaWdodFwiPjwvaT48L2E+XG4gICAgICAgICAgICAgIDwvZGl2PiAqL31cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLWxnLTggZC1mbGV4IGFsaWduLWl0ZW1zLXN0cmV0Y2hcIj5cbiAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaWNvbi1ib3hlcyBkLWZsZXggZmxleC1jb2x1bW4ganVzdGlmeS1jb250ZW50LWNlbnRlclwiPlxuICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInJvd1wiPlxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiY29sLXhsLTQgZC1mbGV4IGFsaWduLWl0ZW1zLXN0cmV0Y2hcIj5cbiAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaWNvbi1ib3ggbXQtNCBtdC14bC0wXCI+XG4gICAgICAgICAgICAgICAgICAgIDxpIGNsYXNzTmFtZT1cImJ4IGJ4LXJlY2VpcHRcIj48L2k+XG4gICAgICAgICAgICAgICAgICAgIDxoND5VbmUgYXBwcm9jaGUgY2VudHLDqWUgc3VyIGxlIHBhdGllbnQ8L2g0PlxuICAgICAgICAgICAgICAgICAgICA8cD5VbmUgb3B0aW1pc2F0aW9uIGRlcyBleGFtZW5zLCB1bmUgY29tbXVuaWNhdGlvbiBjbGFpcmUgZXQgdW4gc3VpdmkgcGVyc29ubmFsaXPDqSBwb3VyIHVuIGRpYWdub3N0aWMgZW4gdG91dGUgc8OpcsOpbml0w6kuPC9wPlxuICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb2wteGwtNCBkLWZsZXggYWxpZ24taXRlbXMtc3RyZXRjaFwiPlxuICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJpY29uLWJveCBtdC00IG10LXhsLTBcIj5cbiAgICAgICAgICAgICAgICAgICAgPGkgY2xhc3NOYW1lPVwiYnggYngtY3ViZS1hbHRcIj48L2k+XG4gICAgICAgICAgICAgICAgICAgIDxoND5VbiBkaWFnbm9zdGljIHN5bnRow6l0aXF1ZTwvaDQ+XG4gICAgICAgICAgICAgICAgICAgIDxwPkRlcyBzZXJ2aWNlcyBk4oCZZXhwZXJ0aXNlIGV0IGRlIHJlbGVjdHVyZSwgZW4gY29vcmRpbmF0aW9uIGF2ZWMgbGVzIG3DqWRlY2lucyBzb2lnbmFudHMsIHBvdXIgdW5lIHByaXNlIGVuIGNoYXJnZSBvcHRpbWFsZS48L3A+XG4gICAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImNvbC14bC00IGQtZmxleCBhbGlnbi1pdGVtcy1zdHJldGNoXCI+XG4gICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImljb24tYm94IG10LTQgbXQteGwtMFwiPlxuICAgICAgICAgICAgICAgICAgICA8aSBjbGFzc05hbWU9XCJieCBieC1pbWFnZXNcIj48L2k+XG4gICAgICAgICAgICAgICAgICAgIDxoND5VbiBlbmdhZ2VtZW50IHNvY2lhbGUgZXQgc2NpZW50aWZpcXVlPC9oND5cbiAgICAgICAgICAgICAgICAgICAgPHA+RGVzIHBhcnRpY2lwYXRpb25zIGLDqW7DqXZvbGVzIGF2ZWMgZGVzIHBhcnRlbmFpcmVzIHJlY29ubnVzLCBjb21iaW5hbnQgaW1wYWN0IHNvY2lhbCBldCBlbmdhZ2VtZW50IG3DqWRpY2FsLjwvcD5cbiAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgIDwvZGl2PlxuICAgICAgICA8L2Rpdj5cblxuICAgICAgPC9kaXY+XG4gICAgPC9zZWN0aW9uPlxuICApO1xufVxuXG5cbmV4cG9ydCBkZWZhdWx0IFdoeXVzIl0sIm5hbWVzIjpbIldoeXVzIiwic2VjdGlvbiIsImlkIiwiY2xhc3NOYW1lIiwiZGl2IiwiaDMiLCJwIiwiaSIsImg0Il0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///(rsc)/./src/app/components/home/whyus.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/layout.tsx":
+/*!****************************!*\
+  !*** ./src/app/layout.tsx ***!
+  \****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ RootLayout),\n/* harmony export */   metadata: () => (/* binding */ metadata)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/font/google/target.css?{\"path\":\"src/app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"} */ \"(rsc)/./node_modules/next/font/google/target.css?{\\\"path\\\":\\\"src/app/layout.tsx\\\",\\\"import\\\":\\\"Inter\\\",\\\"arguments\\\":[{\\\"subsets\\\":[\\\"latin\\\"]}],\\\"variableName\\\":\\\"inter\\\"}\");\n/* harmony import */ var next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2__);\n/* harmony import */ var _globals_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./globals.css */ \"(rsc)/./src/app/globals.css\");\n\n\n\nconst metadata = {\n    title: \"BIC Tunis\",\n    description: \"Breast Center Tunis\"\n};\nfunction RootLayout({ children }) {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"html\", {\n        lang: \"en\",\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"body\", {\n            className: (next_font_google_target_css_path_src_app_layout_tsx_import_Inter_arguments_subsets_latin_variableName_inter___WEBPACK_IMPORTED_MODULE_2___default().className),\n            children: children\n        }, void 0, false, {\n            fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/layout.tsx\",\n            lineNumber: 19,\n            columnNumber: 7\n        }, this)\n    }, void 0, false, {\n        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/layout.tsx\",\n        lineNumber: 18,\n        columnNumber: 5\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL2xheW91dC50c3giLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7QUFJTUE7QUFKZ0I7QUFNZixNQUFNQyxXQUFxQjtJQUNoQ0MsT0FBTztJQUNQQyxhQUFhO0FBQ2YsRUFBQztBQUVjLFNBQVNDLFdBQVcsRUFDakNDLFFBQVEsRUFHVDtJQUNDLHFCQUNFLDhEQUFDQztRQUFLQyxNQUFLO2tCQUNULDRFQUFDQztZQUFLQyxXQUFXVCwrSkFBZTtzQkFBR0s7Ozs7Ozs7Ozs7O0FBR3pDIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkaWxhYi1wcm8vLi9zcmMvYXBwL2xheW91dC50c3g/NTdhOSJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJy4vZ2xvYmFscy5jc3MnXG5pbXBvcnQgdHlwZSB7IE1ldGFkYXRhIH0gZnJvbSAnbmV4dCdcbmltcG9ydCB7IEludGVyIH0gZnJvbSAnbmV4dC9mb250L2dvb2dsZSdcblxuY29uc3QgaW50ZXIgPSBJbnRlcih7IHN1YnNldHM6IFsnbGF0aW4nXSB9KVxuXG5leHBvcnQgY29uc3QgbWV0YWRhdGE6IE1ldGFkYXRhID0ge1xuICB0aXRsZTogJ0JJQyBUdW5pcycsXG4gIGRlc2NyaXB0aW9uOiAnQnJlYXN0IENlbnRlciBUdW5pcycsXG59XG5cbmV4cG9ydCBkZWZhdWx0IGZ1bmN0aW9uIFJvb3RMYXlvdXQoe1xuICBjaGlsZHJlbixcbn06IHtcbiAgY2hpbGRyZW46IFJlYWN0LlJlYWN0Tm9kZVxufSkge1xuICByZXR1cm4gKFxuICAgIDxodG1sIGxhbmc9XCJlblwiPlxuICAgICAgPGJvZHkgY2xhc3NOYW1lPXtpbnRlci5jbGFzc05hbWV9PntjaGlsZHJlbn08L2JvZHk+XG4gICAgPC9odG1sPlxuICApXG59XG4iXSwibmFtZXMiOlsiaW50ZXIiLCJtZXRhZGF0YSIsInRpdGxlIiwiZGVzY3JpcHRpb24iLCJSb290TGF5b3V0IiwiY2hpbGRyZW4iLCJodG1sIiwibGFuZyIsImJvZHkiLCJjbGFzc05hbWUiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./src/app/layout.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./src/app/page.tsx":
+/*!**************************!*\
+  !*** ./src/app/page.tsx ***!
+  \**************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"(rsc)/./node_modules/next/dist/server/future/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var bootstrap_dist_css_bootstrap_min_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! bootstrap/dist/css/bootstrap.min.css */ \"(rsc)/./node_modules/bootstrap/dist/css/bootstrap.min.css\");\n/* harmony import */ var remixicon_fonts_remixicon_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! remixicon/fonts/remixicon.css */ \"(rsc)/./node_modules/remixicon/fonts/remixicon.css\");\n/* harmony import */ var boxicons_css_boxicons_min_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! boxicons/css/boxicons.min.css */ \"(rsc)/./node_modules/boxicons/css/boxicons.min.css\");\n/* harmony import */ var public_scss_style_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! public/scss/style.scss */ \"(rsc)/./public/scss/style.scss\");\n/* harmony import */ var bootstrap_icons_font_bootstrap_icons_css__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! bootstrap-icons/font/bootstrap-icons.css */ \"(rsc)/./node_modules/bootstrap-icons/font/bootstrap-icons.css\");\n/* harmony import */ var _fortawesome_fontawesome_svg_core_styles_css__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core/styles.css */ \"(rsc)/./node_modules/@fortawesome/fontawesome-svg-core/styles.css\");\n/* harmony import */ var _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @fortawesome/fontawesome-svg-core */ \"(rsc)/./node_modules/@fortawesome/fontawesome-svg-core/index.mjs\");\n/* harmony import */ var _components_home_topbar__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./components/home/topbar */ \"(rsc)/./src/app/components/home/topbar.tsx\");\n/* harmony import */ var _components_home_hero__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ./components/home/hero */ \"(rsc)/./src/app/components/home/hero.tsx\");\n/* harmony import */ var _components_home_header__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./components/home/header */ \"(rsc)/./src/app/components/home/header.tsx\");\n/* harmony import */ var _components_home_footer__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ./components/home/footer */ \"(rsc)/./src/app/components/home/footer.tsx\");\n/* harmony import */ var _components_home_whyus__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ./components/home/whyus */ \"(rsc)/./src/app/components/home/whyus.tsx\");\n/* harmony import */ var _components_home_aboutUs__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ./components/home/aboutUs */ \"(rsc)/./src/app/components/home/aboutUs.tsx\");\n/* harmony import */ var _components_home_service__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! ./components/home/service */ \"(rsc)/./src/app/components/home/service.tsx\");\n/* harmony import */ var _components_home_appointement__WEBPACK_IMPORTED_MODULE_15__ = __webpack_require__(/*! ./components/home/appointement */ \"(rsc)/./src/app/components/home/appointement.tsx\");\n/* harmony import */ var _components_home_departement__WEBPACK_IMPORTED_MODULE_16__ = __webpack_require__(/*! ./components/home/departement */ \"(rsc)/./src/app/components/home/departement.tsx\");\n/* harmony import */ var _components_home_doctors__WEBPACK_IMPORTED_MODULE_17__ = __webpack_require__(/*! ./components/home/doctors */ \"(rsc)/./src/app/components/home/doctors.tsx\");\n/* harmony import */ var _components_home_contact__WEBPACK_IMPORTED_MODULE_18__ = __webpack_require__(/*! ./components/home/contact */ \"(rsc)/./src/app/components/home/contact.tsx\");\n/* harmony import */ var _components_home_faq__WEBPACK_IMPORTED_MODULE_19__ = __webpack_require__(/*! ./components/home/faq */ \"(rsc)/./src/app/components/home/faq.tsx\");\n/* harmony import */ var _components_home_gallerie__WEBPACK_IMPORTED_MODULE_20__ = __webpack_require__(/*! ./components/home/gallerie */ \"(rsc)/./src/app/components/home/gallerie.tsx\");\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n// import Testimonial from './components/home/testimonial'\n\n\n\n/* import Media from './components/home/media' */ _fortawesome_fontawesome_svg_core__WEBPACK_IMPORTED_MODULE_7__.config.autoAddCss = false;\nfunction Home() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.Fragment, {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_topbar__WEBPACK_IMPORTED_MODULE_8__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                lineNumber: 32,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_header__WEBPACK_IMPORTED_MODULE_10__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                lineNumber: 33,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_hero__WEBPACK_IMPORTED_MODULE_9__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                lineNumber: 34,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"main\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_whyus__WEBPACK_IMPORTED_MODULE_12__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                        lineNumber: 36,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_aboutUs__WEBPACK_IMPORTED_MODULE_13__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                        lineNumber: 37,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_service__WEBPACK_IMPORTED_MODULE_14__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                        lineNumber: 39,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_appointement__WEBPACK_IMPORTED_MODULE_15__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                        lineNumber: 40,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_departement__WEBPACK_IMPORTED_MODULE_16__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                        lineNumber: 41,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_doctors__WEBPACK_IMPORTED_MODULE_17__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                        lineNumber: 42,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_faq__WEBPACK_IMPORTED_MODULE_19__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                        lineNumber: 43,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_gallerie__WEBPACK_IMPORTED_MODULE_20__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                        lineNumber: 45,\n                        columnNumber: 9\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_contact__WEBPACK_IMPORTED_MODULE_18__[\"default\"], {}, void 0, false, {\n                        fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                        lineNumber: 46,\n                        columnNumber: 9\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                lineNumber: 35,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_home_footer__WEBPACK_IMPORTED_MODULE_11__[\"default\"], {}, void 0, false, {\n                fileName: \"/Users/wiemmimouni/Desktop/GitHub-Repos/BIC/src/app/page.tsx\",\n                lineNumber: 49,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9zcmMvYXBwL3BhZ2UudHN4IiwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUU4QztBQUNSO0FBQ0E7QUFDUDtBQUNrQjtBQUNJO0FBQ007QUFDZDtBQUNKO0FBQ0k7QUFDQTtBQUNGO0FBQ0k7QUFFQTtBQUNTO0FBQ0Q7QUFDUjtBQUMvQywwREFBMEQ7QUFDWDtBQUNSO0FBQ1U7QUFDakQsK0NBQStDLEdBRS9DQSxxRUFBTUEsQ0FBQ2MsVUFBVSxHQUFHO0FBRUwsU0FBU0M7SUFDdEIscUJBQ0U7OzBCQUNFLDhEQUFDZCwrREFBTUE7Ozs7OzBCQUNQLDhEQUFDRSxnRUFBTUE7Ozs7OzBCQUNQLDhEQUFDRCw2REFBSUE7Ozs7OzBCQUNMLDhEQUFDYzs7a0NBQ0MsOERBQUNYLCtEQUFLQTs7Ozs7a0NBQ04sOERBQUNDLGlFQUFPQTs7Ozs7a0NBRVIsOERBQUNDLGlFQUFPQTs7Ozs7a0NBQ1IsOERBQUNDLHNFQUFXQTs7Ozs7a0NBQ1osOERBQUNDLHFFQUFXQTs7Ozs7a0NBQ1osOERBQUNDLGlFQUFPQTs7Ozs7a0NBQ1IsOERBQUNFLDZEQUFHQTs7Ozs7a0NBRUosOERBQUNDLGtFQUFRQTs7Ozs7a0NBQ1QsOERBQUNGLGlFQUFPQTs7Ozs7Ozs7Ozs7MEJBR1YsOERBQUNQLGdFQUFNQTs7Ozs7OztBQUdiIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vbWVkaWxhYi1wcm8vLi9zcmMvYXBwL3BhZ2UudHN4P2Y2OGEiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHN0eWxlcyBmcm9tICcuL3BhZ2UubW9kdWxlLmNzcydcblxuaW1wb3J0IFwiYm9vdHN0cmFwL2Rpc3QvY3NzL2Jvb3RzdHJhcC5taW4uY3NzXCI7XG5pbXBvcnQgJ3JlbWl4aWNvbi9mb250cy9yZW1peGljb24uY3NzJ1xuaW1wb3J0ICdib3hpY29ucy9jc3MvYm94aWNvbnMubWluLmNzcydcbmltcG9ydCAncHVibGljL3Njc3Mvc3R5bGUuc2NzcydcbmltcG9ydCAnYm9vdHN0cmFwLWljb25zL2ZvbnQvYm9vdHN0cmFwLWljb25zLmNzcydcbmltcG9ydCAnQGZvcnRhd2Vzb21lL2ZvbnRhd2Vzb21lLXN2Zy1jb3JlL3N0eWxlcy5jc3MnXG5pbXBvcnQgeyBjb25maWcgfSBmcm9tIFwiQGZvcnRhd2Vzb21lL2ZvbnRhd2Vzb21lLXN2Zy1jb3JlXCI7XG5pbXBvcnQgVG9wYmFyIGZyb20gJy4vY29tcG9uZW50cy9ob21lL3RvcGJhcidcbmltcG9ydCBIZXJvIGZyb20gJy4vY29tcG9uZW50cy9ob21lL2hlcm8nXG5pbXBvcnQgSGVhZGVyIGZyb20gJy4vY29tcG9uZW50cy9ob21lL2hlYWRlcidcbmltcG9ydCBGb290ZXIgZnJvbSAnLi9jb21wb25lbnRzL2hvbWUvZm9vdGVyJ1xuaW1wb3J0IFdoeXVzIGZyb20gJy4vY29tcG9uZW50cy9ob21lL3doeXVzJ1xuaW1wb3J0IEFib3V0VXMgZnJvbSAnLi9jb21wb25lbnRzL2hvbWUvYWJvdXRVcydcbmltcG9ydCBDb3VudHMgZnJvbSAnLi9jb21wb25lbnRzL2hvbWUvY291bnRzJ1xuaW1wb3J0IFNlcnZpY2UgZnJvbSAnLi9jb21wb25lbnRzL2hvbWUvc2VydmljZSdcbmltcG9ydCBBcHBvaW50bWVudCBmcm9tICcuL2NvbXBvbmVudHMvaG9tZS9hcHBvaW50ZW1lbnQnXG5pbXBvcnQgRGVwYXJ0ZW1lbnQgZnJvbSAnLi9jb21wb25lbnRzL2hvbWUvZGVwYXJ0ZW1lbnQnXG5pbXBvcnQgRG9jdG9ycyBmcm9tICcuL2NvbXBvbmVudHMvaG9tZS9kb2N0b3JzJ1xuLy8gaW1wb3J0IFRlc3RpbW9uaWFsIGZyb20gJy4vY29tcG9uZW50cy9ob21lL3Rlc3RpbW9uaWFsJ1xuaW1wb3J0IENvbnRhY3QgZnJvbSAnLi9jb21wb25lbnRzL2hvbWUvY29udGFjdCdcbmltcG9ydCBGYXEgZnJvbSAnLi9jb21wb25lbnRzL2hvbWUvZmFxJ1xuaW1wb3J0IEdhbGxlcmllIGZyb20gJy4vY29tcG9uZW50cy9ob21lL2dhbGxlcmllJ1xuLyogaW1wb3J0IE1lZGlhIGZyb20gJy4vY29tcG9uZW50cy9ob21lL21lZGlhJyAqL1xuXG5jb25maWcuYXV0b0FkZENzcyA9IGZhbHNlO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIb21lKCkge1xuICByZXR1cm4gKCAgXG4gICAgPD5cbiAgICAgIDxUb3BiYXIvPlxuICAgICAgPEhlYWRlci8+XG4gICAgICA8SGVyby8+XG4gICAgICA8bWFpbj5cbiAgICAgICAgPFdoeXVzLz5cbiAgICAgICAgPEFib3V0VXMvPlxuXG4gICAgICAgIDxTZXJ2aWNlLz5cbiAgICAgICAgPEFwcG9pbnRtZW50Lz5cbiAgICAgICAgPERlcGFydGVtZW50Lz5cbiAgICAgICAgPERvY3RvcnMvPlxuICAgICAgICA8RmFxLz5cbiAgICAgICB7LyogIDxUZXN0aW1vbmlhbC8+ICovfVxuICAgICAgICA8R2FsbGVyaWUvPlxuICAgICAgICA8Q29udGFjdC8+XG57LyogICAgICAgICA8TWVkaWEgLz4gKi99XG4gICAgICA8L21haW4+XG4gICAgICA8Rm9vdGVyLz5cbiAgICA8Lz5cbiAgKVxufVxuIl0sIm5hbWVzIjpbImNvbmZpZyIsIlRvcGJhciIsIkhlcm8iLCJIZWFkZXIiLCJGb290ZXIiLCJXaHl1cyIsIkFib3V0VXMiLCJTZXJ2aWNlIiwiQXBwb2ludG1lbnQiLCJEZXBhcnRlbWVudCIsIkRvY3RvcnMiLCJDb250YWN0IiwiRmFxIiwiR2FsbGVyaWUiLCJhdXRvQWRkQ3NzIiwiSG9tZSIsIm1haW4iXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./src/app/page.tsx\n");
+
+/***/ }),
+
+/***/ "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./src/app/favicon.ico?__next_metadata__":
+/*!**************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./src/app/favicon.ico?__next_metadata__ ***!
+  \**************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! next/dist/lib/metadata/get-metadata-route */ \"(rsc)/./node_modules/next/dist/lib/metadata/get-metadata-route.js\");\n/* harmony import */ var next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__);\n  \n\n  /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((props) => {\n    const imageData = {\"type\":\"image/x-icon\",\"sizes\":\"1796x2381\"}\n    const imageUrl = (0,next_dist_lib_metadata_get_metadata_route__WEBPACK_IMPORTED_MODULE_0__.fillMetadataSegment)(\".\", props.params, \"favicon.ico\")\n\n    return [{\n      ...imageData,\n      url: imageUrl + \"\",\n    }]\n  });//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9kaXN0L2J1aWxkL3dlYnBhY2svbG9hZGVycy9uZXh0LW1ldGFkYXRhLWltYWdlLWxvYWRlci5qcz90eXBlPWZhdmljb24mc2VnbWVudD0mYmFzZVBhdGg9JnBhZ2VFeHRlbnNpb25zPXRzeCZwYWdlRXh0ZW5zaW9ucz10cyZwYWdlRXh0ZW5zaW9ucz1qc3gmcGFnZUV4dGVuc2lvbnM9anMhLi9zcmMvYXBwL2Zhdmljb24uaWNvP19fbmV4dF9tZXRhZGF0YV9fIiwibWFwcGluZ3MiOiI7Ozs7OztBQUFBLEVBQWlGOztBQUVqRixFQUFFLGlFQUFlO0FBQ2pCLHVCQUF1QjtBQUN2QixxQkFBcUIsOEZBQW1COztBQUV4QztBQUNBO0FBQ0E7QUFDQSxLQUFLO0FBQ0wiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9tZWRpbGFiLXByby8uL3NyYy9hcHAvZmF2aWNvbi5pY28/MDc4NiJdLCJzb3VyY2VzQ29udGVudCI6WyIgIGltcG9ydCB7IGZpbGxNZXRhZGF0YVNlZ21lbnQgfSBmcm9tICduZXh0L2Rpc3QvbGliL21ldGFkYXRhL2dldC1tZXRhZGF0YS1yb3V0ZSdcblxuICBleHBvcnQgZGVmYXVsdCAocHJvcHMpID0+IHtcbiAgICBjb25zdCBpbWFnZURhdGEgPSB7XCJ0eXBlXCI6XCJpbWFnZS94LWljb25cIixcInNpemVzXCI6XCIxNzk2eDIzODFcIn1cbiAgICBjb25zdCBpbWFnZVVybCA9IGZpbGxNZXRhZGF0YVNlZ21lbnQoXCIuXCIsIHByb3BzLnBhcmFtcywgXCJmYXZpY29uLmljb1wiKVxuXG4gICAgcmV0dXJuIFt7XG4gICAgICAuLi5pbWFnZURhdGEsXG4gICAgICB1cmw6IGltYWdlVXJsICsgXCJcIixcbiAgICB9XVxuICB9Il0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/dist/build/webpack/loaders/next-metadata-image-loader.js?type=favicon&segment=&basePath=&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./src/app/favicon.ico?__next_metadata__\n");
 
 /***/ })
 
@@ -2436,7 +473,7 @@ __webpack_require__.r(__webpack_exports__);
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [587,97], () => (__webpack_exec__(9571)));
+var __webpack_exports__ = __webpack_require__.X(0, ["vendor-chunks/next","vendor-chunks/@swc","vendor-chunks/prop-types","vendor-chunks/@fortawesome","vendor-chunks/react-is","vendor-chunks/object-assign","vendor-chunks/react-accessible-accordion","vendor-chunks/styled-jsx","vendor-chunks/remixicon","vendor-chunks/boxicons","vendor-chunks/bootstrap","vendor-chunks/bootstrap-icons"], () => (__webpack_exec__("(rsc)/./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?name=app%2Fpage&page=%2Fpage&appPaths=%2Fpage&pagePath=private-next-app-dir%2Fpage.tsx&appDir=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC%2Fsrc%2Fapp&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&rootDir=%2FUsers%2Fwiemmimouni%2FDesktop%2FGitHub-Repos%2FBIC&isDev=true&tsconfigPath=tsconfig.json&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=&middlewareConfig=e30%3D!")));
 module.exports = __webpack_exports__;
 
 })();

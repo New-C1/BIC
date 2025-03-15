@@ -33,13 +33,17 @@ const footer = () => {
           </div> 
 
           <div className="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Blogs</h4>
-            <p>Restez informé des dernières avancées en radiologie, imagerie médicale et sénologie. Découvrez nos articles et conseils dédiés à la santé de la femme.</p>
-            <form action="" method="post">
-                <input type="email" name="email"/>
-                <input type="submit" value="Subscribe"/>
-            </form>
-          </div>
+  <h4>Nos Blogs</h4>
+  <p>
+    Bientôt disponible ! Restez informé des dernières avancées en radiologie, 
+    imagerie médicale et sénologie. Nos articles et conseils dédiés à la santé de la femme arrivent bientôt.
+  </p>
+  <form action="" method="post">
+    <input type="email" name="email" placeholder="Votre email" disabled /> 
+    {/* <input type="submit" value="Subscribe" /> */} 
+    {/* Bouton désactivé jusqu'à la mise en ligne des blogs */}
+  </form>
+</div>
 
         </div>
       </div>

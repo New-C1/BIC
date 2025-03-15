@@ -48,7 +48,7 @@ const Departement = () => {
         <section id="departments" className="departments">
         <div className="container">
           <div className="section-title">
-            <h2>Departments</h2>
+            <h2>Départements</h2>
             <p>Découvrez nos départements dédiés à l'imagerie médicale de pointe, conçus pour répondre à vos besoins de santé avec précision et efficacité. Notre équipe d'experts utilise les dernières technologies pour vous offrir des services personnalisés et des diagnostics fiables. Chaque département est spécialisé pour garantir une prise en charge optimale et adaptée à chaque patient.</p>
           </div>
           <div className="row gy-4">
