@@ -55,7 +55,16 @@ const footer = () => {
         <div className="copyright">
           &copy; Copyright <strong><span>BIC</span></strong>. All Rights Reserved
         </div>
-        
+<p className="text-black ">
+            Designed and Developed by{" "}
+            <a
+              href="https://www.in-no-think.com"
+              style={{ textDecoration: "underline" }}
+              target="_blank"
+            >
+              InnoThink IT
+            </a>
+          </p>
       </div>
       <div className="social-links text-center text-md-right pt-3 pt-md-0">
 
