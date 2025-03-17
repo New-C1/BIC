@@ -8,19 +8,19 @@ const DepartementDetail : {title:string,paragraph:string,image:string}[] = [
     title:"Mammographie 3D & Angio-Mammographie",
     
     paragraph:"La mammographie 3D, combinée à une fonctionnalité exclusive sur nos machines haute définition, offre une efficacité diagnostique supérieure grâce à une technologie d'IA innovante de traitement d'image. L'angio-Mammographie permet une imagerie du sein avec injection de produit de contraste permettant de démasquer des anomalies subtiles pour un diagnostic précoce et précis. ",
-    image:"/img/departments-1.jpg"
+    image:"/img/mammographe.jpg"
   },
   { 
     title:"Échographie & Élastographie ShearWave",
     
     paragraph:"L'échographie est une méthode d'imagerie douce et rapide, permettant d'observer en temps réel les organes internes, les tissus mous, et de surveiller efficacement l'état de santé global. l'élastographie shearWave est une fonctionalité unique sur notre systéme permettant une supériorité diagnostique dans les cas les plus complexes. ",
-    image:"/img/departments-2.jpg"
+    image:"/img/Mach30B9.jpg"
   },
   { 
     title:"Actes Interventionnels",
     
-    paragraph:"Il s'agit d'interventions percutanées réalisées en ambulatoire, à visée diagnostique, comme les biopsies, ou thérapeutique, sous guidage échographique ou scanner. En sénologie, certains actes sont effectués dans le cadre du repérage pré-thérapeutique, tels que la pose de harpons et de clips sous contrôle échographique ou mammographique, permettant d'identifier avec précision les lésions cibles avant le traitement.",
-    image:"/img/departments-3.jpg"
+    paragraph:"Il s'agit d'interventions n percutanées réalisées en ambulatoire, à visée diagnostique, comme les biopsies, ou thérapeutique, sous guidage échographique ou scanner. En sénologie, certains actes sont effectués dans le cadre du repérage pré-thérapeutique, tels que la pose de harpons et de clips sous contrôle échographique ou mammographique, permettant d'identifier avec précision les lésions cibles avant le traitement.",
+    image:"/img/macrobiopsie-sein.jpg"
   },
   { 
     title:"Radiologie Standard",
