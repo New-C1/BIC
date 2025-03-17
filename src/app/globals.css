@@ -751,8 +751,8 @@ section {
   font-size: 14px;
 }
 
-.about .video-box {
-  background: url("../../public/img/about.jpg") center center no-repeat;
+ .about .video-box {
+  background: url("../../public/videos/BIC fr.mov") center center   repeat   !important ;
   background-size: cover;
   min-height: 500px;
 }
@@ -834,7 +834,8 @@ section {
     transform: scale(1, 1);
     opacity: 0;
   }
-}
+} 
+
 
 /*--------------------------------------------------------------
 # Counts
