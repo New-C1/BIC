@@ -29,7 +29,7 @@ const Doctors = () => {
                 </p>
                 <div className="social">
                  
-                  <a href="https://www.facebook.com/zeineb.belkhiria.3"><i className="ri-facebook-fill"></i></a>
+                  <a href="https://www.facebook.com/profile.php?id=61574075916860"><i className="ri-facebook-fill"></i></a>
                  
                   <a href="https://tn.linkedin.com/in/zeineb-belkhiria"><i className="ri-linkedin-box-fill"></i></a>
                 </div>
