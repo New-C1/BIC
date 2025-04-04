@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import Link from "next/link";  // Add this import
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -21,6 +22,13 @@ export default function Header() {
     setTimeout(() => {
       router.push(sectionId);
     }, 50);
+  };
+
+  // Close mobile menu when navigating to Médias page
+  const closeMobileMenuAndNavigate = (route: string) => {
+    setIsMobileMenuOpen(false);
+    document.body.classList.remove("mobile-menu-active");
+    router.push(route);
   };
 
   return (
@@ -45,6 +53,14 @@ export default function Header() {
             <li><a className="nav-link scrollto" href="#services" onClick={() => closeMobileMenu("#services")}>Services</a></li>
             <li><a className="nav-link scrollto" href="#departments" onClick={() => closeMobileMenu("#departments")}>Départements</a></li>
             <li><a className="nav-link scrollto" href="#doctors" onClick={() => closeMobileMenu("#doctors")}>Médecins</a></li>
+
+            {/* Add Médias link here (routing to new page, not scrolling) */}
+            <li>
+              <Link className="nav-link" href="/medias" onClick={() => closeMobileMenuAndNavigate("/medias")}>
+                Médias
+              </Link>
+            </li>
+
             <li><a className="nav-link scrollto" href="#contact" onClick={() => closeMobileMenu("#contact")}>Contact</a></li>
           </ul>
         </nav>
