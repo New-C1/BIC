@@ -1,31 +1,45 @@
 "use client";
 
-import { useState } from "react";
+import { usePathname, useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
-import Link from "next/link";  // Add this import
+import Link from "next/link";
 
 export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const router = useRouter();
+  const pathname = usePathname();
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
     document.body.classList.toggle("mobile-menu-active");
   };
 
-  const closeMobileMenu = (sectionId: string) => {
+  const handleScrollToSection = (sectionId: string) => {
     setIsMobileMenuOpen(false);
     document.body.classList.remove("mobile-menu-active");
 
-    // Force hash change for scrolling
-    setTimeout(() => {
-      router.push(sectionId);
-    }, 50);
+    if (pathname === "/") {
+      // We're already on home, scroll directly
+      const element = document.querySelector(sectionId);
+      if (element) {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
+    } else {
+      // Navigate to home first
+      router.push("/");
+
+      // Delay scroll until route changes
+      setTimeout(() => {
+        const element = document.querySelector(sectionId);
+        if (element) {
+          element.scrollIntoView({ behavior: "smooth" });
+        }
+      }, 500); // Allow router.push to complete
+    }
   };
 
-  // Close mobile menu when navigating to Médias page
-  const closeMobileMenuAndNavigate = (route: string) => {
+  const goToPage = (route: string) => {
     setIsMobileMenuOpen(false);
     document.body.classList.remove("mobile-menu-active");
     router.push(route);
@@ -34,8 +48,6 @@ export default function Header() {
   return (
     <header id="header" className="fixed-top">
       <div className="container d-flex align-items-center justify-content-between">
-
-        {/* Logo */}
         <Image
           src="/img/your-logo.png"
           alt="BIC Logo"
@@ -45,36 +57,25 @@ export default function Header() {
           priority
         />
 
-        {/* Navbar */}
         <nav id="navbar" className={`navbar ${isMobileMenuOpen ? "navbar-mobile" : ""}`}>
           <ul>
-            <li><a className="nav-link scrollto active" href="#hero" onClick={() => closeMobileMenu("#hero")}>Accueil</a></li>
-            <li><a className="nav-link scrollto" href="#about" onClick={() => closeMobileMenu("#about")}>Infos</a></li>
-            <li><a className="nav-link scrollto" href="#services" onClick={() => closeMobileMenu("#services")}>Services</a></li>
-            <li><a className="nav-link scrollto" href="#departments" onClick={() => closeMobileMenu("#departments")}>Départements</a></li>
-            <li><a className="nav-link scrollto" href="#doctors" onClick={() => closeMobileMenu("#doctors")}>Médecins</a></li>
-
-            {/* Add Médias link here (routing to new page, not scrolling) */}
-            <li>
-              <Link className="nav-link" href="/medias" onClick={() => closeMobileMenuAndNavigate("/medias")}>
-                Médias
-              </Link>
-            </li>
-
-            <li><a className="nav-link scrollto" href="#contact" onClick={() => closeMobileMenu("#contact")}>Contact</a></li>
+            <li><a className="nav-link scrollto" onClick={() => handleScrollToSection("#hero")}>Accueil</a></li>
+            <li><a className="nav-link scrollto" onClick={() => handleScrollToSection("#about")}>Infos</a></li>
+            <li><a className="nav-link scrollto" onClick={() => handleScrollToSection("#services")}>Services</a></li>
+            <li><a className="nav-link scrollto" onClick={() => handleScrollToSection("#departments")}>Départements</a></li>
+            <li><a className="nav-link scrollto" onClick={() => handleScrollToSection("#doctors")}>Médecins</a></li>
+            <li><Link className="nav-link" href="/medias" onClick={() => goToPage("/medias")}>Médias</Link></li>
+            <li><a className="nav-link scrollto" onClick={() => handleScrollToSection("#contact")}>Contact</a></li>
           </ul>
         </nav>
 
-        {/* Mobile Menu Toggle */}
         <div className="mobile-nav-toggle" onClick={toggleMobileMenu}>
           <i className={`bi ${isMobileMenuOpen ? "bi-x" : "bi-list"}`}></i>
         </div>
 
-        {/* Appointment Button */}
-        <a href="#appointment" className="appointment-btn scrollto" onClick={() => closeMobileMenu("#appointment")}>
+        <a className="appointment-btn scrollto" onClick={() => handleScrollToSection("#appointment")}>
           Rendez-Vous
         </a>
-
       </div>
     </header>
   );

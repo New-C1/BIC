@@ -22,7 +22,7 @@ import Doctors from './components/home/doctors'
 import Contact from './components/home/contact'
 import Faq from './components/home/faq'
 import Gallerie from './components/home/gallerie'
-/* import Media from './components/home/media' */
+
 
 config.autoAddCss = false;
 
@@ -44,7 +44,7 @@ export default function Home() {
        {/*  <Testimonial/> */}
         <Gallerie/>
         <Contact/>
-{/*         <Media /> */}
+
       </main>
       <Footer/>
     </>
