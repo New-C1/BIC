@@ -58,11 +58,11 @@ const footer = () => {
           <p className="text-black ">
             Designed and Developed by{" "}
             <a
-              href="https://www.in-no-think.com"
+              href=""
               style={{ textDecoration: "underline" }}
               target="_blank"
             >
-              InnoThink IT
+              Wiem Mimouni
             </a>
           </p>
         </div>
