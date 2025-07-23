@@ -8,6 +8,14 @@ import Image from 'next/image';
 
 const mediasData = [
   {
+    date: 'Mai 2025',
+    eventName: "Interview Avec RTCI",
+    activityType: 'Interview Radio',
+    description: 'À l’occasion du lancement officiel de l’Alliance Africaine pour la Santé Globale des Femmes en Oncologie (#AWGHO), prévu le vendredi 16 mai 2025, Dr Zaineb Belkhiria, radiologue et secrétaire de l’Alliance, était l’invitée de l’émission "Autour de Midi" sur RTCI avec Mehdi Haouas',
+    videoUrl: 'https://www.youtube.com/embed/zc41iCEW9AQ?si=kA1OvyUEWMGh91NL'
+  }
+  ,
+  {
     date: 'Mai 2023',
     eventName: "Caravane de santé avec l'institut SALAH azaiez",
     activityType: 'Consultation externe avancée',
@@ -70,9 +78,21 @@ export default function MediasPage() {
             <h3 className="event-name mb-2">{media.eventName}</h3>
             <p className="date-type mb-1"><strong>{media.date}</strong> - {media.activityType}</p>
             <p className="description mb-3">{media.description}</p>
-
-            {media.videoSrc ? (
-              <video controls width="100%" className="rounded">
+            {media.videoUrl ? (
+              <div className="video-responsive mb-3">
+                <iframe
+                  width="100%"
+                  height="315"
+                  src={media.videoUrl}
+                  title={media.eventName}
+                  frameBorder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  className="rounded"
+                ></iframe>
+              </div>
+            ) : media.videoSrc ? (
+              <video controls width="100%" className="rounded mb-3">
                 <source src={media.videoSrc} type="video/mp4" />
                 Votre navigateur ne prend pas en charge la vidéo.
               </video>
@@ -91,6 +111,7 @@ export default function MediasPage() {
                 ))}
               </div>
             )}
+
           </div>
         ))}
       </main>

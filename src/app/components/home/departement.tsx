@@ -53,13 +53,23 @@ const Departement = () => {
           </div>
           <div className="row gy-4">
             <div className="col-lg-3">
-              <ul className="nav nav-tabs flex-column">
-          {DepartementDetail.map((dep,index)=> (
-                  <li className="nav-item" key="dep" onClick={()=>setView(index)}>
-                  <a className={`nav-link ${view === index ?"active" : "" } show`} href={"#tab-"+index+1} >{dep.title}</a>
-                </li>
-          ))}
-              </ul>
+          <ul className="nav nav-tabs flex-column">
+  {DepartementDetail.map((dep, index) => (
+    <li
+      className="nav-item"
+      key={dep.title}
+      onClick={() => setView(index)}
+    >
+      <a
+        className={`nav-link ${view === index ? "active" : ""} show`}
+        href={`#tab-${index + 1}`}
+      >
+        {dep.title}
+      </a>
+    </li>
+  ))}
+</ul>
+
             </div>
             <div className="col-lg-9">
               <div className="tab-content">

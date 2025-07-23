@@ -4,3 +4,6 @@
 .pnp.js
 .next/
 .next/
+*.mp4
+*.mov
+/public/img/medias/*.mp4
