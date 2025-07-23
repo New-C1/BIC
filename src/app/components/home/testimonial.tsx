@@ -122,10 +122,10 @@ const Testimonial = () => {
                   className={`dot  `}
                   onClick={() => handleDotClick(index)}
                 ></div> :
-                <div
-                  key={index}
-                  className={`dot active`}
-                ></div>
+                  <div
+                    key={index}
+                    className={`dot active`}
+                  ></div>
               )
           )}
         </div>
